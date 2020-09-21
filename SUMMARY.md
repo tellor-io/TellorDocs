@@ -14,13 +14,13 @@
 * [Tellor Token](whitepaper/tellor-token.md)
 * [Using Tellor](whitepaper/using-tellor.md)
 
-## Developer Documentation <a id="technical-documentation"></a>
+## Developer Documentation <a id="dev-documentation"></a>
 
-* [Quick Start](technical-documentation/untitled-1.md)
-* [User Functions](technical-documentation/user-functions.md)
-* [Reference](technical-documentation/reference-page/README.md)
-  * [Data Request IDs](technical-documentation/reference-page/data-request-ids-1.md)
-  * [Variable Hashes](technical-documentation/reference-page/variable-hashes.md)
+* [Quick Start](dev-documentation/untitled-1.md)
+* [User Functions](dev-documentation/user-functions.md)
+* [Reference](dev-documentation/reference-page/README.md)
+  * [Data Request IDs](dev-documentation/reference-page/data-request-ids-1.md)
+  * [Variable Hashes](dev-documentation/reference-page/variable-hashes.md)
 
 ## Miner Documentation <a id="miner-documentation-1"></a>
 
