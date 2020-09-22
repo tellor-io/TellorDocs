@@ -16,7 +16,7 @@
 
 ## Developer Documentation <a id="dev-documentation"></a>
 
-* [Quick Start](dev-documentation/untitled-1.md)
+* [Quick Start](dev-documentation/quick-start.md)
 * [User Functions](dev-documentation/user-functions.md)
 * [Reference](dev-documentation/reference-page/README.md)
   * [Data Request IDs](dev-documentation/reference-page/data-request-ids-1.md)
@@ -26,7 +26,7 @@
 
 ---
 
-* [Become a Miner](become-a-miner.md)
+* [Become a Miner](miner.md)
 * [The Guide](the-guide.md)
 * [Configuation](configuation.md)
 * [Reference](miner-reference.md)
