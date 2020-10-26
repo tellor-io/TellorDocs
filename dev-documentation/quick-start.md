@@ -11,18 +11,18 @@ description: >-
 For this, we provide a helper contract that will provide convenience functions to interact with the Tellor System.
 
 ### Installation
+
 ```text
 npm install usingtellor
 ```
 
-### Using in the contract in solidity:  
+### Using in the contract in solidity:
+
 Just import the usingTellor contract to your solidity file passing the desired Tellor address as a parameter.
 
-
 #### Addresses:
-Mainnet: `0x0Ba45A8b5d5575935B8158a88C631E9F9C95a2e5`
-Rinkeby: `0xFe41Cb708CD98C5B20423433309E55b53F79134a`
-Test: Use the MockTellor address
+
+Mainnet: `0x0Ba45A8b5d5575935B8158a88C631E9F9C95a2e5` Rinkeby: `0xFe41Cb708CD98C5B20423433309E55b53F79134a` Test: Use the MockTellor address
 
 ```text
 pragma solidity >=0.4.21 <0.7.0;
@@ -45,14 +45,14 @@ contract MyContract is UsingTellor {
 {% hint style="info" %}
 **Line 5:** Your contract inherits the functions needed to interact with Tellor
 
-**Line 7:** Your constructor needs to specify the [Tellor Oracle contract address](https://link-to-addresses) 
+**Line 7:** Your constructor needs to specify the [Tellor Oracle contract address](https://link-to-addresses)
 {% endhint %}
 
 #### Available Tellor Functions
 
 Children contracts have access to the following functions:
 
-```solidity
+```text
     /**
     * @dev Retreive value from oracle based on requestId/timestamp
     * @param _requestId being requested
@@ -95,24 +95,21 @@ Children contracts have access to the following functions:
     * @dev Allows the user to get the first value for the requestId before the specified timestamp
     * @param _requestId is the requestId to look up the value for
     * @param _timestamp before which to search for first verified value
-    * @param _limit a limit on the number of values to look at
-    * @param _offset the number of values to go back before looking for data values
     * @return bool true if it is able to retreive a value, the value, and the value's timestamp
     */
     function getDataBefore(uint256 _requestId, uint256 _timestamp, uint256 _limit, uint256 _offset)
         public
         view
         returns (bool _ifRetrieve, uint256 _value, uint256 _timestampRetrieved);
-
 ```
 
 #### Request IDs
 
 The request ID is used to look up prices in the Tellor Oracle. _You will need to_ figure out what the request ID is for the price data you want. The BTC/USD price is request ID 2.
 
-
 #### Example usage
-```solidity 
+
+```text
 contract BtcPriceContract is UsingTellor {
 
   //This Contract now have access to all functions on UsingTellor
@@ -139,16 +136,17 @@ contract BtcPriceContract is UsingTellor {
 {% endhint %}
 
 ### Testing you contracts
-For ease of use, the  `UsingTellor`  repo provides a MockTellor system for easier integration. This mock version contains a few helper functions:
 
-```solidity
+For ease of use, the `UsingTellor` repo provides a MockTellor system for easier integration. This mock version contains a few helper functions:
+
+```text
     /**
     * @dev The constructor allows for arbitrary balances on specified addresses;
     * @param _initialBalances The addresses that will have tokens
     * @param _intialAmounts How much TRB each address gets
     */
     constructor(address[] memory _initialBalances, uint256[] memory _intialAmounts) public;
-    
+
 
     /**
     * @dev A mock function to submit a value to be read without miners needed
@@ -156,7 +154,7 @@ For ease of use, the  `UsingTellor`  repo provides a MockTellor system for easie
     * @param _value the value for the requestId
     */
     function submitValue(uint256 _requestId,uint256 _value) external;
-    
+
 
     /**
     * @dev A mock function to create a dispute
@@ -179,15 +177,16 @@ For ease of use, the  `UsingTellor`  repo provides a MockTellor system for easie
     * @param _value the amount to be transferred
     */
     function transferFrom(address _from, address _to, uint256 _amount) public returns(bool);
-
 ```
 
 #### Running tests
+
 ```bash
 npm run test
 ```
 
 ### Migration
+
 Just run truffle migrate with desired Network
 
 ```bash
@@ -195,5 +194,6 @@ truffle migrate --network rinkeby
 ```
 
 ## Sample Project
-We provide a repo with with this setup installed and ready for use:
-[SampleUsingTellor](https://github.com/tellor-io/sampleUsingTellor)
+
+We provide a repo with with this setup installed and ready for use: [SampleUsingTellor](https://github.com/tellor-io/sampleUsingTellor)
+

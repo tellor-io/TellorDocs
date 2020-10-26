@@ -24,13 +24,11 @@
 
 ## Miner Documentation <a id="miner-documentation-1"></a>
 
----
-
-* [Become a Miner](miner.md)
-* [The Guide](the-guide.md)
-* [Configuation](configuation.md)
-* [Reference](miner-reference.md)
-* [Disclaimer](disclaimer.md)
+* [Become a Miner](miner-documentation-1/miner.md)
+* [The Guide](miner-documentation-1/the-guide.md)
+* [Configuation](miner-documentation-1/configuation.md)
+* [Reference](miner-documentation-1/miner-reference.md)
+* [Disclaimer](miner-documentation-1/disclaimer.md)
 
 ## Holder Documentation <a id="trb-token-holders"></a>
 
