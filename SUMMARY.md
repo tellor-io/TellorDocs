@@ -18,6 +18,8 @@
 
 * [Quick Start](dev-documentation/quick-start.md)
 * [User Functions](dev-documentation/user-functions.md)
+* [Contracts](dev-documentation/untitled.md)
+* [Set up Tellor Core on Ganache](dev-documentation/set-up-tellor-core-on-ganache.md)
 * [Reference](dev-documentation/reference-page/README.md)
   * [Data Request IDs](dev-documentation/reference-page/data-request-ids-1.md)
   * [Variable Hashes](dev-documentation/reference-page/variable-hashes.md)
@@ -37,8 +39,12 @@
 * [Voting on Disputes](trb-token-holders/vote.md)
 * [Tip](trb-token-holders/tip.md)
 
-## Core Documentation <a id="core-contributors"></a>
+## Contributor Documentation <a id="core-contributors"></a>
 
-* [Deploying](core-contributors/untitled.md)
-* [Set up Tellor Core on Ganache](core-contributors/set-up-tellor-core-on-ganache.md)
+* [Bounties](core-contributors/bounties/README.md)
+  * [Miner Upgrades](core-contributors/bounties/miner-upgrades.md)
+  * [Builds](core-contributors/bounties/builds.md)
+  * [Deeper Research](core-contributors/bounties/deeper-research.md)
+  * [Hackathon Projects](core-contributors/bounties/hackathon-projects.md)
+  * [Content](core-contributors/bounties/content.md)
 
