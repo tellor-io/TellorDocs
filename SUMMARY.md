@@ -24,13 +24,13 @@
   * [Data Request IDs](dev-documentation/reference-page/data-request-ids-1.md)
   * [Variable Hashes](dev-documentation/reference-page/variable-hashes.md)
 
-## Miner Documentation <a id="miner-documentation-1"></a>
+## Miner Documentation
 
-* [Become a Miner](miner-documentation-1/miner.md)
-* [The Guide](miner-documentation-1/the-guide.md)
-* [Configuation](miner-documentation-1/configuation.md)
-* [Reference](miner-documentation-1/miner-reference.md)
-* [Disclaimer](miner-documentation-1/disclaimer.md)
+* [Become a Miner](miner-documentation/miner.md)
+* [The Guide](miner-documentation/the-guide.md)
+* [Configuation](miner-documentation/configuation.md)
+* [Reference](miner-documentation/miner-reference.md)
+* [Disclaimer](miner-documentation/disclaimer.md)
 
 ## Holder Documentation <a id="trb-token-holders"></a>
 
