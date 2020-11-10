@@ -45,6 +45,6 @@
   * [Miner Upgrades](core-contributors/bounties/miner-upgrades.md)
   * [Builds](core-contributors/bounties/builds.md)
   * [Deeper Research](core-contributors/bounties/deeper-research.md)
-  * [Hackathon Projects](core-contributors/bounties/hackathon-projects.md)
+  * [Hackathon Ideas](core-contributors/bounties/hackathon-projects.md)
   * [Content](core-contributors/bounties/content.md)
 
