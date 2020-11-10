@@ -86,19 +86,19 @@ If you are setting up a Tellor miner for the first time, it might be a good idea
 
 If you are running multiple miners, there is no reason to run multiple databases \(the values you will submit should be identical\). In addition, querying the same API from multiple processes can lead to rate limits on the public API's. To get around this, you can utilize a system where you run one.
 
-`TellorMiner dataServer`
+`tellor dataServer`
 
 You can then start multiple miners that all read off the one database.
 
-`TellorMiner mine -r`
+`tellor mine -r`
 
 Create a config file for the dataServer and add the public addresses of all remote miners that want to read the database: \(0x prefix is retained here\)
 
-```text
-       “serverWhitelist”: [
-                "0xyour-miner-address1",
-                "0xyour-miner-address2"
-        ]
+```
+    “serverWhitelist”: [
+        "0xyour-miner-address1",
+        "0xyour-miner-address2"
+    ]
 ```
 
 Create a separate copy of config.json for each miner and edit these to match your miner's characteristics.

@@ -8,14 +8,16 @@ description: Here are the nuts and bolts for mining TRB.
 
 This is the workhorse of the Miner system.
 
+https://github.com/tellor-io/TellorMiner/releases
+
 ```text
-wget https://github.com/tellor-io/TellorMiner/releases/latest/download/TellorMiner
+wget https://github.com/tellor-io/TellorMiner/releases/[release-num]/download/tellor
 ```
 
 Depending on your miner setup you may need to give TellorMiner permission to run. If so, this will need to be done after updates as well.
 
 ```text
-Chmod +x TellorMiner
+chmod +x tellor
 ```
 
 ## Download and Edit config.json
@@ -23,19 +25,19 @@ Chmod +x TellorMiner
 config.json is where you will enter your wallet address and configure TellorMiner for your machine.
 
 ```text
-wget https://raw.githubusercontent.com/tellor-io/TellorMiner/master/config.json
+wget https://raw.githubusercontent.com/tellor-io/TellorMiner/master/configs/config.json
 ```
 
 Open config.json and update the following values:
 
-* Set `"NodeUrl"` to an Ethereum node endpoint. \(e.g. Infura API endpoint\)
+* Set `"nodeURL"` to an Ethereum node endpoint. \(e.g. Infura API endpoint\)
 * Set `"publicAddress"` to the public key for the Ethereum wallet you plan to use for mining. Remove the 0x prefix at the beginning of the address.
 
 ## Create .env file
 
-Create a file named .env \(Note: This step can be skipped in  you plan to mine on a pool.\)
+Create a file named `configs/.env` \(Note: This step can be skipped in  you plan to mine on a pool.\)
 
-Copy and paste the following into your .env file, and edit this to match your mining address private key.
+Copy and paste the following into your `.env` file, and edit this to match your mining address private key.
 
 ```text
 ETH_PRIVATE_KEY="3a10b4bc1258e8bfefb95b498fb8c0f0cd6964a811eabca87df56xxxxxxxxxxxx"
@@ -46,9 +48,9 @@ ETH_PRIVATE_KEY="3a10b4bc1258e8bfefb95b498fb8c0f0cd6964a811eabca87df56xxxxxxxxxx
 Run the following commands:
 
 ```text
-wget https://raw.githubusercontent.com/tellor-io/TellorMiner/dev/indexes.json
+wget https://raw.githubusercontent.com/tellor-io/TellorMiner/master/configs/indexes.json
 
-wget https://raw.githubusercontent.com/tellor-io/TellorMiner/master/loggingConfig.json
+wget https://raw.githubusercontent.com/tellor-io/TellorMiner/master/configs/loggingConfig.json
 ```
 
 ## Download and Edit the Manual Data Entry File
@@ -58,7 +60,7 @@ Tellor currently has one data point which must be manually created. The rolling 
 Run the following command:
 
 ```text
-wget https://raw.githubusercontent.com/tellor-io/TellorMiner/dev/manualData.json
+wget https://raw.githubusercontent.com/tellor-io/TellorMiner/master/configs/manualData.json
 ```
 
 For testing purposes, or if you want to hardcode in a specific value to enter, you can use the manualdata.json file to add manual data for a given requestID. Similar to the manual data structure, you add the request ID, a given value \(with granularity\), and a date which the manual data is valid until. 
@@ -83,7 +85,7 @@ You do not need to stake 1000 TRB if you plan to mine on a pool.
 Run the following command to deposit your stake:
 
 ```text
-./TellorMiner --config=./config.json stake deposit
+tellor --config=./configs/config.json stake deposit
 ```
 
 If needed, change the name of config.json to match the name of your config file.
@@ -93,13 +95,13 @@ If needed, change the name of config.json to match the name of your config file.
 Start the dataServer:
 
 ```text
-./TellorMiner --config=./config.json dataServer
+tellor --config=./configs/config.json dataServer
 ```
 
 Start the miner by running this command in another terminal or process:
 
 ```text
-./TellorMiner --config=./config.json mine
+tellor --config=./configs/config.json mine
 ```
 
 After starting the miner, observe the logs it outputs to confirm it's working correctly. In the next section we will look at some configuration options that can help improve performance.
@@ -109,13 +111,13 @@ After starting the miner, observe the logs it outputs to confirm it's working co
 To unstake your tokens, you need to request a withdraw:
 
 ```text
-./TellorMiner --config=./config.json stake request
+tellor --config=./configs/config.json stake request
 ```
 
 One week after the request, the tokens are free to move at your discretion after running the command:
 
 ```text
-./TellorMiner --config=./config.json stake withdraw
+tellor --config=./configs/config.json stake withdraw
 ```
 
 ## Running the Disputer
