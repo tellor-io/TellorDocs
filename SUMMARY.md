@@ -16,7 +16,7 @@
 
 ## Developer Documentation <a id="dev-documentation"></a>
 
-* [Quick Start](dev-documentation/quick-start.md)
+* [Integrating Tellor](dev-documentation/integrate.md)
 * [User Functions](dev-documentation/user-functions.md)
 * [Contracts](dev-documentation/untitled.md)
 * [Set up Tellor Core on Ganache](dev-documentation/set-up-tellor-core-on-ganache.md)
