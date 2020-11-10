@@ -17,6 +17,7 @@
 ## Developer Documentation <a id="dev-documentation"></a>
 
 * [Integrating Tellor](dev-documentation/integrate.md)
+* [Using Tellor](dev-documentation/using-tellor.md)
 * [User Functions](dev-documentation/user-functions.md)
 * [Contracts](dev-documentation/untitled.md)
 * [Set up Tellor Core on Ganache](dev-documentation/set-up-tellor-core-on-ganache.md)
