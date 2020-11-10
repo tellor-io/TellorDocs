@@ -21,7 +21,7 @@
 * [Contracts](dev-documentation/untitled.md)
 * [Set up Tellor Core on Ganache](dev-documentation/set-up-tellor-core-on-ganache.md)
 * [Reference](dev-documentation/reference-page/README.md)
-  * [Data Request IDs](dev-documentation/reference-page/data-request-ids-1.md)
+  * [Data Request IDs](dev-documentation/reference-page/data-request-ids.md)
   * [Variable Hashes](dev-documentation/reference-page/variable-hashes.md)
 
 ## Miner Documentation
