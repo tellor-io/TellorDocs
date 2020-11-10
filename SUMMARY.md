@@ -12,7 +12,6 @@
   * [Mining](whitepaper/tellor-oracle-overview/mining.md)
 * [Security](whitepaper/security.md)
 * [Tellor Token](whitepaper/tellor-token.md)
-* [Using Tellor](whitepaper/using-tellor.md)
 
 ## Developer Documentation <a id="dev-documentation"></a>
 
