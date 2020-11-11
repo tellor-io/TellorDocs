@@ -22,9 +22,9 @@ Just import the usingTellor contract to your solidity file passing the desired T
 
 #### Addresses:
 
-Mainnet: `0x0Ba45A8b5d5575935B8158a88C631E9F9C95a2e5` 
+Mainnet: `0x0Ba45A8b5d5575935B8158a88C631E9F9C95a2e5`
 
-Rinkeby: `0xFe41Cb708CD98C5B20423433309E55b53F79134a` 
+Rinkeby: `0xFe41Cb708CD98C5B20423433309E55b53F79134a`
 
 Test: Use the TellorPlayground contract
 
@@ -160,7 +160,7 @@ For ease of use, the `UsingTellor` repo comes with Tellor Playground system for 
     function submitValue(uint256 _requestId,uint256 _value) external;
 ```
 
-[Full documentation on Tellor Playground](dev-documentation/playground.md)!
+[Full documentation on Tellor Playground](https://github.com/tellor-io/TellorDocs/tree/3b08892f934a1246111c4a884ed2739bb07f802f/dev-documentation/dev-documentation/playground.md)!
 
 #### Running tests
 

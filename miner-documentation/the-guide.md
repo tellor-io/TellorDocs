@@ -8,7 +8,7 @@ description: Here are the nuts and bolts for mining TRB.
 
 This is the workhorse of the Miner system.
 
-https://github.com/tellor-io/TellorMiner/releases
+[https://github.com/tellor-io/TellorMiner/releases](https://github.com/tellor-io/TellorMiner/releases)
 
 ```text
 wget https://github.com/tellor-io/TellorMiner/releases/[release-num]/download/tellor
@@ -35,7 +35,7 @@ Open config.json and update the following values:
 
 ## Create .env file
 
-Create a file named `configs/.env` \(Note: This step can be skipped in  you plan to mine on a pool.\)
+Create a file named `configs/.env` \(Note: This step can be skipped in you plan to mine on a pool.\)
 
 Copy and paste the following into your `.env` file, and edit this to match your mining address private key.
 
@@ -63,9 +63,9 @@ Run the following command:
 wget https://raw.githubusercontent.com/tellor-io/TellorMiner/master/configs/manualData.json
 ```
 
-For testing purposes, or if you want to hardcode in a specific value to enter, you can use the manualdata.json file to add manual data for a given requestID. Similar to the manual data structure, you add the request ID, a given value \(with granularity\), and a date which the manual data is valid until. 
+For testing purposes, or if you want to hardcode in a specific value to enter, you can use the manualdata.json file to add manual data for a given requestID. Similar to the manual data structure, you add the request ID, a given value \(with granularity\), and a date which the manual data is valid until.
 
-The following example shows request ID 4, inputting a value of 9000 with a 1,000,000 granularity. Note the date is a unix timestamp. 
+The following example shows request ID 4, inputting a value of 9000 with a 1,000,000 granularity. Note the date is a unix timestamp.
 
 ```text
 "4":{
@@ -76,7 +76,7 @@ The following example shows request ID 4, inputting a value of 9000 with a 1,000
 
 ## Deposit your Initial Stake
 
-You will need 1000 TRB to run your own server for mining. Your stake is locked for a minimum of 7 days after you run the command to request withdrawl.   
+You will need 1000 TRB to run your own server for mining. Your stake is locked for a minimum of 7 days after you run the command to request withdrawl.
 
 {% hint style="info" %}
 You do not need to stake 1000 TRB if you plan to mine on a pool.

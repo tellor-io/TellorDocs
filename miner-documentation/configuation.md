@@ -4,11 +4,11 @@ description: Tweaks and settings to keep your rig running smoothly.
 
 # Configuation
 
-## useGPU 
+## useGPU
 
 If you have one or more GPUs, they will be used for mining by default. Currently only Nvidia cards are supported, and the default behavior will work well for miners.
 
- You can configure your GPUs as you wish by adding / editing the following lines in your config.json file:
+You can configure your GPUs as you wish by adding / editing the following lines in your config.json file:
 
 ```text
 "useGPU":true,
@@ -57,7 +57,7 @@ Edit these variables at your own risk! Reach out to the community if you're unsu
 
 ## Connecting to a Pool
 
-There are mining pools available for mining TRB without staking 1000 tokens. The pool server operator stakes 1000 tokens for you, and you receive rewards roughly proportional to your hashrate as a fraction of the pool's hashrate. 
+There are mining pools available for mining TRB without staking 1000 tokens. The pool server operator stakes 1000 tokens for you, and you receive rewards roughly proportional to your hashrate as a fraction of the pool's hashrate.
 
 {% hint style="info" %}
 Each pool as different fees and instructions for hooking up. Be sure to read your pools documentation. Feel free to reach out to the community if you need help with mining pools.
@@ -94,7 +94,7 @@ You can then start multiple miners that all read off the one database.
 
 Create a config file for the dataServer and add the public addresses of all remote miners that want to read the database: \(0x prefix is retained here\)
 
-```
+```text
     “serverWhitelist”: [
         "0xyour-miner-address1",
         "0xyour-miner-address2"
@@ -113,6 +113,4 @@ In both your miner and dataServer config files, you must change the IP addresses
 Note that your dataServer and miners must be started with separate commands.
 
 For more detailed instructions:[ https://docs.google.com/document/d/1k8ELb1cXkEpztHkHUt8QTL4JCcnHw5\_yQjTKIHCaSCE](https://docs.google.com/document/d/1k8ELb1cXkEpztHkHUt8QTL4JCcnHw5_yQjTKIHCaSCE)
-
-
 

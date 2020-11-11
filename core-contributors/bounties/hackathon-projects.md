@@ -1,6 +1,6 @@
 # Hackathon Ideas
 
-Are you participating in a hackathon and that Tellor has bounties for?  Need ideas?  Well, you've come to the right place.  Below is a list of ideas that might spark some inspiration for you. 
+Are you participating in a hackathon and that Tellor has bounties for? Need ideas? Well, you've come to the right place. Below is a list of ideas that might spark some inspiration for you.
 
 | Hacks | Description | Skills |
 | :--- | :--- | :--- |
