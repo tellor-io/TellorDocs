@@ -8,7 +8,7 @@ description: >-
 
 ## TL:DR
 
-Tellor Playground is aims to help anyone building on Tellor to quickily test and implement ideas. It's available on all testnets at the address:
+Tellor Playground aims to help anyone building on Tellor quickly test and implement ideas. It's available on all testnets at the following addresses:
 
 Rinkeby: [`0x20374E579832859f180536A69093A126Db1c8aE9`](https://rinkeby.etherscan.io/address/0x20374E579832859f180536A69093A126Db1c8aE9#code)
 
@@ -18,17 +18,17 @@ Ropsten: [`0x20374E579832859f180536A69093A126Db1c8aE9`](https://ropsten.ethersca
 
 Goerli: [`0x20374E579832859f180536A69093A126Db1c8aE9`](https://goerli.etherscan.io/address/0x20374E579832859f180536A69093A126Db1c8aE9#code)
 
-## Why use Tellor Playground
+## Why use Tellor Playground?
 
-The [Tellor Core](https://github.com/tellor-io/TellorCore) repository is a large project that holds all the on-chain logic of the system, but a lot of the code there is aimed at dealing with stakers, miners, disputes, among other stuff, which most projets that want to ask and read tellor values don't really need to worry about.
+The [Tellor Core](https://github.com/tellor-io/TellorCore) repository is a large project that holds all the on-chain logic of the system, but a lot of the code there is aimed at dealing with stakers, miners, disputes, etc. which most projects that want to ask and read Tellor values don't really need to worry about.
 
-The Playground is a simplified \(and not a real oracle\) Tellor, containing only the small bits that third party developers projects integrating need to worry about: getting data, adding tips, reading events ans so forth.
+The Playground is a simplified \(and not a real oracle\) Tellor, containing only the small bits that third party developer projects integrating need to worry about: getting data, adding tips, reading events and so forth.
 
-### Why not use the real Tellor
+### Why not use the real Tellor?
 
-There are a few reasons why using the test version of the real system. The first one being that it is identical to the mainnet version, where only there're only 50 datapoints available for reading. You can easily get the value of USD or BTC, but if your project need to read a value from a exotic token, it might not be available.
+There are a few reasons why using the test version of the real system makes sense. The first one being that it is identical to the mainnet version, where only 50 datapoints are available for reading. You can easily get the value of USD or BTC, but if your project needs to read a value from an exotic token, it might not be available.
 
-To include a value in the Rinkeby version, it would first need to be created a [Tellor Improvement Proposal\(TIPs\)](https://github.com/tellor-io/TIPs), which will be analyzed by the community and if there's no opposition it'll go for implementation and then it'll be available on testnet. If you're testing an idea or building a hackathon project, it might be overkill to go through all of that and it's far easier to make use of Tellor Playground.
+To include a value in the Rinkeby version, it would first need to be created at [Tellor Improvement Proposal\(TIPs\)](https://github.com/tellor-io/TIPs), which will be analyzed by the community and if there's no opposition, it'll go for implementation and then it'll be available on testnet. If you're testing an idea or building a hackathon project, it might be overkill to go through all of that and it's far easier to make use of Tellor Playground.
 
 ## How to use
 
@@ -36,7 +36,7 @@ To include a value in the Rinkeby version, it would first need to be created a [
 
 If your smart contract needs to read Tellor values, you might want to use the helper [usingTellor](https://github.com/tellor-io/usingtellor), which already provides a few helpful functions to fetch data.
 
-The first setp is to inherit the UsingTellor contract, passing the TellorPlayground address as a constructor argument:
+The first step is to inherit the UsingTellor contract, passing the TellorPlayground address as a constructor argument:
 
 Here's an example
 
@@ -58,7 +58,7 @@ contract BtcPriceContract is UsingTellor {
 
 To be able to properly read a value from playground, you'll need to first set the value yourself, since it does not rely on miners.
 
-To do that, you can choose an arbitrary requestId, which is an `uint256`, and call the function `submitValue` with the any value you wish. This will add a data point to the Playground and save the timestamp which was submitted. Your contract can now easily read Tellor values.
+To do that, you can choose an arbitrary requestId, which is an `uint256`, and call the function `submitValue` with any value you wish. This will add a data point to the Playground and save the timestamp which was submitted. Your contract can now easily read Tellor values.
 
 ## Available Functions
 
