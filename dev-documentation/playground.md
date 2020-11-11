@@ -22,7 +22,7 @@ Goerli: [`0x20374E579832859f180536A69093A126Db1c8aE9`](https://goerli.etherscan.
 
 The [Tellor Core](https://github.com/tellor-io/TellorCore) repository is a large project that holds all the on-chain logic of the system, but a lot of the code there is aimed at dealing with stakers, miners, disputes, among other stuff, which most projets that want to ask and read tellor values don't really need to worry about.
 
-The Playground is a simplified\(and not a real oracle\) Tellor, containing only the small bits that third party developers projects integrating need to worry about: getting data, adding tips, reading events ans so forth.
+The Playground is a simplified \(and not a real oracle\) Tellor, containing only the small bits that third party developers projects integrating need to worry about: getting data, adding tips, reading events ans so forth.
 
 ### Why not use the real Tellor
 
