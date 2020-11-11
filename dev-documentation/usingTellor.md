@@ -19,7 +19,7 @@ To check when the value was last updated, you can run the following usingTellor 
 
 ```text
  function getCurrentValue(uint256 _requestId) public view returns (bool ifRetrieve, uint256 value, uint256 _timestampRetrieved);
-````
+```
 
 The last returned values is the timestamp last updated.
 
@@ -50,6 +50,8 @@ You can monitor values and submit disputes by either reading the value on-chain:
 
 ```text
  function getCurrentValue(uint256 _requestId) public view returns (bool ifRetrieve, uint256 value, uint256 _timestampRetrieved);
+
+ function beginDispute(TellorStorage.TellorStorageStruct storage self, uint256 _requestId, uint256 _timestamp, uint256 _minerIndex) public;
 ```
 
 Or using the [Tellor Dispute Center](https://disputes.tellorscan.com)
