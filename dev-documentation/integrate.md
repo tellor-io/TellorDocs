@@ -22,7 +22,11 @@ Just import the usingTellor contract to your solidity file passing the desired T
 
 #### Addresses:
 
-Mainnet: `0x0Ba45A8b5d5575935B8158a88C631E9F9C95a2e5` Rinkeby: `0xFe41Cb708CD98C5B20423433309E55b53F79134a` Test: Use the MockTellor address
+Mainnet: `0x0Ba45A8b5d5575935B8158a88C631E9F9C95a2e5` 
+
+Rinkeby: `0xFe41Cb708CD98C5B20423433309E55b53F79134a` 
+
+Test: Use the TellorPlayground contract
 
 ```text
 pragma solidity >=0.4.21 <0.7.0;
@@ -137,15 +141,15 @@ contract BtcPriceContract is UsingTellor {
 
 ### Testing you contracts
 
-For ease of use, the `UsingTellor` repo provides a MockTellor system for easier integration. This mock version contains a few helper functions:
+For ease of use, the `UsingTellor` repo comes with Tellor Playground system for easier integration. This mock version contains a few helper functions:
 
 ```text
-    /**
-    * @dev The constructor allows for arbitrary balances on specified addresses;
-    * @param _initialBalances The addresses that will have tokens
-    * @param _intialAmounts How much TRB each address gets
-    */
-    constructor(address[] memory _initialBalances, uint256[] memory _intialAmounts) public;
+     /**
+     * @dev Public function to mint tokens for the passed address
+     * @param user The address which will own the tokens
+     *
+     */
+    function faucet(address user) external;
 
 
     /**
@@ -154,30 +158,9 @@ For ease of use, the `UsingTellor` repo provides a MockTellor system for easier 
     * @param _value the value for the requestId
     */
     function submitValue(uint256 _requestId,uint256 _value) external;
-
-
-    /**
-    * @dev A mock function to create a dispute
-    * @param _requestId The tellorId to be disputed
-    * @param _timestamp the timestamp that indentifies for the value
-    */
-    function disputeValue(uint256 _requestId, uint256 _timestamp) external;
-
-    /**
-    * @dev A mock function to mint tokens
-    * @param _holder The destination address 
-    * @param _value the amount to be minted
-    */
-    function mint(address _holder, uint256 _value) public;
-
-    /**
-    * @dev A mock function to trasnfer tokens on behalf of any address, withou needing an approval
-    * @param _from The origin address
-    * @param _to The destination address 
-    * @param _value the amount to be transferred
-    */
-    function transferFrom(address _from, address _to, uint256 _amount) public returns(bool);
 ```
+
+[Full documentation on Tellor Playground](dev-documentation/playground.md)!
 
 #### Running tests
 
