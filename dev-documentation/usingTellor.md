@@ -1,12 +1,9 @@
 ---
 description: >-
-  This page is designed to give you a quick overview of using Tellor to get data
-  into your smart contracts.
+  Now that you have Tellor integrated into your smart contracts, you'll want to know what to do on a daily basis to make sure you have timely and accurate updates to your price feed. 
 ---
 
 # Using Tellor 
-
-Now that you have Tellor integrated into your smart contracts, you'll want to know what to do on a daily basis to make sure you have timely and accurate updates to your price feed. 
 
 ## Updating Values
 
