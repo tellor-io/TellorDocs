@@ -19,7 +19,6 @@ To check when the value was last updated, you can run the following usingTellor 
 
 ```text
  function getCurrentValue(uint256 _requestId) public view returns (bool ifRetrieve, uint256 value, uint256 _timestampRetrieved);
-
 ````
 
 The last returned values is the timestamp last updated.
@@ -38,7 +37,6 @@ In order to see how much you will need to tip, you can see the current ID's on d
 
 ```text
  function getNewVariablesOnDeck() public view returns (uint256[5] memory idsOnDeck, uint256[5] memory tipsOnDeck)
-
  ```
 
 Note that once you call for an update, you will need to wait until at least the next block is mined to get an update.  Currently, Tellor blocks are 5 minutes.  
@@ -52,8 +50,7 @@ You can monitor values and submit disputes by either reading the value on-chain:
 
 ```text
  function getCurrentValue(uint256 _requestId) public view returns (bool ifRetrieve, uint256 value, uint256 _timestampRetrieved);
-
-````
+```
 
 Or using the [Tellor Dispute Center](https://disputes.tellorscan.com)
 
@@ -67,4 +64,4 @@ Once the dispute goes through, be sure to request your data again, so the miners
 
 #### Automating Jobs
 
-To automate adding a tip on a certain request ID by time or volatility, as well as scheduling other Tellor related tasks, we recommend (and use) [Buidlhub]((https://www.buidlhub.com).
+To automate adding a tip on a certain request ID by time or volatility, as well as scheduling other Tellor related tasks, we recommend (and use) [Buidlhub](https://www.buidlhub.com).
