@@ -14,4 +14,5 @@ Are you participating in a hackathon and that Tellor has bounties for? Need idea
 | Launch a derivatives project using Tellor | Create a derivatives project utilizing Tellor | n/a |
 | Tellor one click vote | Super simple app to vote on Tellor ID's \(big yes or no button for a given ID\) | React |
 | Tellor backed Uniswap oracle | Create a uniswap oracle with an option to fallback to Tellor | Solidity |
+| Schedule Add Tip with Keeper Network | Schedule a job to add a tip with [Keeper](https://github.com/keep3r-network/keep3r.network) | Solidity/ DevOps |
 
