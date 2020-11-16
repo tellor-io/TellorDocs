@@ -12,6 +12,6 @@ One of Tellor's core missions is to educate the community, not only about Tellor
 | Implementing Tellor Video | $375 | Video tutorial on how to implement Tellor in your smart contract | Video |
 | How to mine \(on the pool\) Video | $150 | Video tutorial on how to mine Tellor on the pool \(no 1000 needed\) | Video |
 | Tellor How-it-works one pager | 200 | One pager on how Tellor works with graphics | Writing/Design |
-| Podcasts | $100 | Get Tellor on a well known podcast | n/a |
+| Podcasts | $200 | Get Tellor on a well known podcast | n/a |
 | Custom articles | various | Get an article written on Tellor \(or write one yourself and publish it!\) | n/a |
 
