@@ -8,7 +8,7 @@ Data submission is done through a competitive process where miners respond to Po
 
 ### Staking
 
-Miners have to stake 1000 Tributes to be able to mine. Staking allows for economic penalties to miners submitting incorrect values.  If a miner wants to withdraw his stake, he can request a withdrawal at any point.  The miner’s tokens are then locked for 7 days in order to wait for potential disputes, at which point he can unlock his tokens for transfer.  
+Miners have to stake 500 Tributes to be able to mine. Staking allows for economic penalties to miners submitting incorrect values.  If a miner wants to withdraw his stake, he can request a withdrawal at any point.  The miner’s tokens are then locked for 7 days in order to wait for potential disputes, at which point he can unlock his tokens for transfer.  
 
 ### Hash Function
 

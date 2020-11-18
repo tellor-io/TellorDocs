@@ -17,7 +17,7 @@
 
 * [Integrating Tellor](dev-documentation/integrate.md)
 * [Tellor Playground](dev-documentation/playground.md)
-* [Using Tellor](dev-documentation/usingTellor.md)
+* [Using Tellor](dev-documentation/usingtellor.md)
 * [User Functions](dev-documentation/user-functions.md)
 * [Contracts](dev-documentation/untitled.md)
 * [Set up Tellor Core on Ganache](dev-documentation/set-up-tellor-core-on-ganache.md)

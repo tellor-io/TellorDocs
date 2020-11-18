@@ -41,10 +41,11 @@ Help us upgrade the Tellor miner. The backbone of the Tellor oracle network.
       <td style="text-align:left">react/golang</td>
     </tr>
     <tr>
-      <td style="text-align:left">New Sample API's</td>
+      <td style="text-align:left">New Sample API&apos;s</td>
       <td style="text-align:left">$300</td>
-      <td style="text-align:left">Make a list of new API's for each of the API's in the indexes.json file</td>
-      <td style="text-align:left"> n/a </td>
+      <td style="text-align:left">Make a list of new API&apos;s for each of the API&apos;s in the indexes.json
+        file</td>
+      <td style="text-align:left">n/a</td>
     </tr>
   </tbody>
 </table>

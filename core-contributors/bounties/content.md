@@ -4,7 +4,7 @@ description: 'Calling all creators, writers, and designers!'
 
 # Content
 
-One of Tellor's core missions is to educate the community, not only about Tellor itself, but on the core values of crypto.  This is why we try to put out quality content as often as we can.  But we can't do it alone.  Want to help?  Below are some ideas we'd like the community to contribute to.
+One of Tellor's core missions is to educate the community, not only about Tellor itself, but on the core values of crypto. This is why we try to put out quality content as often as we can. But we can't do it alone. Want to help? Below are some ideas we'd like the community to contribute to.
 
 | Content | Reward | Description | Skills |
 | :--- | :--- | :--- | :--- |
