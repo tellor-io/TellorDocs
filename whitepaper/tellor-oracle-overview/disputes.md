@@ -6,7 +6,11 @@ Any party can challenge data submissions of any of the five miners when a value 
 
 ### Disputes Rounds 
 
-Our dispute mechanism allows for multiple rounds of disputes.  Dispute rounds start at a lower fee with a one day voting period and then double in both time and cost to dispute with each round. 
+Our dispute mechanism allows for multiple rounds of disputes.  The length of each dispute round and it's cost increases each round in steps:  
+
+`now + 2 days * dispRounds`
+
+`fee = disputeFee * dispRounds`
 
 ### Dispute Resolution
 
@@ -24,6 +28,10 @@ The dispute fee is calculated based upon how many miners are in the system and f
 For median values, since a dispute technically censors parties from reading the value, it is more expensive:
 
 `stakeAmount * numberOfDisputesOnId`
+
+As mentioned, there are also multiple dispute rounds which increase the fee for each subsequent round in the following fashion:
+
+`fee = disputeFee * dispRounds`
 
 For this reason, it quickly becomes prohibitively expensive for a malicious party to simply dispute good values to censor a contract from reading them.   
 
