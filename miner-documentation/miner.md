@@ -12,7 +12,7 @@ Tellor takes this concept and applies it directly to the delivery of oracle data
 
 Mining is one of the most exciting ways to help Tellor grow and become a leader in the DeFi / Oracle space. Here are a few things to consider before jumping in:
 
-As of now, mining requires you deposit 1000 Tellor Tributes. These are a security deposit. If you are a malicious actor \(aka submit a bad value\), the community can vote to slash your 1000 tokens.
+As of now, mining requires you deposit 500 Tellor Tributes. These are a security deposit. If you are a malicious actor \(aka submit a bad value\), the community can vote to slash your 500 tokens.
 
 * Mining requires access to an Ethereum node. If you don’t have your own node, you can use an Infura API endpoint.
 * Miners must hold a balance of ETH to cover gas fees, which can be significant. Please reach out to the community to find the best tips for keeping gas costs under control.
