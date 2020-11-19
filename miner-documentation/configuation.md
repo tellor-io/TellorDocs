@@ -57,7 +57,7 @@ Edit these variables at your own risk! Reach out to the community if you're unsu
 
 ## Connecting to a Pool
 
-There are mining pools available for mining TRB without staking 1000 tokens. The pool server operator stakes 1000 tokens for you, and you receive rewards roughly proportional to your hashrate as a fraction of the pool's hashrate.
+There are mining pools available for mining TRB without staking 500 tokens. The pool server operator stakes 500 tokens for you, and you receive rewards roughly proportional to your hashrate as a fraction of the pool's hashrate.
 
 {% hint style="info" %}
 Each pool as different fees and instructions for hooking up. Be sure to read your pools documentation. Feel free to reach out to the community if you need help with mining pools.
