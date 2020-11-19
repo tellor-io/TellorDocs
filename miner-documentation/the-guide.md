@@ -76,10 +76,10 @@ The following example shows request ID 4, inputting a value of 9000 with a 1,000
 
 ## Deposit your Initial Stake
 
-You will need 1000 TRB to run your own server for mining. Your stake is locked for a minimum of 7 days after you run the command to request withdrawl.
+You will need 500 TRB to run your own server for mining. Your stake is locked for a minimum of 7 days after you run the command to request withdrawal.
 
 {% hint style="info" %}
-You do not need to stake 1000 TRB if you plan to mine on a pool.
+You do not need to stake 500 TRB if you plan to mine on a pool.
 {% endhint %}
 
 Run the following command to deposit your stake:
