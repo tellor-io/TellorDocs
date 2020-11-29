@@ -1,3 +1,3 @@
-![Sync miner docs](https://github.com/hhio618/TellorDocs/workflows/Sync%20miner%20docs/badge.svg)
+![Sync miner docs](https://github.com/tellor-io/TellorDocs/workflows/Sync%20miner%20docs/badge.svg)
 # Welcome
 
