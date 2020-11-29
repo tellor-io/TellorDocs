@@ -1,5 +1,5 @@
-# Sync miner docs from https://github.com/tellor-io/telliot/tree/master/docs in miner-documentation folder in the current repo
-name: Sync miner docs
+# Sync Telliot docs from https://github.com/tellor-io/telliot/tree/master/docs in telliot-documentation folder in the current repo
+name: Sync Telliot docs
 
 on:
   schedule: 
@@ -7,7 +7,7 @@ on:
 
 
 jobs:
-  miner-docs-synce:
+  telliot-docs-synce:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -28,16 +28,16 @@ jobs:
         run: |
           git clone https://github.com/tellor-io/telliot -b master
           export TELLIOT_MD5=$(find ./telliot/docs  -type f -exec md5sum {} \; | md5sum | cut -d" " -f1)
-          export CURRENT_MD5=$(find $GITHUB_WORKSPACE/miner-documentation -type f -exec md5sum {} \; | md5sum | cut -d" " -f1)
+          export CURRENT_MD5=$(find $GITHUB_WORKSPACE/telliot-documentation -type f -exec md5sum {} \; | md5sum | cut -d" " -f1)
           if [ "$TELLIOT_MD5" != "$CURRENT_MD5" ];
           then 
-            sed -i 's/(/(miner-documentation\//g' ./telliot/docs/INDEX.md
+            sed -i 's/(/(telliot-documentation\//g' ./telliot/docs/INDEX.md
             python .github/workflow/update-summary.py ./telliot/docs/INDEX.md
             # We don't need this information here
             rm -f ./telliot/docs/INDEX.md
             # Let's update the content table
-            rm -rf $GITHUB_WORKSPACE/miner-documentation
-            mv ./telliot/docs $GITHUB_WORKSPACE/miner-documentation
+            rm -rf $GITHUB_WORKSPACE/telliot-documentation
+            mv ./telliot/docs $GITHUB_WORKSPACE/telliot-documentation
           fi
       - name: Clean up before PR
         run: |
