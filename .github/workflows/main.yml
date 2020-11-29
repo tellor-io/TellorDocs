@@ -31,10 +31,16 @@ jobs:
           export CURRENT_MD5=$(find $GITHUB_WORKSPACE/telliot-documentation -type f -exec md5sum {} \; | md5sum | cut -d" " -f1)
           if [ "$TELLIOT_MD5" != "$CURRENT_MD5" ];
           then 
-            sed -i 's/(/(telliot-documentation\//g' ./telliot/docs/INDEX.md
-            python .github/workflow/update-summary.py ./telliot/docs/INDEX.md
+            # Prepair remote SUMMARY.md file
+            # Remove unused heading
+            sed -i '/## /d' ./telliot/docs/SUMMARY.md
+            # Remove whitespace lines
+            sed -i -r '/^\s*$/d' ./telliot/docs/SUMMARY.md
+            # Update links
+            sed -i 's/(/(telliot-documentation\//g' ./telliot/docs/SUMMARY.md
+            python .github/workflow/update-summary.py ./telliot/docs/SUMMARY.md
             # We don't need this information here
-            rm -f ./telliot/docs/INDEX.md
+            rm -f ./telliot/docs/SUMMARY.md
             # Let's update the content table
             rm -rf $GITHUB_WORKSPACE/telliot-documentation
             mv ./telliot/docs $GITHUB_WORKSPACE/telliot-documentation
