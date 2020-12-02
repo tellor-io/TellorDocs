@@ -27,16 +27,13 @@
 
 ## Telliot Documentation
 
-* [Introduction](telliot-documentation/introduction.md)
-* [Miner](telliot-documentation/miner.md)
-* [The guide](telliot-documentation/the-guide.md)
-* [Configuation](telliot-documentation/configuation.md)
-* [Contributing](telliot-documentation/contributing.md)
-* [Coding style guide](telliot-documentation/coding-style-guide.md)
-* [Miner reference](telliot-documentation/miner-reference.md)
-* [Release process](telliot-documentation/release-process.md)
-* [Disclaimer](telliot-documentation/disclaimer.md)
-* [Changelog\#\#](telliot-documentation/changelog.md)
+* [Introduction](telliot-documentation/README.md)
+* [Setup and usage](telliot-documentation/00_setup-and-usage.md)
+* [Configuation](telliot-documentation/01_configuation.md)
+* [Contributing](telliot-documentation/03_contributing.md)
+* [Coding style guide](telliot-documentation/04_coding-style-guide.md)
+* [Release process](telliot-documentation/05_release-process.md)
+* [Changelog](telliot-documentation/CHANGELOG.md)
 
 ## Holder Documentation <a id="trb-token-holders"></a>
 
