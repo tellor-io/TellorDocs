@@ -1,3 +1,5 @@
+![Sync docs](https://github.com/tellor-io/TellorDocs/workflows/Sync%20docs/badge.svg)
+
 # Welcome
 
 {% hint style="info" %}
