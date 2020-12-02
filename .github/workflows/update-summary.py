@@ -16,6 +16,8 @@ fname = 'SUMMARY.md'
 with open(fname, 'r') as f:
    data = f.read()
 with open(fname, 'w') as fout:
+    if "## Telliot Documentation" not in data:
+        sys.exit("We expect a '## Telliot Documentation' heading in SUMMARY.md file, so we can update it's content!")
     data = re.sub(r'(## Telliot Documentation).*?(##)', 
       r'\1\n\n' +
       new_content + 
