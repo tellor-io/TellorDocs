@@ -18,8 +18,8 @@ with open(fname, 'r') as f:
 with open(fname, 'w') as fout:
     if "## Telliot Documentation" not in data:
         sys.exit("We expect a '## Telliot Documentation' heading in SUMMARY.md file, so we can update it's content!")
-    data = re.sub(r'(## Telliot Documentation).*?(##)', 
-      r'\1\n\n' +
+    data = re.sub(r'(?<=## Telliot Documentation).*?(?<=##)', 
+      r'\n\n' +
       new_content + 
-      r'\2\n\n##', data, flags=re.DOTALL)
+      r'\n\n##', data, flags=re.DOTALL)
     fout.write(data)
