@@ -2,7 +2,7 @@
 name: Sync Telliot docs
 on:
   schedule: 
-  - cron: "0 0 * * *" # every day. set to whatever interval you like
+  - cron: "0 */1 * * *" # every hour. set to whatever interval you like
 
 
 jobs:
