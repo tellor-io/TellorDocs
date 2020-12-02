@@ -1,9 +1,8 @@
 # Sync Telliot docs from https://github.com/tellor-io/telliot/tree/master/docs in telliot-documentation folder in the current repo
 name: Sync Telliot docs
-
 on:
   schedule: 
-  - cron: "0 0 * * *" # every 15 minutes. set to whatever interval you like
+  - cron: "0 */1 * * *" # every hour. set to whatever interval you like
 
 
 jobs:
@@ -31,23 +30,15 @@ jobs:
           export CURRENT_MD5=$(find $GITHUB_WORKSPACE/telliot-documentation -type f -exec md5sum {} \; | md5sum | cut -d" " -f1)
           if [ "$TELLIOT_MD5" != "$CURRENT_MD5" ];
           then 
-            # Prepair remote SUMMARY.md file
-            # Remove unused heading
-            sed -i '/## /d' ./telliot/docs/SUMMARY.md
-            # Remove whitespace lines
-            sed -i -r '/^\s*$/d' ./telliot/docs/SUMMARY.md
-            # Update links
-            sed -i 's/(/(telliot-documentation\//g' ./telliot/docs/SUMMARY.md
-            python .github/workflow/update-summary.py ./telliot/docs/SUMMARY.md
-            # We don't need this information here
-            rm -f ./telliot/docs/SUMMARY.md
             # Let's update the content table
+            python .github/workflows/update-summary.py ./telliot/docs/
+            # Update telliot-documentation folder
             rm -rf $GITHUB_WORKSPACE/telliot-documentation
             mv ./telliot/docs $GITHUB_WORKSPACE/telliot-documentation
           fi
       - name: Clean up before PR
         run: |
           rm -rf ./telliot
-          rm -f SUMMARY.md.orig
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
+
