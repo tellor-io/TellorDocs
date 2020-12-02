@@ -1,12 +1,12 @@
 # Sync Telliot docs from https://github.com/tellor-io/telliot/tree/master/docs in telliot-documentation folder in the current repo
-name: Sync Telliot docs
+name: Sync docs
 on:
   schedule: 
   - cron: "0 */1 * * *" # every hour. set to whatever interval you like
 
 
 jobs:
-  telliot-docs-synce:
+  Telliot:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
