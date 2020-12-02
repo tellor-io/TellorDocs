@@ -25,7 +25,7 @@
   * [Data Request IDs](dev-documentation/reference-page/data-request-ids.md)
   * [Variable Hashes](dev-documentation/reference-page/variable-hashes.md)
 
-## Miner Documentation
+## Telliot Documentation
 
 * [Become a Miner](miner-documentation/miner.md)
 * [The Guide](miner-documentation/the-guide.md)
