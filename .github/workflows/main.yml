@@ -42,5 +42,7 @@ jobs:
         run: |
           rm -rf ./telliot
       - name: Create Pull Request
+        title: Sync telliot docs
+        body: Automated changes by `Sync docs` GitHub action
         uses: peter-evans/create-pull-request@v3
 
