@@ -1,8 +1,8 @@
 # Sync Telliot docs from https://github.com/tellor-io/telliot/tree/master/docs in telliot-documentation folder in the current repo
 name: Sync docs
-on:
-  schedule: 
-  - cron: "0 */1 * * *" # every hour. set to whatever interval you like
+on: push
+#  schedule: 
+#  - cron: "0 */1 * * *" # every hour. set to whatever interval you like
 
 
 jobs:
