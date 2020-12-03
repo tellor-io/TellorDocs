@@ -7,11 +7,14 @@ def doc_to_index(doc_name):
     return x.split(".")[0]
 
 if len(sys.argv) < 2:
-    sys.exit("USAGE: update-summary.py path/to/docs")
-docs = [os.path.basename(x) for x in sorted(glob.glob("%s/[!README|!CHANGELOG]*.md"%sys.argv[1]))]
-docs = map(lambda x: "* [%s](telliot-documentation/%s)" % (doc_to_index(x), x), docs)
-docs = ["* [Introduction](telliot-documentation/README.md)"] + docs + ["* [Changelog](telliot-documentation/CHANGELOG.md)"]
-new_content = "\n".join(docs)
+    sys.exit("USAGE: update-summary.py <path/to/INDEX.md>")
+new_content = []
+with open(sys.argv[1], "r") as fcontent:
+    lines = fcontent.readlines()
+    for line in lines:
+        if "## " not in line and len(line.strip()) != 0:
+            new_content.append(line.strip())
+new_content = "\n".join(new_content)
 fname = 'SUMMARY.md'
 with open(fname, 'r') as f:
    data = f.read()
