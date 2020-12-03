@@ -31,7 +31,9 @@ jobs:
           if [ "$TELLIOT_MD5" != "$CURRENT_MD5" ];
           then 
             # Let's update the content table
-            python .github/workflows/update-summary.py ./telliot/docs/
+            python .github/workflows/update-summary.py ./telliot/docs/SUMMARY.md
+            # We don't need ./telliot/docs/SUMMARY.md as we'll merge it to SUMMARY.md in this repo.
+            rm -f ./telliot/docs/SUMMARY.md
             # Update telliot-documentation folder
             rm -rf $GITHUB_WORKSPACE/telliot-documentation
             mv ./telliot/docs $GITHUB_WORKSPACE/telliot-documentation
