@@ -12,7 +12,7 @@ new_content = []
 with open(sys.argv[1], "r") as fcontent:
     lines = fcontent.readlines()
     for line in lines:
-        if "## " not in line and len(line.strip()) != 0:
+        if len(line.strip()) != 0 and line.startswith("*"):
             line = line.strip()
             line = re.sub(r'(\()(.*)(\.md)', '(telliot-documentation/\\2.md', line)
             new_content.append(line.strip())
