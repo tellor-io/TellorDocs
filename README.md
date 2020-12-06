@@ -1,5 +1,7 @@
 # Welcome
 
+![](.gitbook/assets/Tellor.png)
+
 {% hint style="info" %}
 **Need some information about Tellor?**
 {% endhint %}
