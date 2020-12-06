@@ -33,7 +33,7 @@
 * [Contributing](telliot-documentation/contributing.md)
 * [Coding style guide](telliot-documentation/coding-style-guide.md)
 * [Release process](telliot-documentation/release-process.md)
-* [Changelog](telliot-documentation/CHANGELOG.md)
+* [Changelog](telliot-documentation/changelog.md)
 
 ## Holder Documentation <a id="trb-token-holders"></a>
 
