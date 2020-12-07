@@ -26,9 +26,9 @@ if __name__ == '__main__':
     orig_data = None
     with open(fname, 'r') as f:
        orig_data = f.read()
-    if "## Telliot Documentation" not in orig_data:
-        sys.exit("We expect a '## Telliot Documentation' heading in SUMMARY.md file, so we can update it's content!")
-    data = re.sub(r'(?<=## Telliot Documentation).*?(?<=##)', 
+    if "## Telliot" not in orig_data:
+        sys.exit("We expect a '## Telliot' heading in SUMMARY.md file, so we can update it's content!")
+    data = re.sub(r'(?<=## Telliot).*?(?<=##)',
       r'\n\n' +
       new_content + 
       r'\n\n##', orig_data, flags=re.DOTALL)
