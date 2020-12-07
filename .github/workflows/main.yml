@@ -46,13 +46,12 @@ jobs:
             mv ./$TMP/docs $GITHUB_WORKSPACE/telliot
             mv $GITHUB_WORKSPACE/telliot/README.md $GITHUB_WORKSPACE/telliot/telliot.md
             cp -r ./$TMP/.gitbook/assets/* $GITHUB_WORKSPACE/.gitbook/assets/
+            # Clean up before the PR
+            rm -rf ./$TMP
             echo "done"
           else
             echo "No changes since last time!"
           fi
-      - name: Clean up before PR
-        run: |
-          rm -rf ./$TMP
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
