@@ -24,33 +24,35 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name:  Sync
+        env:
+            TMP: telliot-tmp
         run: |
-          git clone https://github.com/tellor-io/telliot -b master
+          git clone https://github.com/tellor-io/telliot -b master $TMP
           echo "Checking for any changes since last time..."
-          export TELLIOT_MD5=$(find ./telliot/docs  -type f -exec md5sum {} \; | md5sum | cut -d" " -f1)
+          export TELLIOT_MD5=$(find ./$TMP/docs  -type f -exec md5sum {} \; | md5sum | cut -d" " -f1)
           export CURRENT_MD5=$(find $GITHUB_WORKSPACE/telliot -type f -exec md5sum {} \; | md5sum | cut -d" " -f1)
           echo "Current telliot documentation md5: $CURRENT_MD5"
           echo "Upcomming telliot documentation md5: $TELLIOT_MD5"
-          if [ "$TELLIOT_MD5" != "$CURRENT_MD5" ] || [ python .github/workflows/update-summary.py ./telliot/docs/SUMMARY.md --check-only ];
+          if [ "$TELLIOT_MD5" != "$CURRENT_MD5" ] || [ python .github/workflows/update-summary.py ./$TMP/docs/SUMMARY.md --check-only ];
           then 
             echo "Changes found!"
             echo "Starting to update..."
             # Let's update the content table
-            python .github/workflows/update-summary.py ./telliot/docs/SUMMARY.md
-            # We don't need ./telliot/docs/SUMMARY.md as we'll merge it to SUMMARY.md in this repo.
-            rm -f ./telliot/docs/SUMMARY.md
+            python .github/workflows/update-summary.py ./$TMP/docs/SUMMARY.md
+            # We don't need ./$TMP/docs/SUMMARY.md as we'll merge it to SUMMARY.md in this repo.
+            rm -f ./$TMP/docs/SUMMARY.md
             # Update telliot folder
             rm -rf $GITHUB_WORKSPACE/telliot
-            mv ./telliot/docs $GITHUB_WORKSPACE/telliot
+            mv ./$TMP/docs $GITHUB_WORKSPACE/telliot
             mv $GITHUB_WORKSPACE/telliot/README.md $GITHUB_WORKSPACE/telliot/telliot.md
-            cp -r ./telliot/.gitbook/assets/* $GITHUB_WORKSPACE/.gitbook/assets/
+            cp -r ./$TMP/.gitbook/assets/* $GITHUB_WORKSPACE/.gitbook/assets/
             echo "done"
           else
             echo "No changes since last time!"
           fi
       - name: Clean up before PR
         run: |
-          rm -rf ./telliot
+          rm -rf ./$TMP
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
