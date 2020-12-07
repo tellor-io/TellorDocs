@@ -18,6 +18,5 @@ Tellor uses a custom hash function based upon available functions in solidity.  
 
 ### Becoming a Miner
 
-Mining on Tellor is very competitive.  For more information on becoming a miner, please see our documentation:  [https://tellor.readthedocs.io/en/latest/MinerSetup/](https://tellor.readthedocs.io/en/latest/MinerSetup/)  
-
+Mining on Tellor is very competitive.  For more information on becoming a miner, please see the Telliot documentation which is the main project CLI and includes mining functionality.
 
