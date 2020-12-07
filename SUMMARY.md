@@ -27,7 +27,7 @@
 
 ## Telliot
 
-* [Introduction](telliot/telliot-documentation.md)
+* [Introduction](telliot/telliot.md)
 * [Setup and usage](telliot/setup-and-usage.md)
 * [Configuation](telliot/configuation.md)
 * [Contributing](telliot/contributing.md)
