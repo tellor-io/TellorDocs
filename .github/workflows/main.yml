@@ -26,10 +26,15 @@ jobs:
       - name:  Sync
         run: |
           git clone https://github.com/tellor-io/telliot -b master
+          echo "Checking for any changes since last time..."
           export TELLIOT_MD5=$(find ./telliot/docs  -type f -exec md5sum {} \; | md5sum | cut -d" " -f1)
           export CURRENT_MD5=$(find $GITHUB_WORKSPACE/telliot-documentation -type f -exec md5sum {} \; | md5sum | cut -d" " -f1)
-          if [ "$TELLIOT_MD5" != "$CURRENT_MD5" ];
+          echo "Current telliot documentation md5: $CURRENT_MD5"
+          echo "Upcomming telliot documentation md5: $TELLIOT_MD5"
+          if [ "$TELLIOT_MD5" != "$CURRENT_MD5" ] || [ python .github/workflows/update-summary.py ./telliot/docs/SUMMARY.md --check-only ];
           then 
+            echo "Changes found!"
+            echo "Starting to update..."
             # Let's update the content table
             python .github/workflows/update-summary.py ./telliot/docs/SUMMARY.md
             # We don't need ./telliot/docs/SUMMARY.md as we'll merge it to SUMMARY.md in this repo.
@@ -37,7 +42,11 @@ jobs:
             # Update telliot-documentation folder
             rm -rf $GITHUB_WORKSPACE/telliot-documentation
             mv ./telliot/docs $GITHUB_WORKSPACE/telliot-documentation
+            mv $GITHUB_WORKSPACE/telliot-documentation/README.md $GITHUB_WORKSPACE/telliot-documentation/telliot-documentation.md
             cp -r ./telliot/.gitbook/assets/* $GITHUB_WORKSPACE/.gitbook/assets/
+            echo "done"
+          else
+            echo "No changes since last time!"
           fi
       - name: Clean up before PR
         run: |
