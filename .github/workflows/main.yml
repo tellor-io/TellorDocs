@@ -1,4 +1,4 @@
-# Sync Telliot docs from https://github.com/tellor-io/telliot/tree/master/docs in telliot-documentation folder in the current repo
+# Sync Telliot docs from https://github.com/tellor-io/telliot/tree/master/docs in telliot folder in the current repo
 name: Sync docs
 on:
   schedule: 
@@ -28,7 +28,7 @@ jobs:
           git clone https://github.com/tellor-io/telliot -b master
           echo "Checking for any changes since last time..."
           export TELLIOT_MD5=$(find ./telliot/docs  -type f -exec md5sum {} \; | md5sum | cut -d" " -f1)
-          export CURRENT_MD5=$(find $GITHUB_WORKSPACE/telliot-documentation -type f -exec md5sum {} \; | md5sum | cut -d" " -f1)
+          export CURRENT_MD5=$(find $GITHUB_WORKSPACE/telliot -type f -exec md5sum {} \; | md5sum | cut -d" " -f1)
           echo "Current telliot documentation md5: $CURRENT_MD5"
           echo "Upcomming telliot documentation md5: $TELLIOT_MD5"
           if [ "$TELLIOT_MD5" != "$CURRENT_MD5" ] || [ python .github/workflows/update-summary.py ./telliot/docs/SUMMARY.md --check-only ];
@@ -39,10 +39,10 @@ jobs:
             python .github/workflows/update-summary.py ./telliot/docs/SUMMARY.md
             # We don't need ./telliot/docs/SUMMARY.md as we'll merge it to SUMMARY.md in this repo.
             rm -f ./telliot/docs/SUMMARY.md
-            # Update telliot-documentation folder
-            rm -rf $GITHUB_WORKSPACE/telliot-documentation
-            mv ./telliot/docs $GITHUB_WORKSPACE/telliot-documentation
-            mv $GITHUB_WORKSPACE/telliot-documentation/README.md $GITHUB_WORKSPACE/telliot-documentation/telliot-documentation.md
+            # Update telliot folder
+            rm -rf $GITHUB_WORKSPACE/telliot
+            mv ./telliot/docs $GITHUB_WORKSPACE/telliot
+            mv $GITHUB_WORKSPACE/telliot/README.md $GITHUB_WORKSPACE/telliot/telliot.md
             cp -r ./telliot/.gitbook/assets/* $GITHUB_WORKSPACE/.gitbook/assets/
             echo "done"
           else
