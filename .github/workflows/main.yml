@@ -27,15 +27,7 @@ jobs:
         env:
             TMP: telliot-tmp
         run: |
-          git clone https://github.com/tellor-io/telliot -b master $TMP
-          echo "Checking for any changes since last time..."
-          export TELLIOT_MD5=$(find ./$TMP/docs  -type f -exec md5sum {} \; | md5sum | cut -d" " -f1)
-          export CURRENT_MD5=$(find $GITHUB_WORKSPACE/telliot -type f -exec md5sum {} \; | md5sum | cut -d" " -f1)
-          echo "Current telliot documentation md5: $CURRENT_MD5"
-          echo "Upcomming telliot documentation md5: $TELLIOT_MD5"
-          if [ "$TELLIOT_MD5" != "$CURRENT_MD5" ] || [ python .github/workflows/update-summary.py ./$TMP/docs/SUMMARY.md --check-only ];
-          then 
-            echo "Changes found!"
+            git clone https://github.com/tellor-io/telliot -b master $TMP
             echo "Starting to update..."
             # Let's update the content table
             python .github/workflows/update-summary.py ./$TMP/docs/SUMMARY.md
@@ -49,12 +41,10 @@ jobs:
             # Clean up before the PR
             rm -rf ./$TMP
             echo "done"
-          else
-            echo "No changes since last time!"
-          fi
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
           title: Sync telliot docs
           body: Automated changes by `Sync docs` GitHub action
+          delete-branch: true
 
