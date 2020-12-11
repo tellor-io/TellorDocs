@@ -1,7 +1,5 @@
 # Welcome
 
-![](.gitbook/assets/lightbkrnd_rgb_center_512.png)
-
 {% hint style="info" %}
 **Need some information about Tellor?**
 {% endhint %}
