@@ -1,23 +1,5 @@
 # User Functions
 
-## requestData
-
-To request data, users will need Tributes to call this function:
-
-* **requestData** function allows the user to specify the API, timestamp and tip \(this can be thought of as “gas”, the higher the tip/payout the higher the probability it will get mined next\) for the value they are requesting. If multiple parties are requesting the same data at the same time, their tips are combined to further incentivize miners at that time period and/or API.
-
-```text
-oracle.requestData(string calldata _c_sapi,string calldata _c_symbol,uint _requestId,uint _granularity, uint _tip)
-```
-
-where:
-
-* \_c\_sapi string API being requested be mined
-* \_c\_symbol is the short string symbol for the API request
-* \_requestId being requested be mined if it exists otherwise use zero\(0\)
-* \_granularity is the number of decimals miners should include on the submitted value
-* \_tip amount the requester is willing to pay to get on queue. Miners mine the onDeckQueryHash, or the API with the highest payout pool
-
 ## addTip
 
 * **addTip** function allows the user to increase the payout for a specific request
