@@ -18,13 +18,7 @@ npm install usingtellor
 
 ### Using in the contract in solidity:
 
-Just import the usingTellor contract to your solidity file passing the desired Tellor address as a parameter.
-
-#### Addresses:
-
-Mainnet: `0x0Ba45A8b5d5575935B8158a88C631E9F9C95a2e5`
-
-Rinkeby: `0xFe41Cb708CD98C5B20423433309E55b53F79134a`
+Just import the usingTellor contract to your solidity file passing the desired Tellor address\(see references page\) as a parameter.
 
 Test: Use the TellorPlayground contract
 
@@ -49,7 +43,7 @@ contract MyContract is UsingTellor {
 {% hint style="info" %}
 **Line 5:** Your contract inherits the functions needed to interact with Tellor
 
-**Line 7:** Your constructor needs to specify the [Tellor Oracle contract address](https://link-to-addresses)
+**Line 7:** Your constructor needs to specify the Tellor Oracle contract address\(see references page for the address\)  
 {% endhint %}
 
 #### Available Tellor Functions

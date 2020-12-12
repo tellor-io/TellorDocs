@@ -8,15 +8,12 @@ description: >-
 
 ## TL:DR
 
-Tellor Playground aims to help anyone building on Tellor quickly test and implement ideas. It's available on all testnets at the following addresses:
+Tellor Playground aims to help anyone building on Tellor quickly test and implement ideas.   
+See the reference page below for the contract addresses on all testnets.
 
-Rinkeby: [`0x20374E579832859f180536A69093A126Db1c8aE9`](https://rinkeby.etherscan.io/address/0x20374E579832859f180536A69093A126Db1c8aE9#code)
+{% page-ref page="reference-page/" %}
 
-Kovan: [`0x20374E579832859f180536A69093A126Db1c8aE9`](https://kovan.etherscan.io/address/0x20374E579832859f180536A69093A126Db1c8aE9#code)
 
-Ropsten: [`0x20374E579832859f180536A69093A126Db1c8aE9`](https://ropsten.etherscan.io/address/0x20374E579832859f180536A69093A126Db1c8aE9#code)
-
-Goerli: [`0x20374E579832859f180536A69093A126Db1c8aE9`](https://goerli.etherscan.io/address/0x20374E579832859f180536A69093A126Db1c8aE9#code)
 
 ## Why use Tellor Playground?
 
