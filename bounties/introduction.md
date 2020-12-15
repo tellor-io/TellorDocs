@@ -14,7 +14,7 @@ Ping us on the [discord dev's channel](https://discord.gg/2rw2wQ38) to get start
 
 #### Telliot - the tellior.io tasker
 
-this is the main CLI of the project and it is written in golang and it includes different features like - staking, mining, database etc. If that sounds exciting pick one of the [github issues](https://github.com/tellor-io/telliot/issues?q=is%3Aissue+is%3Aopen) and contact us to include it in a [gitcoin bounty](https://gitcoin.co/tellor-io).
+this is the main CLI of the project and it is written in golang and it includes different features like - staking, mining, database etc. If that sounds exciting pick one of the [Github issues](https://github.com/tellor-io/telliot/issues?q=is%3Aissue+is%3Aopen) and contact us to include it in a [Gitcoin bounty](https://gitcoin.co/tellor-io).
 
 #### Want to build something that will improve the overall UX of Tellor?  These are the bounties that will help us do that.
 

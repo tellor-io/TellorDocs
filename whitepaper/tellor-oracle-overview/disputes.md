@@ -1,8 +1,8 @@
 # Disputes
 
-Tellor data values can always be disputed and taken off-chain, however the  longer a user waits once the data is submitted on chain, the more probable it is to remain, and therefore be secure; assuming any value that remains on-chain is valid due to economic incentives to dispute invalid ones.   
+Tellor data values can always be disputed and taken off-chain, however the longer a user waits once the data is submitted on chain, the more probable it is to remain, and therefore be secure; assuming any value that remains on-chain is valid due to economic incentives to dispute invalid ones.   
 
-Any party can challenge data submissions of any of the five miners when a value is placed on-chain.  A challenger must submit a dispute fee to each challenge.  Once a challenge is submitted, the potentially malicious miner who submitted the value is placed in a locked state for the duration of the vote.  For the next two days, Tribute holders vote on the validity of the mined value.  All Tribute holders have an incentive to maintain an honest oracle and can vote on the dispute.  A proper submission is one that corresponds to a valid query requested within the time period between the release of the challenge and the submission of the value. The ambiguity of the validity is a feature and corresponds to “correct” being up to the interpretation of the Tellor community.
+Any party can challenge data submissions of any of the five miners when a value is placed on-chain.  A challenger must submit a dispute fee to each challenge.  Once a challenge is submitted, the potentially malicious miner who submitted the value is placed in a locked state for the duration of the vote.  For the next two days, Tribute holders vote on the validity of the mined value.  All Tribute holders have an incentive to maintain an honest oracle and can vote on the dispute.  Proper submission is one that corresponds to a valid query requested within the time period between the release of the challenge and the submission of the value. The ambiguity of the validity is a feature and corresponds to “correct” being up to the interpretation of the Tellor community.
 
 ### Disputes Rounds 
 
@@ -14,7 +14,7 @@ Our dispute mechanism allows for multiple rounds of disputes.  The length of eac
 
 ### Dispute Resolution
 
-At the end of the vote period, and if no new round is initiated, the votes are tallied.   If found guilty, the malicious miner’s stake goes to the disputing party; otherwise the fee paid by the disputer is given to the wrongly accused miner.   
+At the end of the voting period, and if no new round is initiated, the votes are tallied.   If found guilty, the malicious miner’s stake goes to the disputing party; otherwise the fee paid by the disputer is given to the wrongly accused miner.   
 
 
 ![](../../.gitbook/assets/tellor_infographics2_dispute_def_hd.png)

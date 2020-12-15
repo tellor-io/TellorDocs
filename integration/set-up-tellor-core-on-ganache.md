@@ -68,7 +68,7 @@ In another terminal, clone the TellorCore repository:
 git clone https://github.com/tellor-io/TellorCore.git
 ```
 
-After cloning the contract, change director into the contract and install the Node packages:
+After cloning the contract, change the director into the contract and install the Node packages:
 
 ```text
 cd TellorCore
