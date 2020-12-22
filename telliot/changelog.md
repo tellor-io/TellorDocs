@@ -12,6 +12,8 @@ We use _breaking :warning:_ to mark changes that are not backward compatible \(r
 
 #### Changed
 
+* [\#321](https://github.com/tellor-io/telliot/pull/321) Unified all configuration files. LoggingConfig and LogLevel now reside in the main config file.
+
 #### Added
 
 #### Fixed
