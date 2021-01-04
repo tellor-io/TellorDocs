@@ -14,14 +14,13 @@ Ping us on the [discord dev's channel](https://discord.gg/2rw2wQ38) to get start
 
 #### Telliot - the tellior.io tasker
 
-this is the main CLI of the project and it is written in golang and it includes different features like - staking, mining, database etc. If that sounds exciting pick one of the [Github issues](https://github.com/tellor-io/telliot/issues?q=is%3Aissue+is%3Aopen) and contact us to include it in a [Gitcoin bounty](https://gitcoin.co/tellor-io).
+This is the main CLI of the project and it is written in golang and it includes different features like - staking, mining, database etc. If that sounds exciting, there's plenty to work on and we're willing to put money toward your efforts!  Pick one of the [Github issues](https://github.com/tellor-io/telliot/issues?q=is%3Aissue+is%3Aopen) and contact us to include it in a [Gitcoin bounty](https://gitcoin.co/tellor-io).
 
 #### Want to build something that will improve the overall UX of Tellor?  These are the bounties that will help us do that.
 
 | Builds | Reward | Description | Skills |
 | :--- | :--- | :--- | :--- |
 | Tellor Advanced Dispute Center | $2500 | Create an advanced viewer for Tellor disputes \(hosted database showing Tellor Miner disputeChecker\) | golang, leveldb |
-| Add Option for ChiGas Token | $1250 | For submit and addTip functions | n/a |
 | Dune Analytics Expansion | $1500 | Add more features to the Tellor dune analytics page | sql |
 | Tellor Voting Notifications & Info | $1000 | Automate a way to subscribe to Tellor voting events with information on the event | n/a |
 
