@@ -1,6 +1,6 @@
 # Data feeds/ Request IDs
 
-## The Tellor system is a way to push data on-chain.  The  **pieces of data that get pushed on-chain are specified off-chain in the submitter code.**
+## The Tellor system is a way to push data on-chain.  The **pieces of data that get pushed on-chain are specified off-chain in the submitter code.**
 
 {% hint style="info" %}
 Note that each request ID corresponds to a specific data point.  Example:  Request ID 4 is BTC/USD in a 24 Hour Time Weighted Average.
