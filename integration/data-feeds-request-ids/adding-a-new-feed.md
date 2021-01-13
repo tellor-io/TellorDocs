@@ -8,7 +8,7 @@
 **3. Open a TIP proposal\(see previous PRs for an example\)**  
 [**https://github.com/tellor-io/TIPs**](https://github.com/tellor-io/TIPs) ****
 
-**4.The final step is to open a PR to implement it in \`**[**telliot**](https://github.com/tellor-io/telliot)**\` which users use to submit the values.  
+**4.The final step is to open a PR to implement it in** [**telliot**](https://github.com/tellor-io/telliot) **which users use to submit the values.  
 add the APIs used to extract the values in:**[  
 **https://github.com/tellor-io/telliot/blob/master/configs/indexes.json**](https://github.com/tellor-io/telliot/blob/master/configs/indexes.json)   
 **add the new Data ID to push to the oracle contract:**  
