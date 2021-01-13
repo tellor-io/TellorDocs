@@ -16,7 +16,7 @@
 ## Integration
 
 * [Introduction](integration/introduction.md)
-* [Data feeds/ Request IDs](integration/data-feeds-request-ids/README.md)
+* [Data feed IDs](integration/data-feeds-request-ids/README.md)
   * [Current data feeds](integration/data-feeds-request-ids/current-data-feeds.md)
   * [Adding a new feed](integration/data-feeds-request-ids/adding-a-new-feed.md)
 * [Tellor Playground](integration/playground.md)

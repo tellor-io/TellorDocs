@@ -11,7 +11,7 @@
 **4.The final step is to open a PR to implement it in \`**[**telliot**](https://github.com/tellor-io/telliot)**\` which users use to submit the values.  
 add the APIs used to extract the values in:**[  
 **https://github.com/tellor-io/telliot/blob/master/configs/indexes.json**](https://github.com/tellor-io/telliot/blob/master/configs/indexes.json)   
-**add the new request ID to push to the oracle contract:**  
+**add the new Data ID to push to the oracle contract:**  
 [**https://github.com/tellor-io/telliot/blob/master/pkg/tracker/psrs.go**](https://github.com/tellor-io/telliot/blob/master/pkg/tracker/psrs.go)  
-**5. We will announce the new request in the communication channels so that miners know that they need to start pushing this new feed.**
+**5. We will announce the new Data ID in the communication channels so that miners know that they need to start pushing this new feed.**
 
