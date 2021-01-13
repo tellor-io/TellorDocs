@@ -4,82 +4,70 @@ description: Here are the nuts and bolts for usinng the CLI
 
 # Setup and usage
 
-## Setup and usage
-
-### Get the CLI
+## Get the CLI
 
 The CLI is provided as a pre-built binary with every release and also as a docker image.
 
-#### Run manually
-
-Download and run the [latest release](https://github.com/tellor-io/telliot/releases/latest)
+### Run manually
+ Download and run the [latest release](https://github.com/tellor-io/telliot/releases/latest)
 
 ```bash
 wget https://github.com/tellor-io/telliot/releases/latest/download/telliot
 chmod +x telliot
 ```
 
-#### Run with Docker - [https://hub.docker.com/u/tellor](https://hub.docker.com/u/tellor)
+### Run with Docker - [https://hub.docker.com/u/tellor](https://hub.docker.com/u/tellor)
 
 ```bash
 docker run -v $(pwd)/local:/configs tellor/telliot:master mine
 ```
 
-#### Run with k8s
+### Run with k8s
 
-{% hint style="info" %}
-tested with [google cloud](https://cloud.google.com), but should work with any k8s cluster.
+{% hint style="info" %}tested with [google cloud](https://cloud.google.com), but should work with any k8s cluster.
 {% endhint %}
 
-* Install [`gcloud`](https://cloud.google.com/sdk/docs/install)
-* Install [`kubectl`](https://kubernetes.io/docs/tasks/tools/install-kubectl)
-* Create a k8s cluster with a single node
-* Login to the cluster
+ * Install [`gcloud`](https://cloud.google.com/sdk/docs/install)
+ * Install [`kubectl`](https://kubernetes.io/docs/tasks/tools/install-kubectl)
+ * Create a k8s cluster with a single node
+ * Login to the cluster
 
-  ```bash
-  gcloud auth login --project projectName
-  gcloud container clusters get-credentials main --zone europe-west2-a --project projectName
-  ```
+```bash
+gcloud auth login --project projectName
+gcloud container clusters get-credentials main --zone europe-west2-a --project projectName
+```
 
-* Deploy the `cli` \(by default deployed to run as a miner\)
+ * Deploy the `cli` \(by default deployed to run as a miner\)
 
-  \`\`\`bash
+```bash
+git clone https://github.com/tellor-io/telliot
+cd telliot
+export NAME=main
+mkdir -p .local/configs/$NAME
 
-  git clone [https://github.com/tellor-io/telliot](https://github.com/tellor-io/telliot)
+# Create the secret file.
+cp configs/.env.example .local/configs/$NAME/.env # Edit the file after the copy.
+kubectl create secret generic telliot-$NAME --from-env-file=.local/configs/$NAME/.env
 
-  cd telliot
+cp configs/config.json .local/configs/$NAME/config.json # Edit the file after the copy.
 
-  export NAME=main
+# Copy the index, manual. These can be used as it without editing.
+cp configs/indexes.json .local/configs/$NAME/indexes.json
+cp configs/manualData.json .local/configs/$NAME/manualData.json
+# Add the configs.
+kubectl create configmap telliot-$NAME --from-file=.local/configs/$NAME/config.json  --from-file=.local/configs/$NAME/indexes.json --from-file=.local/configs/$NAME/manualData.json -o yaml --dry-run=client | kubectl apply -f -
 
-  mkdir -p .local/configs/$NAME
-
-## Create the secret file.
-
-cp configs/.env.example .local/configs/$NAME/.env \# Edit the file after the copy. kubectl create secret generic telliot-$NAME --from-env-file=.local/configs/$NAME/.env
-
-cp configs/config.json .local/configs/$NAME/config.json \# Edit the file after the copy.
-
-## Copy the index, manual. These can be used as it without editing.
-
-cp configs/indexes.json .local/configs/$NAME/indexes.json cp configs/manualData.json .local/configs/$NAME/manualData.json
-
-## Add the configs.
-
-kubectl create configmap telliot-$NAME --from-file=.local/configs/$NAME/config.json --from-file=.local/configs/$NAME/indexes.json --from-file=.local/configs/$NAME/manualData.json -o yaml --dry-run=client \| kubectl apply -f -
-
-## Copy the deployment and create it.
-
-cp configs/manifests/telliot.yml .local/configs/$NAME/telliot.yml sed -i "s/telliot-main/telliot-$NAME/g" .local/configs/$NAME/telliot.yml kubectl apply -f .local/configs/$NAME/telliot.yml
-
-```text
+# Copy the deployment and create it.
+cp configs/manifests/telliot.yml .local/configs/$NAME/telliot.yml
+sed -i "s/telliot-main/telliot-$NAME/g" .local/configs/$NAME/telliot.yml
+kubectl apply -f .local/configs/$NAME/telliot.yml
+```
 #### To run another instance.
 ```bash
 export NAME= # Put an instance name here. Something short as some properties are limited by length(e.g `export NAME=PR320`).
 # Run all the other commands from initial k8s setup.
 ```
-
-**To run a custom docker image.**
-
+#### To run a custom docker image.
 ```bash
 export REPO= # Your docker repository name.
 docker build . -t $REPO/telliot:latest
@@ -89,14 +77,14 @@ sed -i "s/tellor\/telliot:master/$REPO\/telliot:latest/g" .local/configs/$NAME/t
 kubectl apply -f .local/configs/$NAME/telliot.yml
 ```
 
-* Optionally deploy the monitoring stack with Prometheus and Grafana.
+ * Optionally deploy the monitoring stack with Prometheus and Grafana.
+```bash
+kubectl apply -f configs/manifests/monitoring-persist.yml
+kubectl apply -f configs/manifests/monitoring.yml
+```
 
-  ```bash
-  kubectl apply -f configs/manifests/monitoring-persist.yml
-  kubectl apply -f configs/manifests/monitoring.yml
-  ```
 
-#### Download and Edit config.json
+### Download and Edit config.json
 
 `config.json` is where you will enter your wallet address and configure the CLI for your machine.
 
@@ -108,14 +96,15 @@ Open config.json and update the following values:
 
 * Set `"publicAddress"` to the public key for the Ethereum wallet you plan to use for mining. Remove the 0x prefix at the beginning of the address.
 
-#### Create .env file
+### Create .env file
 
-Most commands require some secrets and these are kept in a separate `configs/.env`. This is a precaution so that are not accidentally exposed as part of the main config. Make a copy of the `env.example` and edit with your secrets.
+Most commands require some secrets and these are kept in a separate `configs/.env`. This is a precaution so that are not accidentally exposed as part of the main config.
+Make a copy of the `env.example` and edit with your secrets.
 
-### mine - Become a Miner
+## mine - Become a Miner
 
 {% hint style="warning" %}
-**DISCLAIMER**
+#### DISCLAIMER
 
 Mine at your own risk.
 
@@ -129,7 +118,7 @@ There is no guarantee of profit from mining. There is no promise that Tellor Tri
 {% endhint %}
 
 {% hint style="info" %}
-**DISCLAIMER**
+#### DISCLAIMER
 
 If you are building a competing client, please contact us. A lot of the miner specifications are off-chain and a significant portion of the mining process hinges on the consensus of the Tellor community to determine what proper values are. Competing clients that change different pieces run the risk of being disputed by the community.
 
@@ -149,7 +138,7 @@ As of now, mining requires you to deposit 500 Tellor Tributes. This is a securit
 
 The guide that follows assumes that you have access to a suitable machine running linux to use for mining. For information about what constitutes a "suitable machine", we recommend reaching out to the community.
 
-#### Download the API Index and Logging Config Files
+### Download the API Index and Logging Config Files
 
 Run the following commands:
 
@@ -157,7 +146,7 @@ Run the following commands:
 wget https://raw.githubusercontent.com/tellor-io/telliot/master/configs/indexes.json
 ```
 
-#### Download and Edit the Manual Data Entry File
+### Download and Edit the Manual Data Entry File
 
 Tellor currently has one data point which must be manually created. The rolling 3 month average of the US PCE . It is updated monthly. _Make sure to keep this file up to date._
 
@@ -178,13 +167,13 @@ The following example shows request ID 4, inputting a value of 9000 with a 1,000
 }
 ```
 
-#### Start mining.
+### Start mining.
 
 ```bash
 telliot --config=./configs/config.json mine
 ```
 
-#### Bonus section - connecting to a Pool
+### Bonus section - connecting to a Pool
 
 There are mining pools available for mining TRB without staking any tokens. The pool server operator stakes the tokens for you, and you receive rewards roughly proportional to your hashrate as a fraction of the pool's hashrate.
 
@@ -207,7 +196,7 @@ You can change the job duration if needed. This is the time in seconds to grab i
 "poolJobDuration":10
 ```
 
-### deposit - Deposit or withdraw a stake
+## deposit - Deposit or withdraw a stake
 
 {% hint style="info" %}
 You do not need to stake 500 TRB if you plan to mine on a pool.
@@ -233,7 +222,7 @@ One week after the request, the tokens are free to move at your discretion after
 telliot --config=./configs/config.json stake withdraw
 ```
 
-### dispute - monitor submitted values
+## dispute - monitor submitted values
 
 Tellor as a system only functions properly if parties actively monitor the tellor network and dispute bad values. Expecting parties to manually look at every value submitted is obviously burdensome. The Tellor disputer automates this fact checking of values.
 
@@ -256,7 +245,7 @@ Where 5 and .01 are the defaults, the variables are the amount of time in minute
 
 If the disputer is successful and finds a submitted outside of your acceptable range, a text file containing pertinent information will be created in your working directory \(the one you're running the miner out of\) in the format: `"possible-dispute-(blocktime).txt"`
 
-### dataServer - connect more than one miner to work together.
+## dataServer - connect more than one miner to work together.
 
 {% hint style="info" %}
 Advanced usage! If you are setting up a Tellor miner for the first time, it might be a good idea to skip this section and come back after you're up and running with one miner.
@@ -372,7 +361,7 @@ sed -i -e 's/\"serverHost\": \"localhost\"/\"serverHost\": \"0.0.0.0\"/' config-
 
 The stakes have already been deposited for these Addresses so you can now move on to starting up each of the miners.
 
-**Starting the Miners and Data Server**
+#### Starting the Miners and Data Server
 
 You can do this in 6 separate terminals locally. Run each of the command in each of the terminals and confirm they start up correctly.
 
@@ -385,7 +374,7 @@ You can do this in 6 separate terminals locally. Run each of the command in each
 | 5 | ./telliot --config=config4.json mine -r | Staked Miner 4 |
 | 6 | ./telliot --config=config5.json mine -r | Staked Miner 5 |
 
-**Conclusion**
+#### Conclusion
 
 At this point, you will have 7 terminals running: 6 terminals for the `telliot` and 1 terminal for running Ganache. You should see your miners are submitting transactions and if you want to check that the network difficulty is rising, you can use Truffle's console again and run the following commands:
 
