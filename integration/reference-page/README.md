@@ -22,8 +22,6 @@ Goerli: [`0x20374E579832859f180536A69093A126Db1c8aE9`](https://goerli.etherscan.
 Mainet -  [0xB3b7C09e1501FE212b58eEE9915DA625706eea95](https://etherscan.io/address/0xB3b7C09e1501FE212b58eEE9915DA625706eea95#readContract)  
 Rinkeby - [0xFC1Cc83775cf42433C3E06410Bc5367E6676e56b](https://rinkeby.etherscan.io/address/0xFC1Cc83775cf42433C3E06410Bc5367E6676e56b#readContract)
 
-{% page-ref page="data-request-ids.md" %}
-
 {% page-ref page="variable-hashes.md" %}
 
 

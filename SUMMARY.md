@@ -16,13 +16,15 @@
 ## Integration
 
 * [Introduction](integration/introduction.md)
+* [Data feeds/ Request IDs](integration/data-feeds-request-ids/README.md)
+  * [Current data feeds](integration/data-feeds-request-ids/current-data-feeds.md)
+  * [Adding a new feed](integration/data-feeds-request-ids/adding-a-new-feed.md)
 * [Tellor Playground](integration/playground.md)
 * [Using Tellor](integration/usingtellor.md)
 * [User Functions](integration/user-functions.md)
 * [Contracts](integration/untitled.md)
 * [Set up Tellor Core on Ganache](integration/set-up-tellor-core-on-ganache.md)
 * [Reference](integration/reference-page/README.md)
-  * [Data Request IDs](integration/reference-page/data-request-ids.md)
   * [Variable Hashes](integration/reference-page/variable-hashes.md)
 
 ## Telliot
