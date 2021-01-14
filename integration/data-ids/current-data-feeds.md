@@ -44,7 +44,7 @@
 | 38 | GNO/USD | 1000000 | Median |
 | 39 | DAI/USD | 1000000 | Median |
 | 40 | STEEM/BTC | 1000000 | Median |
-| 41 | USPCE | 1000000 | Median |
+| 41 | USPCE | 1000000 | Median \([three month average for US PCE](https://www.bea.gov/data/personal-consumption-expenditures-price-index-excluding-food-and-energy)\) |
 | 42 | BTC/USD | 1000000 | EOD Median |
 | 43 | TRB/ETH | 1000000 | Median |
 | 44 | BTC/USD | 1000000 | 1 Hour TWAP |
