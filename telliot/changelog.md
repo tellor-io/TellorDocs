@@ -19,10 +19,12 @@ We use _breaking :warning:_ to mark changes that are not backward compatible \(r
 ## [v5.4.0](https://github.com/tellor-io/telliot/releases/tag/v5.4.0) - 2020.01.13
 
 ### Changed
+
 * [\#321](https://github.com/tellor-io/telliot/pull/321) Unified all configuration files. LoggingConfig and LogLevel now reside in the main config file.
 * [\#366](https://github.com/tellor-io/telliot/pull/366) Refactored the `index.json` parsing to be more flexible and allow using different parsers. With the notion of `parser` and `param` can allow combining different parsers and parsers parameters. The default is still `jsonPath`, but current users need to rename `jsonPath` to `param` in their `index.json` file.
 
 ### Added
+
 * [\#321](https://github.com/tellor-io/telliot/pull/363) `interval` field in the `indexes.json` file. This sets a custom trackerCycle for a specific \(e.g. an `interval: 600` would lead to the API being updated every hour\)
 * [\#321](https://github.com/tellor-io/telliot/pull/363) `minSubmitPeriod` field in the `config.json` file.  This sets a limit on how often telliot can send submits. The default is 15min which is what the current oracle contract allows.
 * [\#339](https://github.com/tellor-io/telliot/pull/339) Initial support for Prometheus metrics.
@@ -56,3 +58,4 @@ We use _breaking :warning:_ to mark changes that are not backward compatible \(r
 
 * Profitability calculations which is set through the `ProfitThreshold`\(in percents\) settings in the config,
 * Docs how to contribute.
+

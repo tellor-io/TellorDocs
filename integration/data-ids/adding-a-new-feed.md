@@ -1,7 +1,13 @@
 # Adding a new feed
 
 **1. Get familiar with some medium articles to understand the pitfalls and security concerns when using an oracle and designing a robust settlement price.**  
-[**https://medium.com/tellor/best-practices-for-oracle-users-on-ethereum-1ad9e2a43c3b**](https://medium.com/tellor/best-practices-for-oracle-users-on-ethereum-1ad9e2a43c3b) ****[**https://medium.com/tellor/oracles-and-settlement-prices-7720d1732c76**](https://medium.com/tellor/oracles-and-settlement-prices-7720d1732c76) ****[**https://medium.com/tellor/tellor-security-201-72a367602af1**](https://medium.com/tellor/tellor-security-201-72a367602af1)  ****[**https://medium.com/tellor/tellor-security-and-rewards-1e365e1be8ae**](https://medium.com/tellor/tellor-security-and-rewards-1e365e1be8ae) ****
+[**https://medium.com/tellor/best-practices-for-oracle-users-on-ethereum-1ad9e2a43c3b**](https://medium.com/tellor/best-practices-for-oracle-users-on-ethereum-1ad9e2a43c3b) ****
+
+\*\*\*\*[**https://medium.com/tellor/oracles-and-settlement-prices-7720d1732c76**](https://medium.com/tellor/oracles-and-settlement-prices-7720d1732c76) ****
+
+\*\*\*\*[**https://medium.com/tellor/tellor-security-201-72a367602af1**](https://medium.com/tellor/tellor-security-201-72a367602af1)  ****
+
+\*\*\*\*[**https://medium.com/tellor/tellor-security-and-rewards-1e365e1be8ae**](https://medium.com/tellor/tellor-security-and-rewards-1e365e1be8ae) ****
 
 **2. Look through** [**how tellor works**](../../whitepaper/tellor-oracle-overview/)
 
