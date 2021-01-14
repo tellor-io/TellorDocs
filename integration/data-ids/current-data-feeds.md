@@ -13,7 +13,7 @@
 | 7 | BNB/ETH | 1000000 | Median |
 | 8 | ETH/USD | 1000000 | 24 Hour TWAP |
 | 9 | ETH/USD | 1000000 | EOD Median |
-| 10 | AMPL/USD | 1000000 | Custom |
+| 10 | AMPL/USD | 1000000 | [Custom](https://docs.google.com/document/d/1RFCApk1PznMhSRVhiyFl_vBDPA4mP2n1dTmfqjvuTNw) |
 | 11 | ZEC/ETH | 1000000 | Median |
 | 12 | TRX/ETH | 1000000 | Median |
 | 13 | XRP/USD | 1000000 | Median |
