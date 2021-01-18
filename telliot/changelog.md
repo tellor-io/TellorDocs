@@ -16,7 +16,19 @@ We use _breaking :warning:_ to mark changes that are not backward compatible \(r
 
 ### Fixed
 
-## [v5.4.0](https://github.com/tellor-io/telliot/releases/tag/v5.4.0) - 2020.01.13
+## [v5.5.0](https://github.com/tellor-io/telliot/releases/tag/v5.5.0) - 2021.01.18
+
+### Changed
+
+* [\#372](https://github.com/tellor-io/telliot/pull/372) Split the configs of the mine and dataserver command to avoid confusion and be more explicit. This also fixes an issue where can't run a miner and dataserver on the same machine(now that the miner also runs an HTTP server to expose metrics). The config format has changed so users need to update their configs. See the `configs/config.jons` for an example of the new format.
+* [\#374](https://github.com/tellor-io/telliot/pull/374) Changed DEFITVL from median to mean as it has only 2 API endpoints and with .
+
+
+### Added
+
+### Fixed
+
+## [v5.4.0](https://github.com/tellor-io/telliot/releases/tag/v5.4.0) - 2021.01.13
 
 ### Changed
 
@@ -30,10 +42,6 @@ We use _breaking :warning:_ to mark changes that are not backward compatible \(r
 * [\#339](https://github.com/tellor-io/telliot/pull/339) Initial support for Prometheus metrics.
 * [\#340](https://github.com/tellor-io/telliot/pull/340) Manifest files to run in k8s google cloud with Prometheus and Grafana monitoring. The team will run a public telliot miner dashboard at [http://monitor.tellor.io/](http://monitor.tellor.io/)
 * [\#334](https://github.com/tellor-io/telliot/pull/334) DEFITVL feed as a new request ID 57. Miners would have to update the binary and `index.json` to be able to submit.
-
-### Fixed
-
-* [\#359](https://github.com/tellor-io/telliot/pull/359) Don't resubmit when the contract returns an error - "Miner already submitted the value".
 
 ## [v5.3.0](https://github.com/tellor-io/telliot/releases/tag/v5.3.0) - 2020.12.21
 
@@ -58,4 +66,3 @@ We use _breaking :warning:_ to mark changes that are not backward compatible \(r
 
 * Profitability calculations which is set through the `ProfitThreshold`\(in percents\) settings in the config,
 * Docs how to contribute.
-
