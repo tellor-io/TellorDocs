@@ -14,7 +14,7 @@ where: \* \_requestId is the ID for the value to be mined \* \_tip is the amount
 
 To read data, users will need to call these two functions:
 
-* the function allows the user to read the data for the given API and timestamp
+* the function allows the user to read the data for the given request ID and timestamp
 
 ```text
 retrieveData(uint _requestId, uint _timestamp)
@@ -27,7 +27,7 @@ where:
 
 ## getLastQuery
 
-* the function allows the user to read data from the latest API and timestamp mined.
+* the function allows the user to read data from the latest request ID and timestamp mined.
 
 ```text
 getLastNewValue()
