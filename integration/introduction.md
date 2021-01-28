@@ -68,7 +68,7 @@ Children contracts have access to the following functions:
     function isInDispute(uint256 _requestId, uint256 _timestamp) public view returns(bool);
 
     /**
-    * @dev Counts the number of values that have been submited for the request
+    * @dev Counts the number of values that have been submitted for the request
     * @param _requestId the requestId to look up
     * @return uint count of the number of values received for the requestId
     */
