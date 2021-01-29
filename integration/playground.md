@@ -63,7 +63,7 @@ Here are all the functions available in Tellor Playground:
 
 ```text
    /**
-    * @dev A mock function to submit a value to be read withoun miners needed
+    * @dev A mock function to submit a value to be read without miners needed
     * @param _requestId The tellorId to associate the value to
     * @param _value the value for the requestId
     */
