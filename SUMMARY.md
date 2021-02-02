@@ -35,6 +35,7 @@
 * [Contributing](telliot/contributing.md)
 * [Coding style guide](telliot/coding-style-guide.md)
 * [Release process](telliot/release-process.md)
+* [Internal architecture](telliot/internal-architecture.md)
 * [Changelog](telliot/changelog.md)
 
 ## Token Holders
