@@ -8,12 +8,10 @@ description: >-
 
 ## TL:DR
 
-Tellor Playground aims to help anyone building on Tellor quickly test and implement ideas.   
+Tellor Playground aims to help anyone building on Tellor quickly test and implement ideas.  
 See the reference page below for the contract addresses on all testnets.
 
 {% page-ref page="reference-page/" %}
-
-
 
 ## Why use Tellor Playground?
 

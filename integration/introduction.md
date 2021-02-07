@@ -43,7 +43,7 @@ contract MyContract is UsingTellor {
 {% hint style="info" %}
 **Line 5:** Your contract inherits the functions needed to interact with Tellor
 
-**Line 7:** Your constructor needs to specify the Tellor Oracle contract address\(see references page for the address\)  
+**Line 7:** Your constructor needs to specify the Tellor Oracle contract address\(see references page for the address\)
 {% endhint %}
 
 #### Available Tellor Functions

@@ -59,5 +59,5 @@ Once the dispute goes through, be sure to request your data again, so the miners
 
 #### Automating Jobs
 
-To automate adding a tip on a certain request ID by time or volatility, as well as scheduling other Tellor related tasks, we recommend \(and use\) [Buidlhub](https://www.buidlhub.com).
+To automate adding a tip on a certain request ID by time or volatility, as well as scheduling other Tellor related tasks, we recommend \(and use\) [Buidlhub](https://www.buidlhub.com). Watch a video walkthrough of the process [here](https://youtu.be/ZCUfhMxFyAI).
 
