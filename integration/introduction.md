@@ -170,5 +170,5 @@ truffle migrate --network rinkeby
 
 ## Sample Project
 
-We provide a repo with this setup installed and ready for use: [SampleUsingTellor](https://github.com/tellor-io/sampleUsingTellor)
+We provide a repo with this setup installed and ready for use: [SampleUsingTellor](https://github.com/tellor-io/sampleUsingTellor). Watch the video walkthrough [here](https://youtu.be/fNuAmpYzztg).
 
