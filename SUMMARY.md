@@ -49,3 +49,7 @@
 
 * [Introduction](bounties/introduction.md)
 
+## Security
+
+* [Vulnerability Disclosure](security/vulnerability-disclosure.md)
+
