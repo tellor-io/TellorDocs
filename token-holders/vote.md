@@ -18,7 +18,7 @@ TRB holders vote on the validity of the data and if the miner is found to be mal
 
 ## Steps for Disputing
 
-* Go to [https://disputes.tellorscan.com](https://disputes.tellorscan.com/)
+* Go to[ Tellorscan](https://www.tellorscan.com)
 * Scroll to the bottom of the page and find the **Recent Disputes** section
 
 ![Recent Disputes](../.gitbook/assets/recentdisputes.png)

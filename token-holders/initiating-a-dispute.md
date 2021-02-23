@@ -12,7 +12,7 @@ Any party can challenge data submissions of any of the five miners when a value 
 
 ## How to Initiate a Dispute
 
-* Navigate to the Tellor [Dispute Center](http://disputes.tellorscan.com)
+* Navigate to the Tellor [Dispute Center](https://www.tellorscan.com)
 * Here you will see any current mining events as they occur as well as a list of all recent mining events.
 
 ![](../.gitbook/assets/screen-shot-2020-09-18-at-10.08.23-am.png)

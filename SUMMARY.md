@@ -23,7 +23,7 @@
 * [Using Tellor](integration/usingtellor.md)
 * [User Functions](integration/user-functions.md)
 * [Contracts](integration/untitled.md)
-* [Set up Tellor Core on Ganache](integration/set-up-tellor-core-on-ganache.md)
+* [Building Contracts and Local Testing](integration/set-up-tellor-core-on-ganache.md)
 * [Reference](integration/reference-page/README.md)
   * [Variable Hashes](integration/reference-page/variable-hashes.md)
 

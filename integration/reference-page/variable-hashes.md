@@ -4,35 +4,47 @@ description: Use the following hashes to read data from Tellor's contract
 
 # Variable Hashes
 
-| **Function** | **value** | **keccak-256** |
-| :---: | :---: | :--- |
-| addressVars | tellorContract | 0xd48fd09afdab521f4f69bd2af8177f60fb0709ce0f1b3d5b8a2e233a20453848 |
-| addressVars | \_owner | 0x9dbc393ddc18fd27b1d9b1b129059925688d2f2d5818a5ec3ebb750b7c286ea6 |
-| addressVars | \_deity | 0xc72fb71df90ec89e61e8dea6fee5142880a8a329caaae9ff4931955d88f59990 |
-| apiUintVars | granularity | 0xba3571a50e0c436953d31396edfb65be5925bcc7fef5a3441ed5d43dbce2548f |
-| apiUintVars | requestQPosition | 0x1e344bd070f05f1c5b3f0b1266f4f20d837a0a8190a3a2da8b0375eac2ba86ea |
-| apiUintVars | totalTip | 0x2a9e355a92978430eca9c1aa3a9ba590094bac282594bccf82de16b83046e2c3 |
-| disputeUintVars | requestId | 0x31b40192effc42bcf1e4289fe674c678e673a3052992548fef566d8c33a21b91 |
-| disputeUintVars | timestamp | 0xd056b4f4e783ee91bebc956e3ffe3c71aec2992408313c1db5ee11c1b4fa7c41 |
-| disputeUintVars | value | 0x81afeeaff0ed5cee7d05a21078399c2f56226b0cd5657062500cef4c4e736f85 |
-| disputeUintVars | minExecutionDate | 0x74c9bc34b0b2333f1b565fbee67d940cf7d78b5a980c5f23da43f6729965ed40 |
-| disputeUintVars | numberOfVotes | 0xa0bc13ce85a2091e950a370bced0825e58ab3a3ffeb709ed50d5562cbd82faab |
-| disputeUintVars | blockNumber | 0x6f8f54d1af9b6cb8a219d88672c797f9f3ee97ce5d9369aa897fd0deb5e2dffa |
-| disputeUintVars | minerSlot | 0x8ef61a1efbc527d6428ff88c95fdff5c6e644b979bfe67e03cbf88c8162c5fac |
-| disputeUintVars | quorum | 0x30e85ae205656781c1a951cba9f9f53f884833c049d377a2a7046eb5e6d14b26 |
-| disputeUintVars | fee | 0x833b9f6abf0b529613680afe2a00fa663cc95cbdc47d726d85a044462eabbf02 |
-| uintVars | decimals | 0x784c4fb1ab068f6039d5780c68dd0fa2f8742cceb3426d19667778ca7f3518a9 |
-| uintVars | disputeFee | 0x8b75eb45d88e80f0e4ec77d23936268694c0e7ac2e0c9085c5c6bdfcfbc49239 |
-| uintVars | disputeCount | 0x475da5340e76792184fb177cb85d21980c2530616313aef501564d484eb5ca1e |
-| uintVars | total\_supply | 0xb1557182e4359a1f0c6301278e8f5b35a776ab58d39892581e357578fb287836 |
-| uintVars | stakeAmount | 0x7be108969d31a3f0b261465c71f2b0ba9301cd914d55d9091c3b36a49d4d41b2 |
-| uintVars | stakerCount | 0xedddb9344bfe0dadc78c558b8ffca446679cbffc17be64eb83973fce7bea5f34 |
-| uintVars | timeOfLastNewValue | 0x97e6eb29f6a85471f7cc9b57f9e4c3deaf398cfc9798673160d7798baf0b13a4 |
-| uintVars | difficulty | 0xb12aff7664b16cb99339be399b863feecd64d14817be7e1f042f97e3f358e64e |
-| uintVars | currentTotalTips | 0xd26d9834adf5a73309c4974bf654850bb699df8505e70d4cfde365c417b19dfc |
-| uintVars | currentRequestId | 0x7584d7d8701714da9c117f5bf30af73b0b88aca5338a84a21eb28de2fe0d93b8 |
-| uintVars | requestCount | 0x05de9147d05477c0a5dc675aeea733157f5092f82add148cf39d579cafe3dc98 |
-| uintVars | slotProgress | 0x6c505cb2db6644f57b42d87bd9407b0f66788b07d0617a2bc1356a0e69e66f9a |
-| uintVars | miningReward | 0x9f355ccb80c88ef4eea7a6d390e83e1044d5676886223220e9522329f054ef16 |
-| uintVars | timeTarget | 0xad16221efc80aaf1b7e69bd3ecb61ba5ffa539adf129c3b4ffff769c9b5bbc33 |
+
+
+| **value** | **keccak-256** |
+| :---: | :--- |
+| \_BLOCK\_NUMBER | 0x4b4cefd5ced7569ef0d091282b4bca9c52a034c56471a6061afd1bf307a2de7c |
+| \_CURRENT\_CHALLENGE | 0xd54702836c9d21d0727ffacc3e39f57c92b5ae0f50177e593bfb5ec66e3de280 |
+| \_CURRENT\_REQUESTID | 0xf5126bb0ac211fbeeac2c0e89d4c02ac8cadb2da1cfb27b53c6c1f4587b48020 |
+| \_CURRENT\_REWARD | 0xd415862fd27fb74541e0f6f725b0c0d5b5fa1f22367d9b78ec6f61d97d05d5f8 |
+| \_CURRENT\_TOTAL\_TIPS | 0x09659d32f99e50ac728058418d38174fe83a137c455ff1847e6fb8e15f78f77a |
+| \_DEITY | 0x5fc094d10c65bc33cc842217b2eccca0191ff24148319da094e540a559898961 |
+| \_DIFFICULTY | 0xf758978fc1647996a3d9992f611883adc442931dc49488312360acc90601759b |
+| \_DISPUTE\_COUNT | 0x310199159a20c50879ffb440b45802138b5b162ec9426720e9dd3ee8bbcdb9d7 |
+| \_DISPUTE\_FEE | 0x675d2171f68d6f5545d54fb9b1fb61a0e6897e6188ca1cd664e7c9530d91ecfc |
+| \_DISPUTE\_ROUNDS | 0x6ab2b18aafe78fd59c6a4092015bddd9fcacb8170f72b299074f74d76a91a923 |
+| \_FEE | 0x1da95f11543c9b03927178e07951795dfc95c7501a9d1cf00e13414ca33bc409 |
+| \_MIN\_EXECUTION\_DATE | 0x46f7d53798d31923f6952572c6a19ad2d1a8238d26649c2f3493a6d69e425d28 |
+| \_MINER\_SLOT | 0x6de96ee4d33a0617f40a846309c8759048857f51b9d59a12d3c3786d4778883d |
+| \_NUM\_OF\_VOTES | 0x1da378694063870452ce03b189f48e04c1aa026348e74e6c86e10738514ad2c4 |
+| \_OLD\_TELLOR | 0x56e0987db9eaec01ed9e0af003a0fd5c062371f9d23722eb4a3ebc74f16ea371 |
+| \_ORIGINAL\_ID | 0xed92b4c1e0a9e559a31171d487ecbec963526662038ecfa3a71160bd62fb8733 |
+| \_OWNER | 0x7a39905194de50bde334d18b76bbb36dddd11641d4d50b470cb837cf3bae5def |
+| \_PAID | 0x29169706298d2b6df50a532e958b56426de1465348b93650fca42d456eaec5fc |
+| \_PENDING\_OWNER | 0x7ec081f029b8ac7e2321f6ae8c6a6a517fda8fcbf63cabd63dfffaeaafa56cc0 |
+| \_REQUEST\_COUNT | 0x3f8b5616fa9e7f2ce4a868fde15c58b92e77bc1acd6769bf1567629a3dc4c865 |
+| \_REQUEST\_ID | 0x9f47a2659c3d32b749ae717d975e7962959890862423c4318cf86e4ec220291f |
+| \_REQUEST\_Q\_POSITION | 0xf68d680ab3160f1aa5d9c3a1383c49e3e60bf3c0c031245cbb036f5ce99afaa1 |
+| \_SLOT\_PROGRESS | 0xdfbec46864bc123768f0d134913175d9577a55bb71b9b2595fda21e21f36b082 |
+| \_STAKE\_AMOUNT | 0x5d9fadfc729fd027e395e5157ef1b53ef9fa4a8f053043c5f159307543e7cc97 |
+| \_STAKE\_COUNT | 0x10c168823622203e4057b65015ff4d95b4c650b308918e8c92dc32ab5a0a034b |
+| \_T\_BLOCK | 0xf3b93531fa65b3a18680d9ea49df06d96fbd883c4889dc7db866f8b131602dfb |
+| \_TALLY\_DATE | 0xf9e1ae10923bfc79f52e309baf8c7699edb821f91ef5b5bd07be29545917b3a6 |
+| \_TARGET\_MINERS | 0x0b8561044b4253c8df1d9ad9f9ce2e0f78e4bd42b2ed8dd2e909e85f750f3bc1 |
+| \_TELLOR\_CONTRACT | 0x0f1293c916694ac6af4daa2f866f0448d0c2ce8847074a7896d397c961914a08 |
+| \_TELLOR\_GETTERS | 0xabd9bea65759494fe86471c8386762f989e1f2e778949e94efa4a9d1c4b3545a |
+| \_TIME\_OF\_LAST\_NEW\_VALUE | 0x2c8b528fbaf48aaf13162a5a0519a7ad5a612da8ff8783465c17e076660a59f1 |
+| \_TIME\_TARGET | 0xd4f87b8d0f3d3b7e665df74631f6100b2695daa0e30e40eeac02172e15a999e1 |
+| \_TIMESTAMP | 0x2f9328a9c75282bec25bb04befad06926366736e0030c985108445fa728335e5 |
+| \_TOTAL\_SUPPLY | 0xe6148e7230ca038d456350e69a91b66968b222bfac9ebfbea6ff0a1fb7380160 |
+| \_TOTAL\_TIP | 0x1590276b7f31dd8e2a06f9a92867333eeb3eddbc91e73b9833e3e55d8e34f77d |
+| \_VALUE | 0x9147231ab14efb72c38117f68521ddef8de64f092c18c69dbfb602ffc4de7f47 |
+| \_EIP\_SLOT | 0x7050c9e0f4ca769c69bd3a8ef740bc37934f8e2c036e5a723fd8ee048ed3f8c3 |
+
+
 

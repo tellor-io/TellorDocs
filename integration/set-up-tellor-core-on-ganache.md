@@ -1,11 +1,11 @@
 ---
 description: >-
-  These instructions walk you through running Tellor Core locally using Ganache.
-  With this documentation, you can setup Tellor Core and mine Tellor Tributes
+  These instructions walk you through running Tellor locally using Ganache. With
+  this documentation, you can setup Tellor Core and mine Tellor Tributes
   locally.
 ---
 
-# Set up Tellor Core on Ganache
+# Building Contracts and Local Testing
 
 ## Overview
 

@@ -4,8 +4,8 @@
 
 #### [Oracle](https://github.com/tellor-io/TellorCore)
 
-Mainnet **-** [0x0ba45a8b5d5575935b8158a88c631e9f9c95a2e5](https://etherscan.io/address/0x0ba45a8b5d5575935b8158a88c631e9f9c95a2e5)  
-Rinkeby **-** [0xFe41Cb708CD98C5B20423433309E55b53F79134a](https://rinkeby.etherscan.io/address/0xFe41Cb708CD98C5B20423433309E55b53F79134a)
+Mainnet **-**[ 0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0](https://etherscan.io/address/0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0)  
+Rinkeby **-**[ 0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0](https://rinkeby.etherscan.io/address/0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0)
 
 [Playground](https://github.com/tellor-io/TellorPlayground)
 
