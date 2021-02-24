@@ -19,8 +19,8 @@ Goerli: [`0x20374E579832859f180536A69093A126Db1c8aE9`](https://goerli.etherscan.
 
 #### [Lens](https://github.com/tellor-io/lens)
 
-Mainet -  [0xB3b7C09e1501FE212b58eEE9915DA625706eea95](https://etherscan.io/address/0xB3b7C09e1501FE212b58eEE9915DA625706eea95#readContract)  
-Rinkeby - [0xFC1Cc83775cf42433C3E06410Bc5367E6676e56b](https://rinkeby.etherscan.io/address/0xFC1Cc83775cf42433C3E06410Bc5367E6676e56b#readContract)
+Mainet - [0xb2b6c6232d38fae21656703cac5a74e5314741d4](https://etherscan.io/address/0xb2b6c6232d38fae21656703cac5a74e5314741d4)  
+Rinkeby - [0x269A6B2357267E27BF8F358f18FE0ab3938C5d0F](https://rinkeby.etherscan.io/address/0x269A6B2357267E27BF8F358f18FE0ab3938C5d0F)
 
 {% page-ref page="variable-hashes.md" %}
 
