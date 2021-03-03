@@ -12,34 +12,41 @@ We use _breaking :warning:_ to mark changes that are not backward compatible \(r
 
 ### Changed
 
-* [\#403](https://github.com/tellor-io/telliot/pull/403) The config file now has fields separated by commands\(eg. Dataserve, mine,etc\) where all the command specific configuration goes. It now uses strict parsing, meaning that unused fields throw an error, which will likely happen to a lot of users. For a clear view of the conifg, please take a look at the [config file](https://github.com/tellor-io/telliot/blob/master/pkg/config/config.go#L105)
+* [\#403](https://github.com/tellor-io/telliot/pull/403) The config file now has fields separated by commands(eg. Dataserve, mine,etc) where all the command specific configuration goes. It now uses strict parsing, meaning that unused fields throw an error, which will likely happen to a lot of users. For a clear view of the conifg, please take a look at the [config file](https://github.com/tellor-io/telliot/blob/master/pkg/config/config.go#L105)
+
 * [\#403](https://github.com/tellor-io/telliot/pull/403) Renamed `indexes.json` to `api.json`.
-* [\#403](https://github.com/tellor-io/telliot/pull/403) Removed the configs folder and now user should use apiFile and manualDataFile.
+
+* [\#403](https://github.com/tellor-io/telliot/pull/403) Removed the configs folder and now user should use  apiFile and manualDataFile.
+
 * [\#410](https://github.com/tellor-io/telliot/pull/410) Public addresses should be prefixed with `0x`.
+
 * [\#410](https://github.com/tellor-io/telliot/pull/410) Integration and testing to use the newer contracts.
 
 ### Added
-
 * [\#406](https://github.com/tellor-io/telliot/pull/406) Added new command  `migrate` to migrate old tokens for the new one.
-
-  **Fixed**
-
+### Fixed
 * [\#410](https://github.com/tellor-io/telliot/pull/410) Fixed all most submit races, causing fewer submission errors. More effort will be dedicated to completely removing them in the next release.
 
 ## [v5.6.0](https://github.com/tellor-io/telliot/releases/tag/v5.6.0) - 2021.02.08
 
 ### Changed
+* [\#240](https://github.com/tellor-io/telliot/issues/240) Replaced the cli package to allow for command specific flags and configuration. Now all flags should be passed last. Example:
+  Instead of: `./telliot --config="config.json" stake deposit`, it becomes:`./telliot stake deposit --config="config.json"`
+  Removed the `RemoteMining` `-r` flag. Remote is active when specifying a `RemoteDBHost` for the `Mine` command. See the `configs/config.json` for an example.
 
-* [\#240](https://github.com/tellor-io/telliot/issues/240) Replaced the cli package to allow for command specific flags and configuration. Now all flags should be passed last. Example: Instead of: `./telliot --config="config.json" stake deposit`, it becomes:`./telliot stake deposit --config="config.json"` Removed the `RemoteMining` `-r` flag. Remote is active when specifying a `RemoteDBHost` for the `Mine` command. See the `configs/config.json` for an example.
 * [\#378](https://github.com/tellor-io/telliot/pull/378) Removed GPU mining, as it weren't being used.
+
 * [\#390](https://github.com/tellor-io/telliot/pull/390) Removed the feature to connect using Stratum Pool, as it weren't being used.
+
 * [\#386](https://github.com/tellor-io/telliot/pull/386) Removed the need to provide the tellor contract address in the config file
+
 * [\#386](https://github.com/tellor-io/telliot/pull/386) Removed the logLevel flag. Now all logging setup is in the config file. See the example at `configs/config.json`.
 
 ### Added
-
 * [\#347](https://github.com/tellor-io/telliot/pull/347) Added onchain trackers for Uniswap and Balancer.
+
 * [\#385](https://github.com/tellor-io/telliot/pull/385) Added a new psr for Defi Market cap, for id 58. Miners will need to create a free api key in CoinMarketCap pro to be able to read the apis.
+
 
 ### Fixed
 
@@ -92,4 +99,3 @@ We use _breaking :warning:_ to mark changes that are not backward compatible \(r
 
 * Profitability calculations which is set through the `ProfitThreshold`\(in percents\) settings in the config,
 * Docs how to contribute.
-
