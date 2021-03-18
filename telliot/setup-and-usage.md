@@ -44,7 +44,7 @@ gcloud container clusters get-credentials main --zone europe-west2-a --project p
 ```bash
 git clone https://github.com/tellor-io/telliot
 cd telliot
-export NAME=main
+export NAME=latest
 mkdir -p .local/configs/$NAME
 
 # Create the secret file.
@@ -312,7 +312,7 @@ echo "ETH_PRIVATE_KEYS=4bdc16637633fa4b4854670fbb83fa254756798009f52a1d3add27fb5
 echo "NODE_WEBSOCKET_URL=wss://mainnet.infura.io/v3/ws/xxxxxxxxxxxxx" >> .env1
 ```
 
-Finaly, make 1 more copy of the config for the data server and update the `serverHost` address to `0.0.0.0`:
+Finally, make 1 more copy of the config for the data server and update the `serverHost` address to `0.0.0.0`:
 
 ```bash
 cp config1.json config-dataserver.json
