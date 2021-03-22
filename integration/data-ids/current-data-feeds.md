@@ -60,5 +60,6 @@
 | 54 | WAVES/USD | 1000000 | Median |
 | 55 | OGN/USD | 1000000 | Median |
 | 56 | VIXEOD | 1000000 | Median |
-| 57 | DEFITVL | 1000000 | Median |
+| 57 | DEFITVL | 1000000 | Mean |
+| 58 | DEFICAP | 1000000 | Mean |
 
