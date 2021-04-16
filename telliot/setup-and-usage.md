@@ -126,8 +126,7 @@ wget https://raw.githubusercontent.com/tellor-io/telliot/master/configs/config.j
 
 ### Create .env file
 
-Most commands require some secrets and these are kept in a separate `configs/.env`. This is a precaution so that are not accidentally exposed as part of the main config. Make a copy of the `env.example` and edit with your secrets.
-For a working setup it is required to at least add one private key in your `"ETH_PRIVATE_KEYS"` environment variable. all of public addresses can be determined from your private keys.
+Most commands require some secrets and these are kept in a separate `configs/.env`. This is a precaution so that are not accidentally exposed as part of the main config. Make a copy of the `env.example` and edit with your secrets. For a working setup it is required to at least add one private key in your `"ETH_PRIVATE_KEYS"` environment variable. all of public addresses can be determined from your private keys.
 
 ## mine - Become a Miner
 
@@ -313,7 +312,7 @@ sed -i -e 's/.env1/.env2/' config2.json
 sed -i -e 's/tellorDB/tellorDB2/' config2.json
 ```
 
-Create `.env` file with the private keys for the miner (if there are more than one private keys, must be separated by `,`).
+Create `.env` file with the private keys for the miner \(if there are more than one private keys, must be separated by `,`\).
 
 ```bash
 echo "ETH_PRIVATE_KEYS=4bdc16637633fa4b4854670fbb83fa254756798009f52a1d3add27fb5f5a8e16,d32132133e03be292495035cf32e0e2ce0227728ff7ec4ef5d47ec95097ceeed" > .env1
@@ -337,7 +336,7 @@ You can do this in 6 separate terminals locally. Run each of the command in each
 | Terminal \# | Command | Description |
 | :--- | :--- | :--- |
 | 1 | ./telliot dataserver --config=config-dataserver.json | Data Server |
-| 2 | ./telliot mine -r --config=config1.json | Miner 1 (Multiple staked keys) |
+| 2 | ./telliot mine -r --config=config1.json | Miner 1 \(Multiple staked keys\) |
 
 #### Conclusion
 
