@@ -30,12 +30,12 @@
 ## Telliot
 
 * [Introduction](telliot/telliot.md)
+* [Internal architecture](telliot/internal-architecture.md)
 * [Setup and usage](telliot/setup-and-usage.md)
 * [Configuration reference](telliot/configuration.md)
 * [Contributing](telliot/contributing.md)
 * [Coding style guide](telliot/coding-style-guide.md)
 * [Release process](telliot/release-process.md)
-* [Internal architecture](telliot/internal-architecture.md)
 * [Changelog](telliot/changelog.md)
 
 ## Token Holders
