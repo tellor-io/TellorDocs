@@ -31,6 +31,7 @@
 
 * [Introduction](telliot/telliot.md)
 * [Internal architecture](telliot/internal-architecture.md)
+  * [Index Tracker](telliot/index-tracker.md)
 * [Setup and usage](telliot/setup-and-usage.md)
 * [Configuration reference](telliot/configuration.md)
 * [Contributing](telliot/contributing.md)
