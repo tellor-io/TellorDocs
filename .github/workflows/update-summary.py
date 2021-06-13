@@ -12,15 +12,15 @@ if __name__ == '__main__':
     new_content = []
     with open(sys.argv[1], "r") as fcontent:
         lines = fcontent.readlines()
-        headings = [line.strip() for line in lines if len(line.strip()) != 0 and line.startswith("*")]
+        headings = [line.rstrip() for line in lines if len(line.strip()) != 0 and line.strip().startswith("*")]
         # Handle README.md file from telliot repo: rename README.md -> telliot.md
         readme = headings[0]
         new_content.append(re.sub(r'(\()(.*)(\.md)', '(telliot/telliot.md', readme))
         # Handle other headings
         for line in headings[1:]:
-            line = line.strip()
+            line = line.rstrip()
             line = re.sub(r'(\()(.*)(\.md)', '(telliot/\\2.md', line)
-            new_content.append(line.strip())
+            new_content.append(line.rstrip())
     new_content = "\n".join(new_content)
     fname = 'SUMMARY.md'
     orig_data = None
