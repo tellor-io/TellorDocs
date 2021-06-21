@@ -13,25 +13,29 @@ The CLI support only linux and is provided as a pre-built binary with every rele
 [https://hub.docker.com/u/tellor](https://hub.docker.com/u/tellor)
 
 ## Config files.
- - `.env` - keeps private information(private keys, api keys etc.). Most commands require some secrets and these are kept in this file as a precaution against accidental exposure. For a working setup it is required to at least add one private key in your `"ETH_PRIVATE_KEYS"` environment variable. Multiple private keys are supported separated by `,`.
- - `index.json` - all api endpoint for data providers. The cli uses these provider endpoints to gather data which is then used to submit to the onchain oracle.
- - `manualdata.json` - for providing data manually. There is currently one data point which must be manually created. The rolling 3 month average of the US PCE . It is updated monthly. _Make sure to keep this file up to date._
- For testing purposes, or if you want to hardcode in a specific value, you can use the file to add manual data for a given requestID. Add the request ID, a given value \(with granularity\), and a date on which the manual data expires.
-The following example shows request ID 4, inputting a value of 9000 with 6 digits granularity. Note the date is a unix timestamp.
-```bash
-"4":{
-    "VALUE":9000.123456,
-    "DATE":1596153600
-}
-```
- - `config.json` - optional config file to override any of the defaults. See the [configuration page](configuration.md) for full reference.
 
+* `.env` - keeps private information\(private keys, api keys etc.\). Most commands require some secrets and these are kept in this file as a precaution against accidental exposure. For a working setup it is required to at least add one private key in your `"ETH_PRIVATE_KEYS"` environment variable. Multiple private keys are supported separated by `,`.
+* `index.json` - all api endpoint for data providers. The cli uses these provider endpoints to gather data which is then used to submit to the onchain oracle.
+* `manualdata.json` - for providing data manually. There is currently one data point which must be manually created. The rolling 3 month average of the US PCE . It is updated monthly. _Make sure to keep this file up to date._
+
+  For testing purposes, or if you want to hardcode in a specific value, you can use the file to add manual data for a given requestID. Add the request ID, a given value \(with granularity\), and a date on which the manual data expires.
+
+  The following example shows request ID 4, inputting a value of 9000 with 6 digits granularity. Note the date is a unix timestamp.
+
+  ```bash
+  "4":{
+   "VALUE":9000.123456,
+   "DATE":1596153600
+  }
+  ```
+
+* `config.json` - optional config file to override any of the defaults. See the [configuration page](configuration.md) for full reference.
 
 > by default the cli looks for these in the `./configs` folder relative to the cli folder.
 
 ### Here is a quick reference how to run the cli with the default configs.
 
-```
+```text
 mkdir ./configs
 cd ./configs
 wget https://raw.githubusercontent.com/tellor-io/telliot/master/configs/index.json
@@ -45,8 +49,7 @@ chmod +x telliot
 
 ## Deposit or withdraw a stake
 
-As of now, mining requires you to deposit 500 TRB to be allowed to submit values to the oracle and earn rewards. This is a security deposit. If you are a malicious actor \(aka submit a bad value\), the community can vote to slash your 500 tokens.
-Your stake is locked for a minimum of 7 days after you run the command to request withdrawal.
+As of now, mining requires you to deposit 500 TRB to be allowed to submit values to the oracle and earn rewards. This is a security deposit. If you are a malicious actor \(aka submit a bad value\), the community can vote to slash your 500 tokens. Your stake is locked for a minimum of 7 days after you run the command to request withdrawal.
 
 Run the following command to deposit your stake:
 
@@ -67,6 +70,7 @@ One week after the request, the tokens are free to move at your discretion after
 ```
 
 ## Start mining.
+
 {% hint style="info" %}
 The same instance can be used with multiple private keys in the `.env` file separated by a comma.
 {% endhint %}
@@ -75,8 +79,8 @@ The same instance can be used with multiple private keys in the `.env` file sepa
 ./telliot mine
 ```
 
-Telliot supports submiting data to different contracts and the config folder contains examples for that.
-For example:
+Telliot supports submiting data to different contracts and the config folder contains examples for that. For example:
+
 ```bash
 ./telliot mine --config=configs/configTellorAccess.json
 ```
@@ -89,9 +93,7 @@ Advanced usage! If you are setting up a Tellor miner for the first time, it migh
 
 Some oracle feeds require 24h avarages and for these enough historical data is needed. Running a dataserver is the solution to always have enough historical data to generate these averages.
 
-The network topology of this setup looks like the diagram below.
-One ore more miners are connected to the same data server for fetching current or historical data to submit to the oracle.
-The data server pulls data from the API providers, the 5 staked miners pull data from the data server and submit on-chain to the Tellor Core smart contracts.
+The network topology of this setup looks like the diagram below. One ore more miners are connected to the same data server for fetching current or historical data to submit to the oracle. The data server pulls data from the API providers, the 5 staked miners pull data from the data server and submit on-chain to the Tellor Core smart contracts.
 
 ```bash
                             /(0xE037)\
@@ -100,7 +102,6 @@ Tellor     <-> (multiple   | (0xb9dD) | <-> Data Server <-> Data APIs
 (on chain)      keys)      | (0x2305) |
                             \(0x3233)/
 ```
-
 
 ## Run with Docker - [https://hub.docker.com/u/tellor](https://hub.docker.com/u/tellor)
 
@@ -205,7 +206,7 @@ kubectl apply -f configs/manifests/monitoring-persist.yml
 kubectl apply -f configs/manifests/monitoring.yml
 ```
 
-###  Optionally deploy the alerting manager and get alerts on your Telegram bot.
+### Optionally deploy the alerting manager and get alerts on your Telegram bot.
 
 This uses the alertmanager bot. see [here](https://github.com/metalmatze/alertmanager-bot) for more info and available commands.
 

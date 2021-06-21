@@ -101,5 +101,5 @@ git commit
 
 ### Project development go tools
 
-The project uses [Bingo](.bingo/README.md) for adding any go tools required by the project.
+The project uses [Bingo](https://github.com/tellor-io/TellorDocs/tree/0bcae5bdcefd0ad6e5cf5cfc7cf3b39aa5377654/telliot/.bingo/README.md) for adding any go tools required by the project.
 

@@ -30,8 +30,8 @@
 ## Telliot
 
 * [Introduction](telliot/telliot.md)
-* [Internal architecture](telliot/internal-architecture.md)
-  * [Index Tracker](telliot/index-tracker.md)
+* [Internal architecture](telliot/internal-architecture/README.md)
+  * [Index Tracker](telliot/internal-architecture/index-tracker.md)
 * [Setup and usage](telliot/setup-and-usage.md)
 * [Configuration reference](telliot/configuration.md)
 * [Contributing](telliot/contributing.md)
