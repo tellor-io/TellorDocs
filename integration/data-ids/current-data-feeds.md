@@ -1,6 +1,7 @@
 # Current data feeds
 
-The default dispute threshold is 10% for all IDs where not specified. 
+The dispute threshold gives a guideline for a minimum diviation to consider opening a dispute.   
+The default is 10% for all IDs where not specified. 
 
 | ID | Data | Granularity | Transformation | Dispute Threshold |
 | :--- | :--- | :--- | :--- | :--- |
