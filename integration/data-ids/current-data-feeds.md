@@ -1,6 +1,6 @@
 # Current data feeds
 
-The dispute threshold gives a guideline for a minimum diviation to consider opening a dispute.   
+The dispute threshold gives a guideline for a minimum deviation to consider opening a dispute.   
 The default is 10% for all IDs where not specified. 
 
 | ID | Data | Granularity | Transformation | Dispute Threshold |
