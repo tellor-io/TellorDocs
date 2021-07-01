@@ -1,7 +1,5 @@
 ---
-description: >-
-  The Index Tracker module collects and stores data from HTTP or Blockchain
-  endpoints.
+description: The Index Tracker module collects and stores data from HTTP or Blockchain endpoints.
 ---
 
 # Index Tracker
@@ -36,7 +34,8 @@ The structure of the file is as follow:
 }
 ```
 
-Any env variable is substituted in the API URL. The example above uses `API_KEY` env variable. This is needed as some API endpoints require api key to allows access or to increase API throtling.
+Any env variable is substituted in the API URL. The example above uses `API_KEY` env variable.
+This is needed as some API endpoints require api key to allows access or to increase API throtling.
 
 ## Index Tracker types
 
@@ -50,11 +49,13 @@ If the index tracker type was set to `ethereum` then it's an on-chain tracker th
 
 Currently supported on-chain parsers are `Uniswap` and `Balancer` parsers.
 
+
 ## Parsers
 
 ### Jsonpath parser
 
-When not set this is the default parser. It parses data from the JSON payload using the `param` as an instruction on how to parse the output. [More info](http://goessner.net/articles/JsonPath/).
+When not set this is the default parser. It parses data from the JSON payload using the `param` as an instruction on how to parse the output.
+[More info](http://goessner.net/articles/JsonPath/).
 
 ### Balancer parser
 
@@ -155,4 +156,3 @@ function addLiquidity(
 ```
 
 This required to deploy some ERC20 token beforehand and will create a Uniswap V2 pair if already not exists for the provided pair. there is a factory method that could be used to get the pair address [here](https://uniswap.org/docs/v2/smart-contracts/factory/#getpair).
-
