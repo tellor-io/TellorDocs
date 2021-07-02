@@ -11,58 +11,68 @@ We use _breaking :warning:_ to mark changes that are not backward compatible \(r
 ## [v5.8.0](https://github.com/tellor-io/telliot/releases/tag/v5.8.0) - 2021.06.15
 
 ### Changed
-
 * [\#440](https://github.com/tellor-io/telliot/pull/440) Completely refactored the internal architecture to make it more modular, easier to understand and maintain. In this gigantic PR also added a submitter for the new tellor access oracle. All config files now follow a new structure so see the latest [docs](https://docs.tellor.io/tellor/telliot) for more details.
+
 * [\#461](https://github.com/tellor-io/telliot/pull/461) Data ID 57 - TVL now uses different API endpoints to return consistent values and to include only TVL from ethereum and the aggregation is switched from Mean to Median.
+
 * Data ID 41 is now using the default granularity of 6 digits after the decimal point. For example 113.406333 should be submitted as 113406333.
 
 ### Added
-
 * [\#432](https://github.com/tellor-io/telliot/pull/432) At startup it prints the current version and git tag.
+
 * [\#452](https://github.com/tellor-io/telliot/pull/452) At startup it prints a message when the cli has a new release to notify people that they can upgrade.
+
 * [\#434](https://github.com/tellor-io/telliot/pull/434) Added k8s deployments for alertmanager and telegram bot alerting.
+
 * [\#441](https://github.com/tellor-io/telliot/pull/441) Auto generating the docs from the code itself for the CLI args and the configs so now they will be allways up to date. Added a check in the CI to make sure the docs are regenerated on any code changes.
+
 * [\#446](https://github.com/tellor-io/telliot/pull/446) Added a new dispute tracker module which tracks all submitted values in the oracle and exposes metrics to allow comparing the values. Eventually will also add settings and docs how to create alerting so that people submitting values can set an elrt when submitted values looks different than what is expected.
 
 ### Fixed
-
 * [\#448](https://github.com/tellor-io/telliot/pull/448) Return an error at startup when an entry in the index.json file contains an env variable, but the variable is not set.
+
 * [\#463](https://github.com/tellor-io/telliot/pull/463) When aggregating a median of odd values count, use use mean for the 2 middle numbers.
 
 ## [v5.7.0](https://github.com/tellor-io/telliot/releases/tag/v5.7.0) - 2021.02.23
 
 ### Changed
-
 * [\#399](https://github.com/tellor-io/telliot/pull/399) We no longer use the`"publicAddress"` config in the config file, instead we get public addresses from the `"ETH_PRIVATE_KEYS"` environment variable.
-* [\#399](https://github.com/tellor-io/telliot/pull/399) We changed `"ETH_PRIVATE_KEY"` environment variable to a list of private keys \(separated by `,`\) and now it will be defined using `"ETH_PRIVATE_KEYS"` environment variable.
-* [\#403](https://github.com/tellor-io/telliot/pull/403) The config file now has fields separated by commands\(eg. Dataserve, mine,etc\) where all the command specific configuration goes. It now uses strict parsing, meaning that unused fields throw an error, which will likely happen to a lot of users. For a clear view of the conifg, please take a look at the [config file](https://github.com/tellor-io/telliot/blob/master/pkg/config/config.go#L105)
+* [\#399](https://github.com/tellor-io/telliot/pull/399) We changed `"ETH_PRIVATE_KEY"` environment variable to a list of private keys (separated by `,`) and now it will be defined using `"ETH_PRIVATE_KEYS"` environment variable.
+* [\#403](https://github.com/tellor-io/telliot/pull/403) The config file now has fields separated by commands(eg. Dataserve, mine,etc) where all the command specific configuration goes. It now uses strict parsing, meaning that unused fields throw an error, which will likely happen to a lot of users. For a clear view of the conifg, please take a look at the [config file](https://github.com/tellor-io/telliot/blob/master/pkg/config/config.go#L105)
+
 * [\#403](https://github.com/tellor-io/telliot/pull/403) Renamed `indexes.json` to `api.json`.
-* [\#403](https://github.com/tellor-io/telliot/pull/403) Removed the configs folder and now user should use apiFile and manualDataFile.
+
+* [\#403](https://github.com/tellor-io/telliot/pull/403) Removed the configs folder and now user should use  apiFile and manualDataFile.
+
 * [\#410](https://github.com/tellor-io/telliot/pull/410) Public addresses should be prefixed with `0x`.
+
 * [\#410](https://github.com/tellor-io/telliot/pull/410) Integration and testing to use the newer contracts.
 
 ### Added
-
 * [\#406](https://github.com/tellor-io/telliot/pull/406) Added new command  `migrate` to migrate old tokens for the new one.
-
-  **Fixed**
-
+### Fixed
 * [\#410](https://github.com/tellor-io/telliot/pull/410) Fixed most submit races, causing fewer submission errors. More effort will be dedicated to completely removing them in the next release.
 
 ## [v5.6.0](https://github.com/tellor-io/telliot/releases/tag/v5.6.0) - 2021.02.08
 
 ### Changed
+* [\#240](https://github.com/tellor-io/telliot/issues/240) Replaced the cli package to allow for command specific flags and configuration. Now all flags should be passed last. Example:
+  Instead of: `./telliot --config="config.json" stake deposit`, it becomes:`./telliot stake deposit --config="config.json"`
+  Removed the `RemoteMining` `-r` flag. Remote is active when specifying a `RemoteDBHost` for the `Mine` command. See the `configs/config.json` for an example.
 
-* [\#240](https://github.com/tellor-io/telliot/issues/240) Replaced the cli package to allow for command specific flags and configuration. Now all flags should be passed last. Example: Instead of: `./telliot --config="config.json" stake deposit`, it becomes:`./telliot stake deposit --config="config.json"` Removed the `RemoteMining` `-r` flag. Remote is active when specifying a `RemoteDBHost` for the `Mine` command. See the `configs/config.json` for an example.
 * [\#378](https://github.com/tellor-io/telliot/pull/378) Removed GPU mining, as it weren't being used.
+
 * [\#390](https://github.com/tellor-io/telliot/pull/390) Removed the feature to connect using Stratum Pool, as it weren't being used.
+
 * [\#386](https://github.com/tellor-io/telliot/pull/386) Removed the need to provide the tellor contract address in the config file
+
 * [\#386](https://github.com/tellor-io/telliot/pull/386) Removed the logLevel flag. Now all logging setup is in the config file. See the example at `configs/config.json`.
 
 ### Added
-
 * [\#347](https://github.com/tellor-io/telliot/pull/347) Added onchain trackers for Uniswap and Balancer.
+
 * [\#385](https://github.com/tellor-io/telliot/pull/385) Added a new psr for Defi Market cap, for id 58. Miners will need to create a free api key in CoinMarketCap pro to be able to read the apis.
+
 
 ### Fixed
 
@@ -115,4 +125,3 @@ We use _breaking :warning:_ to mark changes that are not backward compatible \(r
 
 * Profitability calculations which is set through the `ProfitThreshold`\(in percents\) settings in the config,
 * Docs how to contribute.
-
