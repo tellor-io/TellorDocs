@@ -4,13 +4,15 @@ description: Want to know how Tellor works?  You've come to the right place.
 
 # How Tellor Works
 
-{% page-ref page="overview.md" %}
+{% content-ref url="the-oracle.md" %}
+[the-oracle.md](the-oracle.md)
+{% endcontent-ref %}
 
-{% page-ref page="upgrades.md" %}
+{% content-ref url="governance.md" %}
+[governance.md](governance.md)
+{% endcontent-ref %}
 
-{% page-ref page="disputes.md" %}
-
-{% page-ref page="mining.md" %}
-
-
+{% content-ref url="monetary-policy.md" %}
+[monetary-policy.md](monetary-policy.md)
+{% endcontent-ref %}
 
