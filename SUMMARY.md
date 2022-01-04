@@ -40,10 +40,6 @@
 * [What you can do](token-holders/what-you-can-do.md)
 * [Initiating a Dispute](token-holders/initiating-a-dispute.md)
 
-## Bounties
-
-* [Introduction](bounties/introduction.md)
-
 ## Security
 
 * [Vulnerability Disclosure](security/vulnerability-disclosure.md)
