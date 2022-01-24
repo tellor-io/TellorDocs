@@ -109,27 +109,24 @@ The query ID is used to look up values in the Tellor Oracle. You will need to fi
 ```
 contract BtcPriceContract is UsingTellor {
 
-  //This Contract now have access to all functions on UsingTellor
+  // This contract now has access to all functions in UsingTellor
 
-  uint256 btcPrice;
-  uint256 btcQueryId = 2;
+  bytes btcPrice;
+  bytes32 btcQueryId = 0x0000000000000000000000000000000000000000000000000000000000000002;
 
   constructor(address payable _tellorAddress) UsingTellor(_tellorAddress) public {}
 
   function setBtcPrice() public {
     bool _didGet;
     uint _timestamp;
-    bytes _value;
 
-    (_didGet, btcPrice, _timestamp) = getCurrentValue(btcRequestId);
+    (_didGet, btcPrice, _timestamp) = getCurrentValue(btcQueryId);
   }
 }
 ```
 
 {% hint style="info" %}
-**Line 4:** The`btcRequetId` is set local to`2`, the BTC/USD request ID
-
-**Line 12:** The call to `getCurrentValue` returns the value into `btcPrice`
+**Line 4:** The`btcQueryId` is set to`2 (in bytes32)`, the BTC/USD query ID
 {% endhint %}
 
 ### Testing your contracts
