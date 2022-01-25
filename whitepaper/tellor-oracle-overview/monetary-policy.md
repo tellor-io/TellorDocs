@@ -35,7 +35,7 @@ The treasury events will work as quarterly votes to either increase, decrease, o
 Another benefit of locking participants is to increase voting activity. Upon exit of a Tellor treasury, parties are punished if they did not vote on Tellor governance proposals. Parties are subject to lose any percentage of the interest gained in the treasury contract based upon the percentage of votes they abstained from. As an example, if a holder has 100 TRB locked into a one year treasury contract at 5%, and there were 10 voting events over the year; if the party voted on only 2 of the events, they would only receive 101 TRB upon exiting versus 105 if they had voted on every event.
 
 {% hint style="success" %}
-In lieu of voting on governance proposals you can **delegate** your voting power to the address of your choice.  To do so interact with the Tellor governance contract here: [https://etherscan.io/address/0x51d4088d4EeE00Ae4c55f46E0673e9997121DB00](https://etherscan.io/address/0x51d4088d4EeE00Ae4c55f46E0673e9997121DB00)&#x20;
+In lieu of voting on governance proposals you can **delegate** your voting power to the address of your choice.  To do so, run the _`delegate`_ function with the Tellor governance contract here: [https://etherscan.io/address/0x51d4088d4EeE00Ae4c55f46E0673e9997121DB00](https://etherscan.io/address/0x51d4088d4EeE00Ae4c55f46E0673e9997121DB00)&#x20;
 {% endhint %}
 
 Although the treasury contracts have fixed interest rates, each new issuance can change the interest rate. If demand for treasuries is very high, the interest rate can be low. If however, there is little interest and some of the treasury offering remains empty, the community can vote to increase the interest rate on subsequent offerings.
