@@ -126,7 +126,7 @@ contract BtcPriceContract is UsingTellor {
 ```
 
 {% hint style="info" %}
-**Line 4:** The`btcQueryId` is set to`2 (in bytes32)`, the BTC/USD query ID
+**Line 6:** The`btcQueryId` is set to`2 (in bytes32)`, the BTC/USD query ID
 {% endhint %}
 
 ### Testing your contracts
