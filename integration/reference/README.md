@@ -1,6 +1,6 @@
 # Reference
 
-### Contract addresses and Variable Hashes
+### Contract Addresses
 
 ### [Tellor](https://github.com/tellor-io/tellorX)
 
