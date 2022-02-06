@@ -54,7 +54,7 @@ contract BtcPriceContract is UsingTellor {
   //This contract now has access to all functions in UsingTellor
 
   bytes btcPrice;
-  bytes32 btcRequestId = 0x0000000000000000000000000000000000000000000000000000000000000002;
+  bytes32 btcQueryId = 0x0000000000000000000000000000000000000000000000000000000000000002;
 
   constructor(address payable _tellorAddress) UsingTellor(_tellorAddress) public {}
 
