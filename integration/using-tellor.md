@@ -12,7 +12,7 @@ To check when the value was last updated, you can run the following usingTellor 
  function getCurrentValue(bytes32 _queryId) public view returns (bool _ifRetrieve, bytes _value, uint256 _timestampRetrieved);
 ```
 
-The last returned value is the timestamp last updated.
+The last returned value is the most recently updated timestamp.
 
 #### Adding a Tip
 
@@ -59,7 +59,7 @@ All Tellor oracle values are stored in `bytes` format. If you need your data in 
   }
 ```
 
-If you need data parsed in a different way, see [this article](https://www.dhondt.tech/blog/2019/1/Parse-bytes-argument-in-Solidity.html) or reach out to the Tellor team for guidance.
+If you need data parsed in a different way, see [this article](https://web.archive.org/web/20210510051946/https://www.dhondt.tech/blog/2019/1/Parse-bytes-argument-in-Solidity.html) or reach out to the Tellor team for guidance.
 
 #### Automating Jobs
 
