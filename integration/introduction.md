@@ -8,7 +8,7 @@ description: >-
 
 ## Integrating Tellor Oracle Data in Ethereum Smart Contracts
 
-For this, we provide a [helper contract](https://github.com/tellor-io/usingtellor) that will provide convenient functions to interact with the Tellor System.
+We provide a [helper contract](https://github.com/tellor-io/usingtellor) that provides convenient functions for interacting with the Tellor system.
 
 ### Installation
 
@@ -18,9 +18,7 @@ npm install usingtellor
 
 ### Using in a contract in solidity:
 
-Just import the UsingTellor contract into your solidity file passing the desired Tellor address (see references page) as a parameters.
-
-Test: Use the TellorPlayground contract
+Just import the UsingTellor contract into your solidity file passing the desired Tellor address (see [references page](reference/)) as a parameter. For testing, use a TellorPlayground address. In production, use either the TellorMaster address on Ethereum mainnet or the TellorFlex address on Polygon.
 
 ```solidity
 pragma solidity >=0.8.0;
