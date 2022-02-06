@@ -12,7 +12,7 @@ We provide a [helper contract](https://github.com/tellor-io/usingtellor) that pr
 
 ### Installation
 
-```
+```bash
 npm install usingtellor
 ```
 
@@ -104,7 +104,7 @@ The query ID is used to look up values in the Tellor Oracle. You will need to fi
 
 #### Example usage
 
-```
+```solidity
 contract BtcPriceContract is UsingTellor {
 
   // This contract now has access to all functions in UsingTellor
@@ -131,7 +131,7 @@ contract BtcPriceContract is UsingTellor {
 
 For ease of use, the `UsingTellor` repo comes with Tellor Playground system for easier integration. This mock version contains a few helper functions:
 
-```
+```solidity
      /**
      * @dev Public function to mint tokens for the passed address
      * @param user The address which will own the tokens
@@ -141,11 +141,18 @@ For ease of use, the `UsingTellor` repo comes with Tellor Playground system for 
 
 
     /**
-    * @dev A mock function to submit a value to be read without miners needed
-    * @param _requestId The tellorId to associate the value to
-    * @param _value the value for the requestId
-    */
-    function submitValue(uint256 _requestId,uint256 _value) external;
+     * @dev A mock function for submitting a value without reporter staking needed
+     * @param _queryId the ID to associate the value to
+     * @param _value the requested oracle value
+     * @param _nonce the current value count for the query id
+     * @param _queryData the data used by reporters to fulfill the data query
+     */
+    function submitValue(
+        bytes32 _queryId,
+        bytes calldata _value,
+        uint256 _nonce,
+        bytes memory _queryData
+    ) external;
 ```
 
 #### Running tests
