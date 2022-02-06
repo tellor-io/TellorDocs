@@ -16,9 +16,9 @@ For this, we provide a [helper contract](https://github.com/tellor-io/usingtello
 npm install usingtellor
 ```
 
-### Using in the contract in solidity:
+### Using in a contract in solidity:
 
-Just import the usingTellor contract to your solidity file passing the desired Tellor address(see references page) as a parameters.
+Just import the UsingTellor contract into your solidity file passing the desired Tellor address (see references page) as a parameters.
 
 Test: Use the TellorPlayground contract
 
