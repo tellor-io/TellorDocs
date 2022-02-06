@@ -8,7 +8,7 @@ description: >-
 
 ## TL:DR
 
-[Tellor Playground](https://github.com/tellor-io/TellorPlayground) aims to help anyone building on Tellor to quickly test and implement ideas. It's available on Rinkeby testnet at this address:
+[Tellor Playground](https://github.com/tellor-io/TellorPlayground) aims to help anyone building on Tellor to quickly test and implement ideas. It's available on various testnets at these addresses:
 
 Rinkeby: [`0x3477EB82263dabb59AC0CAcE47a61292f28A2eA7`](https://rinkeby.etherscan.io/address/0x3477EB82263dabb59AC0CAcE47a61292f28A2eA7#code)
 
@@ -49,16 +49,23 @@ npm install usingtellor
 ```
 
 ```solidity
-contract BtcPriceContract is UsingTellor {
+import "usingtellor/contracts/UsingTellor.sol";
 
+contract BtcPriceContract is UsingTellor {
   //This contract now has access to all functions in UsingTellor
 
-  bytes btcPrice;
-  bytes32 btcQueryId = 0x0000000000000000000000000000000000000000000000000000000000000002;
+  bytes public btcPrice;
+  bytes32 public btcQueryId = 0x0000000000000000000000000000000000000000000000000000000000000002;
 
   constructor(address payable _tellorAddress) UsingTellor(_tellorAddress) public {}
 
-  ...
+  function setBtcPrice() external {
+      // TIP: For best practices, use getDataBefore with a time buffer to allow time for a value to be disputed
+      (bool _ifRetrieve, bytes memory _value, uint256 _timestampRetrieved) = getDataBefore(btcQueryId, block.timestamp - 2 hours);
+      if(_ifRetrieve) {
+          btcPrice = _value;
+      }
+  }
 }
 ```
 
