@@ -165,13 +165,11 @@ contract BtcPriceContract is UsingTellor {
 For ease of use, the `UsingTellor` repo comes with Tellor Playground system for easier integration. This mock version contains a few helper functions:
 
 ```solidity
-     /**
+    /**
      * @dev Public function to mint tokens for the passed address
      * @param user The address which will own the tokens
-     *
      */
     function faucet(address user) external;
-
 
     /**
      * @dev A mock function for submitting a value without reporter staking needed
