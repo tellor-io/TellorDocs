@@ -61,6 +61,44 @@ All Tellor oracle values are stored in `bytes` format. If you need your data in 
 
 If you need data parsed in a different way, see [this article](https://web.archive.org/web/20210510051946/https://www.dhondt.tech/blog/2019/1/Parse-bytes-argument-in-Solidity.html) or reach out to the Tellor team for guidance.
 
+### Full Example
+
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.3;
+
+import "usingtellor/contracts/UsingTellor.sol";
+
+contract ExampleContract is UsingTellor {
+    // _tellorAddress is the address of the Tellor oracle
+    constructor(address payable _tellorAddress) UsingTellor(_tellorAddress) {}
+
+    function getBtcSpotPrice() external view returns(uint256) {
+      bytes memory _queryData = abi.encode("SpotPrice", abi.encode("btc", "usd"));
+      bytes32 _queryId = keccak256(_queryData);
+      // Tip: Use UsingTellor's getDataBefore(bytes32 _queryId, uint256 _timestamp) 
+      // function with a buffer time (1 hour for example) to allow time for a bad value
+      // to be disputed
+      (bool ifRetrieve, bytes memory _value, ) =
+          getDataBefore(_queryId, block.timestamp - 1 hours);
+      if (!ifRetrieve) return 0;
+      return _sliceUint(_value);
+    }
+
+    // All Tellor oracle values are stored in bytes format. If you need your data 
+    // in uint256 format, you can parse bytes using a function like the one below
+    function _sliceUint(bytes memory _b) internal pure returns (uint256 _x) {
+      uint256 _number = 0;
+      for (uint256 _i = 0; _i < _b.length; _i++) {
+        _number = _number * 2**8;
+        _number = _number + uint8(_b[_i]);
+      }
+      return _number;
+    }
+}
+
+```
+
 #### Automating Jobs
 
 To automate adding a tip on a certain query ID by time or volatility, as well as scheduling other Tellor related tasks, we recommend (and use) [Buidlhub](https://www.buidlhub.com).
