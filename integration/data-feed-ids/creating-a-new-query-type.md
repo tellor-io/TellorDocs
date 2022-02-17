@@ -51,7 +51,7 @@ and the `queryId` would be&#x20;
 
 `0xa6f013ee236804827b77696d350e9f0ac3e879328f2a3021d473a0b778ad78ac`
 
-Feel free to start building a query now and integrating it into your project. You can use the [Query Builder](https://queryidbuilder.herokuapp.com) app for helping forming your query. When you reach the later stages of building your project, add an issue to Tellor's [dataSpecs](https://github.com/tellor-io/dataSpecs/issues) repository so that data reporters know how to fulfill your query. Feel free to reach out to the Tellor team for assistance, and happy building!
+Feel free to start building a query now and integrating it into your project. You can use the [Query Builder](https://queryidbuilder.herokuapp.com) app for help forming your query. When you reach the later stages of building your project, add an issue to Tellor's [dataSpecs](https://github.com/tellor-io/dataSpecs/issues) repository so that data reporters know how to fulfill your query. Feel free to reach out to the Tellor team for assistance, and happy building!
 
 \
 
