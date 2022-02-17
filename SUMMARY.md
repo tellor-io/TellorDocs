@@ -16,6 +16,7 @@
 
 * [Introduction](integration/introduction.md)
 * [Data feed IDs](integration/data-feed-ids/README.md)
+  * [Creating a New Query Type](integration/data-feed-ids/creating-a-new-query-type.md)
   * [Legacy data feeds](integration/data-feed-ids/legacy-data-feeds.md)
 * [Tellor Playground](integration/tellor-playground.md)
 * [Using Tellor](integration/using-tellor.md)
