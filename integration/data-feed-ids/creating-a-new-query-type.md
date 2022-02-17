@@ -1,10 +1,10 @@
 # Creating a New Query Type
 
-To add a new data type to Tellor, you'll just need to define a new [queryType](https://github.com/tellor-io/dataSpecs) . This is how you form a question so that Tellor reporters know exactly what data is being requested. You'll need to determine three things: a unique queryType _name_, _inputs_, and _outputs_. So let's say you want a query for getting the price of any asset in any currency. In human-readable form, your question might look like this:
+To add a new data type to Tellor, you'll just need to define a new [queryType](https://github.com/tellor-io/dataSpecs) . This is how you form a question so that Tellor reporters know exactly what data is being requested. You'll need to determine three things: a unique queryType _name_, _inputs_, and _outputs_. So let's say you want a query for getting the price of any asset in any currency. In human-readable form, your question could look like this:
 
 _What is the price of   `asset`   in   `currency`  ?_
 
-Adding this query to a dataSpecs doc, you might define your query like this:
+You might formally define your query like this:
 
 **Name**: `SpotPrice`
 
@@ -12,7 +12,7 @@ Adding this query to a dataSpecs doc, you might define your query like this:
 
 1\. _asset_ (string): Asset ID (e.g. btc)
 
-2\. currency (string): Selected currency (e.g. usd)
+2\. _currency_ (string): Selected currency (e.g. usd)
 
 **Outputs**:
 
@@ -51,7 +51,7 @@ and the `queryId` would be&#x20;
 
 `0xa6f013ee236804827b77696d350e9f0ac3e879328f2a3021d473a0b778ad78ac`
 
-Feel free to start building a query now and integrating it into your project. Reach out to the Tellor team for help forming a queryType and making sure reporters know to report your data. Use the Query Builder app for helping building your query.&#x20;
+Feel free to start building a query now and integrating it into your project. You can use the [Query Builder](https://queryidbuilder.herokuapp.com) app for helping forming your query. When you reach the later stages of building your project, add an issue to Tellor's [dataSpecs](https://github.com/tellor-io/dataSpecs/issues) repository so that data reporters know how to fulfill your query. Feel free to reach out to the Tellor team for assistance, and happy building!
 
 \
 
