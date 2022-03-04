@@ -1,6 +1,6 @@
 # Governance
 
-Tellor governance is used to settle disputes, to vote on Tellor upgrades, as well as new features such as monetary policy. The Tellor governance system aims to balance the voting power amongst various members of the community, specifically: holders, reporters, and users. TRB stakeholders all want Tellor to continue to grow, but the approach and needs of each group can be different. Weighting their votes differently can provide some checks and balances when considering the benefits of various proposals.
+Tellor governance is mainly used to settle disputes and to vote on Tellor upgrades. On Ethereum, the governance is also used to vote on monetary policy (minting new tokens and treasuries).  The Tellor governance system aims to balance the voting power amongst various members of the community, specifically: holders, reporters, and users. TRB stakeholders all want Tellor to continue to grow, but the approach and needs of each group can be different. Weighting their votes differently can provide some checks and balances when considering the benefits of various proposals.
 
 For Tellor, there are three groups of stakeholders identified in the Tellor system:
 
@@ -12,7 +12,9 @@ For Tellor, there are three groups of stakeholders identified in the Tellor syst
 
 TRB holder weights are measured as the balance of TRB on the chain where the vote is taking place. For reporters, each submitted data point affords them additional non-transferable voting power weighted at 1TRB per successful submission. However, reporters must be actively bonded to be able to vote with their allocated non-transferable voting power. Users are weighted by the number of tips they have paid into the system at a .5 rate. As an example, if a user tips 2 TRB, they are afforded 1 TRB worth of voting power in the system.
 
-It is important to note that Tellor can be deployed on multiple chains. Although the main Tellor token is staying on the Ethereum network, users or the Tellor team can launch Tellor on any-chain, however the governance process would need to be handled using a different set up. The exact structure of the governance on each separate chain would need to be on a case-by-case basis (tips and mining start out at zero, so the cost to break is low), but most likely the governance of that specific chain would be controlled by the stakeholders on that chain (e.g. Polygon could use a mix of Polygon reporters, Polygon tellor users, and MATIC token holders).
+It is important to note that Tellor can be deployed on multiple chains. Although the main Tellor token is staying on the Ethereum network, users or the Tellor team can launch Tellor on any-chain, however the governance process can be handled differently. The biggest difference on the governance setup for other chains is that the voting power is distributed equally among, TRB holders, reporters, users, and the team's multi-sig wallet on that particular chain.&#x20;
+
+However, the exact structure of the governance structure on each separate chain can be adjusted on a case-by-case basis to ensure security.&#x20;
 
 ### Delegation
 

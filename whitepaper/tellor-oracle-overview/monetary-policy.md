@@ -1,20 +1,24 @@
 # Monetary Policy
 
-Tellor utilizes a governance based monetary policy for managing circulating supply (the total supply is essentially meaningless) and the overall growth rate in the supply of TRB. There are two ways to manipulate the supply of Tellor, via locking/unlocking (reducing/increasing the circulating supply) and then minting/burning.
+Tellor's governance based monetary policy only exists on Ethereum because TRB is only native to Ethereum. Tellor utilizes a governance based monetary policy for managing the total, circulating supply and the overall growth rate in the supply of TRB. Governance based monetary policy diminishes the importance of the total supply, since this can be changed by the Tellor community via a vote at any time.&#x20;
+
+TRB were last minted on December 2021 and will be unlocked on a time-based schedule over the period of two years to be used as rewards for reporters and as a dev share for the team. A minimal amount of TRB are also minted each quarter to pay treasury holders. These treasuries are proposed and voted on by the community as well. The total supply of TRB is frozen until the next time the community votes on minting more TRB.&#x20;
+
+There are two ways to manipulate the supply of Tellor, via locking/unlocking (reducing/increasing the circulating supply via treasuries) and then minting/burning.
 
 Many crypto-systems utilize fixed minting policies which either have no minting (a fixed supply), or mint at a constant/ programmatic rate (e.g. Bitcoin/ Ethereum). These systems work well for initially generating demand and finding an equilibrium in terms of price/ quantity, however fail to afford flexibility in the cases of multiple chains and large exogenous shocks to demand (i.e. speculation).
 
-To create a system that allows the governance of Tellor to better achieve its mission of a secure, decentralized oracle, Tellor is introducing a new structure of flexible supply growth rates for mining networks (each chain can have a different inflationary reward system) as well as Tellor Treasuries (staking pools) to reduce the circulating supply and increase governance participation.
+To create a system that allows the governance of Tellor to better achieve its mission of a secure, decentralized oracle, Tellor is introducing a new structure of flexible supply growth rates as well as Tellor Treasuries (staking pools) to help reduce the circulating supply and increase governance participation.
 
 ### Flexible Supply Growth Rates
 
 The Tellor system will allow minting tokens at discrete intervals to be used for various endeavors. A proposal will be voted on (and subject to multiple rounds like other votes) by the governance contract. The proposal will be to initiate a one time minting event to a specific contract. Some examples of proposals can include:
 
-#### Inflationary Mining Rewards
+#### Inflationary Reporter Rewards
 
-Inflationary mining rewards will no longer be built into the system (minting from the mining contract). Instead, each chain that has a mining operation will need to be funded by a vote. An initial vote will be put forth to fund the Ethereum mining contract for two years at a certain rate. When the vote is complete, a one time minting event will fund the oracle contract with tokens (e.g. 24,000 at a rate of \~1,000/ month). In two years, the community will need to vote again on whether to fund the Ethereum mining contract.
+Inflationary reporter rewards will no longer be built into the system (minting from the oracle contract). Instead, each chain that has a live Tellor oracle contract will need to be funded by user bridged tokens to tip reporters. However, the Tellor community could also propose a vote for minting reporter rewards for other chains. In that case, an initial vote will be put forth on Ethereum (since TRB is only native to Ethereum) to fund the Tellor oracle contract on the specified chain for a period of time at a certain rate. When the vote is complete, a one time minting event will fund the oracle contract with tokens (e.g. 24,000 at a rate of \~1,000/ month). At the end of the period, the community will need to vote again on whether to fund the oracle contract.
 
-This flexibility allows for other chains to also be funded with inflationary rewards. The overall supply growth rate will need to be managed, but the more flexible nature of the monetary policy should afford an initial lower rate of inflation with the ability to mint more if needed.
+This flexibility allows for other chains to also be funded with inflationary rewards yet ensures that inflationary rewards are not wasted on chains with no demand/users. The overall supply growth rate will need to be managed, but the more flexible nature of the monetary policy should afford an initial lower rate of inflation with the ability to mint more if needed.&#x20;
 
 #### Grants Program
 
