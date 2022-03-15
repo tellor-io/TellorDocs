@@ -1,5 +1,7 @@
 # Creating a New Query Type
 
+To check out our current feeds and/or use our tool to make a new one, checkout our querybuilder:  [https://queryidbuilder.herokuapp.com/](https://queryidbuilder.herokuapp.com) . &#x20;
+
 To add a new data type to Tellor, you'll just need to define a new [queryType](https://github.com/tellor-io/dataSpecs) . This is how you form a question so that Tellor reporters know exactly what data is being requested. You'll need to determine three things: a unique queryType _name_, _inputs_, and _outputs_. So let's say you want a query for getting the price of any asset in any currency. In human-readable form, your question could look like this:
 
 _What is the price of   `asset`   in   `currency`  ?_
