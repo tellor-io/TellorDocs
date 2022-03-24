@@ -25,17 +25,15 @@
 * [Reference](integration/reference/README.md)
   * [Variable Hashes](integration/reference/variable-hashes.md)
 
-## Telliot
+## Reporters
 
-* [Introduction](telliot/telliot.md)
-* [Internal architecture](telliot/internal-architecture.md)
-  * [Index Tracker](telliot/index-tracker.md)
-* [Setup and usage](telliot/setup-and-usage.md)
-* [Configuration reference](telliot/configuration.md)
-* [Contributing](telliot/contributing.md)
-* [Coding style guide](telliot/coding-style-guide.md)
-* [Release process](telliot/release-process.md)
-* [Changelog](telliot/changelog.md)
+* [Introduction](reporters/telliot.md)
+* [Becoming a Reporter](reporters/setup-and-usage/README.md)
+  * [Staking / Unstaking](reporters/setup-and-usage/staking-unstaking.md)
+  * [Reporting Data](reporters/setup-and-usage/reporting-data.md)
+* [Getting Paid](reporters/release-process.md)
+* [Setting up New Chains](reporters/setting-up-new-chains.md)
+* [Disputing / Monitoring](reporters/disputing-monitoring.md)
 
 ## Token Holders
 
