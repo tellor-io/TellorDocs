@@ -40,7 +40,7 @@ Reporters get to select which values they submit for. Some data requests may be 
 
 Tellor data values can be used as soon as the data is placed on-chain, however the longer a user waits once the data is submitted on chain, the more probable it is to remain, and therefore be secure; assuming any value that remains on-chain is valid due to economic incentives to dispute invalid ones. Values are able to be disputed and taken off-chain for the same time frame as the reporter lock ( a configurable variable starting at 12 hours)
 
-![](<../../.gitbook/assets/1 (1)>)
+![](../../.gitbook/assets/1)
 
 Any party can challenge data submissions when a value is placed on-chain. A challenger must submit a dispute fee to each challenge. Once a challenge is submitted, the potentially malicious reporter (C in Figure 2) who submitted the value is placed in a locked state for the duration of the vote. For the next two days, the Tellor governance contract votes on the validity of the reported value (D in Figure 2). A proper submission is one that corresponds to a valid query as defined off-chain in the Tellor dataSpecs\[1]. Although a correct answer should be known to the miners, the ambiguity (lack of an exact correctness in this case) of validity is a feature and corresponds to “correct” being at the discretion or interpretation of the Tellor community on each chain.\[2]
 

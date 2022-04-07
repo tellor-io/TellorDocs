@@ -22,8 +22,9 @@
 * [Tellor Playground](integration/tellor-playground.md)
 * [Using Tellor](integration/using-tellor.md)
 * [Contracts](integration/contracts.md)
-* [Reference](integration/reference/README.md)
+* [Reference - Addresses](integration/reference/README.md)
   * [Variable Hashes](integration/reference/variable-hashes.md)
+  * [Contract ABI's](integration/reference/contract-abis.md)
 
 ## Reporters
 
