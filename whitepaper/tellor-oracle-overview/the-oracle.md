@@ -2,19 +2,19 @@
 
 Tellor pushes the horizon of the oracle far past arbitrary price data. The Tellor oracle is a protocol for answering on-chain **any question** of **any format**.
 
-At a high level, Tellor is an oracle system where a staked set of “reporters” answer questions on-chain. To incentivize reporters, parties can use Tellor's native token, "Tributes" (TRB),  to “tip” a specific question or “query” they want updated, then reporters can choose whether the reward for fetching the data is worth the cost of placing the value on-chain. Multiple parties requiring the same data can tip the same query. The security of Tellor comes through a deposit of TRB that acts as a stake requirement in order for reporters to participate in providing data. The reporters risk losing this stake if they submit data that is successfully disputed. To avoid network spam, a fee is required to begin a dispute. If the dispute is successful, the reporter's stake is given to the disputer, otherwise the dispute fee goes to the wrongly disputed reporter. Tellor is crypto-economically secured and transparent. Anyone can become a reporter and the data can be checked by everyone.
+At a high level, Tellor is an oracle system where a staked set of “reporters” answer questions on-chain. To incentivize reporters, parties can use Tellor's native token, "Tributes" (TRB), to “tip” a specific question or “query” they want updated, then reporters can choose whether the reward for fetching the data is worth the cost of placing the value on-chain. Multiple parties requiring the same data can tip the same query. The security of Tellor comes through a deposit of TRB that acts as a stake requirement in order for reporters to participate in providing data. The reporters risk losing this stake if they submit data that is successfully disputed. To avoid network spam, a fee is required to begin a dispute. If the dispute is successful, the reporter's stake is given to the disputer, otherwise the dispute fee goes to the wrongly disputed reporter. Tellor is crypto-economically secured and transparent. Anyone can become a reporter and the data can be checked by everyone.
 
 Where does TRB supply come from?
 
-Currently, TRB can only be minted by a community vote. TRB were last minted on December 2021 and will be released over the period of two years as rewards for reporters providing data and as a dev share for the team. A minimal amount of TRB are also minted each quarter to pay treasury holders. These treasuries are proposed and voted on by the community as well. The TRB supply is frozen until the next time the community votes on minting more TRB.&#x20;
+Currently, TRB can only be minted by a community vote. TRB were last minted on December 2021 and will be released over the period of two years as rewards for reporters providing data and as a dev share for the team. A minimal amount of TRB are also minted each quarter to pay treasury holders. These treasuries are proposed and voted on by the community as well. The TRB supply is frozen until the next time the community votes on minting more TRB.
 
-Rewards in TRB are used to incentivize reporters to submit data using both user-to-reporter payments (tips) and as time-based rewards (only on Ethereum) for providing data on-chain. TRB and therefore time-based rewards only exist on Ethereum because that is the only chain TRB is native on.  However, these TRB tokens can be bridged over to other chains supported by Tellor to incentivize reporters. The total time-based rewards are voted on by the Tellor community and minted to a contract (oracle contract) that releases these tokens over time.&#x20;
+Rewards in TRB are used to incentivize reporters to submit data using both user-to-reporter payments (tips) and as time-based rewards (only on Ethereum) for providing data on-chain. TRB and therefore time-based rewards only exist on Ethereum because that is the only chain TRB is native on. However, these TRB tokens can be bridged over to other chains supported by Tellor to incentivize reporters. The total time-based rewards are voted on by the Tellor community and minted to a contract (oracle contract) that releases these tokens over time.
 
 How is TRB released into circulation?
 
-Releasing the tokens into circulation has no affect on the total supply, since these are minted via a community vote and then released on a predetermined time-based schedule to data reporters on Ethereum. Time-based  rewards are a growing amount of releasable tokens that resets after each data reporting event. These rewards start at zero and grow at a constant rate of .5 TRB per 5 minutes (this is configurable). When an ID is reported, the time-based rewards go to that reporter and then the amount for the next report restarts at zero. These rewards help ensure liveness by keeping the Tellor system going in times of low demand and in times of higher gas prices, allowing reporters to better predict returns.
+Releasing the tokens into circulation has no affect on the total supply, since these are minted via a community vote and then released on a predetermined time-based schedule to data reporters on Ethereum. Time-based rewards are a growing amount of releasable tokens that resets after each data reporting event. These rewards start at zero and grow at a constant rate of .5 TRB per 5 minutes (this is configurable). When an ID is reported, the time-based rewards go to that reporter and then the amount for the next report restarts at zero. These rewards help ensure liveness by keeping the Tellor system going in times of low demand and in times of higher gas prices, allowing reporters to better predict returns.
 
-![](<../../.gitbook/assets/0 (2)>)
+![](<../../.gitbook/assets/0 (2) (1)>)
 
 For parties needing data more frequently than when the time-based rewards are greater than the gas costs, they can simply add tips. The Tellor oracle can therefore be as fast as needed, parties will just need to pay for tips to cover expenses of the reporters.
 
@@ -22,11 +22,11 @@ Tellor was launched on August 2019. Tellor did not participate on an ICO or pre-
 
 ### Data Submission
 
-To become a reporter, an address will deposit TRB as a stake. Those TRB are locked (they act as a bond) until the reporter requests to withdraw them. The stake amount varies by chain and it is somewhat arbitrary but it is a function of the speed and gas price of the chain. The faster and cheaper it is to replace a bad value on a chain the lower the stake amount.  The reporter then must wait one week before they can withdraw their staked tokens.
+To become a reporter, an address will deposit TRB as a stake. Those TRB are locked (they act as a bond) until the reporter requests to withdraw them. The stake amount varies by chain and it is somewhat arbitrary but it is a function of the speed and gas price of the chain. The faster and cheaper it is to replace a bad value on a chain the lower the stake amount. The reporter then must wait one week before they can withdraw their staked tokens.
 
 Once the reporter has submitted their deposit, a reporter can submit values for any query (e.g. ETH/USD, Bitcoin block header information, weather data). After a reporter submits a value however, they must wait a certain time period (a configurable variable, starting at 12 hours), before submitting again. This is both to allow time for disputes as well as to increase the number of reporters in the system.
 
-Reporters can choose to submit values for any ID they want, but in practice will likely pick the ID with the highest tip. ID’s can be updated as frequently as they want. Reporters are mainly rewarded in tips from users.&#x20;
+Reporters can choose to submit values for any ID they want, but in practice will likely pick the ID with the highest tip. ID’s can be updated as frequently as they want. Reporters are mainly rewarded in tips from users.
 
 ### The Data
 
@@ -49,7 +49,7 @@ Any party can challenge data submissions when a value is placed on-chain. A chal
 The Tellor dispute mechanism allows for multiple rounds of disputes. After the first round, the cost of each subsequent dispute round increases exponentially:
 
 $$
-disputeFee_{id,t,r>1} = disputeFee_i  \times 2^{disputeRounds_{id,t} -1}
+disputeFee_{id,t,r>1} = disputeFee_i \times 2^{disputeRounds_{id,t} -1}
 $$
 
 Where
@@ -72,7 +72,7 @@ At the end of the voting period, and if no new round is initiated, the votes are
 
 #### Dispute Fees
 
-The dispute fee varies by chain and it is a function of the time and cost to replace bad data and low enough to incentive disputing data but not zero, in order to avoid spam. &#x20;
+The dispute fee varies by chain and it is a function of the time and cost to replace bad data and low enough to incentive disputing data but not zero, in order to avoid spam.
 
 If multiple disputes are performed on the same ID, a party might be trying to censor values by disputing good values. To counteract this, the dispute fee increases with each dispute on the same ID.
 
