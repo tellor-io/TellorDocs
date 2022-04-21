@@ -22,9 +22,9 @@ Just import the usingTellor contract to your solidity file passing the desired T
 
 #### Addresses:
 
-Mainnet: `0x0Ba45A8b5d5575935B8158a88C631E9F9C95a2e5`
+Mainnet: `0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0`
 
-Rinkeby: `0xFe41Cb708CD98C5B20423433309E55b53F79134a`
+Rinkeby: `0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0`
 
 Test: Use the TellorPlayground contract
 
