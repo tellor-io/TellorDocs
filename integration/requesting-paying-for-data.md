@@ -9,40 +9,37 @@ description: >-
 
 ### Getting a Data ID
 
-To check out our current supported data types and/or use our tool to make a new one, checkout our querybuilder:  [https://queryidbuilder.herokuapp.com/](https://queryidbuilder.herokuapp.com)&#x20;
+To check out our current supported data types and/or use our tool to make a new one, checkout our querybuilder: [https://queryidbuilder.herokuapp.com/](https://queryidbuilder.herokuapp.com)
 
 ### Funding a one time request
 
-To tip a query ID for an instant report (whoever submits the value next gets the reward), you just need to run one function:&#x20;
+To tip a query ID for an instant report (whoever submits the value next gets the reward), you just need to run one function:
 
 ```
 /**
  * @dev Function to run a single tip
- * @param _token address of token to tip
  * @param _queryId id of tipped data
  * @param _amount amount to tip
  * @param _queryData the data used by reporters to fulfill the query
 */
 function tip(
-    address _token,
     bytes32 _queryId,
     uint256 _amount,
     bytes calldata _queryData
 ) external 
 ```
 
-be sure to approve the transfer of the token before you call the function. &#x20;
+be sure to approve the transfer of the token before you call the function.
 
 ### Funding a recurring data feed
 
-To fund a data feed, you will need to run two functions, one to set up the feed and the other to fund it.  If a fund is already set up with your specifications, you can simply call the function to fund it.&#x20;
+To fund a data feed, you will need to run two functions, one to set up the feed and the other to fund it. If a fund is already set up with your specifications, you can simply call the function to fund it.
 
 To set up your data feed:
 
 ```
 /**
  * @dev Initializes dataFeed parameters.
- * @param _token address of ERC20 token used for tipping
  * @param _queryId id of specific desired data feet
  * @param _reward tip amount per eligible data submission
  * @param _startTime timestamp of first autopay window
@@ -51,7 +48,6 @@ To set up your data feed:
  * @param _queryData the data used by reporters to fulfill the query
  */
 function setupDataFeed(
-    address _token,
     bytes32 _queryId,
     uint256 _reward,
     uint256 _startTime,
@@ -61,10 +57,9 @@ function setupDataFeed(
 ) external {
 ```
 
-As an example, if on Polygon you want to tip 1 TRB token each hour for the spot BTC price.  You need it every hour, starting tomorrow, and you need it updated within 5 minutes of the hour.
+As an example, if on Polygon you want to tip 1 TRB token each hour for the spot BTC price. You need it every hour, starting tomorrow, and you need it updated within 5 minutes of the hour.
 
 ```
-_address = 0xe3322702bedaaed36cddab233360b939775ae5f1 (TRB on polygon)
 _queryId =0xa6f013ee236804827b77696d350e9f0ac3e879328f2a3021d473a0b778ad78ac (keccak256 of queryData)
 _reward = 1000000000000000000 (1 TRB)
 _startTime = 1647435600 (tomorrow start time (UNIX))
@@ -90,7 +85,7 @@ function fundFeed(
 ) external 
 ```
 
-The \_feedId is simply the keccak256 has of the variables defined in setupFeed:&#x20;
+The \_feedId is simply the keccak256 has of the variables defined in setupFeed:
 
 ```
     bytes32 _feedId = keccak256(
@@ -100,11 +95,12 @@ The \_feedId is simply the keccak256 has of the variables defined in setupFeed:&
             _reward,
             _startTime,
             _interval,
-            _window
+            _window,
+            _priceThreshold
         )
     );
 ```
 
-The \_amount is the amount of the token you would want to fund it with.  For example, if you are tipping 1 TRB per hour, if you fund the feed with 24 TRB, it would pay out for the next 24 hours.&#x20;
+The \_amount is the amount of the token you would want to fund it with. For example, if you are tipping 1 TRB per hour, if you fund the feed with 24 TRB, it would pay out for the next 24 hours.
 
-Be sure to approve the token transfer before calling this function.&#x20;
+Be sure to approve the token transfer before calling this function.
