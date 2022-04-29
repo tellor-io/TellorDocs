@@ -1,6 +1,6 @@
 # Reference - Addresses
 
-#### _**Mainnet Ethereum**_
+#### _**Mainnet Ethereum**_&#x20;
 
 * Master: [`0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0`](https://etherscan.io/address/0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0)
 * Controller: [`0xf98624E9924CAA2cbD21cC6288215Ec2ef7cFE80`](https://etherscan.io/address/0xf98624E9924CAA2cbD21cC6288215Ec2ef7cFE80)
@@ -18,7 +18,7 @@
 
 _**Polygon Mainnet**_
 
-* Bridged TRB: [`0xE3322702BEdaaEd36CdDAb233360B939775ae5f1`](https://polygonscan.com/address/0xE3322702BEdaaEd36CdDAb233360B939775ae5f1)``
+* Bridged TRB: [`0xE3322702BEdaaEd36CdDAb233360B939775ae5f1`](https://polygonscan.com/address/0xE3322702BEdaaEd36CdDAb233360B939775ae5f1)\`\`
 * Tellor: [`0xFd45Ae72E81Adaaf01cC61c8bCe016b7060DD537`](https://polygonscan.com/address/0xFd45Ae72E81Adaaf01cC61c8bCe016b7060DD537)
 * Governance: [`0x98458269081eD05bA58babE3f004E46625C8D9F2`](https://polygonscan.com/address/0x98458269081eD05bA58babE3f004E46625C8D9F2)
 * Autopay: [`0xD789488E5ee48Ef8b0719843672Bc04c213b648c`](https://polygonscan.com/address/0xD789488E5ee48Ef8b0719843672Bc04c213b648c)
@@ -33,6 +33,7 @@ _**Polygon Mainnet**_
 
 #### _Harmony Mainnet_
 
+* Bridged TRB: [`0xd4b28ecb7b765c89f1e67de3359d09a3520f794e`](https://explorer.harmony.one/address/0xd4b28ecb7b765c89f1e67de3359d09a3520f794e)
 * Tellor: [`0xb32e05DF1f11B1f0E1DE2A35F4D99393EB86FF8B`](https://explorer.harmony.one/address/0xb32e05df1f11b1f0e1de2a35f4d99393eb86ff8b)
 * Governance: [`0xdf390732785d04948C3b5f59Dd21f3d066893FA7`](https://explorer.harmony.one/address/0xdf390732785d04948c3b5f59dd21f3d066893fa7)
 * Autopay: [`0xD789488E5ee48Ef8b0719843672Bc04c213b648c`](https://explorer.harmony.one/address/0xD789488E5ee48Ef8b0719843672Bc04c213b648c)
@@ -44,7 +45,7 @@ _**Polygon Mainnet**_
 
 #### _Arbitrum Testnet_
 
-* Bridged TRB: [`0xa800d52F5E72b918f8E09D5439beBEBf09ea2f74` ](https://testnet.arbiscan.io/address/0xa800d52F5E72b918f8E09D5439beBEBf09ea2f74)
+* Bridged TRB: [`0xa800d52F5E72b918f8E09D5439beBEBf09ea2f74`](https://testnet.arbiscan.io/address/0xa800d52F5E72b918f8E09D5439beBEBf09ea2f74)
 * Tellor: [`0x8D1F54d8975124988eF65302FE487D83868B7ad7`](https://testnet.arbiscan.io/address/0x8D1F54d8975124988eF65302FE487D83868B7ad7)
 * Governance: [`0xd844B26dfAfB0776E70aF12C19189b740329A266`](https://testnet.arbiscan.io/address/0xd844B26dfAfB0776E70aF12C19189b740329A266)
 * Autopay: [`0xD789488E5ee48Ef8b0719843672Bc04c213b648c`](https://testnet.arbiscan.io/address/0xD789488E5ee48Ef8b0719843672Bc04c213b648c)
@@ -56,4 +57,3 @@ _**Polygon Mainnet**_
 * Kovan: [`0x320f09D9f92Cfa0e9C272b179e530634D873aeFa`](https://kovan.etherscan.io/address/0x320f09D9f92Cfa0e9C272b179e530634D873aeFa)
 * Goerli: [`0x3477EB82263dabb59AC0CAcE47a61292f28A2eA7`](https://goerli.etherscan.io/address/0x3477EB82263dabb59AC0CAcE47a61292f28A2eA7)
 * Polygon Mumbai: [`0x3477EB82263dabb59AC0CAcE47a61292f28A2eA7`](https://mumbai.polygonscan.com/address/0x3477EB82263dabb59AC0CAcE47a61292f28A2eA7)
-
