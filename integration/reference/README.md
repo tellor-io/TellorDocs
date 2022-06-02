@@ -50,6 +50,13 @@ _**Polygon Mainnet**_
 * Governance: [`0xd844B26dfAfB0776E70aF12C19189b740329A266`](https://testnet.arbiscan.io/address/0xd844B26dfAfB0776E70aF12C19189b740329A266)
 * Autopay: [`0xD789488E5ee48Ef8b0719843672Bc04c213b648c`](https://testnet.arbiscan.io/address/0xD789488E5ee48Ef8b0719843672Bc04c213b648c)
 
+_**Kovan Optimism (Testnet)**_
+
+* Mock TRB: [`0x639d599545d5bbcb88c28d5b998b64e6af3e37ff`](https://kovan-optimistic.etherscan.io/address/0x639d599545d5bbcb88c28d5b998b64e6af3e37ff#code)``
+* Tellor: [`0xE13a7288a27a35d2481874620abC04a9C2473Fde`](https://kovan-optimistic.etherscan.io/address/0xE13a7288a27a35d2481874620abC04a9C2473Fde)``
+* Governance:[`0x9665aCF5bb8dA6Ac8A586019e20A1d439D117a9f`](https://kovan-optimistic.etherscan.io/address/0x9665acf5bb8da6ac8a586019e20a1d439d117a9f)``
+* Autopay: [`0x80fc34a2f9FfE86F41580F47368289C402DEc660`](https://kovan-optimistic.etherscan.io/address/0x80fc34a2f9FfE86F41580F47368289C402DEc660#code)``
+
 ### [Playground](https://github.com/tellor-io/TellorPlayground)
 
 * Rinkeby: [`0xF281e2De3bB71dE348040b10B420615104359c10`](https://rinkeby.etherscan.io/address/0xF281e2De3bB71dE348040b10B420615104359c10)
@@ -57,3 +64,4 @@ _**Polygon Mainnet**_
 * Kovan: [`0x320f09D9f92Cfa0e9C272b179e530634D873aeFa`](https://kovan.etherscan.io/address/0x320f09D9f92Cfa0e9C272b179e530634D873aeFa)
 * Goerli: [`0x3477EB82263dabb59AC0CAcE47a61292f28A2eA7`](https://goerli.etherscan.io/address/0x3477EB82263dabb59AC0CAcE47a61292f28A2eA7)
 * Polygon Mumbai: [`0x3477EB82263dabb59AC0CAcE47a61292f28A2eA7`](https://mumbai.polygonscan.com/address/0x3477EB82263dabb59AC0CAcE47a61292f28A2eA7)
+* Kovan Optimism: [`0x639d599545d5bbcb88c28d5b998b64e6af3e37ff`](https://kovan-optimistic.etherscan.io/address/0x639d599545d5bbcb88c28d5b998b64e6af3e37ff#code)``
