@@ -53,7 +53,7 @@ Add the following to your endpoints file:
   network: kovan
   provider: Infura
   url: wss://kovan.infura.io/ws/v3/{INFURA_API_KEY}
-  explorer: https://rinkeby.etherscan.io
+  explorer: https://kovan.etherscan.io
 ```
 
 \
