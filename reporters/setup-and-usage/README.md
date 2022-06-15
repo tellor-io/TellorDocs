@@ -10,4 +10,4 @@ Note: the easiest way to become a reporter is through Telliot. However, the tell
 
 ## Set up and Usage
 
-Follow the installation and setup instructions at: [https://tellor-io.github.io/telliot-feed-examples/getting-started/](https://tellor-io.github.io/telliot-feed-examples/getting-started/)
+Follow the installation and setup instructions at: [https://tellor-io.github.io/telliot-feeds/getting-started/](https://tellor-io.github.io/telliot-feeds/getting-started/)
