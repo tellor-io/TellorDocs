@@ -1,3 +1,8 @@
+---
+cover: .gitbook/assets/Tellor DocsG.png
+coverY: 0
+---
+
 # Welcome
 
 ## What is Tellor? <a href="#what-is-tellor" id="what-is-tellor"></a>
