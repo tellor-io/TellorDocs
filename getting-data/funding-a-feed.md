@@ -1,21 +1,16 @@
----
-description: >-
-  Anyone staked reporter can place data on-chain regardless of whether it is
-  requested or payed for.  If however you do not want to report your own data,
-  you can request data using the Autopay contract.
----
+# Funding a Feed
 
-# Requesting / Paying for Data
+### Quickstart
 
-### Getting a Data ID
-
-To check out our current supported data types and/or use our tool to make a new one, checkout our querybuilder: [https://queryidbuilder.herokuapp.com/](https://queryidbuilder.herokuapp.com)
+1. Get your QueryID
+2. Use our [fund-a-feed tool](https://tellor.io/fund-a-feed/) to specify your pair, and fund the request
+3. Chill
 
 ### Funding a one time request
 
 To tip a query ID for an instant report (whoever submits the value next gets the reward), you just need to run one function:
 
-```
+```solidity
 /**
  * @dev Function to run a single tip
  * @param _queryId id of tipped data
@@ -37,7 +32,7 @@ To fund a data feed, you will need to run two functions, one to set up the feed 
 
 To set up your data feed:
 
-```
+```solidity
 /**
  * @dev Initializes dataFeed parameters.
  * @param _queryId id of specific desired data feet
@@ -59,7 +54,7 @@ function setupDataFeed(
 
 As an example, if on Polygon you want to tip 1 TRB token each hour for the spot BTC price. You need it every hour, starting tomorrow, and you need it updated within 5 minutes of the hour.
 
-```
+```solidity
 _queryId =0xa6f013ee236804827b77696d350e9f0ac3e879328f2a3021d473a0b778ad78ac (keccak256 of queryData)
 _reward = 1000000000000000000 (1 TRB)
 _startTime = 1647435600 (tomorrow start time (UNIX))
@@ -71,7 +66,7 @@ _queryData = 0x00000000000000000000000000000000000000000000000000000000000000400
 
 To fund the feed:
 
-```
+```solidity
 /**
  * @dev Allows dataFeed account to be filled with tokens
  * @param _feedId unique dataFeed Id for queryId
@@ -87,7 +82,7 @@ function fundFeed(
 
 The \_feedId is simply the keccak256 has of the variables defined in setupFeed:
 
-```
+```solidity
     bytes32 _feedId = keccak256(
         abi.encode(
             _queryId,

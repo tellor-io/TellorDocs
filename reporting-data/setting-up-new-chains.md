@@ -1,7 +1,3 @@
----
-description: How to setup Tellor / report data on a new chain
----
-
 # Setting up New Chains
 
 Tellor is easy to deploy on any EVM chain.
@@ -14,7 +10,7 @@ To configure telliot for your new EVM chain make sure you have [configured your 
 \
 To show your current configuration:
 
-```
+```solidity
 telliot config show
 ```
 
@@ -25,7 +21,7 @@ telliot config show
 The chains configuration file allows you to add a chain to your telliot configuration. For this example we will be adding the Kovan testnet chain. Edit the `~/telliot/chains.json` and add the following:\
 
 
-```json
+```solidity
  {
       "type": "Chain",
       "name": "Ethereum Testnet Kovan",

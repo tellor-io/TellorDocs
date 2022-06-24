@@ -1,6 +1,6 @@
-# Reference - Addresses
+# Contracts Reference
 
-#### _**Mainnet Ethereum**_&#x20;
+_**Mainnet Ethereum**_&#x20;
 
 * Master: [`0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0`](https://etherscan.io/address/0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0)
 * Controller: [`0xf98624E9924CAA2cbD21cC6288215Ec2ef7cFE80`](https://etherscan.io/address/0xf98624E9924CAA2cbD21cC6288215Ec2ef7cFE80)
