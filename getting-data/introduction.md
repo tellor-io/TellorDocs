@@ -1,6 +1,6 @@
 # Introduction
 
-The Tellor system allows users to request specific pieces of data, and reporters can then submit those values. Every piece of data that is requested, reported, and retrieved within the Tellor system is associated with a _Query Type_, _Query Data_, and a specific identifier, known as the _Query ID_.&#x20;
+The Tellor system allows users to request specific pieces of data, and reporters can then submit those values. Every piece of data that is requested, reported, and retrieved within the Tellor system is associated with a Query Typ_e,_ Query Data_,_ and a specific identifier, known as the Query ID.&#x20;
 
 #### Some quick definitions before we move on:
 
@@ -25,7 +25,7 @@ Query Data is used to form your new Query's unique identifier, or Query ID. It's
 {% endtab %}
 
 {% tab title="Query ID" %}
-The Query ID is your Query's unique identifier and [hash of the Query Data](broken-reference). It's required for submitting, retrieving, and paying for all data in the Tellor system.&#x20;
+The Query ID is your Query's unique identifier and [hash of the Query Data](creating-a-query.md#example-querydata-and-queryid). It's required for submitting, retrieving, and paying for all data in the Tellor system.&#x20;
 
 #### To generate a query ID, use this simple tool:
 

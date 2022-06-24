@@ -23,7 +23,6 @@
   * [Staking/Unstaking](reporting-data/becoming-a-reporter/staking-unstaking.md)
   * [Submitting Values](reporting-data/becoming-a-reporter/submitting-values.md)
 * [Getting Paid](reporting-data/getting-paid.md)
-* [Setting up New Chains](reporting-data/setting-up-new-chains.md)
 
 ## Disputing Data
 
