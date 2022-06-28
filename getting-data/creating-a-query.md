@@ -2,7 +2,7 @@
 
 When a user requests data using `tipQuery` and when a reporter submits data using `submitValue`, they have to input both the `queryId` and `queryData`. The `queryData` tells reporters how to fulfill the data query, while also informing voters how to verify the data in a dispute. The `queryId` is defined as the keccak256 hash of the `queryData` field.
 
-In order to query the Tellor oracle you'll need to first generate `queryData` and it's hash, `queryId`.&#x20;
+In order to query the Tellor oracle you'll need to first generate `queryData` and its hash, the `queryId`.&#x20;
 
 ### Getting a Query ID and Query Data
 

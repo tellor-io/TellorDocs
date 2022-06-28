@@ -48,7 +48,7 @@ Tellor data is free for anyone to read. This means that if someone else just upd
 
 1. Generate a query ID for the `asset/currency`pair using [this tool.](https://app.gitbook.com/s/tcQlo49FAqTaOimNOz0X/getting-data/creating-a-query#getting-a-query-id-and-query-data) &#x20;
 2. Next, use that ID to [pay reporters](https://app.gitbook.com/s/tcQlo49FAqTaOimNOz0X/getting-data/funding-a-feed#funding-a-one-time-request) to put that data on-chain.&#x20;
-3. Then retrieve the reported spot price from the oracle [like this](https://app.gitbook.com/s/tcQlo49FAqTaOimNOz0X/getting-data/using-tellor#installation).
+3. Then retrieve the reported spot price from the oracle [like this](reading-data/).
 {% endhint %}
 
 #### Custom Data
