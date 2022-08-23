@@ -60,6 +60,8 @@ Built for any [data type](https://tellor.io/blog/how-to-query-custom-data-with-t
 
 [QueryID Builder](https://queryidbuilder.herokuapp.com/)
 
+[Get Testnet TRB](https://twitter.com/trbfaucet)
+
 #### Educational&#x20;
 
 [Dev Calls](https://www.youtube.com/playlist?list=PLuJHbmh0kCXXA6XrTM6dgYgz-RXiFNmRF)
