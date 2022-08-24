@@ -61,6 +61,13 @@
 * Governance: [`0x3eb81A11DD28Fe8ED9f53D1456248aC86d5893C6`](https://explorer.pops.one/address/0x3eb81A11DD28Fe8ED9f53D1456248aC86d5893C6)``
 * Autopay: [`0x7B49420008BcA14782F2700547764AdAdD54F813`](https://explorer.pops.one/address/0x7B49420008BcA14782F2700547764AdAdD54F813)``
 
+### Arbitrum Mainnet
+
+* Bridged TRB: [`0xd58D345Fd9c82262E087d2D0607624B410D88242`](https://arbiscan.io/address/0xd58D345Fd9c82262E087d2D0607624B410D88242)``
+* Tellor`:` [`0x73B6715D9289bdfE5e758bB7ace782Cc7C933cfC` ](https://arbiscan.io/address/0x73b6715d9289bdfe5e758bb7ace782cc7c933cfc)``
+* Governance: [`0x8b201738c34f0459A4B09976bd905D5cc70FA333`](https://arbiscan.io/address/0x8b201738c34f0459a4b09976bd905d5cc70fa333#code)
+* Autopay: [`0xd844B26dfAfB0776E70aF12C19189b740329A266`](https://arbiscan.io/address/0xd844b26dfafb0776e70af12c19189b740329a266)``
+
 #### Arbitrum Testnet
 
 * Bridged TRB: [`0x126f5C4802c10848Eb66ce2F74380B7ADeFF36Cb`](https://testnet.arbiscan.io/address/0x126f5C4802c10848Eb66ce2F74380B7ADeFF36Cb)``
