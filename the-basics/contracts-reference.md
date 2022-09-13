@@ -37,7 +37,6 @@
 * Bridged TRB: [`0xE3322702BEdaaEd36CdDAb233360B939775ae5f1`](https://polygonscan.com/address/0xE3322702BEdaaEd36CdDAb233360B939775ae5f1)\`\`
 * Tellor: [`0xFd45Ae72E81Adaaf01cC61c8bCe016b7060DD537`](https://polygonscan.com/address/0xFd45Ae72E81Adaaf01cC61c8bCe016b7060DD537)
 * Governance: [`0x98458269081eD05bA58babE3f004E46625C8D9F2`](https://polygonscan.com/address/0x98458269081eD05bA58babE3f004E46625C8D9F2)
-* Autopay: [`0xD789488E5ee48Ef8b0719843672Bc04c213b648c`](https://polygonscan.com/address/0xD789488E5ee48Ef8b0719843672Bc04c213b648c)
 * Mesosphere: [`0xf8c1EB914EF4271edBC95C48ED067295C057F1a0`](https://polygonscan.com/address/0xf8c1eb914ef4271edbc95c48ed067295c057f1a0)
 
 #### **Polygon Mumbai**
