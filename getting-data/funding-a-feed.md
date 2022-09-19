@@ -40,6 +40,7 @@ To set up your data feed:
  * @param _startTime timestamp of first autopay window
  * @param _interval amount of time between autopay windows
  * @param _window amount of time after each new interval when reports are eligible for tips
+ * @param _priceThreshold amount price must change to automate update regardless of time (negated if 0, 100 = 1%)
  * @param _queryData the data used by reporters to fulfill the query
  */
 function setupDataFeed(
@@ -48,6 +49,7 @@ function setupDataFeed(
     uint256 _startTime,
     uint256 _interval,
     uint256 _window,
+    uint256 _priceThreshold,
     bytes calldata _queryData
 ) external {
 ```
@@ -60,6 +62,7 @@ _reward = 1000000000000000000 (1 TRB)
 _startTime = 1647435600 (tomorrow start time (UNIX))
 _interval = 3600 (seconds in hour)
 _window = 300 (seconds in 5 minutes)
+_priceThreshold = 0
 _queryData = 0x00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000000000000953706f745072696365000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c0000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000800000000000000000000000000000000000000000000000000000000000000003627463000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000037573640000000000000000000000000000000000000000000000000000000000
 //_queryData = abi.encode("SpotPrice",abi.encode("btc","usd"))
 ```
@@ -86,7 +89,6 @@ The \_feedId is simply the keccak256 has of the variables defined in setupFeed:
     bytes32 _feedId = keccak256(
         abi.encode(
             _queryId,
-            _token,
             _reward,
             _startTime,
             _interval,
