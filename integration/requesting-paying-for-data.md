@@ -18,13 +18,11 @@ To tip a query ID for an instant report (whoever submits the value next gets the
 ```
 /**
  * @dev Function to run a single tip
- * @param _token address of token to tip
  * @param _queryId id of tipped data
  * @param _amount amount to tip
  * @param _queryData the data used by reporters to fulfill the query
 */
 function tip(
-    address _token,
     bytes32 _queryId,
     uint256 _amount,
     bytes calldata _queryData
@@ -51,12 +49,12 @@ To set up your data feed:
  * @param _queryData the data used by reporters to fulfill the query
  */
 function setupDataFeed(
-    address _token,
     bytes32 _queryId,
     uint256 _reward,
     uint256 _startTime,
     uint256 _interval,
     uint256 _window,
+    uint256 _priceThreshold,
     bytes calldata _queryData
 ) external {
 ```
@@ -64,12 +62,12 @@ function setupDataFeed(
 As an example, if on Polygon you want to tip 1 TRB token each hour for the spot BTC price.  You need it every hour, starting tomorrow, and you need it updated within 5 minutes of the hour.
 
 ```
-_address = 0xe3322702bedaaed36cddab233360b939775ae5f1 (TRB on polygon)
 _queryId =0xa6f013ee236804827b77696d350e9f0ac3e879328f2a3021d473a0b778ad78ac (keccak256 of queryData)
 _reward = 1000000000000000000 (1 TRB)
 _startTime = 1647435600 (tomorrow start time (UNIX))
 _interval = 3600 (seconds in hour)
 _window = 300 (seconds in 5 minutes)
+_priceThreshold = 0
 _queryData = 0x00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000000000000953706f745072696365000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c0000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000800000000000000000000000000000000000000000000000000000000000000003627463000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000037573640000000000000000000000000000000000000000000000000000000000
 //_queryData = abi.encode("SpotPrice",abi.encode("btc","usd"))
 ```
@@ -96,11 +94,11 @@ The \_feedId is simply the keccak256 has of the variables defined in setupFeed:&
     bytes32 _feedId = keccak256(
         abi.encode(
             _queryId,
-            _token,
             _reward,
             _startTime,
             _interval,
-            _window
+            _window,
+            _priceThreshold,
         )
     );
 ```
