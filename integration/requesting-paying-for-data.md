@@ -29,8 +29,10 @@ function tip(
 ) external 
 ```
 
-be sure to approve the transfer of the token before you call the function. &#x20;
-
+be sure to approve the transfer of the token before you call the function: &#x20;
+```
+token.approve(address(autopay), _amount);
+```
 ### Funding a recurring data feed
 
 To fund a data feed, you will need to run two functions, one to set up the feed and the other to fund it.  If a fund is already set up with your specifications, you can simply call the function to fund it.&#x20;
@@ -46,6 +48,7 @@ To set up your data feed:
  * @param _startTime timestamp of first autopay window
  * @param _interval amount of time between autopay windows
  * @param _window amount of time after each new interval when reports are eligible for tips
+ * @param _priceThreshold amount price must change to automate update regardless of time (negated if 0, 100 = 1%)
  * @param _queryData the data used by reporters to fulfill the query
  */
 function setupDataFeed(
@@ -105,4 +108,8 @@ The \_feedId is simply the keccak256 has of the variables defined in setupFeed:&
 
 The \_amount is the amount of the token you would want to fund it with.  For example, if you are tipping 1 TRB per hour, if you fund the feed with 24 TRB, it would pay out for the next 24 hours.&#x20;
 
-Be sure to approve the token transfer before calling this function.&#x20;
+Be sure to approve the token transfer before calling this function:&#x20;
+
+```
+token.approve(address(autopay), _amount);
+```
