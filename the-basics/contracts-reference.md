@@ -18,15 +18,15 @@
 
 **Ropsten**
 
-* Playground: [`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://ropsten.etherscan.io/address/0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A#code)``
+* [Playground](../getting-data/reading-data/tellor-playground.md#overview): [`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://ropsten.etherscan.io/address/0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A#code)``
 
 **Kovan**
 
-* Playground: [`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://goerli.etherscan.io/address/0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A#code)``
+* [Playground](../getting-data/reading-data/tellor-playground.md#overview): [`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://goerli.etherscan.io/address/0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A#code)``
 
 #### **Goerli**
 
-* Playground: [`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://goerli.etherscan.io/address/0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A#code)``
+* [Playground](../getting-data/reading-data/tellor-playground.md#overview): [`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://goerli.etherscan.io/address/0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A#code)``
 
 ### **Polygon Mainnet**
 
@@ -41,7 +41,7 @@
 * Tellor: [`0x840c23e39F9D029fFa888F47069aA6864f0401D7`](https://mumbai.polygonscan.com/address/0x840c23e39F9D029fFa888F47069aA6864f0401D7)``
 * Governance: [`0x398827CF82Cde41790666039295598578Fae9F54`](https://mumbai.polygonscan.com/address/0x398827CF82Cde41790666039295598578Fae9F54)``
 * Autopay: [`0x7B49420008BcA14782F2700547764AdAdD54F813`](https://mumbai.polygonscan.com/address/0x7B49420008BcA14782F2700547764AdAdD54F813)``
-* Playground [`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://mumbai.polygonscan.com/address/0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A#code)``
+* [Playground](../getting-data/reading-data/tellor-playground.md#overview): [`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://mumbai.polygonscan.com/address/0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A#code)``
 
 ### Harmony Mainnet
 
@@ -52,7 +52,7 @@
 
 #### Harmony Testnet
 
-* Playground: [`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://explorer.testnet.harmony.one/address/0x7b8ac044ebce66acdf14197e8de38c1cc802db4a?activeTab=7)``
+* [Playground](../getting-data/reading-data/tellor-playground.md#overview): [`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://explorer.testnet.harmony.one/address/0x7b8ac044ebce66acdf14197e8de38c1cc802db4a?activeTab=7)``
 
 ### Arbitrum Mainnet
 
@@ -63,11 +63,11 @@
 
 #### Arbitrum Testnet
 
-* Playground: [`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://testnet.arbiscan.io/address/0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A#code)``
+* [Playground](../getting-data/reading-data/tellor-playground.md#overview): [`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://testnet.arbiscan.io/address/0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A#code)``
 
 &#x20;_****_** Optimism Kovan (Testnet)**
 
-* Playground:[`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://kovan-optimistic.etherscan.io/address/0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A#code)``
+* [Playground](../getting-data/reading-data/tellor-playground.md#overview): [`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://kovan-optimistic.etherscan.io/address/0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A#code)``
 
 ``
 
