@@ -15,12 +15,13 @@
 * Oracle: [`0x18431fd88adF138e8b979A7246eb58EA7126ea16`](https://rinkeby.etherscan.io/address/0x18431fd88adF138e8b979A7246eb58EA7126ea16)
 * Governance[: `0xA64Bb0078eB80c97484f3f09Adb47b9B73CBcA00`](https://rinkeby.etherscan.io/address/0xA64Bb0078eB80c97484f3f09Adb47b9B73CBcA00)
 * Treasury[: `0x2dB91443f2b562B8b2B2e8E4fC0A3EDD6c195147`](https://rinkeby.etherscan.io/address/0x2dB91443f2b562B8b2B2e8E4fC0A3EDD6c195147)
+* Playground: [`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://rinkeby.etherscan.io/address/0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A#code)``
 
-**Ropsten**
+#### **Ropsten**
 
 * [Playground](../getting-data/reading-data/tellor-playground.md#overview): [`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://ropsten.etherscan.io/address/0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A#code)``
 
-**Kovan**
+#### **Kovan**
 
 * [Playground](../getting-data/reading-data/tellor-playground.md#overview): [`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://goerli.etherscan.io/address/0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A#code)``
 
@@ -35,7 +36,7 @@
 * Governance: [`0x98458269081eD05bA58babE3f004E46625C8D9F2`](https://polygonscan.com/address/0x98458269081eD05bA58babE3f004E46625C8D9F2)
 * Mesosphere: [`0xf8c1EB914EF4271edBC95C48ED067295C057F1a0`](https://polygonscan.com/address/0xf8c1eb914ef4271edbc95c48ed067295c057f1a0)
 
-#### **Polygon Mumbai**
+**Polygon Mumbai**
 
 * Bridged TRB: [`0xce4e32fe9d894f8185271aa990d2db425df3e6be`](https://mumbai.polygonscan.com/address/0xce4e32fe9d894f8185271aa990d2db425df3e6be)``
 * Tellor: [`0x840c23e39F9D029fFa888F47069aA6864f0401D7`](https://mumbai.polygonscan.com/address/0x840c23e39F9D029fFa888F47069aA6864f0401D7)``
@@ -65,7 +66,7 @@
 
 * [Playground](../getting-data/reading-data/tellor-playground.md#overview): [`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://testnet.arbiscan.io/address/0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A#code)``
 
-&#x20;_****_** Optimism Kovan (Testnet)**
+#### &#x20;_****_** Optimism Kovan (Testnet)**
 
 * [Playground](../getting-data/reading-data/tellor-playground.md#overview): [`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://kovan-optimistic.etherscan.io/address/0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A#code)``
 
