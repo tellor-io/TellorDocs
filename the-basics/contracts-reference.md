@@ -16,21 +16,17 @@
 * Governance[: `0xA64Bb0078eB80c97484f3f09Adb47b9B73CBcA00`](https://rinkeby.etherscan.io/address/0xA64Bb0078eB80c97484f3f09Adb47b9B73CBcA00)
 * Treasury[: `0x2dB91443f2b562B8b2B2e8E4fC0A3EDD6c195147`](https://rinkeby.etherscan.io/address/0x2dB91443f2b562B8b2B2e8E4fC0A3EDD6c195147)
 
+**Ropsten**
+
+* Playground: [`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://ropsten.etherscan.io/address/0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A#code)``
+
 **Kovan**
 
-* TRB Faucet[: ](https://rinkeby.etherscan.io/address/0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0)[`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://goerli.etherscan.io/address/0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A#code)``
-* Tellor: [`0xbB97C038c338c3DcAF06D5be3B4A3e0B24835f9C`](https://kovan.etherscan.io/address/0xbB97C038c338c3DcAF06D5be3B4A3e0B24835f9C#code)``
-* Governance: [`0x3eb81A11DD28Fe8ED9f53D1456248aC86d5893C6`](https://kovan.etherscan.io/address/0x3eb81A11DD28Fe8ED9f53D1456248aC86d5893C6#code)``
-*   Autopay[: ](https://rinkeby.etherscan.io/address/0xA64Bb0078eB80c97484f3f09Adb47b9B73CBcA00)[`0x7B49420008BcA14782F2700547764AdAdD54F813`](https://kovan.etherscan.io/address/0x7B49420008BcA14782F2700547764AdAdD54F813#code)``
-
-    [`Adb47b9B73CBcA00`](https://rinkeby.etherscan.io/address/0xA64Bb0078eB80c97484f3f09Adb47b9B73CBcA00)
+* Playground: [`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://goerli.etherscan.io/address/0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A#code)``
 
 #### **Goerli**
 
-* TRB Faucet: [`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://goerli.etherscan.io/address/0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A#code)``
-* Tellor: [`0xbB97C038c338c3DcAF06D5be3B4A3e0B24835f9C`](https://goerli.etherscan.io/address/0xbb97c038c338c3dcaf06d5be3b4a3e0b24835f9c#code)``
-* Governance: [`0x3eb81A11DD28Fe8ED9f53D1456248aC86d5893C6`](https://goerli.etherscan.io/address/0x3eb81A11DD28Fe8ED9f53D1456248aC86d5893C6)``
-* Autopay[: ](https://rinkeby.etherscan.io/address/0xA64Bb0078eB80c97484f3f09Adb47b9B73CBcA00)[`0x7B49420008BcA14782F2700547764AdAdD54F813`](https://goerli.etherscan.io/address/0x7B49420008BcA14782F2700547764AdAdD54F813)``
+* Playground: [`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://goerli.etherscan.io/address/0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A#code)``
 
 ### **Polygon Mainnet**
 
@@ -45,6 +41,7 @@
 * Tellor: [`0x840c23e39F9D029fFa888F47069aA6864f0401D7`](https://mumbai.polygonscan.com/address/0x840c23e39F9D029fFa888F47069aA6864f0401D7)``
 * Governance: [`0x398827CF82Cde41790666039295598578Fae9F54`](https://mumbai.polygonscan.com/address/0x398827CF82Cde41790666039295598578Fae9F54)``
 * Autopay: [`0x7B49420008BcA14782F2700547764AdAdD54F813`](https://mumbai.polygonscan.com/address/0x7B49420008BcA14782F2700547764AdAdD54F813)``
+* Playground [`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://mumbai.polygonscan.com/address/0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A#code)``
 
 ### Harmony Mainnet
 
@@ -55,10 +52,7 @@
 
 #### Harmony Testnet
 
-* TRB Faucet: [`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://explorer.testnet.harmony.one/address/0x7b8ac044ebce66acdf14197e8de38c1cc802db4a?activeTab=7)``
-* Tellor: [`0xbB97C038c338c3DcAF06D5be3B4A3e0B24835f9C`](https://explorer.pops.one/verifycontract?address=0xbb97c038c338c3dcaf06d5be3b4a3e0b24835f9c)``
-* Governance: [`0x3eb81A11DD28Fe8ED9f53D1456248aC86d5893C6`](https://explorer.pops.one/address/0x3eb81A11DD28Fe8ED9f53D1456248aC86d5893C6)``
-* Autopay: [`0x7B49420008BcA14782F2700547764AdAdD54F813`](https://explorer.pops.one/address/0x7B49420008BcA14782F2700547764AdAdD54F813)``
+* Playground: [`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://explorer.testnet.harmony.one/address/0x7b8ac044ebce66acdf14197e8de38c1cc802db4a?activeTab=7)``
 
 ### Arbitrum Mainnet
 
@@ -69,29 +63,11 @@
 
 #### Arbitrum Testnet
 
-* Bridged TRB: [`0x126f5C4802c10848Eb66ce2F74380B7ADeFF36Cb`](https://testnet.arbiscan.io/address/0x126f5C4802c10848Eb66ce2F74380B7ADeFF36Cb)``
-* Tellor: [`0xbB97C038c338c3DcAF06D5be3B4A3e0B24835f9C`](https://testnet.arbiscan.io/address/0xbB97C038c338c3DcAF06D5be3B4A3e0B24835f9C)``
-* Governance: [`0x3eb81A11DD28Fe8ED9f53D1456248aC86d5893C6`](https://testnet.arbiscan.io/address/0x3eb81A11DD28Fe8ED9f53D1456248aC86d5893C6#code)``
-*   Autopay: [`0x7B49420008BcA14782F2700547764AdAdD54F813`](https://testnet.arbiscan.io/address/0x7B49420008BcA14782F2700547764AdAdD54F813)``
-
-
+* Playground: [`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://testnet.arbiscan.io/address/0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A#code)``
 
 &#x20;_****_** Optimism Kovan (Testnet)**
 
-* TRB Faucet: [`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://kovan-optimistic.etherscan.io/address/0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A#code)``
-* Tellor: [`0xa0013274d34a7c469952379646F26aA1C1237131`](https://kovan-optimistic.etherscan.io/address/0xa0013274d34a7c469952379646F26aA1C1237131#code)``
-* Governance: [`0x3eb81A11DD28Fe8ED9f53D1456248aC86d5893C6`](https://kovan-optimistic.etherscan.io/address/0x3eb81A11DD28Fe8ED9f53D1456248aC86d5893C6)``
-*   Autopay: [`0x7B49420008BcA14782F2700547764AdAdD54F813`](https://kovan-optimistic.etherscan.io/address/0x7B49420008BcA14782F2700547764AdAdD54F813)``
+* Playground:[`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://kovan-optimistic.etherscan.io/address/0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A#code)``
 
-    ``
+``
 
-## [Playground](https://github.com/tellor-io/TellorPlayground)
-
-* Rinkeby: [`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://rinkeby.etherscan.io/address/0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A#code)``
-* Ropsten: [`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://ropsten.etherscan.io/address/0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A#code)``
-* Kovan: [`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://goerli.etherscan.io/address/0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A#code)``
-* Goerli: [`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://goerli.etherscan.io/address/0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A#code)``
-* Polygon Mumbai: [`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://mumbai.polygonscan.com/address/0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A#code)``
-* Harmony: [`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://explorer.testnet.harmony.one/address/0x7b8ac044ebce66acdf14197e8de38c1cc802db4a?activeTab=7)``
-* Arbitrum: [`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://testnet.arbiscan.io/address/0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A#code)``
-* Optimism Kovan: [0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A](https://kovan-optimistic.etherscan.io/address/0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A#code)
