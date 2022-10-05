@@ -66,9 +66,9 @@
 
 * [Playground](../getting-data/reading-data/tellor-playground.md#overview): [`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://testnet.arbiscan.io/address/0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A#code)``
 
-#### &#x20;_****_** Optimism Kovan (Testnet)**
+#### &#x20;_****_** Optimism Goerli (Testnet)**
 
-* [Playground](../getting-data/reading-data/tellor-playground.md#overview): [`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://kovan-optimistic.etherscan.io/address/0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A#code)``
+* [Playground](../getting-data/reading-data/tellor-playground.md#overview): [`0x08b193bC308eC1E60cE0064CB503c9D85A841347`](https://goerli-optimism.etherscan.io/address/0x08b193bc308ec1e60ce0064cb503c9d85a841347)``
 
 ``
 
