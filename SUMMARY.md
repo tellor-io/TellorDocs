@@ -33,4 +33,4 @@
 
 ***
 
-* [Vulnerability Disclosure](security/vulnerability-disclosure.md)
+* [Vulnerability Disclosure](vulnerability-disclosure.md)
