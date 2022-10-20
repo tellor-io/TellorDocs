@@ -41,10 +41,10 @@
 **Polygon Mumbai**
 
 * Bridged TRB: [`0xce4e32fe9d894f8185271aa990d2db425df3e6be`](https://mumbai.polygonscan.com/address/0xce4e32fe9d894f8185271aa990d2db425df3e6be)
-* Tellor: [`0x0a453872d73C3f4122aC26D03aD58285dAee6D6A`](https://mumbai.polygonscan.com/address/0x0a453872d73C3f4122aC26D03aD58285dAee6D6A)
-* Governance: [`0xaF8797c5C113abC7338535581243e11168326082`](https://mumbai.polygonscan.com/address/0xaF8797c5C113abC7338535581243e11168326082)
-* Autopay: [`0xC5231f64A81987731436F430dF9D9f5552EC3ef6`](https://mumbai.polygonscan.com/address/0xC5231f64A81987731436F430dF9D9f5552EC3ef6)
-* QueryDataStorage: [`0xcB8CA530d932121cE4078E0FC6a2A847b93EFCa7`](https://mumbai.polygonscan.com/address/0xcB8CA530d932121cE4078E0FC6a2A847b93EFCa7)
+* Tellor: [`0xB3B662644F8d3138df63D2F43068ea621e2981f9`](https://mumbai.polygonscan.com/address/0xB3B662644F8d3138df63D2F43068ea621e2981f9)
+* Governance: [`0x02803dcFD7Cb32E97320CFe7449BFb45b6C931b8`](https://mumbai.polygonscan.com/address/0x02803dcFD7Cb32E97320CFe7449BFb45b6C931b8)
+* Autopay: [`0xA33ca1062762c8591E29E65bf7aC7ae8EC88b183`](https://mumbai.polygonscan.com/address/0xA33ca1062762c8591E29E65bf7aC7ae8EC88b183)
+* QueryDataStorage: [`0xD3b9A1DCAbd16c482785Fd4265cB4580B84cdeD7`](https://mumbai.polygonscan.com/address/0xD3b9A1DCAbd16c482785Fd4265cB4580B84cdeD7)
 * [Playground](../getting-data/reading-data/tellor-playground.md#overview): [`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://mumbai.polygonscan.com/address/0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A#code)
 
 
