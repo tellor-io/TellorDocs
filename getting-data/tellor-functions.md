@@ -4,26 +4,66 @@
 
 When your contract inherits the [usingtellor](https://github.com/tellor-io/usingtellor) helper contract, it has access to the following functions:
 
-### `retrieveData`
 
-> Retrieves a specific value by queryId and timestamp
+### `getDataAfter`
+
+> Retrieves the next value for a given queryId after a given timestamp
 
 ```solidity
-function retrieveData(bytes32 _queryId, uint256 _timestamp)
+function getDataAfter(bytes32 _queryId, uint256 _timestamp)
         public
         view
-        returns (bytes memory);
+        returns (bytes memory _value, uint256 _timestampRetrieved);
 ```
 
-### `isInDispute`
+### `getDataBefore`
 
-> Determines whether a specific value with a given queryId and timestamp has been disputed
+> Finds the most recent submission for a given queryId **before** a specific timestamp.
+>
+> * It is recommended that you use this function with a buffer time when retrieving oracle values.  This [allows time](../the-basics/fundamentals.md#finality) for bad values to be disputed.
 
 ```solidity
-function isInDispute(bytes32 _queryId, uint256 _timestamp)
+function getDataBefore(bytes32 _queryId, uint256 _timestamp)
         public
         view
-        returns (bool);
+        returns (bytes memory _value, uint256 _timestampRetrieved);
+```
+
+### `getIndexForDataAfter`
+
+> Returns the index of the next value reported for a given queryId after a given timestamp.
+```solidity
+function getIndexForDataAfter(bytes32 _queryId, uint256 _timestamp)
+        public
+        view
+        returns (bool _found, uint256 _index);
+```
+
+### `getIndexForDataBefore`
+
+> Returns the index of the most recent value reported for a given queryId before a given timestamp. 
+
+```solidity
+function getIndexForDataBefore(bytes32 _queryId, uint256 _timestamp)
+        public
+        view
+        returns (bool _found, uint256 _index);
+```
+
+### `getMultipleValuesBefore`
+
+> Returns the multiple most recent values for a given queryId before a given timestamp. 
+
+```solidity
+function getMultipleValuesBefore(
+        bytes32 _queryId,
+        uint256 _timestamp,
+        uint256 _maxAge,
+        uint256 _maxCount
+    )
+        public
+        view
+        returns (bytes[] memory _values, uint256[] memory _timestamps);
 ```
 
 ### `getNewValueCountbyQueryId`
@@ -37,7 +77,16 @@ function getNewValueCountbyQueryId(bytes32 _queryId)
         returns (uint256);
 ```
 
+### `getReporterByTimestamp`
 
+> Retrieves the address of the reporter for a given queryId and timestamp.
+
+```solidity
+function getReporterByTimestamp(bytes32 _queryId, uint256 _timestamp)
+        public
+        view
+        returns (address);
+```
 
 ### `getTimestampbyQueryIdandIndex`
 
@@ -52,41 +101,24 @@ function getTimestampbyQueryIdandIndex(bytes32 _queryId, uint256 _index)
         returns (uint256);
 ```
 
+### `isInDispute`
 
-
-### `getCurrentValue`
-
-> Finds the most recent submission for a given queryId and returns 3 things: a boolean for whether a value was found, the value itself, and a timestamp of the value
->
-> * Note that this function should not be used in most cases since it does not include a dispute buffer time.&#x20;
+> Determines whether a specific value with a given queryId and timestamp has been disputed
 
 ```solidity
-function getCurrentValue(bytes32 _queryId)
+function isInDispute(bytes32 _queryId, uint256 _timestamp)
         public
         view
-        returns (
-            bool _ifRetrieve,
-            bytes memory _value,
-            uint256 _timestampRetrieved
-        );
+        returns (bool);
 ```
 
+### `retrieveData`
 
-
-### getDataBefore
-
-> Finds the most recent submission for a given queryId **before** a specific timestamp
->
-> * It is recommended that you use this function with a buffer time when retrieving oracle values.  This [allows time](../the-basics/fundamentals.md#finality) for bad values to be disputed.
+> Retrieves a specific value by queryId and timestamp
 
 ```solidity
-function getDataBefore(bytes32 _queryId, uint256 _timestamp)
+function retrieveData(bytes32 _queryId, uint256 _timestamp)
         public
         view
-        returns (
-            bool _ifRetrieve,
-            bytes memory _value,
-            uint256 _timestampRetrieved
-        );
+        returns (bytes memory);
 ```
-
