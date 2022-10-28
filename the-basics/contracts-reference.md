@@ -15,15 +15,7 @@
 * Governance[: `0x02803dcFD7Cb32E97320CFe7449BFb45b6C931b8`](https://goerli.etherscan.io/address/0x02803dcFD7Cb32E97320CFe7449BFb45b6C931b8)
 * QueryDataStorage[: `0xA33ca1062762c8591E29E65bf7aC7ae8EC88b183`](https://goerli.etherscan.io/address/0xA33ca1062762c8591E29E65bf7aC7ae8EC88b183)
 * AutoPay[: `0x1F033Cb8A2Df08a147BC512723fd0da3FEc5cCA7`](https://goerli.etherscan.io/address/0x1F033Cb8A2Df08a147BC512723fd0da3FEc5cCA7)
-* [Playground](../getting-data/reading-data/tellor-playground.md#overview): [`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://goerli.etherscan.io/address/0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A#code)
-
-#### **Ropsten**
-
-* [Playground](../getting-data/reading-data/tellor-playground.md#overview): [`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://ropsten.etherscan.io/address/0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A#code)
-
-#### **Kovan**
-
-* [Playground](../getting-data/reading-data/tellor-playground.md#overview): [`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://goerli.etherscan.io/address/0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A#code)
+* [Playground](../getting-data/reading-data/tellor-playground.md#overview): [`0x3251838bd813fdf6a97D32781e011cce8D225d59`](https://goerli.etherscan.io/address/0x3251838bd813fdf6a97D32781e011cce8D225d59#code)
 
 
 ### **Polygon Mainnet**
@@ -34,14 +26,14 @@
 * Autopay: [`0xA33ca1062762c8591E29E65bf7aC7ae8EC88b183`](https://polygonscan.com/0xA33ca1062762c8591E29E65bf7aC7ae8EC88b183)
 * QueryDataStorage: [`0xD3b9A1DCAbd16c482785Fd4265cB4580B84cdeD7`](https://mumbai.polygonscan.com/address/0xD3b9A1DCAbd16c482785Fd4265cB4580B84cdeD7)
 
-**Polygon Mumbai**
+#### **Polygon Mumbai**
 
 * Bridged TRB: [`0xce4e32fe9d894f8185271aa990d2db425df3e6be`](https://mumbai.polygonscan.com/address/0xce4e32fe9d894f8185271aa990d2db425df3e6be)
 * Oracle: [`0xB3B662644F8d3138df63D2F43068ea621e2981f9`](https://mumbai.polygonscan.com/address/0xB3B662644F8d3138df63D2F43068ea621e2981f9)
 * Governance: [`0x02803dcFD7Cb32E97320CFe7449BFb45b6C931b8`](https://mumbai.polygonscan.com/address/0x02803dcFD7Cb32E97320CFe7449BFb45b6C931b8)
 * Autopay: [`0xA33ca1062762c8591E29E65bf7aC7ae8EC88b183`](https://mumbai.polygonscan.com/address/0xA33ca1062762c8591E29E65bf7aC7ae8EC88b183)
 * QueryDataStorage: [`0xD3b9A1DCAbd16c482785Fd4265cB4580B84cdeD7`](https://mumbai.polygonscan.com/address/0xD3b9A1DCAbd16c482785Fd4265cB4580B84cdeD7)
-* [Playground](../getting-data/reading-data/tellor-playground.md#overview): [`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://mumbai.polygonscan.com/address/0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A#code)
+* [Playground](../getting-data/reading-data/tellor-playground.md#overview): [`0x3251838bd813fdf6a97D32781e011cce8D225d59`](https://mumbai.polygonscan.com/address/0x3251838bd813fdf6a97D32781e011cce8D225d59#code)
 
 
 ### Arbitrum Mainnet
@@ -51,13 +43,13 @@
 * Governance: [`0x8b201738c34f0459A4B09976bd905D5cc70FA333`](https://arbiscan.io/address/0x8b201738c34f0459a4b09976bd905d5cc70fa333#code)
 * Autopay: [`0xd844B26dfAfB0776E70aF12C19189b740329A266`](https://arbiscan.io/address/0xd844b26dfafb0776e70af12c19189b740329a266)
 
-#### Arbitrum Testnet
+#### Arbitrum Goerli Testnet
 
-* [Playground](../getting-data/reading-data/tellor-playground.md#overview): [`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://testnet.arbiscan.io/address/0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A#code)
+* [Playground](../getting-data/reading-data/tellor-playground.md#overview): [`0x3251838bd813fdf6a97D32781e011cce8D225d59`](https://goerli.arbiscan.io/address/0x3251838bd813fdf6a97D32781e011cce8D225d59#code)
 
 ### Optimism Goerli (Testnet)
 
-* [Playground](../getting-data/reading-data/tellor-playground.md#overview): [`0x08b193bC308eC1E60cE0064CB503c9D85A841347`](https://goerli-optimism.etherscan.io/address/0x08b193bc308ec1e60ce0064cb503c9d85a841347)
+* [Playground](../getting-data/reading-data/tellor-playground.md#overview): [`0x3251838bd813fdf6a97D32781e011cce8D225d59`](https://goerli-optimism.etherscan.io/address/0x3251838bd813fdf6a97D32781e011cce8D225d59)
 
 ### Harmony Mainnet
 
@@ -68,6 +60,6 @@
 
 #### Harmony Testnet
 
-* [Playground](../getting-data/reading-data/tellor-playground.md#overview): [`0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A`](https://explorer.testnet.harmony.one/address/0x7b8ac044ebce66acdf14197e8de38c1cc802db4a?activeTab=7)
+* [Playground](../getting-data/reading-data/tellor-playground.md#overview): [`0x3251838bd813fdf6a97D32781e011cce8D225d59`](https://explorer.testnet.harmony.one/address/0x3251838bd813fdf6a97D32781e011cce8D225d59?activeTab=7)
 
 
