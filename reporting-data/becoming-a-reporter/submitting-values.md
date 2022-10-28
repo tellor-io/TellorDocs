@@ -1,6 +1,6 @@
 # Submitting Values
 
-Reporting data is the same on any network, it requires a staked reporter to run the [`submitValue` function](../../getting-data/tellor-functions.md):
+Reporting data requires a staked reporter to run the [`submitValue` function](../../getting-data/tellor-functions.md):
 
 ```solidity
 /**
@@ -20,8 +20,8 @@ function submitValue(
 
 #### Notes:
 
-Once a value is submitted, the reporter is then locked from submitting again for the reporterLock time period (currently 12 hours on most networks).
+Once a value is submitted, the reporter is then locked from submitting again for the reporterLock time period (usually 12 hours) divided by the number of full stakes. If the stake amount is 10 TRB and a reporter has 60 TRB staked, for example, that reporter can submit once every two hours.
 
-For all queryId's except legacy ID's (ETH only), the \_queryId must be the keccak256 hash of the \_queryData. For information on how to get the queryId or how to parse the \_queryData, see the [Creating a Query](https://app.gitbook.com/s/tcQlo49FAqTaOimNOz0X/getting-data/creating-a-query) section.
+For all reported values, the `_queryId` must be the keccak256 hash of the `_queryData`. For information on how to get the queryId or how to parse the `_queryData`, see the [Creating a Query](https://app.gitbook.com/s/tcQlo49FAqTaOimNOz0X/getting-data/creating-a-query) section.
 
-The \_nonce also must be correct for a valid report. The nonce represents the number of submissions for a given query. The purpose of the \_nonce is to prevent two parties from submitting at the same time for the same ID.
+The `_nonce` can be either correct or `0` for a valid report. The nonce represents the number of submissions for a given query. The purpose of the `_nonce` is to prevent two parties from submitting at the same time for the same ID and wasting gas with no reward.

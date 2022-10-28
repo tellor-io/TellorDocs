@@ -4,7 +4,7 @@ The Tellor contracts are modular, but together comprise the core functionality o
 
 ### [Oracle](https://github.com/tellor-io/tellorFlex)
 
-The Oracle contract handles [staking](https://app.gitbook.com/s/tcQlo49FAqTaOimNOz0X/reporting-data/setup-and-usage/staking-unstaking), [reporting](https://app.gitbook.com/s/tcQlo49FAqTaOimNOz0X/reporting-data), and reading data. Accounts stake TRB to the Oracle to become data reporters. Users read data feeds from this contract.&#x20;
+The Oracle contract handles [staking](https://app.gitbook.com/s/tcQlo49FAqTaOimNOz0X/reporting-data/becoming-a-reporter/staking-unstaking), [reporting](https://app.gitbook.com/s/tcQlo49FAqTaOimNOz0X/reporting-data), and reading data. Accounts stake TRB to the Oracle to become data reporters. Users read data feeds from this contract.&#x20;
 
 This contract also handles slashing reporter stakes and removing data when called by Governance.
 
@@ -14,7 +14,7 @@ The Autopay contract handles payments to reporters for submitting data to reques
 
 ### [Governance](https://github.com/tellor-io/governance)
 
-The Governance contract handles creating, voting on, and executing disputes on the Oracle contract. After a dispute is resolved this contract sends the dispute fee and slashed stake to the appropriate parties.
+The Governance contract handles creating, voting on, and executing [disputes](https://app.gitbook.com/s/tcQlo49FAqTaOimNOz0X/disputing-data/introduction) on the Oracle contract. After a dispute is resolved this contract sends the dispute fee and slashed stake to the appropriate parties.
 
 ### [Controller](https://github.com/tellor-io/tellor360)
 

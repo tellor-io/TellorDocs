@@ -10,11 +10,11 @@ When testing their smart contracts, most projects that want to integrate Tellor 
 
 The Playground is a simplified (and not a real oracle) Tellor, containing only the small bits that developers need to worry about when building and testing: submitting data, getting data, reading events and so forth.
 
-#### Why not use the real Tellor
+### Why not use the real Tellor
 
 There are a few reasons not to use even the testnet version of the real system, the first one being that it is identical to the mainnet version, where there are only so many datapoints available for reading. You can easily get the value of USD or BTC, but if your project needs to read a value from an exotic token, it might not be available.
 
-To include a value in the Rinkeby version, it would first need to be added to the reporter software client. Or a developer could report the value themselves, but they would have to acquire 100 Rinkeby test TRB, stake it, and then they would only be able to submit a value once every 12 hours. If you're testing an idea or building a hackathon project, it might be overkill to go through all of that and it's far easier to make use of Tellor Playground.
+To include a value in the Goerli version, it would first need to be added to the reporter software client. Or a developer could report the value themselves, but they would have to acquire 100 Goerli test TRB, stake it, and then they would only be able to submit a value once every 12 hours. If you're testing an idea or building a hackathon project, it might be overkill to go through all of that and it's far easier to make use of Tellor Playground.
 
 ### How to use
 
@@ -49,7 +49,7 @@ contract BtcPriceContract is UsingTellor {
 }
 ```
 
-#### Setting values in the Playground
+### Setting values in the Playground
 
 To be able to properly read a value from playground, you'll need to first set the value yourself, since it does not rely on reporters.
 

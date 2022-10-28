@@ -53,7 +53,7 @@ contract ExampleContract is UsingTellor {
       bytes memory _queryData = abi.encode("SpotPrice", abi.encode("btc", "usd"));
       bytes32 _queryId = keccak256(_queryData);
       
-      (bool ifRetrieve, bytes memory _value, ) =
+      (bytes memory _value, ) =
           getDataBefore(_queryId, block.timestamp - 1 hours);
       if (!ifRetrieve) return 0;
       return abi.decode(_value, (uint256);
