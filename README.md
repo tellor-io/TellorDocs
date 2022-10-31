@@ -25,7 +25,7 @@ Built for any [data type](https://tellor.io/blog/how-to-query-custom-data-with-t
 {% tabs %}
 {% tab title="I want a price feed" %}
 1. [Get a QueryID](getting-data/creating-a-query.md#getting-a-query-id-and-query-data)
-2. [Check if Telliot can currently report it](https://github.com/tellor-io/telliot-feeds/tree/main/src/telliot\_feed\_examples/feeds)
+2. [Check if Telliot can currently report it](https://github.com/tellor-io/telliot-feeds/tree/main/src/telliot\_feeds/feeds)
    * if yes, go to step 3
    * if no, [request a new spotPrice asset](https://github.com/tellor-io/dataSpecs/issues/24)
 3. [Get your data](broken-reference)
