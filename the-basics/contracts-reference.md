@@ -9,8 +9,8 @@
 * Treasury: [`0x3b0f3eaEFaAc9f8F7FDe406919ecEb5270fE`](https://etherscan.io/address/0x3b0f3eaEFaAc9f8F7FDe406919ecEb5270fE0607)
 
 #### **Goerli**
-
-* Master[: `0xD3b9A1DCAbd16c482785Fd4265cB4580B84cdeD7`](https://goerli.etherscan.io/address/0xD3b9A1DCAbd16c482785Fd4265cB4580B84cdeD7)
+* Master[: `0x51c59c6cAd28ce3693977F2feB4CfAebec30d8a2`](https://goerli.etherscan.io/address/0x51c59c6cAd28ce3693977F2feB4CfAebec30d8a2)
+* Tellor360[: `0xD3b9A1DCAbd16c482785Fd4265cB4580B84cdeD7`](https://goerli.etherscan.io/address/0xD3b9A1DCAbd16c482785Fd4265cB4580B84cdeD7)
 * Oracle: [`0xB3B662644F8d3138df63D2F43068ea621e2981f9`](https://goerli.etherscan.io/address/0xB3B662644F8d3138df63D2F43068ea621e2981f9)
 * Governance[: `0x02803dcFD7Cb32E97320CFe7449BFb45b6C931b8`](https://goerli.etherscan.io/address/0x02803dcFD7Cb32E97320CFe7449BFb45b6C931b8)
 * QueryDataStorage[: `0xA33ca1062762c8591E29E65bf7aC7ae8EC88b183`](https://goerli.etherscan.io/address/0xA33ca1062762c8591E29E65bf7aC7ae8EC88b183)
