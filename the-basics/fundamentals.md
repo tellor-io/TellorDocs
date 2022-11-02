@@ -10,22 +10,21 @@ Tellor solves this problem by aligning the incentives of data reporters, data co
 
 Oracle systems seek to extend the capabilities of the chain to arbitrary information not agreed upon by the base validators via the chain's consensus mechanism.
 
-Many oracle solutions are simply technology that grabs from an API or works to trustlessly bring information from that API on-chain. This is a great tool for builders or MVPs, but it’s not a complete oracle solution.
+Many oracle solutions simply grab responses from an API and put it on-chain. This is a great tool for builders or MVPs, but it’s not a complete oracle solution.
 
-If you assume that the data from an API is always correct, you put complete trust in the operator of the API. The manipulability of the honesty / censorship resistance of the trusted APIs should be serious concerns for any project.&#x20;
+If you assume that the data from an API is always correct, you put complete trust in the operator of the API. The manipulability / censorship resistance of centralized APIs should be a serious concern for any project.&#x20;
 
-Instead of being reliant on any specific API or source Tellor provides a way to agree upon "truth." The Tellor oracle is not some magical cryptographic technique for monitoring the outside world and relaying it to Ethereum. It’s a network of individual participants who are crypto-economically incentivized to report and validate accurate data.
+Instead of being reliant on any specific API or source, Tellor provides a way to agree upon "truth." The Tellor oracle is not some magical cryptographic technique for monitoring the outside world and relaying it to Ethereum. It’s a network of individual participants who are crypto-economically incentivized to report and validate accurate data.
 
 ### Finality
 
-When someone transfers their ether or bitcoin to a centralized exchange, the exchange usually waits a period of time before allowing the user to sell their cryptocurrency and transfer their balance to their bank account. This practice is necessary because, even though a transaction may have been included in a block, that block is not actually finalized. A big miner could potentially mine a new block which reverts the original transaction, and the exchange would not receive the cryptocurrency. As time passes, it gets increasingly expensive to revert a block.&#x20;
+When someone transfers their bitcoin to a centralized exchange, the exchange usually waits a period of time before allowing the user to sell their cryptocurrency and transfer their balance to their bank account. This practice is necessary because, even though a transaction may have been included in a block, that block is not actually finalized. A big miner could potentially mine a new block which reverts the original transaction, and the exchange would not receive the cryptocurrency. As time passes, it gets increasingly expensive to revert a block.&#x20;
 
 Tellor operates under a similar principle of finality. When a Tellor data reporter submits some data, it's usually unwise to immediately use that value in your protocol. For[ best practices](https://tellor.io/best-practices-for-oracle-users-on-ethereum/), values should only be used once they have been on chain for a period of time to allow for someone to dispute a bad value. The longer a value has been on chain, the more likely it is to be valid.&#x20;
 
 ### Permissionlessness
 
-Tellor allows anyone to stake and report data. This means that the Tellor protocol does not depend on the Tellor team. If you integrate Tellor into your protocol, you can rest easy that you will always be able to either pay someone else to submit your data, or just stake and report the data yourself. In other words, Tellor is as permissionless as the blockchain it's running on.
-
+Tellor allows anyone to stake and report data. This means that the Tellor protocol does not depend on the Tellor team. If you integrate Tellor into your protocol, you can rest assured that you will always be able to either pay someone else to submit your data, or just stake and report the data yourself. In other words, Tellor is as permissionless as the blockchain it's running on.
 
 
 ## FAQ

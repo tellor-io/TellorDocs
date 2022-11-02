@@ -17,11 +17,8 @@ To tip a query ID for an instant report (whoever submits the value next gets the
  * @param _amount amount to tip
  * @param _queryData the data used by reporters to fulfill the query
 */
-function tip(
-    bytes32 _queryId,
-    uint256 _amount,
-    bytes calldata _queryData
-) external 
+function tip(bytes32 _queryId, uint256 _amount, bytes calldata _queryData)
+
 ```
 
 Be sure to approve the transfer of the token before you call the function.
@@ -82,11 +79,8 @@ To fund the feed:
  * @param _queryId identifier of reported data type associated with feed
  * @param _amount quantity of tokens to fund feed
  */
-function fundFeed(
-    bytes32 _feedId,
-    bytes32 _queryId,
-    uint256 _amount
-) external 
+function fundFeed(bytes32 _feedId, bytes32 _queryId, uint256 _amount)
+
 ```
 
 The `_feedId` is simply the keccak256 has of the variables defined in `setupFeed`:
