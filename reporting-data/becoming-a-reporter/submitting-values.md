@@ -5,7 +5,7 @@ Reporting data requires a staked reporter to run the [`submitValue` function](..
 ```solidity
 /**
  * @dev Allows a reporter to submit a value to the oracle
- * @param _queryId is ID of the specific data feed. Equals keccak256(_queryData) for non-legacy IDs
+ * @param _queryId is ID of the specific data feed. Equals keccak256(_queryData)
  * @param _value is the value the user submits to the oracle
  * @param _nonce is the current value count for the query id
  * @param _queryData is the data used to fulfill the data query

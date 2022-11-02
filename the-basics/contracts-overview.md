@@ -16,6 +16,6 @@ The Autopay contract handles payments to reporters for submitting data to reques
 
 The Governance contract handles creating, voting on, and executing [disputes](https://app.gitbook.com/s/tcQlo49FAqTaOimNOz0X/disputing-data/introduction) on the Oracle contract. After a dispute is resolved this contract sends the dispute fee and slashed stake to the appropriate parties.
 
-### [Controller](https://github.com/tellor-io/tellor360)
+### [Token](https://github.com/tellor-io/tellor360)
 
-The Controller contract is also the token contract and handles minting Time Based Rewards to the Oracle contract on Ethereum mainnet.
+The Token contract is the functionality of the TRB token and handles minting Time Based Rewards to the Oracle contract on Ethereum mainnet.
