@@ -5,18 +5,19 @@
 * Token: [`0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0`](https://etherscan.io/address/0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0)
 * Oracle: [`0xe8218cACb0a5421BC6409e498d9f8CC8869945ea`](https://etherscan.io/address/0xe8218cACb0a5421BC6409e498d9f8CC8869945ea)
 * Governance: [`0x51d4088d4EeE00Ae4c55f46E0673e9997121DB00`](https://etherscan.io/address/0x51d4088d4EeE00Ae4c55f46E0673e9997121DB00)
-* AutoPay: [`0x1F033Cb8A2Df08a147BC512723fd0da3FEc5cCA7`](https://etherscan.io/address/0x1F033Cb8A2Df08a147BC512723fd0da3FEc5cCA7)``
+* AutoPay: [`0x1F033Cb8A2Df08a147BC512723fd0da3FEc5cCA7`](https://etherscan.io/address/0x1F033Cb8A2Df08a147BC512723fd0da3FEc5cCA7)
+* Tellor360: [`0xD3b9A1DCAbd16c482785Fd4265cB4580B84cdeD7`](https://etherscan.io/address/0xD3b9A1DCAbd16c482785Fd4265cB4580B84cdeD7)
+* QueryDataStorage: [`0xA33ca1062762c8591E29E65bf7aC7ae8EC88b183`](https://etherscan.io/address/0xA33ca1062762c8591E29E65bf7aC7ae8EC88b183)
 
 
+#### **Goerli Testnet**
 
-#### **Goerli**
-
-* Master[: `0x51c59c6cAd28ce3693977F2feB4CfAebec30d8a2`](https://goerli.etherscan.io/address/0x51c59c6cAd28ce3693977F2feB4CfAebec30d8a2)
-* Tellor360[: `0xD3b9A1DCAbd16c482785Fd4265cB4580B84cdeD7`](https://goerli.etherscan.io/address/0xD3b9A1DCAbd16c482785Fd4265cB4580B84cdeD7)
+* Token: [: `0x51c59c6cAd28ce3693977F2feB4CfAebec30d8a2`](https://goerli.etherscan.io/address/0x51c59c6cAd28ce3693977F2feB4CfAebec30d8a2)
 * Oracle: [`0xB3B662644F8d3138df63D2F43068ea621e2981f9`](https://goerli.etherscan.io/address/0xB3B662644F8d3138df63D2F43068ea621e2981f9)
-* Governance[: `0x02803dcFD7Cb32E97320CFe7449BFb45b6C931b8`](https://goerli.etherscan.io/address/0x02803dcFD7Cb32E97320CFe7449BFb45b6C931b8)
-* QueryDataStorage[: `0xA33ca1062762c8591E29E65bf7aC7ae8EC88b183`](https://goerli.etherscan.io/address/0xA33ca1062762c8591E29E65bf7aC7ae8EC88b183)
-* AutoPay[: `0x1F033Cb8A2Df08a147BC512723fd0da3FEc5cCA7`](https://goerli.etherscan.io/address/0x1F033Cb8A2Df08a147BC512723fd0da3FEc5cCA7)
+* Governance: [`0x02803dcFD7Cb32E97320CFe7449BFb45b6C931b8`](https://goerli.etherscan.io/address/0x02803dcFD7Cb32E97320CFe7449BFb45b6C931b8)
+* AutoPay: [`0x1F033Cb8A2Df08a147BC512723fd0da3FEc5cCA7`](https://goerli.etherscan.io/address/0x1F033Cb8A2Df08a147BC512723fd0da3FEc5cCA7)
+* Tellor360: [`0xD3b9A1DCAbd16c482785Fd4265cB4580B84cdeD7`](https://goerli.etherscan.io/address/0xD3b9A1DCAbd16c482785Fd4265cB4580B84cdeD7)
+* QueryDataStorage: [`0xA33ca1062762c8591E29E65bf7aC7ae8EC88b183`](https://goerli.etherscan.io/address/0xA33ca1062762c8591E29E65bf7aC7ae8EC88b183)
 * [Playground](../getting-data/reading-data/tellor-playground.md#overview): [`0x3251838bd813fdf6a97D32781e011cce8D225d59`](https://goerli.etherscan.io/address/0x3251838bd813fdf6a97D32781e011cce8D225d59#code)
 
 ### **Polygon Mainnet**
