@@ -3,8 +3,8 @@
 ### **Mainnet Ethereum**
 
 * Token: [`0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0`](https://etherscan.io/address/0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0)
-* Oracle: [`0xe8218cACb0a5421BC6409e498d9f8CC8869945ea`](https://etherscan.io/address/0xe8218cACb0a5421BC6409e498d9f8CC8869945ea)
-* Governance: [`0x51d4088d4EeE00Ae4c55f46E0673e9997121DB00`](https://etherscan.io/address/0x51d4088d4EeE00Ae4c55f46E0673e9997121DB00)
+* Oracle: [`0xB3B662644F8d3138df63D2F43068ea621e2981f9`](https://etherscan.io/address/0xB3B662644F8d3138df63D2F43068ea621e2981f9)
+* Governance: [`0x02803dcFD7Cb32E97320CFe7449BFb45b6C931b8`](https://etherscan.io/address/0x02803dcFD7Cb32E97320CFe7449BFb45b6C931b8)
 * AutoPay: [`0x1F033Cb8A2Df08a147BC512723fd0da3FEc5cCA7`](https://etherscan.io/address/0x1F033Cb8A2Df08a147BC512723fd0da3FEc5cCA7)
 * Tellor360: [`0xD3b9A1DCAbd16c482785Fd4265cB4580B84cdeD7`](https://etherscan.io/address/0xD3b9A1DCAbd16c482785Fd4265cB4580B84cdeD7)
 * QueryDataStorage: [`0xA33ca1062762c8591E29E65bf7aC7ae8EC88b183`](https://etherscan.io/address/0xA33ca1062762c8591E29E65bf7aC7ae8EC88b183)
