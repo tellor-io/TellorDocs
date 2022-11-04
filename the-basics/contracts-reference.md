@@ -31,10 +31,10 @@
 #### **Polygon Mumbai**
 
 * Bridged TRB: [`0xce4e32fe9d894f8185271aa990d2db425df3e6be`](https://mumbai.polygonscan.com/address/0xce4e32fe9d894f8185271aa990d2db425df3e6be)
-* Oracle: [`0xB3B662644F8d3138df63D2F43068ea621e2981f9`](https://mumbai.polygonscan.com/address/0xB3B662644F8d3138df63D2F43068ea621e2981f9)
-* Governance: [`0x02803dcFD7Cb32E97320CFe7449BFb45b6C931b8`](https://mumbai.polygonscan.com/address/0x02803dcFD7Cb32E97320CFe7449BFb45b6C931b8)
-* Autopay: [`0xA33ca1062762c8591E29E65bf7aC7ae8EC88b183`](https://mumbai.polygonscan.com/address/0xA33ca1062762c8591E29E65bf7aC7ae8EC88b183)
-* QueryDataStorage: [`0xD3b9A1DCAbd16c482785Fd4265cB4580B84cdeD7`](https://mumbai.polygonscan.com/address/0xD3b9A1DCAbd16c482785Fd4265cB4580B84cdeD7)
+* Oracle: [`0x8f55D884CAD66B79e1a131f6bCB0e66f4fD84d5B`](https://mumbai.polygonscan.com/address/0x8f55D884CAD66B79e1a131f6bCB0e66f4fD84d5B)
+* Governance: [`0x7B74cc7d66f4b286A78d5F02a55E36E89c3fa9F0`](https://mumbai.polygonscan.com/address/0x7B74cc7d66f4b286A78d5F02a55E36E89c3fa9F0)
+* Autopay: [`0x1775704809521D4D7ee65B6aFb93816af73476ec`](https://mumbai.polygonscan.com/address/0x1775704809521D4D7ee65B6aFb93816af73476ec)
+* QueryDataStorage: [`0xeb83232c90A99C9FF48b025118892eF53bDaC248`](https://mumbai.polygonscan.com/address/0xeb83232c90A99C9FF48b025118892eF53bDaC248)
 * [Playground](../getting-data/reading-data/tellor-playground.md#overview): [`0x3251838bd813fdf6a97D32781e011cce8D225d59`](https://mumbai.polygonscan.com/address/0x3251838bd813fdf6a97D32781e011cce8D225d59#code)
 
 ### Arbitrum Mainnet
