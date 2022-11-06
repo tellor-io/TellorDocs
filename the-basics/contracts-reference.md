@@ -23,6 +23,10 @@
 ### **Polygon Mainnet**
 
 * Bridged TRB: [`0xE3322702BEdaaEd36CdDAb233360B939775ae5f1`](https://polygonscan.com/address/0xE3322702BEdaaEd36CdDAb233360B939775ae5f1)
+* Oracle: [`0x8f55D884CAD66B79e1a131f6bCB0e66f4fD84d5B`](https://polygonscan.com/address/0x8f55D884CAD66B79e1a131f6bCB0e66f4fD84d5B)
+* Governance: [`0x7B74cc7d66f4b286A78d5F02a55E36E89c3fa9F0`](https://polygonscan.com/address/0x7B74cc7d66f4b286A78d5F02a55E36E89c3fa9F0)
+* Autopay: [`0x1775704809521D4D7ee65B6aFb93816af73476ec`](https://polygonscan.com/address/0x1775704809521D4D7ee65B6aFb93816af73476ec)
+* QueryDataStorage: [`0xeb83232c90A99C9FF48b025118892eF53bDaC248`](https://polygonscan.com/address/0xeb83232c90A99C9FF48b025118892eF53bDaC248)
 
 
 #### **Polygon Mumbai**
