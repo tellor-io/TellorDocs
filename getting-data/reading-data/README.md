@@ -1,5 +1,3 @@
-Here are some technical docs for my company. Can you write an improved version of this in markdown?
-
 # Reading Data
 
 ## Connecting to the Oracle
