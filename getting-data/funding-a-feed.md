@@ -66,7 +66,7 @@ function setupDataFeed(
 As an example, you want the BTC spot price updated once per hour. You need it every hour, starting tomorrow, and you need it updated within 5 minutes of the hour. To account for gas cost variance, you want the reward to start at 1 TRB and increase by 0.01 TRB per second within the window until a report is submitted. You initially fund the feed with 100 TRB.
 
 ```solidity
-_queryId =0xa6f013ee236804827b77696d350e9f0ac3e879328f2a3021d473a0b778ad78ac (keccak256 of queryData, see below)
+_queryId = 0xa6f013ee236804827b77696d350e9f0ac3e879328f2a3021d473a0b778ad78ac (keccak256 of queryData, see below)
 _reward = 1000000000000000000 (1 TRB)
 _startTime = 1647435600 (tomorrow start time (UNIX))
 _interval = 3600 (seconds in hour)

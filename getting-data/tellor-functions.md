@@ -7,7 +7,7 @@ When your contract inherits the [usingtellor](https://github.com/tellor-io/using
 
 ### `getDataAfter`
 
-> Retrieves the next value for a given queryId after a given timestamp
+> Retrieves the next undisputed value for a given queryId after a given timestamp
 
 ```solidity
 function getDataAfter(bytes32 _queryId, uint256 _timestamp)

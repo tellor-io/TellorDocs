@@ -1,3 +1,6 @@
+Here are some technical docs for my company. Can you write an improved version of this in markdown?
+
+
 # Introduction
 
 The Tellor system allows users to request specific pieces of data, and reporters can then submit those values. Every piece of data that is requested, reported, and retrieved within the Tellor system is associated with a Query Typ_e,_ Query Data_,_ and a specific identifier, known as the Query ID.&#x20;
