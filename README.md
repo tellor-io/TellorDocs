@@ -42,10 +42,6 @@ Built for any [data type](https://tellor.io/blog/how-to-query-custom-data-with-t
 
 * [Reporter Documentation](broken-reference/)
 {% endtab %}
-
-{% tab title="I" %}
-\*\*\*\*[**The Tellor Playground**](getting-data/reading-data/tellor-playground.md) \*\*\*\* is a simplified Tellor (and not a real oracle) that aims to help anyone building to quickly test and implement ideas.
-{% endtab %}
 {% endtabs %}
 
 ### Quicklinks
