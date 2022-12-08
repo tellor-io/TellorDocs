@@ -7,7 +7,7 @@ When your contract inherits the [usingtellor](https://github.com/tellor-io/using
 
 ### `getDataAfter`
 
-> Retrieves the next value for a given queryId after a given timestamp
+> Retrieves the next undisputed value for a given queryId after a given timestamp
 
 ```solidity
 function getDataAfter(bytes32 _queryId, uint256 _timestamp)
@@ -18,7 +18,7 @@ function getDataAfter(bytes32 _queryId, uint256 _timestamp)
 
 ### `getDataBefore`
 
-> Finds the most recent submission for a given queryId **before** a specific timestamp.
+> Finds the most recent undisputed submission for a given queryId **before** a specific timestamp.
 >
 > * It is recommended that you use this function with a buffer time when retrieving oracle values.  This [allows time](../the-basics/fundamentals.md#finality) for bad values to be disputed.
 

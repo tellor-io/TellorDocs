@@ -1,6 +1,6 @@
 # Creating a Query
 
-When a user requests data using `tipQuery` and when a reporter submits data using `submitValue`, they have to input both the `queryId` and `queryData`. The `queryData` tells reporters how to fulfill the data query, while also informing voters how to verify the data in a dispute. The `queryId` is defined as the keccak256 hash of the `queryData` field.
+All data reported to Tellor is associated with a unique queryId and a timestamp. When a user requests data using `tip` and when a reporter submits data using `submitValue`, they have to input both the `queryId` and `queryData`. The `queryData` tells reporters how to fulfill the data query, while also informing voters how to verify the data in a dispute. The `queryId` is defined as the keccak256 hash of the `queryData` field.
 
 In order to query the Tellor oracle you'll need to first generate `queryData` and its hash, the `queryId`.&#x20;
 
@@ -8,7 +8,7 @@ In order to query the Tellor oracle you'll need to first generate `queryData` an
 
 Use the tools below to generate a `queryId` and `queryData:`
 
-{% embed url="https://queryidbuilder.herokuapp.com/spotprice" %}
+{% embed url="https://tellor.io/queryidbuilder/" %}
 
 {% embed url="https://www.youtube.com/watch?index=2&list=PLuJHbmh0kCXVPHDA2Q3J3TfatBRGrOsm-&v=thjXi7FGLpU" %}
 
