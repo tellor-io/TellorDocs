@@ -39,6 +39,6 @@ Tellor data reporters need a reason to report your requested data. If you want d
 
 #### Where does the data come from?
 
-The data gets put on chain by [staked data reporters](https://app.gitbook.com/s/tcQlo49FAqTaOimNOz0X/reporting-data/telliot). In many cases, reporters can get the data from wherever they want, but they risk losing their stake if they report bad data. Alternatively, if you need data from a specific set of sources, a [custom query type](https://github.com/tellor-io/dataSpecs/issues/25) can be created for your unique use-case.
+The data gets put on chain by [staked data reporters](https://docs.tellor.io/tellor/reporting-data/becoming-a-reporter). In many cases, reporters can get the data from wherever they want, but they risk losing their stake if they report bad data. Alternatively, if you need data from a specific set of sources, a [custom query type](https://github.com/tellor-io/dataSpecs/issues/25) can be created for your unique use-case.
 
 ####
