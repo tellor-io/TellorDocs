@@ -9,7 +9,7 @@ coverY: 0
 
 Tellor is an immutable decentralized oracle protocol that incentivizes an open, permissionless network of data reporting and data validation, ensuring that data can be provided by anyone and checked by everyone.
 
-Built for any [data type](https://tellor.io/blog/how-to-query-custom-data-with-tellor/), our network of [reporters](broken-reference/) supports your basic spot prices, more sophisticated pricing specs (TWAP/VWAP), Snapshot Vote Results, or any custom data needs you have. If your data can be verified, Tellor can [bring it on-chain](https://feed.tellor.io).
+Built for any [data type](https://tellor.io/blog/how-to-query-custom-data-with-tellor/), our network of [reporters](https://docs.tellor.io/tellor/reporting-data/becoming-a-reporter) supports your basic spot prices, more sophisticated pricing specs (TWAP/VWAP), Snapshot Vote Results, or any custom data needs you have. If your data can be verified, Tellor can [bring it on-chain](https://feed.tellor.io).
 
 {% hint style="info" %}
 **Before you get started**
@@ -28,7 +28,7 @@ Built for any [data type](https://tellor.io/blog/how-to-query-custom-data-with-t
 2. [Check if Telliot can currently report it](https://github.com/tellor-io/telliot-feeds/tree/main/src/telliot\_feeds/feeds)
    * if yes, go to step 3
    * if no, [request a new spotPrice asset](https://github.com/tellor-io/dataSpecs/issues/24)
-3. [Get your data](broken-reference/)
+3. [Get your data](https://docs.tellor.io/tellor/getting-data/reading-data)
 {% endtab %}
 
 {% tab title="I want custom data" %}
@@ -40,8 +40,12 @@ Built for any [data type](https://tellor.io/blog/how-to-query-custom-data-with-t
 {% tab title="I want to report data" %}
 **Learn more about becoming a reporter**
 
-* [Reporter Documentation](broken-reference/)
+* [Reporter Documentation](https://docs.tellor.io/tellor/reporting-data/becoming-a-reporter)
 {% endtab %}
+
+{% tab title="I am testing" %} ****[The Tellor Playground](https://github.com/tellor-io/TellorDocs/blob/brenda/getting-data/reading-data/tellor-playground.md) **** is a simplified Tellor (and not a real oracle) that aims to help anyone building to quickly test and implement ideas. {% endtab %}
+
+
 {% endtabs %}
 
 ### Quicklinks
