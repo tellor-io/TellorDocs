@@ -8,9 +8,9 @@ Any party can challenge data submissions of any reporters when a value is placed
 
 ### Why it's Important
 
-The security of Tellor comes through a deposit of TRB that acts as a bond or stake requirement in order for [reporters](https://app.gitbook.com/s/tcQlo49FAqTaOimNOz0X/reporting-data/telliot) to participate in providing data. The reporters risk losing this stake if they submit data that is successfully disputed.
+The security of Tellor comes through a deposit of TRB that acts as a bond or stake requirement in order for reporters to participate in providing data. The reporters risk losing this stake if they submit data that is successfully disputed.
 
-### What This Means For Getting Data
+### What This Means For Getting Data     
 
 On a blockchain, [security](https://tellor.io/security-201/) and time can not be separated.  You can't have instant finality and still be secure, and this is very true for oracle data. &#x20;
 
