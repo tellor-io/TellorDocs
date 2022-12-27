@@ -41,7 +41,7 @@ Query ID Builder
 
 First check if the data is already [being reported](https://github.com/tellor-io/telliot-feeds/tree/main/src/telliot\_feeds/feeds) by viewing our [feeds](https://feed.tellor.io/).
 
-Tellor data is free for anyone to read. This means that if someone else just updated the value, you can use it free of charge! ****&#x20;
+Tellor data is free for anyone to read. This means that if someone else just updated the value, you can use it free of charge!&#x20;
 
 {% hint style="success" %}
 #### Need a spot price from Tellor?&#x20;
