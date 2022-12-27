@@ -43,7 +43,9 @@ Built for any [data type](https://tellor.io/blog/how-to-query-custom-data-with-t
 * [Reporter Documentation](https://docs.tellor.io/tellor/reporting-data/becoming-a-reporter)
 {% endtab %}
 
-{% tab title="I am testing" %} ****[The Tellor Playground](https://github.com/tellor-io/TellorDocs/blob/brenda/getting-data/reading-data/tellor-playground.md) **** is a simplified Tellor (and not a real oracle) that aims to help anyone building to quickly test and implement ideas. {% endtab %}
+{% tab title="I am testing" %} 
+* [The Tellor Playground](https://github.com/tellor-io/TellorDocs/blob/brenda/getting-data/reading-data/tellor-playground.md) is a simplified Tellor (and not a real oracle) that aims to help anyone building to quickly test and implement ideas. 
+{% endtab %}
 
 
 {% endtabs %}
