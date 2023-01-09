@@ -11,7 +11,7 @@ Tellor is an immutable decentralized oracle protocol that incentivizes an open, 
 
 Built for any [data type](https://tellor.io/blog/how-to-query-custom-data-with-tellor/), our network of [reporters](https://docs.tellor.io/tellor/reporting-data/becoming-a-reporter) supports your basic spot prices, more sophisticated pricing specs (TWAP/VWAP), Snapshot Vote Results, or any custom data needs you have. If your data can be verified, Tellor can [bring it on-chain](https://feed.tellor.io).
 
-{% hint style="info" %}
+
 **Before you get started**
 
 * [Learn Tellor's Fundamental Concepts](the-basics/fundamentals.md)
