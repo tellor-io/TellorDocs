@@ -2,7 +2,7 @@
 
 All data reported to Tellor is associated with a unique queryId and a timestamp. When a user requests data using `tip` and when a reporter submits data using `submitValue`, they have to input both the `queryId` and `queryData`. The `queryData` tells reporters how to fulfill the data query, while also informing voters how to verify the data in a dispute. The `queryId` is defined as the keccak256 hash of the `queryData` field.
 
-In order to query the Tellor oracle you'll need to first generate `queryData` and its hash, the `queryId`.&#x20;
+In order to query the Tellor oracle you'll need to first generate `queryData` and its hash, the `queryId`.
 
 ### Getting a Query ID and Query Data
 
@@ -18,14 +18,18 @@ If the [existing Query Types](https://github.com/tellor-io/dataSpecs/tree/main/t
 
 ## Creating a new Query Type
 
-To create a new Query Type, or specification, for custom data you need from Tellor oracles, there's two options:
+To add a new data type to Tellor, you'll just need to define a new queryType. This is how you form a question so that Tellor reporters know exactly what data is being requested.&#x20;
 
-* Make an issue like [this](https://github.com/tellor-io/dataSpecs/issues/25) and the Tellor team will help with the next steps.
+To create a new Query Type, or specification, for custom data you need from Tellor oracles, there are two options:
+
 * Fork this repository and make a pull request for a new Query type in `./types` using [this template](https://github.com/tellor-io/dataSpecs/blob/main/types/\_NewQueryTypeTemplate.md).
+* [Fill out this form ](https://github.com/tellor-io/dataSpecs/issues/new?assignees=\&labels=\&template=new\_query\_type.yaml\&title=%5BNew+Query+Type%5D%3A+)
 
-To add a new data type to Tellor, you'll just need to define a new [queryType](https://github.com/tellor-io/dataSpecs) . This is how you form a question so that Tellor reporters know exactly what data is being requested. You'll need to determine three things: a unique queryType _name_, _inputs_, and _outputs_. So let's say you want a query for getting the price of any asset in any currency. In human-readable form, your question could look like this:
+You'll need to determine three things: a unique queryType _name_, _inputs_, and _outputs_. So let's say you want a query for getting the price of any asset in any currency. In human-readable form, your question could look like this:
 
-_What is the price of `asset` in `currency` ?_
+For example:
+
+_What is the price of BTC/USD?_
 
 You might formally define your query like this:
 
@@ -45,26 +49,11 @@ You might formally define your query like this:
 
 \- `packed`: false
 
+Next you need to incentivize reporters to fetch the answer to your question.  Please see the [Funding a Feed](funding-a-feed.md) section to learn more.
+
 Once Tellor reporters are submitting your new queryType on chain, you can retrieve your desired data with the help of [UsingTellor](https://github.com/tellor-io/usingtellor), which is a helper contract that provides various Tellor data getters. You'll first put your question in `queryData` format, which means encoding your queryType name and arguments into bytes (see below). You'll then need to get a `queryId`, which is the bytes32 unique identifier for each Tellor data feed. The `queryId` is defined as the keccak256 hash of `queryData`. Once you know the `queryId` you'll be able to retrieve your data.
 
-In Solidity, your contract can get data like this:
-
-```solidity
-contract ExampleContract is UsingTellor {
-
-    // _tellorAddress is the address of the Tellor oracle
-    constructor(address payable _tellorAddress) UsingTellor(_tellorAddress) {}
-
-    function getSpotPrice(string memory _asset, string memory _currency) external view returns(bytes memory) {
-      bytes memory _queryData = abi.encode("SpotPrice", abi.encode(_asset, _currency));
-      bytes32 _queryId = keccak256(_queryData);
-      (bool ifRetrieve, bytes memory _value, ) =
-          getCurrentValue(_queryId);
-      if (!ifRetrieve) return "0x";
-      return _value;
-    }
-}
-```
+In Solidity, your contract can get data like [this](https://docs.tellor.io/tellor/getting-data/reading-data#reading-data).
 
 ### Example QueryData and QueryID
 
@@ -76,6 +65,7 @@ and the `queryId` would be
 
 > `0xa6f013ee236804827b77696d350e9f0ac3e879328f2a3021d473a0b778ad78ac`
 
-{% hint style="success" %}
-Feel free to start building a query now and integrating it into your project. When you reach the later stages of building your project, add an issue to Tellor's [dataSpecs](https://github.com/tellor-io/dataSpecs/issues) repository so that data reporters know how to fulfill your query. Feel free to reach out to the Tellor team for assistance, and happy building!
-{% endhint %}
+### Next Steps
+
+Feel free to start building a query now and integrating it into your project. When you reach the later stages of building your project, [add an issue](https://github.com/tellor-io/dataSpecs/issues/new/choose) to Tellor's dataSpecs repository so that data reporters know how to fulfill your query.  Please see the next section on how to fund a feed.
+

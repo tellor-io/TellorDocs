@@ -24,11 +24,12 @@ Built for any [data type](https://tellor.io/blog/how-to-query-custom-data-with-t
 
 {% tabs %}
 {% tab title="I want a price feed" %}
-1. [Get a QueryID](getting-data/creating-a-query.md#getting-a-query-id-and-query-data)
-2. [Check if Telliot can currently report it](https://github.com/tellor-io/telliot-feeds/tree/main/src/telliot\_feeds/feeds)
+1. [Request a specific Spot Price](https://github.com/tellor-io/dataSpecs/blob/main/.github/ISSUE\_TEMPLATE/new\_query\_type.yaml)
+2. [Get a QueryID](getting-data/creating-a-query.md#getting-a-query-id-and-query-data)
+3. [Check if Telliot can currently report it](https://github.com/tellor-io/telliot-feeds/tree/main/src/telliot\_feeds/feeds)
    * if yes, go to step 3
    * if no, [request a new spotPrice asset](https://github.com/tellor-io/dataSpecs/issues/24)
-3. [Get your data](https://docs.tellor.io/tellor/getting-data/reading-data)
+4. [Get your data](https://docs.tellor.io/tellor/getting-data/reading-data)
 {% endtab %}
 
 {% tab title="I want custom data" %}
@@ -43,11 +44,9 @@ Built for any [data type](https://tellor.io/blog/how-to-query-custom-data-with-t
 * [Reporter Documentation](https://docs.tellor.io/tellor/reporting-data/becoming-a-reporter)
 {% endtab %}
 
-{% tab title="I am testing" %} 
-* [The Tellor Playground](https://github.com/tellor-io/TellorDocs/blob/brenda/getting-data/reading-data/tellor-playground.md) is a simplified Tellor (and not a real oracle) that aims to help anyone building to quickly test and implement ideas. 
+{% tab title="I am testing" %}
+* [The Tellor Playground](https://github.com/tellor-io/TellorDocs/blob/brenda/getting-data/reading-data/tellor-playground.md) is a simplified Tellor (and not a real oracle) that aims to help anyone building to quickly test and implement ideas.
 {% endtab %}
-
-
 {% endtabs %}
 
 ### Quicklinks
@@ -64,13 +63,17 @@ Built for any [data type](https://tellor.io/blog/how-to-query-custom-data-with-t
 
 [Get Testnet TRB](https://twitter.com/trbfaucet)
 
+[Simple Funding Script](https://github.com/tellor-io/simplefunding-script)
+
 #### Educational
+
+[Tellor School](https://www.youtube.com/playlist?list=PLuJHbmh0kCXVPHDA2Q3J3TfatBRGrOsm-)
+
+[Best Practices](https://tellor.io/best-practices-for-oracle-users-on-ethereum/)
 
 [Dev Calls](https://www.youtube.com/playlist?list=PLuJHbmh0kCXXA6XrTM6dgYgz-RXiFNmRF)
 
 [Reporter Calls](https://www.youtube.com/playlist?list=PLuJHbmh0kCXX1L2V5Bn3Qe-zlMmg5L4yG)
-
-[Tellor School](https://www.youtube.com/playlist?list=PLuJHbmh0kCXVPHDA2Q3J3TfatBRGrOsm-)
 
 [Weekly Updates](https://www.youtube.com/playlist?list=PLuJHbmh0kCXWRe-QPxaqcThzmj743ercz)
 

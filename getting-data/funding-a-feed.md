@@ -1,10 +1,19 @@
 # Funding a Feed
 
-### Introduction
+## Introduction
 
 Use the [Autopay](https://github.com/tellor-io/autoPay) contract to pay for data. Whether you just need one data report now, or you need a recurring heartbeat of data, autopay has you covered. The relevant autopay contract functions are outlined below, as well as some tools to make it easy to interact with autopay.
 
-### Funding a one time request
+{% hint style="info" %}
+#### Tools for Easy Tipping:
+
+* Use the [Fund a Feed](https://tellor.io/fund-a-feed/) frontend to setup a recurring Spot Price feed
+* Or use the [simple funding script](https://github.com/tellor-io/simplefunding-script) to programmatically submit one time tips or setup a recurring feed.
+{% endhint %}
+
+## Manual Funding
+
+### One time request
 
 To tip a query ID for an instant report (whoever submits the value next gets the reward), you just need to run one function:
 
@@ -31,7 +40,7 @@ To see the current available tip for a given queryId, call:
 function getCurrentTip(bytes32 _queryId) public view returns (uint256)
 ```
 
-### Funding a recurring data feed
+### Recurring data feed
 
 To fund a data feed, you will need to call a function to set it up with your desired parameters and an initial amount of TRB. If a feed is already set up with your specifications, you can simply call the function to fund it.
 
@@ -109,7 +118,13 @@ bytes32 _feedId = keccak256(
 
 The `_amount` is the amount of the token you would want to fund it with. For example, if you are tipping 1 TRB per hour and you fund the feed with 24 TRB, it would pay out for the next 24 hours.
 
-Be sure to approve the token transfer before calling this function.
+{% hint style="success" %}
+Be sure to approve the token transfer before calling this function. &#x20;
+
+1. Get autopay address from [contract reference](../the-basics/contracts-reference.md) page
+2. Go to token contract explorer depending on network
+3. Call approve function using the autopay`address`and`amount`
+{% endhint %}
 
 To query your datafeed info, call:
 
@@ -139,9 +154,4 @@ struct FeedDetails {
     uint256 feedsWithFundingIndex; // index plus one of dataFeedID in feedsWithFunding array (0 if not in array)
 }
 ```
-
-### Tools for Easy Tipping
-
-- Use the [simple funding script](https://github.com/tellor-io/simplefunding-script) to programmatically submit one time tips or setup a recurring feed. 
-- Alternatively, use the [Fund a Feed](https://tellor.io/fund-a-feed/) frontend to setup a recurring Spot Price feed.
 
