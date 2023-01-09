@@ -2,7 +2,7 @@
 
 ## Connecting to the Oracle
 
-To use Tellor data, you can use the [UsingTellor](https://github.com/tellor-io/usingtellor) helper contract. After connecting it to the Oracle, you can read a value using your `queryId`. This guide uses the `BTC/USD SpotPrice` as an example query. &#x20;
+To use Tellor data, you can use the [UsingTellor](https://github.com/tellor-io/usingtellor) helper contract. After connecting it to the oracle, you can read a value using your `queryId`. This guide uses the `BTC/USD SpotPrice` as an example query. &#x20;
 
 {% hint style="info" %}
 Example: [Sample project using Tellor](https://github.com/tellor-io/sampleUsingTellor)
