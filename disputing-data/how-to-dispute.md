@@ -1,16 +1,25 @@
 # How to Dispute
 
+{% hint style="warning" %}
+Note that before beginning a dispute, the proper amount of TRB **tokens must be approved** to the contract to cover the disputeFee. The disputeFee starts at 1/10th of the stakeAmount, and doubles with each voting round or with each open dispute on a given queryId. The dispute fee is capped at the stakeAmount.
+
+On chains other than Ethereum Mainnet you'll have to manually run a token approval function.  **Here is a step by step guide**:&#x20;
+
+[How To Create Token Approvals with Remix](https://tellor.io/blog/how-to-create-token-approval-transactions-with-remix/).  &#x20;
+{% endhint %}
+
 ## Tutorial
 
-* First you'll need to monitor the transactions that reporters submit on chain and identify a data report that you'd like to dispute.   You can do that using our [feeds page](https://feed.tellor.io), the [disputable values monitor](https://github.com/tellor-io/disputable-values-monitor) the [oracle contract](https://app.gitbook.com/s/tcQlo49FAqTaOimNOz0X/the-basics/contracts-reference) directly.
-* In order to dispute you'll need to collect the queryId and time from the data in the transaction log.  See example screenshot:
+1. First you'll need to monitor the transactions that reporters submit on chain and identify a data report that you'd like to dispute.   You can do that using our [feeds page](https://feed.tellor.io), the [disputable values monitor](https://github.com/tellor-io/disputable-values-monitor) the [oracle contract](https://app.gitbook.com/s/tcQlo49FAqTaOimNOz0X/the-basics/contracts-reference) directly.
+2. In order to dispute you'll need to collect the queryId and time from the data in the transaction log.&#x20;
+3. Next, locate the [correct governance contract](https://app.gitbook.com/s/tcQlo49FAqTaOimNOz0X/the-basics/contracts-reference) depending on which chain the data resides on. &#x20;
+4. Connect your wallet with the button “connect to web3”. Input the queryId (with a 0x at the beginning), and input the timestamp. Finally, click write and confirm the transaction.
 
-<figure><img src="../.gitbook/assets/HowToDispute_ReportLogScreenShot.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/EtherscanDispute.png" alt=""><figcaption></figcaption></figure>
 
-* Next, locate the [correct governance contract](https://app.gitbook.com/s/tcQlo49FAqTaOimNOz0X/the-basics/contracts-reference) depending on which chain the data resides on. &#x20;
-* Connect wallet funded with TRB and call the `beginDispute` function and input the `queryId` and `timestamp.`
+## Dispute Functions
 
-## Additional Context
+> Here is some additional explanation of how disputes work on a contract level:
 
 Every time a new value is submitted to the oracle contract, the following event is emitted:
 
@@ -35,8 +44,6 @@ To dispute a value, go to the governance contract and run:
  */
 function beginDispute(bytes32 _queryId, uint256 _timestamp) external;
 ```
-
-Note that before beginning a dispute, the proper amount of TRB tokens must be approved to the contract to cover the disputeFee. The disputeFee starts at 1/10th of the stakeAmount, and doubles with each voting round or with each open dispute on a given queryId. The dispute fee is capped at the stakeAmount.
 
 To get the current dispute fee:
 
