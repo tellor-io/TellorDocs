@@ -23,7 +23,7 @@ To add a new data type to Tellor, you'll just need to define a new queryType. Th
 To create a new Query Type, or specification, for custom data you need from Tellor oracles, there are two options:
 
 * Fork this repository and make a pull request for a new Query type in `./types` using [this template](https://github.com/tellor-io/dataSpecs/blob/main/types/\_NewQueryTypeTemplate.md).
-* [Fill out this form ](https://github.com/tellor-io/dataSpecs/issues/new?assignees=\&labels=\&template=new\_query\_type.yaml\&title=%5BNew+Query+Type%5D%3A+)
+* [Fill out this New Data Request Form ](https://github.com/tellor-io/dataSpecs/issues/new?assignees=\&labels=\&template=new\_query\_type.yaml\&title=%5BNew+Query+Type%5D%3A+)
 
 You'll need to determine three things: a unique queryType _name_, _inputs_, and _outputs_. So let's say you want a query for getting the price of any asset in any currency. In human-readable form, your question could look like this:
 

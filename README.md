@@ -5,7 +5,7 @@ coverY: 0
 
 # Welcome
 
-## What is Tellor? <a href="#what-is-tellor" id="what-is-tellor"></a>
+## About Tellor <a href="#what-is-tellor" id="what-is-tellor"></a>
 
 Tellor is an immutable decentralized oracle protocol that incentivizes an open, permissionless network of data reporting and data validation, ensuring that data can be provided by anyone and checked by everyone.
 
@@ -20,38 +20,11 @@ Built for any [data type](https://tellor.io/blog/how-to-query-custom-data-with-t
 * [Review the Contracts Overview](the-basics/contracts-overview.md)
 {% endhint %}
 
-## Get started <a href="#get-started" id="get-started"></a>
+## Helpful Things
 
-{% tabs %}
-{% tab title="I want a price feed" %}
-1. [Request a specific Spot Price](https://github.com/tellor-io/dataSpecs/blob/main/.github/ISSUE\_TEMPLATE/new\_query\_type.yaml)
-2. [Get a QueryID](getting-data/creating-a-query.md#getting-a-query-id-and-query-data)
-3. [Check if Telliot can currently report it](https://github.com/tellor-io/telliot-feeds/tree/main/src/telliot\_feeds/feeds)
-   * if yes, go to step 3
-   * if no, [request a new spotPrice asset](https://github.com/tellor-io/dataSpecs/issues/24)
-4. [Get your data](https://docs.tellor.io/tellor/getting-data/reading-data)
-{% endtab %}
+<details>
 
-{% tab title="I want custom data" %}
-**Tellor is built to bring practically any data on chain**
-
-* [More information on how to add new data types](getting-data/creating-a-query.md#creating-a-new-query-type)
-{% endtab %}
-
-{% tab title="I want to report data" %}
-**Learn more about becoming a reporter**
-
-* [Reporter Documentation](https://docs.tellor.io/tellor/reporting-data/becoming-a-reporter)
-{% endtab %}
-
-{% tab title="I am testing" %}
-* [The Tellor Playground](https://github.com/tellor-io/TellorDocs/blob/brenda/getting-data/reading-data/tellor-playground.md) is a simplified Tellor (and not a real oracle) that aims to help anyone building to quickly test and implement ideas.
-{% endtab %}
-{% endtabs %}
-
-### Quicklinks
-
-#### Developer tools
+<summary>Developer Tools</summary>
 
 [Tellor Github](https://github.com/tellor-io)
 
@@ -65,7 +38,11 @@ Built for any [data type](https://tellor.io/blog/how-to-query-custom-data-with-t
 
 [Simple Funding Script](https://github.com/tellor-io/simplefunding-script)
 
-#### Educational
+</details>
+
+<details>
+
+<summary>Educational Resources</summary>
 
 [Tellor School](https://www.youtube.com/playlist?list=PLuJHbmh0kCXVPHDA2Q3J3TfatBRGrOsm-)
 
@@ -77,10 +54,12 @@ Built for any [data type](https://tellor.io/blog/how-to-query-custom-data-with-t
 
 [Weekly Updates](https://www.youtube.com/playlist?list=PLuJHbmh0kCXWRe-QPxaqcThzmj743ercz)
 
-### Get Help
+</details>
 
-[Ask us anything](https://discord.com/channels/461602746336935936/794270931630948432)
+## Get Direct Help
 
-#### Looking to use Tellor?
+[Ask us a question in our discord](https://discord.gg/n7drGjh)
 
-[Tell us what you're building and we'll get in touch](https://docs.google.com/forms/d/e/1FAIpQLSc5YEerq5y5\_YBiQg7ZwDVw76o\_1KmRmqXvzjeZlfshNKTvaQ/viewform)
+[Tell us what you need and we'll get in touch](https://docs.google.com/forms/d/e/1FAIpQLSc5YEerq5y5\_YBiQg7ZwDVw76o\_1KmRmqXvzjeZlfshNKTvaQ/viewform)
+
+####

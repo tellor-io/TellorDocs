@@ -17,7 +17,7 @@
 * AutoPay: [`0x1F033Cb8A2Df08a147BC512723fd0da3FEc5cCA7`](https://goerli.etherscan.io/address/0x1F033Cb8A2Df08a147BC512723fd0da3FEc5cCA7)
 * Tellor360: [`0xD3b9A1DCAbd16c482785Fd4265cB4580B84cdeD7`](https://goerli.etherscan.io/address/0xD3b9A1DCAbd16c482785Fd4265cB4580B84cdeD7)
 * QueryDataStorage: [`0xA33ca1062762c8591E29E65bf7aC7ae8EC88b183`](https://goerli.etherscan.io/address/0xA33ca1062762c8591E29E65bf7aC7ae8EC88b183)
-* [Playground](../getting-data/tellor-playground.md#overview): [`0x3251838bd813fdf6a97D32781e011cce8D225d59`](https://goerli.etherscan.io/address/0x3251838bd813fdf6a97D32781e011cce8D225d59#code)
+* [Playground](../getting-data/localtesting.md#overview): [`0x3251838bd813fdf6a97D32781e011cce8D225d59`](https://goerli.etherscan.io/address/0x3251838bd813fdf6a97D32781e011cce8D225d59#code)
 * Playground Autopay: [`0x9F6091CD579304a27Cf8Ab4927b1e0c242F61B4D`](https://goerli.etherscan.io/address/0x9F6091CD579304a27Cf8Ab4927b1e0c242F61B4D)
 
 ### **Polygon Mainnet**
@@ -35,7 +35,7 @@
 * Governance: [`0x7B74cc7d66f4b286A78d5F02a55E36E89c3fa9F0`](https://mumbai.polygonscan.com/address/0x7B74cc7d66f4b286A78d5F02a55E36E89c3fa9F0)
 * Autopay: [`0x1775704809521D4D7ee65B6aFb93816af73476ec`](https://mumbai.polygonscan.com/address/0x1775704809521D4D7ee65B6aFb93816af73476ec)
 * QueryDataStorage: [`0xeb83232c90A99C9FF48b025118892eF53bDaC248`](https://mumbai.polygonscan.com/address/0xeb83232c90A99C9FF48b025118892eF53bDaC248)
-* [Playground](../getting-data/tellor-playground.md#overview): [`0x3251838bd813fdf6a97D32781e011cce8D225d59`](https://mumbai.polygonscan.com/address/0x3251838bd813fdf6a97D32781e011cce8D225d59#code)
+* [Playground](../getting-data/localtesting.md#overview): [`0x3251838bd813fdf6a97D32781e011cce8D225d59`](https://mumbai.polygonscan.com/address/0x3251838bd813fdf6a97D32781e011cce8D225d59#code)
 * Playground Autopay: [`0x65F5e1d95ad2444874d92CdE54e2321d3cE36298`](https://mumbai.polygonscan.com/address/0x65F5e1d95ad2444874d92CdE54e2321d3cE36298)
 
 ### Arbitrum Mainnet
@@ -47,7 +47,7 @@
 
 #### Arbitrum Goerli Testnet
 
-* [Playground](../getting-data/tellor-playground.md#overview): [`0x3251838bd813fdf6a97D32781e011cce8D225d59`](https://goerli.arbiscan.io/address/0x3251838bd813fdf6a97D32781e011cce8D225d59#code)
+* [Playground](../getting-data/localtesting.md#overview): [`0x3251838bd813fdf6a97D32781e011cce8D225d59`](https://goerli.arbiscan.io/address/0x3251838bd813fdf6a97D32781e011cce8D225d59#code)
 * Playground Autopay: [`0x9F6091CD579304a27Cf8Ab4927b1e0c242F61B4D`](https://goerli.arbiscan.io/address/0x9f6091cd579304a27cf8ab4927b1e0c242f61b4d)
 
 ### Gnosis Chain Mainnet
@@ -69,7 +69,7 @@
 
 #### Optimism Goerli (Testnet)
 
-* [Playground](../getting-data/tellor-playground.md#overview): [`0x3251838bd813fdf6a97D32781e011cce8D225d59`](https://goerli-optimism.etherscan.io/address/0x3251838bd813fdf6a97D32781e011cce8D225d59)
+* [Playground](../getting-data/localtesting.md#overview): [`0x3251838bd813fdf6a97D32781e011cce8D225d59`](https://goerli-optimism.etherscan.io/address/0x3251838bd813fdf6a97D32781e011cce8D225d59)
 * Playground Autopay: [`0x06Be23ea84148a5E439dFe2A0bcCE441ea74E2D6`](https://goerli-optimism.etherscan.io/address/0x06Be23ea84148a5E439dFe2A0bcCE441ea74E2D6)
 
 ### BNB Chain (Mainnet Coming Soon)
@@ -91,5 +91,5 @@
 
 #### Harmony Testnet
 
-* [Playground](../getting-data/tellor-playground.md#overview): [`0x3251838bd813fdf6a97D32781e011cce8D225d59`](https://explorer.testnet.harmony.one/address/0x3251838bd813fdf6a97D32781e011cce8D225d59?activeTab=7)
+* [Playground](../getting-data/localtesting.md#overview): [`0x3251838bd813fdf6a97D32781e011cce8D225d59`](https://explorer.testnet.harmony.one/address/0x3251838bd813fdf6a97D32781e011cce8D225d59?activeTab=7)
 * Playground Autopay: [`0x06Be23ea84148a5E439dFe2A0bcCE441ea74E2D6`](https://explorer.testnet.harmony.one/address/0x06Be23ea84148a5E439dFe2A0bcCE441ea74E2D6)

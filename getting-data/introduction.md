@@ -2,7 +2,7 @@
 
 The Tellor system allows users to request specific pieces of data, and reporters can then submit those values. Every piece of data that is requested, reported, and retrieved within the Tellor system is associated with a Query Type, Query Data, and a specific identifier, known as the Query ID.
 
-{% hint style="info" %}
+{% hint style="success" %}
 **Looking for help getting started?** We welcome you to [ask us anything](https://discord.gg/n7drGjh) in the developer's channel of our discord server. &#x20;
 {% endhint %}
 

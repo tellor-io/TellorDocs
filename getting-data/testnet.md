@@ -1,6 +1,6 @@
 # Testnet
 
-As seen in the [local testing setup](tellor-playground.md) an address must be passed into the constructor.  With local testing it was the playground address, but for testnets you'll need to use the Tellor oracle address corresponding to the testnet of your choice.  For those please visit our [Contracts Reference](../the-basics/contracts-reference.md) page.
+As seen in the [local testing setup](localtesting.md) an address must be passed into the constructor.  With local testing it was the playground address, but for testnets you'll need to use the Tellor oracle address corresponding to the testnet of your choice.  For those please visit our [Contracts Reference](../the-basics/contracts-reference.md) page.
 
 #### reference example:
 

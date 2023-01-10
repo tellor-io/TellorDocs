@@ -10,8 +10,8 @@
 ## Getting Data
 
 * [Introduction](getting-data/introduction.md)
-* [Solidity Integration](getting-data/reading-data.md)
-* [Local Testing](getting-data/tellor-playground.md)
+* [Solidity Integration](getting-data/solidity-integration.md)
+* [Local Testing](getting-data/localtesting.md)
 * [Testnet](getting-data/testnet.md)
 * [Creating a Query](getting-data/creating-a-query.md)
 * [Funding a Feed](getting-data/funding-a-feed.md)
