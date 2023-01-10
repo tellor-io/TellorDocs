@@ -16,7 +16,7 @@ On chains other than Ethereum Mainnet you'll have to manually run a token approv
 <figure><img src="../.gitbook/assets/HowToDispute_ReportLogScreenShot.png" alt=""><figcaption></figcaption></figure>
 
 * Next, locate the [correct governance contract](https://app.gitbook.com/s/tcQlo49FAqTaOimNOz0X/the-basics/contracts-reference) depending on which chain the data resides on. &#x20;
-* Connect your wallet with the button “connect to web3”. Input the queryId (with a 0x at the beginning), and input the timestamp. Finally, click write and confirm the transaction.
+* Connect your wallet with the button “connect to web3”. Under the `beginDispute` function Input the `queryId` (with a 0x at the beginning), and input the `timestamp`. Finally, click write and confirm the transaction.
 
 <figure><img src="../.gitbook/assets/EtherscanDispute.png" alt=""><figcaption></figcaption></figure>
 
