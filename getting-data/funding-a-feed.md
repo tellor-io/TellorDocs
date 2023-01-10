@@ -7,8 +7,9 @@ Use the [Autopay](https://github.com/tellor-io/autoPay) contract to pay for data
 {% hint style="info" %}
 #### Tools for Easy Tipping:
 
-* Use the [Fund a Feed](https://tellor.io/fund-a-feed/) frontend to setup a recurring Spot Price feed
+* Use the [Fund a Feed](https://tellor.io/fund-a-feed/) frontend to setup a recurring Spot Price feed. &#x20;
 * Or use the [simple funding script](https://github.com/tellor-io/simplefunding-script) to programmatically submit one time tips or setup a recurring feed.
+* The[ auto-tipper-bot ](https://github.com/tellor-io/auto-tipper-bot)is a program you can run to automatically create tips that are profitable for the reporter and efficient for the user.
 {% endhint %}
 
 ## Manual Funding

@@ -38,6 +38,8 @@ Built for any [data type](https://tellor.io/blog/how-to-query-custom-data-with-t
 
 [Simple Funding Script](https://github.com/tellor-io/simplefunding-script)
 
+[AutoTipper Bot](https://github.com/tellor-io/auto-tipper-bot)
+
 </details>
 
 <details>
