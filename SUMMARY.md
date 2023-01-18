@@ -6,6 +6,7 @@
 * [Fundamentals](the-basics/fundamentals.md)
 * [Contracts Overview](the-basics/contracts-overview.md)
 * [Contracts Reference](the-basics/contracts-reference.md)
+* [Tutorials](the-basics/tutorials.md)
 
 ## Getting Data
 
