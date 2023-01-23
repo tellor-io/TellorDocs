@@ -7,16 +7,14 @@
 * Governance: [`0x02803dcFD7Cb32E97320CFe7449BFb45b6C931b8`](https://etherscan.io/address/0x02803dcFD7Cb32E97320CFe7449BFb45b6C931b8)
 * AutoPay: [`0x1F033Cb8A2Df08a147BC512723fd0da3FEc5cCA7`](https://etherscan.io/address/0x1F033Cb8A2Df08a147BC512723fd0da3FEc5cCA7)
 * Tellor360: [`0xD3b9A1DCAbd16c482785Fd4265cB4580B84cdeD7`](https://etherscan.io/address/0xD3b9A1DCAbd16c482785Fd4265cB4580B84cdeD7)
-* QueryDataStorage: [`0xA33ca1062762c8591E29E65bf7aC7ae8EC88b183`](https://etherscan.io/address/0xA33ca1062762c8591E29E65bf7aC7ae8EC88b183)
 
 #### **Goerli Testnet**
 
 * Token: [: `0x51c59c6cAd28ce3693977F2feB4CfAebec30d8a2`](https://goerli.etherscan.io/address/0x51c59c6cAd28ce3693977F2feB4CfAebec30d8a2)
-* Oracle: [`0xB3B662644F8d3138df63D2F43068ea621e2981f9`](https://goerli.etherscan.io/address/0xB3B662644F8d3138df63D2F43068ea621e2981f9)
-* Governance: [`0x02803dcFD7Cb32E97320CFe7449BFb45b6C931b8`](https://goerli.etherscan.io/address/0x02803dcFD7Cb32E97320CFe7449BFb45b6C931b8)
-* AutoPay: [`0x1F033Cb8A2Df08a147BC512723fd0da3FEc5cCA7`](https://goerli.etherscan.io/address/0x1F033Cb8A2Df08a147BC512723fd0da3FEc5cCA7)
+* Oracle: [`0xD9157453E2668B2fc45b7A803D3FEF3642430cC0`](https://goerli.etherscan.io/address/0xD9157453E2668B2fc45b7A803D3FEF3642430cC0)``
+* Governance: [`0x46038969D7DC0b17BC72137D07b4eDe43859DA45`](https://goerli.etherscan.io/address/0x46038969D7DC0b17BC72137D07b4eDe43859DA45)``
+* AutoPay: [`0x9BE9B0CFA89Ea800556C6efbA67b455D336db1D0`](https://goerli.etherscan.io/address/0x9BE9B0CFA89Ea800556C6efbA67b455D336db1D0)``
 * Tellor360: [`0xD3b9A1DCAbd16c482785Fd4265cB4580B84cdeD7`](https://goerli.etherscan.io/address/0xD3b9A1DCAbd16c482785Fd4265cB4580B84cdeD7)
-* QueryDataStorage: [`0xA33ca1062762c8591E29E65bf7aC7ae8EC88b183`](https://goerli.etherscan.io/address/0xA33ca1062762c8591E29E65bf7aC7ae8EC88b183)
 * [Playground](../getting-data/localtesting.md#overview): [`0x3251838bd813fdf6a97D32781e011cce8D225d59`](https://goerli.etherscan.io/address/0x3251838bd813fdf6a97D32781e011cce8D225d59#code)
 * Playground Autopay: [`0x9F6091CD579304a27Cf8Ab4927b1e0c242F61B4D`](https://goerli.etherscan.io/address/0x9F6091CD579304a27Cf8Ab4927b1e0c242F61B4D)
 
@@ -26,7 +24,8 @@
 * Oracle: [`0x8f55D884CAD66B79e1a131f6bCB0e66f4fD84d5B`](https://polygonscan.com/address/0x8f55D884CAD66B79e1a131f6bCB0e66f4fD84d5B)
 * Governance: [`0x7B74cc7d66f4b286A78d5F02a55E36E89c3fa9F0`](https://polygonscan.com/address/0x7B74cc7d66f4b286A78d5F02a55E36E89c3fa9F0)
 * Autopay: [`0x1775704809521D4D7ee65B6aFb93816af73476ec`](https://polygonscan.com/address/0x1775704809521D4D7ee65B6aFb93816af73476ec)
-* QueryDataStorage: [`0xeb83232c90A99C9FF48b025118892eF53bDaC248`](https://polygonscan.com/address/0xeb83232c90A99C9FF48b025118892eF53bDaC248)
+
+
 
 #### **Polygon Mumbai**
 
@@ -34,7 +33,6 @@
 * Oracle: [`0x8f55D884CAD66B79e1a131f6bCB0e66f4fD84d5B`](https://mumbai.polygonscan.com/address/0x8f55D884CAD66B79e1a131f6bCB0e66f4fD84d5B)
 * Governance: [`0x7B74cc7d66f4b286A78d5F02a55E36E89c3fa9F0`](https://mumbai.polygonscan.com/address/0x7B74cc7d66f4b286A78d5F02a55E36E89c3fa9F0)
 * Autopay: [`0x1775704809521D4D7ee65B6aFb93816af73476ec`](https://mumbai.polygonscan.com/address/0x1775704809521D4D7ee65B6aFb93816af73476ec)
-* QueryDataStorage: [`0xeb83232c90A99C9FF48b025118892eF53bDaC248`](https://mumbai.polygonscan.com/address/0xeb83232c90A99C9FF48b025118892eF53bDaC248)
 * [Playground](../getting-data/localtesting.md#overview): [`0x3251838bd813fdf6a97D32781e011cce8D225d59`](https://mumbai.polygonscan.com/address/0x3251838bd813fdf6a97D32781e011cce8D225d59#code)
 * Playground Autopay: [`0x65F5e1d95ad2444874d92CdE54e2321d3cE36298`](https://mumbai.polygonscan.com/address/0x65F5e1d95ad2444874d92CdE54e2321d3cE36298)
 
@@ -63,7 +61,6 @@
 * Chiado Oracle: [`0xd71F72C18767083e4e3FE84F9c62b8038C1Ef4f6`](https://blockscout.com/gnosis/chiado/address/0xd71F72C18767083e4e3FE84F9c62b8038C1Ef4f6)``
 * Chiado Governance: [`0x18274F81f683fDd8739888a877a3a1F591009e35` ](https://blockscout.com/gnosis/chiado/address/0x18274F81f683fDd8739888a877a3a1F591009e35)``
 * Chiado AutoPay: [`0x59eA612DECE1b51cE0d3D3bA3ca7Fc96B5553E96`](https://blockscout.com/gnosis/chiado/address/0x59eA612DECE1b51cE0d3D3bA3ca7Fc96B5553E96)&#x20;
-* Chiado QueryDataStorage: [`0x73603a21d1De378DF863092354b699aeE036006F`](https://blockscout.com/gnosis/chiado/address/0x73603a21d1De378DF863092354b699aeE036006F)``
 
 ### Optimism (Mainnet Coming Soon)
 
@@ -80,7 +77,6 @@
 * Oracle: [`0x3A47B3DB02c240Be3207F360DAeACe900CAe215f`](https://testnet.bscscan.com/address/0x3a47b3db02c240be3207f360daeace900cae215f#code)``
 * Governance: [`0x0c6366f97e435fb39588b501a82dB076eC0930e5`](https://testnet.bscscan.com/address/0x0c6366f97e435fb39588b501a82dB076eC0930e5)``
 * AutoPay: [`0x5B89f104C26e88bc6dE7daD8d684e14cD0DF3b1F`](https://testnet.bscscan.com/address/0x5b89f104c26e88bc6de7dad8d684e14cd0df3b1f)``
-* QueryDataStorage: [`0xdf7BaE47ff5c44b1710FB2D2fEb69C301A3C20F2`](https://testnet.bscscan.com/address/0xdf7bae47ff5c44b1710fb2d2feb69c301a3c20f2)``
 
 ### Harmony Mainnet
 
