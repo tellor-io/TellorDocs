@@ -4,7 +4,11 @@
 
 Disputing and dispute resolution is the key governance piece in the Tellor system.
 
-Any party can challenge data submissions of any reporters when a value is placed on-chain. A challenger must submit a dispute fee to each challenge. Once a challenge is submitted, the potentially malicious reporter who submitted the value is placed in a locked state for the duration of the vote. For the next two days, Tribute holders vote on the validity of the reported value. All Tribute holders have an incentive to maintain an honest oracle and can vote on the dispute. Proper submission is one that corresponds to a valid query around the time of the submission of the value. The [subjectivity](https://app.gitbook.com/s/tcQlo49FAqTaOimNOz0X/the-basics/fundamentals#subjectivity) of the validity is a feature and corresponds to “correct” being up to the interpretation of the Tellor community.
+Any party can challenge data submissions of any reporters when a value is placed on-chain. A challenger must submit a dispute fee to each challenge. Once a challenge is submitted, the potentially malicious reporter who submitted the value is placed in a locked state for the duration of the vote. For the next day\*, Tribute holders vote on the validity of the reported value. All Tribute holders have an incentive to maintain an honest oracle and can vote on the dispute. Proper submission is one that corresponds to a valid query around the time of the submission of the value. The [subjectivity](https://app.gitbook.com/s/tcQlo49FAqTaOimNOz0X/the-basics/fundamentals#subjectivity) of the validity is a feature and corresponds to “correct” being up to the interpretation of the Tellor community.
+
+{% hint style="info" %}
+\*That's for round 1.  For round 2 voters get 2 days, round 3 is 3 days, etc. (up to a max of 6 days).
+{% endhint %}
 
 ## Why it's Important
 
