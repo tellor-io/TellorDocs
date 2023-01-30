@@ -5,9 +5,9 @@
 **Mainnet**
 
 * Token: [`0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0`](https://etherscan.io/address/0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0)
-* Oracle: [`0xB3B662644F8d3138df63D2F43068ea621e2981f9`](https://etherscan.io/address/0xB3B662644F8d3138df63D2F43068ea621e2981f9)
-* Governance: [`0x02803dcFD7Cb32E97320CFe7449BFb45b6C931b8`](https://etherscan.io/address/0x02803dcFD7Cb32E97320CFe7449BFb45b6C931b8)
-* AutoPay: [`0x1F033Cb8A2Df08a147BC512723fd0da3FEc5cCA7`](https://etherscan.io/address/0x1F033Cb8A2Df08a147BC512723fd0da3FEc5cCA7)
+* Oracle: [`0xD9157453E2668B2fc45b7A803D3FEF3642430cC0`](https://etherscan.io/address/0xD9157453E2668B2fc45b7A803D3FEF3642430cC0)
+* Governance: [`0x46038969D7DC0b17BC72137D07b4eDe43859DA45`](https://etherscan.io/address/0x46038969D7DC0b17BC72137D07b4eDe43859DA45)
+* AutoPay: [`0x9BE9B0CFA89Ea800556C6efbA67b455D336db1D0`](https://etherscan.io/address/0x9BE9B0CFA89Ea800556C6efbA67b455D336db1D0)
 * Tellor360: [`0xD3b9A1DCAbd16c482785Fd4265cB4580B84cdeD7`](https://etherscan.io/address/0xD3b9A1DCAbd16c482785Fd4265cB4580B84cdeD7)
 
 #### **Goerli Testnet**
