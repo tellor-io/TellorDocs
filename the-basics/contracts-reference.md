@@ -56,12 +56,26 @@
 
 ### Optimism
 
+#### Mainnet
+
+* Bridged TRB: [`0xaf8cA653Fa2772d58f4368B0a71980e9E3cEB888`](https://optimistic.etherscan.io/address/0xaf8cA653Fa2772d58f4368B0a71980e9E3cEB888)``
+* Oracle: [`0xD9157453E2668B2fc45b7A803D3FEF3642430cC0`](https://optimistic.etherscan.io/address/0xD9157453E2668B2fc45b7A803D3FEF3642430cC0)``
+* Governance: [`0x46038969D7DC0b17BC72137D07b4eDe43859DA45`](https://optimistic.etherscan.io/address/0x46038969D7DC0b17BC72137D07b4eDe43859DA45)``
+* Autopay: [`0x9BE9B0CFA89Ea800556C6efbA67b455D336db1D0`](https://optimistic.etherscan.io/address/0x9BE9B0CFA89Ea800556C6efbA67b455D336db1D0)``
+
 #### Optimism Goerli Testnet
 
 * [Playground](../getting-data/localtesting.md#overview): [`0x3251838bd813fdf6a97D32781e011cce8D225d59`](https://goerli-optimism.etherscan.io/address/0x3251838bd813fdf6a97D32781e011cce8D225d59)
 * Playground Autopay: [`0x06Be23ea84148a5E439dFe2A0bcCE441ea74E2D6`](https://goerli-optimism.etherscan.io/address/0x06Be23ea84148a5E439dFe2A0bcCE441ea74E2D6)
 
 ### Arbitrum
+
+#### Mainnet
+
+* Bridged TRB: [`0xd58D345Fd9c82262E087d2D0607624B410D88242`](https://arbiscan.io/address/0xd58D345Fd9c82262E087d2D0607624B410D88242)``
+* Oracle: [`0xD9157453E2668B2fc45b7A803D3FEF3642430cC0`](https://arbiscan.io/address/0xD9157453E2668B2fc45b7A803D3FEF3642430cC0)``
+* Governance: [`0x46038969D7DC0b17BC72137D07b4eDe43859DA45`](https://arbiscan.io/address/0x46038969D7DC0b17BC72137D07b4eDe43859DA45)``
+* Autopay: [`0x9BE9B0CFA89Ea800556C6efbA67b455D336db1D0`](https://arbiscan.io/address/0x9BE9B0CFA89Ea800556C6efbA67b455D336db1D0)``
 
 #### &#x20;Arbitrum Goerli Testnet
 
