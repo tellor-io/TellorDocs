@@ -49,7 +49,7 @@
 
 #### Chiado Testnet
 
-* Playground: [`0xe7147C5Ed14F545B4B17251992D1DB2bdfa26B6d`](https://blockscout.com/gnosis/chiado/address/0xe7147C5Ed14F545B4B17251992D1DB2bdfa26B6d)
+* Playground: [`0xe7147C5Ed14F545B4B17251992D1DB2bdfa26B6d`](https://blockscout.chiadochain.net/address/0xe7147C5Ed14F545B4B17251992D1DB2bdfa26B6d)``
 * Oracle: [`0xD9157453E2668B2fc45b7A803D3FEF3642430cC0`](https://blockscout.chiadochain.net/address/0xD9157453E2668B2fc45b7A803D3FEF3642430cC0)
 * Governance: [`0x46038969D7DC0b17BC72137D07b4eDe43859DA45`](https://blockscout.chiadochain.net/address/0x46038969D7DC0b17BC72137D07b4eDe43859DA45)
 * AutoPay: [`0x9BE9B0CFA89Ea800556C6efbA67b455D336db1D0`](https://blockscout.chiadochain.net/address/0x9BE9B0CFA89Ea800556C6efbA67b455D336db1D0)&#x20;
