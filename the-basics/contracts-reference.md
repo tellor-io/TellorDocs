@@ -82,6 +82,10 @@
 
 #### &#x20;Arbitrum Goerli Testnet
 
+* Bridged TRB: [0x8d1bB5eDdFce08B92dD47c9871d1805211C3Eb3C](https://goerli.arbiscan.io/address/0x8d1bB5eDdFce08B92dD47c9871d1805211C3Eb3C)
+* Oracle: [0xb2CB696fE5244fB9004877e58dcB680cB86Ba444](https://goerli.arbiscan.io/address/0xb2CB696fE5244fB9004877e58dcB680cB86Ba444#code)
+* Governance: [0xb55bB55f7D8b4F26Bd18198088C96488D95cab39](https://goerli.arbiscan.io/address/0xb55bB55f7D8b4F26Bd18198088C96488D95cab39)
+* Autopay: [0x60cBf3991F05a0671250e673Aa166e9D1A0C662E](https://goerli.arbiscan.io/address/0x60cBf3991F05a0671250e673Aa166e9D1A0C662E)
 * [Playground](../getting-data/localtesting.md#overview): [0x3251838bd813fdf6a97D32781e011cce8D225d59](https://goerli.arbiscan.io/address/0x3251838bd813fdf6a97D32781e011cce8D225d59#code)
 * Playground Autopay: [0x9F6091CD579304a27Cf8Ab4927b1e0c242F61B4D](https://goerli.arbiscan.io/address/0x9f6091cd579304a27cf8ab4927b1e0c242f61b4d)
 
