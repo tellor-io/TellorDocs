@@ -2,7 +2,7 @@
 
 ## Connecting to the Oracle
 
-To use Tellor data, you can use the [UsingTellor](https://github.com/tellor-io/usingtellor) helper contract. After connecting it to the oracle, you can read a value using your `queryId`. This guide uses the `BTC/USD SpotPrice` as an example query. &#x20;
+To use Tellor data, you can use the [UsingTellor](https://github.com/tellor-io/usingtellor) helper contract. After connecting it to the oracle, you can read a value using your `queryId`. This guide uses the `BTC/USD SpotPrice` as an example query.
 
 {% hint style="info" %}
 Example: [Sample project using Tellor](https://github.com/tellor-io/sampleUsingTellor)
@@ -44,7 +44,17 @@ contract MyContract is UsingTellor {
 
 ### Reading data
 
-You can either use our[ QueryId builder ](https://tellor.io/queryidbuilder)to[ create a queryId ](creating-a-query.md)and hardcode it, or use solidity to generate it.  Once you have created a `queryId`, you can add the Tellor data feed to your contract code. The best practice for reading Tellor data is to use the `getDataBefore` function with a buffer time that allows time for bad values to be disputed.  It's also best practice to require/check that the data is not too old.  For example: `require(block.timestamp - _timestampRetrieved < 24 hours);`
+You can either use our[ QueryId builder ](https://tellor.io/queryidbuilder)to[ create a queryId ](creating-a-query.md)and hardcode it, or use solidity to generate it. Once you have created a `queryId`, you can add the Tellor data feed to your contract code.&#x20;
+
+{% hint style="danger" %}
+**The best practice** for reading Tellor data is to use the`getDataBefore` function with a buffer time that allows time for bad values to be disputed:
+
+`getDataBefore(_queryId,`` `**`block.timestamp - 20 minutes`**`);`
+
+It's also best practice to require/check that the data is not too old. For example:&#x20;
+
+`require(block.timestamp - _timestampRetrieved < 24 hours);`
+{% endhint %}
 
 In the example below, we add a function `getBtcSpotPrice` that reads the BTC/USD price feed from the Oracle:
 
@@ -70,9 +80,5 @@ contract ExampleContract is UsingTellor {
       return abi.decode(_value, (uint256);
     }
 ```
-
-{% hint style="warning" %}
-**Note:** Use usingtellor's getDataBefore(bytes32 \_queryId, uint256 \_timestamp) function with a buffer time (20 minutes for example) to allow time for a bad value to be disputed
-{% endhint %}
 
 ###
