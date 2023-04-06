@@ -92,6 +92,13 @@
 
 ### Filecoin (FVM)
 
+#### Mainnet
+
+* Bridged TRB: [0x045CE60839d108B43dF9e703d4b25402a6a28a0d](https://filfox.info/en/address/0x045CE60839d108B43dF9e703d4b25402a6a28a0d)
+* Oracle: [0xb2CB696fE5244fB9004877e58dcB680cB86Ba444](https://filfox.info/en/address/0xb2CB696fE5244fB9004877e58dcB680cB86Ba444)
+* Governance: [0xb55bB55f7D8b4F26Bd18198088C96488D95cab39](https://filfox.info/en/address/0xb55bB55f7D8b4F26Bd18198088C96488D95cab39)
+* Autopay: [0x60cBf3991F05a0671250e673Aa166e9D1A0C662E](https://filfox.info/en/address/0x60cBf3991F05a0671250e673Aa166e9D1A0C662E)
+
 #### Hyperspace
 
 * Oracle: [0xb2CB696fE5244fB9004877e58dcB680cB86Ba444](https://hyperspace.filfox.info/en/address/0xb2CB696fE5244fB9004877e58dcB680cB86Ba444)
