@@ -27,7 +27,7 @@
 * Bridged TRB: [0xE3322702BEdaaEd36CdDAb233360B939775ae5f1](https://polygonscan.com/address/0xE3322702BEdaaEd36CdDAb233360B939775ae5f1)
 * Oracle: [0xD9157453E2668B2fc45b7A803D3FEF3642430cC0](https://polygonscan.com/address/0xD9157453E2668B2fc45b7A803D3FEF3642430cC0)
 * Governance: [0x46038969D7DC0b17BC72137D07b4eDe43859DA45](https://polygonscan.com/address/0x46038969D7DC0b17BC72137D07b4eDe43859DA45)
-* Autopay: [0x9BE9B0CFA89Ea800556C6efbA67b455D336db1D0](https://polygonscan.com/address/0x9BE9B0CFA89Ea800556C6efbA67b455D336db1D0)****
+* Autopay: [0x9BE9B0CFA89Ea800556C6efbA67b455D336db1D0](https://polygonscan.com/address/0x9BE9B0CFA89Ea800556C6efbA67b455D336db1D0)
 
 **Mumbai Testnet**
 
@@ -65,6 +65,7 @@
 
 #### Optimism Goerli Testnet
 
+* TRB token: [0xd71F72C18767083e4e3FE84F9c62b8038C1Ef4f6](https://goerli-optimism.etherscan.io/address/0xd71F72C18767083e4e3FE84F9c62b8038C1Ef4f6)
 * Oracle: [0xD9157453E2668B2fc45b7A803D3FEF3642430cC0](https://goerli-optimism.etherscan.io/address/0xD9157453E2668B2fc45b7A803D3FEF3642430cC0)
 * Governance: [0x46038969D7DC0b17BC72137D07b4eDe43859DA45](https://goerli-optimism.etherscan.io/address/0x46038969D7DC0b17BC72137D07b4eDe43859DA45)
 * Autopay: [0x9BE9B0CFA89Ea800556C6efbA67b455D336db1D0](https://goerli-optimism.etherscan.io/address/0x9BE9B0CFA89Ea800556C6efbA67b455D336db1D0)
