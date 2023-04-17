@@ -26,11 +26,11 @@ Built for any [data type](https://tellor.io/blog/how-to-query-custom-data-with-t
 
 <summary>Need Testnet Tokens (TRB)? </summary>
 
-Testnet TRB is obtained differently depending on the network you’re using. See the instructions below for each network.
+Testnet TRB is obtained differently depending on the network you’re using.  In some cases it's only attainable by request and for others a faucet is an option.
 
-### Goerli
+### Sepolia, Goerli, and Filecoin Hyperspace
 
-The easiest way to get goerli TRB is to ask the team. Reach out in our [discord](https://discord.gg/n7drGjh), or create a tweet to [@trbfaucet](https://twitter.com/trbfaucet).  If you tweet [@trbfaucet](https://twitter.com/trbfaucet) make sure to include your wallet address and the network you’re testing on.  For example:
+Reach out in our [discord](https://discord.gg/n7drGjh), or create a tweet to [@trbfaucet](https://twitter.com/trbfaucet).  If you tweet [@trbfaucet](https://twitter.com/trbfaucet) make sure to include your wallet address and the network you’re testing on.  For example:
 
 <img src="https://lh6.googleusercontent.com/4jd_M8wqc3K5Btog8hLcK-uEEloEMzWRExSoJAK43XJHfmEFFoiWddOmXrrkJzwvH71BlYi2o708RmWs-D0W7Qr6zDmNc_GdeZmvVE7ZuP8baNs6-1lMYVVuVYpXDUhC-dg97CmqeYsHGAQMoV3hAkcZcNVYFed4M5jJApWmgT8T4ovQvDeeoWiByXanmg" alt="" data-size="original">
 
