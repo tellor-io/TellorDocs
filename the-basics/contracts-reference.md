@@ -8,7 +8,13 @@
 * Oracle: [0xD9157453E2668B2fc45b7A803D3FEF3642430cC0](https://etherscan.io/address/0xD9157453E2668B2fc45b7A803D3FEF3642430cC0)
 * Governance: [0x46038969D7DC0b17BC72137D07b4eDe43859DA45](https://etherscan.io/address/0x46038969D7DC0b17BC72137D07b4eDe43859DA45)
 * AutoPay: [0x9BE9B0CFA89Ea800556C6efbA67b455D336db1D0](https://etherscan.io/address/0x9BE9B0CFA89Ea800556C6efbA67b455D336db1D0)
-* Tellor360: [0xD3b9A1DCAbd16c482785Fd4265cB4580B84cdeD7](https://etherscan.io/address/0xD3b9A1DCAbd16c482785Fd4265cB4580B84cdeD7)
+
+#### Sepolia Testnet
+
+* Token: [0x80fc34a2f9FfE86F41580F47368289C402DEc660](https://sepolia.etherscan.io/address/0x80fc34a2f9FfE86F41580F47368289C402DEc660)
+* Oracle: [0x199839a4907ABeC8240D119B606C98c405Bb0B33](https://sepolia.etherscan.io/address/0x199839a4907ABeC8240D119B606C98c405Bb0B33)
+* Governance: [0x8C9057FA16D3Debb703ADBac0A097d2E5577AA6b](https://sepolia.etherscan.io/address/0x8C9057FA16D3Debb703ADBac0A097d2E5577AA6b)
+* Autopay: [0x7E7b96d13D75bc7DaF270A491e2f1e571147d4DA](https://sepolia.etherscan.io/address/0x7E7b96d13D75bc7DaF270A491e2f1e571147d4DA)
 
 #### **Goerli Testnet**
 
@@ -16,7 +22,6 @@
 * Oracle: [0xD9157453E2668B2fc45b7A803D3FEF3642430cC0](https://goerli.etherscan.io/address/0xD9157453E2668B2fc45b7A803D3FEF3642430cC0)
 * Governance: [0x46038969D7DC0b17BC72137D07b4eDe43859DA45](https://goerli.etherscan.io/address/0x46038969D7DC0b17BC72137D07b4eDe43859DA45)
 * AutoPay: [0x9BE9B0CFA89Ea800556C6efbA67b455D336db1D0](https://goerli.etherscan.io/address/0x9BE9B0CFA89Ea800556C6efbA67b455D336db1D0)
-* Tellor360: [0xD3b9A1DCAbd16c482785Fd4265cB4580B84cdeD7](https://goerli.etherscan.io/address/0xD3b9A1DCAbd16c482785Fd4265cB4580B84cdeD7)
 * [Playground](../getting-data/localtesting.md#overview): [0x3251838bd813fdf6a97D32781e011cce8D225d59](https://goerli.etherscan.io/address/0x3251838bd813fdf6a97D32781e011cce8D225d59#code)
 * Playground Autopay: [0x9F6091CD579304a27Cf8Ab4927b1e0c242F61B4D](https://goerli.etherscan.io/address/0x9F6091CD579304a27Cf8Ab4927b1e0c242F61B4D)
 
