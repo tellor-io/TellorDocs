@@ -44,12 +44,19 @@ Mumbai TRB can be minted from a playground contract on Goerli. The tokens are th
 * Use the Polygon bridge to move the tokens from Goerli to Mumbai: ([https://wallet.polygon.technology/polygon/bridge/deposit](https://wallet.polygon.technology/polygon/bridge/deposit))&#x20;
 * Finally check that you have Mumbai TRB at the Bridged TRB contract address here: [https://mumbai.polygonscan.com/address/0xCE4e32fE9D894f8185271Aa990D2dB425DF3E6bE#writeContract](https://mumbai.polygonscan.com/address/0xCE4e32fE9D894f8185271Aa990D2dB425DF3E6bE#writeContract)
 
-### Gnosis Chain Chiado Testnet
+### Gnosis Chain Chiado
 
-Chiado TRB can be minted from the playground faucet here: [https://blockscout.chiadochain.net/address/0xe7147C5Ed14F545B4B17251992D1DB2bdfa26B6d/write-contract#address-tabs](https://blockscout.chiadochain.net/address/0xe7147C5Ed14F545B4B17251992D1DB2bdfa26B6d/write-contract#address-tabs)
+Faucet: [https://blockscout.chiadochain.net/address/0xe7147C5Ed14F545B4B17251992D1DB2bdfa26B6d/write-contract#address-tabs](https://blockscout.chiadochain.net/address/0xe7147C5Ed14F545B4B17251992D1DB2bdfa26B6d/write-contract#address-tabs)
 
-\
+### Arbitrum Goerli
 
+Faucet: [https://goerli.arbiscan.io/address/0x3251838bd813fdf6a97D32781e011cce8D225d59#writeContract#F5](https://goerli.arbiscan.io/address/0x3251838bd813fdf6a97D32781e011cce8D225d59#writeContract#F5)
+
+### Optimism Goerli
+
+Faucet: [https://goerli-optimism.etherscan.io/address/0xd71F72C18767083e4e3FE84F9c62b8038C1Ef4f6#writeContract#F5](https://goerli-optimism.etherscan.io/address/0xd71F72C18767083e4e3FE84F9c62b8038C1Ef4f6#writeContract#F5)
+
+### &#x20;
 
 
 
