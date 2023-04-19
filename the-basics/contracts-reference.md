@@ -1,5 +1,37 @@
 # Contracts Reference
 
+{% hint style="info" %}
+If bridging TRB to participate in the Tellor Protocol please refer to the list of official bridges below
+{% endhint %}
+
+<details>
+
+<summary>Official Bridges </summary>
+
+**Polygon:**
+
+[https://wallet.polygon.technology/polygon/bridge/deposit](https://wallet.polygon.technology/polygon/bridge/deposit)
+
+**Optimism:**&#x20;
+
+[https://app.optimism.io/bridge/deposit](https://app.optimism.io/bridge/deposit)
+
+**Filecoin FVM:**
+
+[https://cbridge.celer.network/1/10/USDC](https://cbridge.celer.network/1/10/USDC)
+
+**Gnosis Chain:**
+
+[https://omnibridge.gnosischain.com/bridge](https://omnibridge.gnosischain.com/bridge)
+
+**Arbitrum:**
+
+[https://bridge.arbitrum.io/?l2ChainId=42161](https://bridge.arbitrum.io/?l2ChainId=42161)
+
+
+
+</details>
+
 ### **Ethereum**
 
 **Mainnet**
@@ -116,6 +148,8 @@
   \
 
 
-
+{% hint style="info" %}
+**Official Bridges** for networks&#x20;
+{% endhint %}
 
 ###
