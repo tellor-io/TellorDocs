@@ -17,6 +17,7 @@
 * [Creating a Query](getting-data/creating-a-query.md)
 * [Funding a Feed](getting-data/funding-a-feed.md)
 * [Tellor Functions](getting-data/tellor-functions.md)
+* [User Checklists](getting-data/user-checklists.md)
 
 ## Reporting Data
 
