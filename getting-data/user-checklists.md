@@ -10,8 +10,6 @@ These checklists are designed to guide you through the necessary preparations & 
 
 ## Development Checklist
 
-These actions are essential for the security of your smart contracts:
-
 <details>
 
 <summary><strong>Communicate what oracle data is needed, the desired frequency, &#x26; how the feeds will be funded</strong></summary>
@@ -24,7 +22,7 @@ This helps the Tellor team & reporters to better understand your needs. Feel fre
 
 <summary><strong>Build in a delay to allow time for disputes on bad values</strong></summary>
 
-Tellor is an open & permissionless oracle, which means a reporter can submit any value at any time if they are willing to forfeit their staked TRB tokens. By using a value that is X minutes old, or by delaying the finality of functions that use the latest Tellor value, you can prevent the use of inaccurate data.
+Tellor is an open & permissionless oracle, which means a reporter can submit any value at any time if they are willing to forfeit their staked TRB tokens. by delaying use of a value, or by delaying the finality of functions that use the latest Tellor value, you can prevent the use of inaccurate data. [This repo](https://github.com/tellor-io/tellor-caller-liquity/blob/main/contracts/TellorCaller.sol) is a great reference for integrating Tellor.
 
 </details>
 
@@ -32,7 +30,7 @@ Tellor is an open & permissionless oracle, which means a reporter can submit any
 
 <summary><strong>Ensure that functions do not use old Tellor values</strong> </summary>
 
-In the event where a Tellor value is disputed, the disputed value is removed & previous values remain. Prevent potential attackers from going back in time to find a desired value with a check in your contracts.
+In the event where a Tellor value is disputed, the disputed value is removed & previous values remain. Prevent potential attackers from going back in time to find a desired value with a check in your contracts. [This repo](https://github.com/tellor-io/tellor-caller-liquity/blob/main/contracts/TellorCaller.sol) is a great reference for integrating Tellor.
 
 </details>
 
@@ -45,8 +43,6 @@ This step ensures the security of your code & allows the Tellor team to provide 
 </details>
 
 ## Maintenance Checklist
-
-These actions are highly recommended for maintaining a reliable & secure oracle system:
 
 <details>
 
