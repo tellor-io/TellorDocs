@@ -24,6 +24,33 @@ Built for any [data type](https://tellor.io/blog/how-to-query-custom-data-with-t
 
 <details>
 
+<summary>What Networks is Tellor on?</summary>
+
+**Mainnets**
+
+* Ethereum
+* Polygon
+* Gnosis Chain
+* Optimism
+* Arbitrum
+* Filecoin FVM
+
+**Testnets**
+
+* Sepolia
+* Goerli
+* Mumbai
+* Chiado
+* Optimism Goerli
+* Arbitrum Goerli
+* Hyperspace
+
+\*this list will be updated as we move onto more chains.  If you'd like us to deploy somewhere we aren't [let us know](https://discord.gg/n7drGjh)! &#x20;
+
+</details>
+
+<details>
+
 <summary>Need Testnet Tokens (TRB)? </summary>
 
 Testnet TRB is obtained differently depending on the network you’re using.  In some cases it's only attainable by request and for others a faucet is an option.
