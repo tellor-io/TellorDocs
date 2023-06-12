@@ -145,11 +145,6 @@ If bridging TRB to participate in the Tellor Protocol please refer to the list o
 * Autopay: [0x60cBf3991F05a0671250e673Aa166e9D1A0C662E](https://hyperspace.filfox.info/en/address/0x60cBf3991F05a0671250e673Aa166e9D1A0C662E)
 * Playground: [0x15e6Cc0D69A162151Cadfba035aa10b82b12b970](https://calibration.filfox.info/en/address/0x15e6Cc0D69A162151Cadfba035aa10b82b12b970)\
   \
-  \
 
-
-{% hint style="info" %}
-**Official Bridges** for networks&#x20;
-{% endhint %}
 
 ###
