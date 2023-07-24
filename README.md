@@ -55,7 +55,7 @@ Built for any [data type](https://tellor.io/blog/how-to-query-custom-data-with-t
 
 Testnet TRB is obtained differently depending on the network you’re using.  In some cases it's only attainable by request and for others a faucet is an option.
 
-### Sepolia, Goerli, and Filecoin Hyperspace
+### Sepolia, Goerli, and Filecoin Calibration
 
 Reach out in our [discord](https://discord.gg/n7drGjh), or create a tweet to [@trbfaucet](https://twitter.com/trbfaucet).  If you tweet [@trbfaucet](https://twitter.com/trbfaucet) make sure to include your wallet address and the network you’re testing on.  For example:
 
