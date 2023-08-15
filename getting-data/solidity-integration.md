@@ -77,7 +77,7 @@ contract ExampleContract is UsingTellor {
           getDataBefore(_queryId, block.timestamp - 20 minutes);
       if (_timestampRetrieved == 0) return 0;
       require(block.timestamp - _timestampRetrieved < 24 hours);
-      return abi.decode(_value, (uint256);
+      return abi.decode(_value, (uint256));
     }
 ```
 
