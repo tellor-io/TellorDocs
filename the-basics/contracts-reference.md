@@ -144,7 +144,14 @@ If bridging TRB to participate in the Tellor Protocol please refer to the list o
 * Governance: [0xb55bB55f7D8b4F26Bd18198088C96488D95cab39](https://hyperspace.filfox.info/en/address/0xb55bB55f7D8b4F26Bd18198088C96488D95cab39)
 * Autopay: [0x60cBf3991F05a0671250e673Aa166e9D1A0C662E](https://hyperspace.filfox.info/en/address/0x60cBf3991F05a0671250e673Aa166e9D1A0C662E)
 * Playground: [0x15e6Cc0D69A162151Cadfba035aa10b82b12b970](https://calibration.filfox.info/en/address/0x15e6Cc0D69A162151Cadfba035aa10b82b12b970)\
-  \
 
 
-###
+### Manta Network
+
+#### Manta Pacific Testnet
+
+* Token: [0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc](https://manta-testnet.calderaexplorer.xyz/address/0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc)
+* Oracle: [0xC866DB9021fe81856fF6c5B3E3514BF9D1593D81](https://manta-testnet.calderaexplorer.xyz/address/0xC866DB9021fe81856fF6c5B3E3514BF9D1593D81)
+* Governance: [0x6684E5DdbEe1b97E10847468cB5f4e38f3aB83FE](https://manta-testnet.calderaexplorer.xyz/address/0x6684E5DdbEe1b97E10847468cB5f4e38f3aB83FE)
+* Autopay: [0x89e44099f5E80484dcF48995080481214b9c2D7c](https://manta-testnet.calderaexplorer.xyz/address/0x89e44099f5E80484dcF48995080481214b9c2D7c)
+* Playground: [0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc](https://manta-testnet.calderaexplorer.xyz/address/0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc)
