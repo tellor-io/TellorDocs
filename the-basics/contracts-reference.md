@@ -155,3 +155,16 @@ If bridging TRB to participate in the Tellor Protocol please refer to the list o
 * Governance: [0x6684E5DdbEe1b97E10847468cB5f4e38f3aB83FE](https://manta-testnet.calderaexplorer.xyz/address/0x6684E5DdbEe1b97E10847468cB5f4e38f3aB83FE)
 * Autopay: [0x89e44099f5E80484dcF48995080481214b9c2D7c](https://manta-testnet.calderaexplorer.xyz/address/0x89e44099f5E80484dcF48995080481214b9c2D7c)
 * Playground: [0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc](https://manta-testnet.calderaexplorer.xyz/address/0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc)
+
+### Base&#x20;
+
+#### Base Testnet (Goerli)
+
+* Token: [0x34Fae97547E990ef0E05e05286c51E4645bf1A85](https://base-goerli.blockscout.com/address/0x34Fae97547E990ef0E05e05286c51E4645bf1A85)
+* Oracle: [0x16d623f2f3AB1d58426f0402c313f1d3fdA14249](https://base-goerli.blockscout.com/address/0x16d623f2f3AB1d58426f0402c313f1d3fdA14249)
+* Governance: [0xAb0145d6aA4F799Bf7f4C0178e5393F6B5655dbf](https://base-goerli.blockscout.com/address/0xAb0145d6aA4F799Bf7f4C0178e5393F6B5655dbf)
+* Autopay: [0xCEBae6f5398853e7cd1E68301dA77C4B95Ae197a](https://base-goerli.blockscout.com/address/0xCEBae6f5398853e7cd1E68301dA77C4B95Ae197a?tab=txs)
+* Playground: [0x34Fae97547E990ef0E05e05286c51E4645bf1A85](https://base-goerli.blockscout.com/address/0x34Fae97547E990ef0E05e05286c51E4645bf1A85)
+
+
+
