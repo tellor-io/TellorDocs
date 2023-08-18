@@ -32,9 +32,17 @@ If bridging TRB to participate in the Tellor Protocol please refer to the list o
 
 </details>
 
-### **Ethereum**
+***
 
-**Mainnet**
+## Contracts by Network
+
+<details>
+
+<summary>Ethereum</summary>
+
+
+
+&#x20;**Mainnet**
 
 * Token: [0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0](https://etherscan.io/address/0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0)
 * Oracle: [0xD9157453E2668B2fc45b7A803D3FEF3642430cC0](https://etherscan.io/address/0xD9157453E2668B2fc45b7A803D3FEF3642430cC0)
@@ -57,7 +65,11 @@ If bridging TRB to participate in the Tellor Protocol please refer to the list o
 * Playground: [0x3251838bd813fdf6a97D32781e011cce8D225d59](https://goerli.etherscan.io/address/0x3251838bd813fdf6a97D32781e011cce8D225d59#code)
 * Playground Autopay: [0x9F6091CD579304a27Cf8Ab4927b1e0c242F61B4D](https://goerli.etherscan.io/address/0x9F6091CD579304a27Cf8Ab4927b1e0c242F61B4D)
 
-### **Polygon**
+</details>
+
+<details>
+
+<summary>Polygon</summary>
 
 #### **Mainnet**
 
@@ -75,9 +87,13 @@ If bridging TRB to participate in the Tellor Protocol please refer to the list o
 * Playground: [0x3251838bd813fdf6a97D32781e011cce8D225d59](https://mumbai.polygonscan.com/address/0x3251838bd813fdf6a97D32781e011cce8D225d59#code)
 * Playground Autopay: [0x65F5e1d95ad2444874d92CdE54e2321d3cE36298](https://mumbai.polygonscan.com/address/0x65F5e1d95ad2444874d92CdE54e2321d3cE36298)
 
-### Gnosis Chain
+</details>
 
-#### Mainnet
+<details>
+
+<summary>Gnosis Chain</summary>
+
+**Mainnet**
 
 * Bridged TRB: [`0xAAd66432d27737ecf6ED183160Adc5eF36aB99f2`](https://gnosisscan.io/address/0xaad66432d27737ecf6ed183160adc5ef36ab99f2)
 * Oracle: [`0xD9157453E2668B2fc45b7A803D3FEF3642430cC0`](https://gnosisscan.io/address/0xD9157453E2668B2fc45b7A803D3FEF3642430cC0)
@@ -92,7 +108,11 @@ If bridging TRB to participate in the Tellor Protocol please refer to the list o
 * Governance: [0x46038969D7DC0b17BC72137D07b4eDe43859DA45](https://blockscout.chiadochain.net/address/0x46038969D7DC0b17BC72137D07b4eDe43859DA45)
 * AutoPay: [0x9BE9B0CFA89Ea800556C6efbA67b455D336db1D0](https://blockscout.chiadochain.net/address/0x9BE9B0CFA89Ea800556C6efbA67b455D336db1D0)&#x20;
 
-### Optimism
+</details>
+
+<details>
+
+<summary>Optimism</summary>
 
 #### Mainnet
 
@@ -110,7 +130,11 @@ If bridging TRB to participate in the Tellor Protocol please refer to the list o
 * Playground: [0xd71F72C18767083e4e3FE84F9c62b8038C1Ef4f6](https://goerli-optimism.etherscan.io/address/0xd71F72C18767083e4e3FE84F9c62b8038C1Ef4f6)
 * Playground Autopay: [0x06Be23ea84148a5E439dFe2A0bcCE441ea74E2D6](https://goerli-optimism.etherscan.io/address/0x06Be23ea84148a5E439dFe2A0bcCE441ea74E2D6)
 
-### Arbitrum
+</details>
+
+<details>
+
+<summary>Arbitrum</summary>
 
 #### Mainnet
 
@@ -128,7 +152,11 @@ If bridging TRB to participate in the Tellor Protocol please refer to the list o
 * Playground: [0x3251838bd813fdf6a97D32781e011cce8D225d59](https://goerli.arbiscan.io/address/0x3251838bd813fdf6a97D32781e011cce8D225d59#code)
 * Playground Autopay: [0x9F6091CD579304a27Cf8Ab4927b1e0c242F61B4D](https://goerli.arbiscan.io/address/0x9f6091cd579304a27cf8ab4927b1e0c242f61b4d)
 
-### Filecoin (FVM)
+</details>
+
+<details>
+
+<summary>Filecoin (FVM)</summary>
 
 #### Mainnet
 
@@ -143,10 +171,13 @@ If bridging TRB to participate in the Tellor Protocol please refer to the list o
 * Oracle: [0xb2CB696fE5244fB9004877e58dcB680cB86Ba444](https://hyperspace.filfox.info/en/address/0xb2CB696fE5244fB9004877e58dcB680cB86Ba444)
 * Governance: [0xb55bB55f7D8b4F26Bd18198088C96488D95cab39](https://hyperspace.filfox.info/en/address/0xb55bB55f7D8b4F26Bd18198088C96488D95cab39)
 * Autopay: [0x60cBf3991F05a0671250e673Aa166e9D1A0C662E](https://hyperspace.filfox.info/en/address/0x60cBf3991F05a0671250e673Aa166e9D1A0C662E)
-* Playground: [0x15e6Cc0D69A162151Cadfba035aa10b82b12b970](https://calibration.filfox.info/en/address/0x15e6Cc0D69A162151Cadfba035aa10b82b12b970)\
+* Playground: [0x15e6Cc0D69A162151Cadfba035aa10b82b12b970](https://calibration.filfox.info/en/address/0x15e6Cc0D69A162151Cadfba035aa10b82b12b970)
 
+</details>
 
-### Manta Network
+<details>
+
+<summary>Manta Network</summary>
 
 #### Manta Pacific Testnet
 
@@ -156,7 +187,11 @@ If bridging TRB to participate in the Tellor Protocol please refer to the list o
 * Autopay: [0x89e44099f5E80484dcF48995080481214b9c2D7c](https://manta-testnet.calderaexplorer.xyz/address/0x89e44099f5E80484dcF48995080481214b9c2D7c)
 * Playground: [0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc](https://manta-testnet.calderaexplorer.xyz/address/0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc)
 
-### Base&#x20;
+</details>
+
+<details>
+
+<summary>Base</summary>
 
 #### Base Testnet (Goerli)
 
@@ -165,6 +200,12 @@ If bridging TRB to participate in the Tellor Protocol please refer to the list o
 * Governance: [0xAb0145d6aA4F799Bf7f4C0178e5393F6B5655dbf](https://base-goerli.blockscout.com/address/0xAb0145d6aA4F799Bf7f4C0178e5393F6B5655dbf)
 * Autopay: [0xCEBae6f5398853e7cd1E68301dA77C4B95Ae197a](https://base-goerli.blockscout.com/address/0xCEBae6f5398853e7cd1E68301dA77C4B95Ae197a?tab=txs)
 * Playground: [0x34Fae97547E990ef0E05e05286c51E4645bf1A85](https://base-goerli.blockscout.com/address/0x34Fae97547E990ef0E05e05286c51E4645bf1A85)
+
+</details>
+
+
+
+####
 
 
 
