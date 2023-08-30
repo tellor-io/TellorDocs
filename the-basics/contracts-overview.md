@@ -10,11 +10,11 @@ This contract also handles slashing reporter stakes and removing data when calle
 
 ### [Autopay](https://github.com/tellor-io/autoPay)
 
-The Autopay contract handles payments to reporters for submitting data to requested feeds. Users can [setup and fund](http://localhost:5000/s/tcQlo49FAqTaOimNOz0X/getting-data/funding-a-feed#funding-a-recurring-data-feed) a schedule for reporting rewards (tips) using this contract, or just add a [one time tip](http://localhost:5000/s/tcQlo49FAqTaOimNOz0X/getting-data/funding-a-feed#funding-a-one-time-request).
+The Autopay contract handles payments to reporters for submitting data to requested feeds. Users can [setup and fund](http://127.0.0.1:5000/s/tcQlo49FAqTaOimNOz0X/getting-data/funding-a-feed#funding-a-recurring-data-feed) a schedule for reporting rewards (tips) using this contract, or just add a [one time tip](http://127.0.0.1:5000/s/tcQlo49FAqTaOimNOz0X/getting-data/funding-a-feed#funding-a-one-time-request).
 
 ### [Governance](https://github.com/tellor-io/governance)
 
-The Governance contract handles creating, voting on, and executing [disputes](http://localhost:5000/s/tcQlo49FAqTaOimNOz0X/disputing-data/introduction) on the Oracle contract. After a dispute is resolved this contract sends the dispute fee and slashed stake to the appropriate parties.
+The Governance contract handles creating, voting on, and executing [disputes](http://127.0.0.1:5000/s/tcQlo49FAqTaOimNOz0X/disputing-data/introduction) on the Oracle contract. After a dispute is resolved this contract sends the dispute fee and slashed stake to the appropriate parties.
 
 ### [Token](https://github.com/tellor-io/tellor360)
 

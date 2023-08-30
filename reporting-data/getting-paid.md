@@ -2,10 +2,10 @@
 
 The payments for Tellor feeds are not held in the main tellor contract. Technically you can pay for Tellor feeds however you want (off-chain, recurring, hand shake agreements, etc.), however the trustless way to do this on-chain is to use the [Autopay contract.](https://github.com/tellor-io/autoPay)
 
-The autopay contract allows parties to schedule and fund recurring data feeds or submit one-time tips to Tellor queryIDs.&#x20;
+The autopay contract allows parties to schedule and fund recurring data feeds or submit one-time tips to Tellor queryIDs.
 
 {% hint style="info" %}
-[For information on how to fund a queryID once or as a feed.](https://app.gitbook.com/s/tcQlo49FAqTaOimNOz0X/getting-data/funding-a-feed)
+[For information on how to fund a queryID once or as a feed.](http://127.0.0.1:5000/s/tcQlo49FAqTaOimNOz0X/getting-data/funding-a-feed)
 {% endhint %}
 
 For most Tellor queryIDs, the Tellor token on the network will be the tipped token.
@@ -113,4 +113,3 @@ bytes32 _feedId = keccak256(
     );
 ```
 {% endhint %}
-

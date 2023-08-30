@@ -18,6 +18,7 @@
 * [Funding a Feed](getting-data/funding-a-feed.md)
 * [Tellor Functions](getting-data/tellor-functions.md)
 * [User Checklists](getting-data/user-checklists.md)
+* [DataSpecs Registry](getting-data/dataspecs-registry.md)
 
 ## Reporting Data
 
