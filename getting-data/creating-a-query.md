@@ -13,7 +13,7 @@ Use the tools below to generate a `queryId` and `queryData:`
 {% embed url="https://www.youtube.com/watch?index=2&list=PLuJHbmh0kCXVPHDA2Q3J3TfatBRGrOsm-&v=thjXi7FGLpU" %}
 
 {% hint style="info" %}
-If the [existing Query Types](https://github.com/tellor-io/dataSpecs/tree/main/types) don't fit your needs you'll need to define a new one.
+If the [existing Query Types](https://tellorregistry.eth.limo) don't fit your needs you'll need to define a new one.
 {% endhint %}
 
 ## Creating a new Query Type
@@ -22,8 +22,8 @@ To add a new data type to Tellor, you'll just need to define a new queryType. Th
 
 To create a new Query Type, or specification, for custom data you need from Tellor oracles, there are two options:
 
-* Fork this repository and make a pull request for a new Query type in `./types` using [this template](https://github.com/tellor-io/dataSpecs/blob/main/types/\_NewQueryTypeTemplate.md).
-* [Fill out this New Data Request Form ](https://github.com/tellor-io/dataSpecs/issues/new?assignees=\&labels=\&template=new\_query\_type.yaml\&title=%5BNew+Query+Type%5D%3A+)
+* Register it using [DataSpecs Registry Frontend](https://tellorregistry.eth.limo/Register.html) site, using this as a [this template](https://github.com/tellor-io/dataSpecs/blob/main/types/\_NewQueryTypeTemplate.md).
+* [Fill out this New Data Request Form ](https://github.com/tellor-io/dataSpecs/issues/new?assignees=\&labels=\&template=new\_query\_type.yaml\&title=%5BNew+Query+Type%5D%3A+)and the Tellor Team will reach out to help put one together.
 
 You'll need to determine three things: a unique queryType _name_, _inputs_, and _outputs_. So let's say you want a query for getting the price of any asset in any currency. In human-readable form, your question could look like this:
 
@@ -67,5 +67,5 @@ and the `queryId` would be
 
 ### Next Steps
 
-Feel free to start building a query now and integrating it into your project. When you reach the later stages of building your project, [add an issue](https://github.com/tellor-io/dataSpecs/issues/new/choose) to Tellor's dataSpecs repository so that data reporters know how to fulfill your query.  Please see the next section on how to fund a feed.
+Feel free to start building a query now and integrating it into your project. When you reach the later stages of building your project, [add it to the dataSpecs Registry](https://tellorregistry.eth.limo/Register.html) to so that data reporters know how to fulfill your query.  Please see the next section on how to fund a feed.
 
