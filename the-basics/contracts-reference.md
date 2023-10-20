@@ -45,16 +45,16 @@ If bridging TRB to participate in the Tellor Protocol please refer to the list o
 &#x20;**Mainnet**
 
 * Token: [0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0](https://etherscan.io/address/0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0)
-* Oracle: [0xD9157453E2668B2fc45b7A803D3FEF3642430cC0](https://etherscan.io/address/0xD9157453E2668B2fc45b7A803D3FEF3642430cC0)
-* Governance: [0x46038969D7DC0b17BC72137D07b4eDe43859DA45](https://etherscan.io/address/0x46038969D7DC0b17BC72137D07b4eDe43859DA45)
-* AutoPay: [0x9BE9B0CFA89Ea800556C6efbA67b455D336db1D0](https://etherscan.io/address/0x9BE9B0CFA89Ea800556C6efbA67b455D336db1D0)
+* Oracle: [0x8cFc184c877154a8F9ffE0fe75649dbe5e2DBEbf](https://etherscan.io/address/0x8cFc184c877154a8F9ffE0fe75649dbe5e2DBEbf)
+* Governance: [0xB30b1B98d8276b80bC4f5aF9f9170ef3220EC27D](https://etherscan.io/address/0xB30b1B98d8276b80bC4f5aF9f9170ef3220EC27D)
+* AutoPay: [0x3b50dEc3CA3d34d5346228D86D29CF679EAA0Ccb](https://etherscan.io/address/0x3b50dEc3CA3d34d5346228D86D29CF679EAA0Ccb)
 
 #### Sepolia Testnet
 
 * Token: [0x80fc34a2f9FfE86F41580F47368289C402DEc660](https://sepolia.etherscan.io/address/0x80fc34a2f9FfE86F41580F47368289C402DEc660)
-* Oracle: [0x199839a4907ABeC8240D119B606C98c405Bb0B33](https://sepolia.etherscan.io/address/0x199839a4907ABeC8240D119B606C98c405Bb0B33)
-* Governance: [0x8C9057FA16D3Debb703ADBac0A097d2E5577AA6b](https://sepolia.etherscan.io/address/0x8C9057FA16D3Debb703ADBac0A097d2E5577AA6b)
-* Autopay: [0x7E7b96d13D75bc7DaF270A491e2f1e571147d4DA](https://sepolia.etherscan.io/address/0x7E7b96d13D75bc7DaF270A491e2f1e571147d4DA)
+* Oracle: [0xB19584Be015c04cf6CFBF6370Fe94a58b7A38830](https://sepolia.etherscan.io/address/0xB19584Be015c04cf6CFBF6370Fe94a58b7A38830)
+* Governance: [0xA192f62726ea27979146dfF94f886a8E4Eb6D7A5](https://sepolia.etherscan.io/address/0xA192f62726ea27979146dfF94f886a8E4Eb6D7A5)
+* Autopay: [0xB59a8085b4C360a3694396CA8E09441052656cF6](https://sepolia.etherscan.io/address/0xB59a8085b4C360a3694396CA8E09441052656cF6)
 * DataSpecs:[ 0x9413c3b2Fb74A7b7e6CDeBa683b31646Ceb534F2](https://sepolia.etherscan.io/address/0x9413c3b2fb74a7b7e6cdeba683b31646ceb534f2)
 
 #### **Goerli Testnet**
@@ -83,9 +83,9 @@ If bridging TRB to participate in the Tellor Protocol please refer to the list o
 **Mumbai Testnet**
 
 * Bridged TRB: [0xce4e32fe9d894f8185271aa990d2db425df3e6be](https://mumbai.polygonscan.com/address/0xce4e32fe9d894f8185271aa990d2db425df3e6be)
-* Oracle: [0xD9157453E2668B2fc45b7A803D3FEF3642430cC0](https://mumbai.polygonscan.com/address/0xD9157453E2668B2fc45b7A803D3FEF3642430cC0)
-* Governance: [0x46038969D7DC0b17BC72137D07b4eDe43859DA45](https://mumbai.polygonscan.com/address/0x46038969D7DC0b17BC72137D07b4eDe43859DA45)
-* Autopay: [0x9BE9B0CFA89Ea800556C6efbA67b455D336db1D0](https://mumbai.polygonscan.com/address/0x9BE9B0CFA89Ea800556C6efbA67b455D336db1D0)
+* Oracle: [0x065e22463DB53534Fe2d8fB1caA4B2f8B22b41d5](https://mumbai.polygonscan.com/address/0x065e22463DB53534Fe2d8fB1caA4B2f8B22b41d5)
+* Governance: [0x10054c435ba40772b85E3314068c94Ea4fC47868](https://mumbai.polygonscan.com/address/0x10054c435ba40772b85E3314068c94Ea4fC47868)
+* Autopay: [0x673a4eF6adC2daCd776C919b412c848343d74Ae3](https://mumbai.polygonscan.com/address/0x673a4eF6adC2daCd776C919b412c848343d74Ae3)
 * Playground: [0x3251838bd813fdf6a97D32781e011cce8D225d59](https://mumbai.polygonscan.com/address/0x3251838bd813fdf6a97D32781e011cce8D225d59#code)
 * Playground Autopay: [0x65F5e1d95ad2444874d92CdE54e2321d3cE36298](https://mumbai.polygonscan.com/address/0x65F5e1d95ad2444874d92CdE54e2321d3cE36298)
 
