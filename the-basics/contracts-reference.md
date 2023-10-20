@@ -181,6 +181,13 @@ If bridging TRB to participate in the Tellor Protocol please refer to the list o
 
 <summary>Manta Network</summary>
 
+#### Manta Pacific Mainnet
+
+* Token: [0x8d7090ddda057f48fdbbb2abcea22d1113ab566a](https://pacific-explorer.manta.network/address/0x8D7090DdDa057f48FdBbb2ABCeA22D1113AB566a)
+* Oracle: [0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc](https://pacific-explorer.manta.network/address/0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc)
+* Governance: [0xC866DB9021fe81856fF6c5B3E3514BF9D1593D81](https://pacific-explorer.manta.network/address/0xC866DB9021fe81856fF6c5B3E3514BF9D1593D81)
+* Autopay: [0x9EA18BFDB50E9bb4A18F9d3Df7804E398F8fE0dc](https://pacific-explorer.manta.network/address/0x9EA18BFDB50E9bb4A18F9d3Df7804E398F8fE0dc)
+
 #### Manta Pacific Testnet
 
 * Token: [0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc](https://manta-testnet.calderaexplorer.xyz/address/0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc)
