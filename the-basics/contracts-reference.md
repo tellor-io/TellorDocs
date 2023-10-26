@@ -75,9 +75,9 @@ If bridging TRB to participate in the Tellor Protocol please refer to the list o
 #### **Mainnet**
 
 * Bridged TRB: [0xE3322702BEdaaEd36CdDAb233360B939775ae5f1](https://polygonscan.com/address/0xE3322702BEdaaEd36CdDAb233360B939775ae5f1)
-* Oracle: [0xD9157453E2668B2fc45b7A803D3FEF3642430cC0](https://polygonscan.com/address/0xD9157453E2668B2fc45b7A803D3FEF3642430cC0)
-* Governance: [0x46038969D7DC0b17BC72137D07b4eDe43859DA45](https://polygonscan.com/address/0x46038969D7DC0b17BC72137D07b4eDe43859DA45)
-* Autopay: [0x9BE9B0CFA89Ea800556C6efbA67b455D336db1D0](https://polygonscan.com/address/0x9BE9B0CFA89Ea800556C6efbA67b455D336db1D0)
+* Oracle: [0x8cFc184c877154a8F9ffE0fe75649dbe5e2DBEbf](https://polygonscan.com/address/0x8cFc184c877154a8F9ffE0fe75649dbe5e2DBEbf)
+* Governance: [0x4e9b7b5b49F7e72871526304d7ecb05D4836d67e](https://polygonscan.com/address/0x4e9b7b5b49F7e72871526304d7ecb05D4836d67e)
+* Autopay: [0x11cA06aa780ce89dbBF5D8F5fA8bf6965Be942c9](https://polygonscan.com/address/0x11cA06aa780ce89dbBF5D8F5fA8bf6965Be942c9)
 * DataSpecs: [0x06Be23ea84148a5E439dFe2A0bcCE441ea74E2D6](https://polygonscan.com/address/0x06Be23ea84148a5E439dFe2A0bcCE441ea74E2D6)
 
 **Mumbai Testnet**
@@ -119,9 +119,9 @@ If bridging TRB to participate in the Tellor Protocol please refer to the list o
 #### Mainnet
 
 * Bridged TRB: [0xaf8cA653Fa2772d58f4368B0a71980e9E3cEB888](https://optimistic.etherscan.io/address/0xaf8cA653Fa2772d58f4368B0a71980e9E3cEB888)
-* Oracle: [0xD9157453E2668B2fc45b7A803D3FEF3642430cC0](https://optimistic.etherscan.io/address/0xD9157453E2668B2fc45b7A803D3FEF3642430cC0)
-* Governance: [0x46038969D7DC0b17BC72137D07b4eDe43859DA45](https://optimistic.etherscan.io/address/0x46038969D7DC0b17BC72137D07b4eDe43859DA45)
-* Autopay: [0x9BE9B0CFA89Ea800556C6efbA67b455D336db1D0](https://optimistic.etherscan.io/address/0x9BE9B0CFA89Ea800556C6efbA67b455D336db1D0)
+* Oracle: [0x8cFc184c877154a8F9ffE0fe75649dbe5e2DBEbf](https://optimistic.etherscan.io/address/0x8cFc184c877154a8F9ffE0fe75649dbe5e2DBEbf)
+* Governance: [0xB30b1B98d8276b80bC4f5aF9f9170ef3220EC27D](https://optimistic.etherscan.io/address/0xB30b1B98d8276b80bC4f5aF9f9170ef3220EC27D)
+* Autopay: [0x3b50dEc3CA3d34d5346228D86D29CF679EAA0Ccb](https://optimistic.etherscan.io/address/0x3b50dec3ca3d34d5346228d86d29cf679eaa0ccb)
 
 #### Optimism Goerli Testnet
 
