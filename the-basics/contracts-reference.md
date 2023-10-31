@@ -83,9 +83,9 @@ If bridging TRB to participate in the Tellor Protocol please refer to the list o
 **Mumbai Testnet**
 
 * Bridged TRB: [0xce4e32fe9d894f8185271aa990d2db425df3e6be](https://mumbai.polygonscan.com/address/0xce4e32fe9d894f8185271aa990d2db425df3e6be)
-* Oracle: [0x065e22463DB53534Fe2d8fB1caA4B2f8B22b41d5](https://mumbai.polygonscan.com/address/0x065e22463DB53534Fe2d8fB1caA4B2f8B22b41d5)
-* Governance: [0x10054c435ba40772b85E3314068c94Ea4fC47868](https://mumbai.polygonscan.com/address/0x10054c435ba40772b85E3314068c94Ea4fC47868)
-* Autopay: [0x673a4eF6adC2daCd776C919b412c848343d74Ae3](https://mumbai.polygonscan.com/address/0x673a4eF6adC2daCd776C919b412c848343d74Ae3)
+* Oracle: [0xB0ff935b775a70504b810cf97c39987058e18550](https://mumbai.polygonscan.com/address/0xB0ff935b775a70504b810cf97c39987058e18550)
+* Governance: [0x11cA06aa780ce89dbBF5D8F5fA8bf6965Be942c9](https://mumbai.polygonscan.com/address/0x11cA06aa780ce89dbBF5D8F5fA8bf6965Be942c9)
+* Autopay: [0xBfe8B0b5dBB521bdD1CF8E09432B41eD5328619a](https://mumbai.polygonscan.com/address/0xBfe8B0b5dBB521bdD1CF8E09432B41eD5328619a)
 * Playground: [0x3251838bd813fdf6a97D32781e011cce8D225d59](https://mumbai.polygonscan.com/address/0x3251838bd813fdf6a97D32781e011cce8D225d59#code)
 * Playground Autopay: [0x65F5e1d95ad2444874d92CdE54e2321d3cE36298](https://mumbai.polygonscan.com/address/0x65F5e1d95ad2444874d92CdE54e2321d3cE36298)
 
@@ -97,10 +97,10 @@ If bridging TRB to participate in the Tellor Protocol please refer to the list o
 
 **Mainnet**
 
-* Bridged TRB: [`0xAAd66432d27737ecf6ED183160Adc5eF36aB99f2`](https://gnosisscan.io/address/0xaad66432d27737ecf6ed183160adc5ef36ab99f2)
-* Oracle: [`0xD9157453E2668B2fc45b7A803D3FEF3642430cC0`](https://gnosisscan.io/address/0xD9157453E2668B2fc45b7A803D3FEF3642430cC0)
-* Governance: [`0x46038969D7DC0b17BC72137D07b4eDe43859DA45`](https://gnosisscan.io/address/0x46038969D7DC0b17BC72137D07b4eDe43859DA45)
-* Autopay: [0x9BE9B0CFA89Ea800556C6efbA67b455D336db1D0](https://gnosisscan.io/address/0x9BE9B0CFA89Ea800556C6efbA67b455D336db1D0)
+* Bridged TRB: [0xAAd66432d27737ecf6ED183160Adc5eF36aB99f2](https://gnosisscan.io/address/0xaad66432d27737ecf6ed183160adc5ef36ab99f2)
+* Oracle: [0x8cFc184c877154a8F9ffE0fe75649dbe5e2DBEbf](https://gnosisscan.io/address/0x8cFc184c877154a8F9ffE0fe75649dbe5e2DBEbf)
+* Governance: [0xB30b1B98d8276b80bC4f5aF9f9170ef3220EC27D](https://gnosisscan.io/address/0xB30b1B98d8276b80bC4f5aF9f9170ef3220EC27D)
+* Autopay: [0x3b50dEc3CA3d34d5346228D86D29CF679EAA0Ccb](https://gnosisscan.io/address/0x3b50dEc3CA3d34d5346228D86D29CF679EAA0Ccb)
 
 #### Chiado Testnet
 
