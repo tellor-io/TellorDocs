@@ -65,11 +65,9 @@ _Note: It may take a few hours for the faucet to process your request._
 
 ### Polygon Mumbai
 
-Mumbai TRB can be minted from a playground contract on Goerli. The tokens are then bridged to Mumbai using the polygon bridge.
+### Mumbai
 
-* Call the faucet function from the block explorer here: [https://goerli.etherscan.io/address/0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A#writeContract](https://goerli.etherscan.io/address/0x7B8AC044ebce66aCdF14197E8De38C1Cc802dB4A#writeContract)
-* Use the Polygon bridge to move the tokens from Goerli to Mumbai: ([https://wallet.polygon.technology/polygon/bridge/deposit](https://wallet.polygon.technology/polygon/bridge/deposit))&#x20;
-* Finally check that you have Mumbai TRB at the Bridged TRB contract address here: [https://mumbai.polygonscan.com/address/0xCE4e32fE9D894f8185271Aa990D2dB425DF3E6bE#writeContract](https://mumbai.polygonscan.com/address/0xCE4e32fE9D894f8185271Aa990D2dB425DF3E6bE#writeContract)
+Faucet: [https://mumbai.polygonscan.com/address/0x3251838bd813fdf6a97D32781e011cce8D225d59#writeContract](https://mumbai.polygonscan.com/address/0x3251838bd813fdf6a97D32781e011cce8D225d59#writeContract)
 
 ### Gnosis Chain Chiado
 
