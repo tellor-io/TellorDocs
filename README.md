@@ -34,6 +34,7 @@ Built for any [data type](https://tellor.io/blog/how-to-query-custom-data-with-t
 * Optimism
 * Arbitrum
 * Filecoin FVM
+* Manta Pacific
 
 **Testnets**
 
@@ -44,6 +45,8 @@ Built for any [data type](https://tellor.io/blog/how-to-query-custom-data-with-t
 * Optimism Goerli
 * Arbitrum Goerli
 * FVM Calibration
+* Manta Pacific Testnet
+* Base Goerlie
 
 \*this list will be updated as we move onto more chains.  If you'd like us to deploy somewhere we aren't [let us know](https://discord.gg/n7drGjh)! &#x20;
 
