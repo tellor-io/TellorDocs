@@ -44,14 +44,14 @@ contract MyContract is UsingTellor {
 
 ### Reading data
 
-You can either use our[ QueryId builder ](https://tellor.io/queryidbuilder)to[ create a queryId ](creating-a-query.md)and hardcode it, or use solidity to generate it. Once you have created a `queryId`, you can add the Tellor data feed to your contract code.&#x20;
+You can either use our[ QueryId builder ](https://tellor.io/queryidbuilder)to[ create a queryId ](creating-a-query.md)and hardcode it, or use solidity to generate it. Once you have created a `queryId`, you can add the Tellor data feed to your contract code.
 
 {% hint style="danger" %}
 **The best practice** for reading Tellor data is to use the`getDataBefore` function with a buffer time that allows time for bad values to be disputed:
 
-`getDataBefore(_queryId,`` `**`block.timestamp - 20 minutes`**`);`
+`getDataBefore(_queryId,`**`block.timestamp - 20 minutes`**`);`
 
-It's also best practice to require/check that the data is not too old. For example:&#x20;
+It's also best practice to require/check that the data is not too old. For example:
 
 `require(block.timestamp - _timestampRetrieved < 24 hours);`
 {% endhint %}

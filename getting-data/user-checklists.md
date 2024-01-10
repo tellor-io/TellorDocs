@@ -20,15 +20,32 @@ This helps the Tellor team & reporters to better understand your needs. Feel fre
 
 <details>
 
-<summary><strong>Build in a delay to allow time for disputes on bad values</strong></summary>
+<summary><strong>Build in a delay to allow time for disputes on bad data</strong></summary>
 
-Tellor is an open & permissionless oracle, which means a reporter can submit any value at any time if they are willing to forfeit their staked TRB tokens. by delaying use of a value, or by delaying the finality of functions that use the latest Tellor value, you can prevent the use of inaccurate data. [This repo](https://github.com/tellor-io/tellor-caller-liquity/blob/main/contracts/TellorCaller.sol) is a great reference for integrating Tellor.
+A reporter can submit any value at any time if they are willing to forfeit their staked TRB tokens.  By delaying use of a value, or by delaying the finality of functions that use the latest Tellor value, you can prevent the use of inaccurate data.\
+
+
+**The best practice for reading Tellor data** is to use the`getDataBefore` function with a buffer time that allows time for bad values to be disputed:
+
+`getDataBefore(_queryId,`**`block.timestamp - 20 minutes`**`);`\
+&#x20;\
+[This repo](https://github.com/tellor-io/tellor-caller-liquity/blob/main/contracts/TellorCaller.sol) is a great reference for integrating Tellor.
 
 </details>
 
 <details>
 
-<summary><strong>Ensure that functions do not use old Tellor values</strong> </summary>
+<summary>Ensure that you don't use data that is too old</summary>
+
+It's also best practice to require/check that the data is not too old. For example:
+
+`require(block.timestamp -`**`_timestampRetrieved < 24 hours`**`);`
+
+</details>
+
+<details>
+
+<summary><strong>Prevent a "back in time" attack</strong></summary>
 
 In the event where a Tellor value is disputed, the disputed value is removed & previous values remain. Prevent potential attackers from going back in time to find a desired value with a check in your contracts. [This repo](https://github.com/tellor-io/tellor-caller-liquity/blob/main/contracts/TellorCaller.sol) is a great reference for integrating Tellor.
 
