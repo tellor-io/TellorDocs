@@ -20,6 +20,14 @@ This helps the Tellor team & reporters to better understand your needs. Feel fre
 
 <details>
 
+<summary>Review Best Practices </summary>
+
+[This repository](https://github.com/tellor-io/best-practices-user/tree/main) is a reference implementation for integrating Tellor price feed data into your protocol. It demonstrates some best practices for using Tellor, including implementing a dispute time buffer and a data staleness check. It also mitigates back-in-time dispute attacks by caching the most recent value and timestamp.
+
+</details>
+
+<details>
+
 <summary><strong>Build in a delay to allow time for disputes on bad data</strong></summary>
 
 A reporter can submit any value at any time if they are willing to forfeit their staked TRB tokens.  By delaying use of a value, or by delaying the finality of functions that use the latest Tellor value, you can prevent the use of inaccurate data.\
@@ -47,7 +55,7 @@ It's also best practice to require/check that the data is not too old. For examp
 
 <summary><strong>Prevent a "back in time" attack</strong></summary>
 
-In the event where a Tellor value is disputed, the disputed value is removed & previous values remain. Prevent potential attackers from going back in time to find a desired value with a check in your contracts. [This repo](https://github.com/tellor-io/tellor-caller-liquity/blob/main/contracts/TellorCaller.sol) is a great reference for integrating Tellor.
+In the event where a Tellor value is disputed, the disputed value is removed & previous values remain. Prevent potential attackers from going back in time to find a desired value with a [check in your contracts](https://github.com/tellor-io/best-practices-user/blob/74c08870f81bbdbec773b36d5bf084f65da59927/contracts/TellorUser.sol#L57).  &#x20;
 
 </details>
 
