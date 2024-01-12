@@ -43,9 +43,9 @@ A reporter can submit any value at any time if they are willing to forfeit their
 
 <details>
 
-<summary>Ensure that you don't use data that is too old</summary>
+<summary>Add a staleness check</summary>
 
-It's also best practice to require/check that the data is not too old. For example:
+It's also best practice to require/check that the data is not too old for your use-case. For example:
 
 `require(block.timestamp -`**`_timestampRetrieved < 24 hours`**`);`
 
