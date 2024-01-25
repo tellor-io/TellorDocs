@@ -179,7 +179,7 @@ If bridging TRB to participate in the Tellor Protocol please refer to the list o
 
 <details>
 
-<summary>Manta Network</summary>
+<summary>Manta Pacific </summary>
 
 #### Manta Pacific Mainnet
 
@@ -209,6 +209,34 @@ If bridging TRB to participate in the Tellor Protocol please refer to the list o
 * Governance: [0xAb0145d6aA4F799Bf7f4C0178e5393F6B5655dbf](https://base-goerli.blockscout.com/address/0xAb0145d6aA4F799Bf7f4C0178e5393F6B5655dbf)
 * Autopay: [0xCEBae6f5398853e7cd1E68301dA77C4B95Ae197a](https://base-goerli.blockscout.com/address/0xCEBae6f5398853e7cd1E68301dA77C4B95Ae197a?tab=txs)
 * Playground: [0x34Fae97547E990ef0E05e05286c51E4645bf1A85](https://base-goerli.blockscout.com/address/0x34Fae97547E990ef0E05e05286c51E4645bf1A85)
+
+</details>
+
+<details>
+
+<summary>Mantle </summary>
+
+**Mantle Goerli Testnet**
+
+* Token: [0x46038969D7DC0b17BC72137D07b4eDe43859DA45](https://explorer.testnet.mantle.xyz/address/0x46038969D7DC0b17BC72137D07b4eDe43859DA45)
+* Oracle: [0xf9C672525284C76b9a7e83BE94849Af47624a2dd](https://explorer.testnet.mantle.xyz/address/0xf9C672525284C76b9a7e83BE94849Af47624a2dd)
+* Governance: [0xFeAE6a8451e188b973F57be047d5aBE8814cC899](https://explorer.testnet.mantle.xyz/address/0xFeAE6a8451e188b973F57be047d5aBE8814cC899)
+* Autopay: [0x10c9042C4BBD61E98bB2b3dfb90d127Be4328Aab](https://explorer.testnet.mantle.xyz/address/0x10c9042C4BBD61E98bB2b3dfb90d127Be4328Aab)
+* Playground: [0x46038969D7DC0b17BC72137D07b4eDe43859DA45](https://explorer.testnet.mantle.xyz/address/0x46038969D7DC0b17BC72137D07b4eDe43859DA45)
+
+**Mantle Mainnet**
+
+* Token: [0x35D48A789904E9b15705977192e5d95e2aF7f1D3](https://explorer.mantle.xyz/address/0x35D48A789904E9b15705977192e5d95e2aF7f1D3)
+* Oracle: [0x46038969D7DC0b17BC72137D07b4eDe43859DA45](https://explorer.mantle.xyz/address/0x46038969D7DC0b17BC72137D07b4eDe43859DA45)
+* Governance: [0x96918F58e0D34DC1f69d0ef724D5207C28919010](https://explorer.mantle.xyz/address/0x96918F58e0D34DC1f69d0ef724D5207C28919010)
+* Autopay: [0x6C77f2c171C8cEe08F7A5645c34BB14A29b8532f](https://explorer.mantle.xyz/address/0x6C77f2c171C8cEe08F7A5645c34BB14A29b8532f)
+
+
+
+
+
+\
+
 
 </details>
 
