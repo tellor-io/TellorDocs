@@ -82,12 +82,13 @@ If bridging TRB to participate in the Tellor Protocol please refer to the list o
 
 **Mumbai Testnet**
 
-* Bridged TRB: [0xce4e32fe9d894f8185271aa990d2db425df3e6be](https://mumbai.polygonscan.com/address/0xce4e32fe9d894f8185271aa990d2db425df3e6be)
+* Token: [0x3251838bd813fdf6a97D32781e011cce8D225d59](https://mumbai.polygonscan.com/address/0x3251838bd813fdf6a97D32781e011cce8D225d59#code)
 * Oracle: [0xB0ff935b775a70504b810cf97c39987058e18550](https://mumbai.polygonscan.com/address/0xB0ff935b775a70504b810cf97c39987058e18550)
 * Governance: [0x11cA06aa780ce89dbBF5D8F5fA8bf6965Be942c9](https://mumbai.polygonscan.com/address/0x11cA06aa780ce89dbBF5D8F5fA8bf6965Be942c9)
 * Autopay: [0xBfe8B0b5dBB521bdD1CF8E09432B41eD5328619a](https://mumbai.polygonscan.com/address/0xBfe8B0b5dBB521bdD1CF8E09432B41eD5328619a)
 * Playground: [0x3251838bd813fdf6a97D32781e011cce8D225d59](https://mumbai.polygonscan.com/address/0x3251838bd813fdf6a97D32781e011cce8D225d59#code)
-* Playground Autopay: [0x65F5e1d95ad2444874d92CdE54e2321d3cE36298](https://mumbai.polygonscan.com/address/0x65F5e1d95ad2444874d92CdE54e2321d3cE36298)
+
+
 
 </details>
 
