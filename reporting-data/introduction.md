@@ -1,7 +1,7 @@
 # Introduction
 
 {% hint style="info" %}
-Important note: Data reporting on Tellor requires paying gas fees and staking TRB tokens that can be lost if incorrect data is submitted. New reporters should practice on a testnet like goerli or mumbai while they learn the ropes. Reach out in [discord](https://discord.gg/n7drGjh) if you need test TRB tokens!
+Important note: Data reporting on Tellor requires paying gas fees and staking TRB tokens that can be lost if incorrect data is submitted. New reporters should practice on a testnet like sepolia or mumbai while they learn the ropes. Reach out in [discord](https://discord.gg/n7drGjh) if you need test TRB tokens!
 {% endhint %}
 
 Anyone from anywhere in the world can learn how to be a Tellor data reporter, and submit data to Tellor’s multichain databases. Reporting can be as easy as calling the submitValue contract function on etherscan. For those who want to compete for time based rewards and TRB tips we have Telliot.
