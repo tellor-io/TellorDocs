@@ -241,7 +241,31 @@ If bridging TRB to participate in the Tellor Protocol please refer to the list o
 
 </details>
 
+<details>
 
+<summary>Linea</summary>
+
+**Linea Goerli Testnet**
+
+* Token: [0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc](https://goerli.lineascan.build/address/0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc#code)
+* Oracle: [0x6684E5DdbEe1b97E10847468cB5f4e38f3aB83FE](https://goerli.lineascan.build/address/0x6684E5DdbEe1b97E10847468cB5f4e38f3aB83FE)
+* Governance: [0x9EA18BFDB50E9bb4A18F9d3Df7804E398F8fE0dc](https://goerli.lineascan.build/address/0x9EA18BFDB50E9bb4A18F9d3Df7804E398F8fE0dc)
+* Autopay: [0xe331Afe3a8D7836bEdF1F09bC91549f4bc8c60C9](https://goerli.lineascan.build/address/0xe331Afe3a8D7836bEdF1F09bC91549f4bc8c60C9)
+
+**Linea Mainnet**
+
+* Token: [0x35482B93941B439dEA2244Cc30A20D1Ed862DF86](https://lineascan.build/token/0x35482b93941b439dea2244cc30a20d1ed862df86)
+* Oracle: [0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc](https://lineascan.build/address/0x896419ed2e0dc848a1f7d2814f4e5df4b9b9bfcc#code)
+* Governance: [0xC866DB9021fe81856fF6c5B3E3514BF9D1593D81](https://lineascan.build/address/0xC866DB9021fe81856fF6c5B3E3514BF9D1593D81)
+* Autopay: [0x9EA18BFDB50E9bb4A18F9d3Df7804E398F8fE0dc](https://lineascan.build/address/0x9EA18BFDB50E9bb4A18F9d3Df7804E398F8fE0dc)
+
+
+
+
+
+
+
+</details>
 
 ####
 
