@@ -36,6 +36,7 @@ Built for any [data type](https://tellor.io/blog/how-to-query-custom-data-with-t
 * Filecoin FVM
 * Manta Pacific
 * Linea
+* Polygon zkEVM
 
 **Testnets**
 
@@ -49,6 +50,7 @@ Built for any [data type](https://tellor.io/blog/how-to-query-custom-data-with-t
 * Manta Pacific Testnet
 * Base Goerli
 * Linea Goerli
+* Cardona Testnet
 
 \*this list will be updated as we move onto more chains.  If you'd like us to deploy somewhere we aren't [let us know](https://discord.gg/n7drGjh)! &#x20;
 
