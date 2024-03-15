@@ -267,7 +267,33 @@ If bridging TRB to participate in the Tellor Protocol please refer to the list o
 
 </details>
 
-####
+<details>
+
+<summary>Polygon zkEVM</summary>
+
+**Cardona Testnet**
+
+Token: [0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc](https://cardona-zkevm.polygonscan.com/address/0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc)
+
+Oracle: [0x9EA18BFDB50E9bb4A18F9d3Df7804E398F8fE0dc](https://cardona-zkevm.polygonscan.com/address/0x9EA18BFDB50E9bb4A18F9d3Df7804E398F8fE0dc)
+
+Governance: [0x89e44099f5E80484dcF48995080481214b9c2D7c](https://cardona-zkevm.polygonscan.com/address/0x89e44099f5E80484dcF48995080481214b9c2D7c)
+
+Autopay: [0x5446397292854D92872eDf426eEaB8FdC6Bd2bEa](https://cardona-zkevm.polygonscan.com/address/0x5446397292854D92872eDf426eEaB8FdC6Bd2bEa)
+
+
+
+**Mainnet**
+
+Token:  [0x03346b2F4BC23fd7f4935f74E70c7a7FebC45313](https://zkevm.polygonscan.com/address/0x03346b2f4bc23fd7f4935f74e70c7a7febc45313)
+
+Oracle: [0x34Fae97547E990ef0E05e05286c51E4645bf1A85](https://zkevm.polygonscan.com/address/0x34Fae97547E990ef0E05e05286c51E4645bf1A85)
+
+Governance: [0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc](https://zkevm.polygonscan.com/address/0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc)
+
+Autopay: [0x6684E5DdbEe1b97E10847468cB5f4e38f3aB83FE](https://zkevm.polygonscan.com/address/0x6684E5DdbEe1b97E10847468cB5f4e38f3aB83FE)
+
+</details>
 
 
 
