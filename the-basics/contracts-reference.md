@@ -273,27 +273,37 @@ If bridging TRB to participate in the Tellor Protocol please refer to the list o
 
 **Cardona Testnet**
 
-Token: [0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc](https://cardona-zkevm.polygonscan.com/address/0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc)
-
-Oracle: [0x9EA18BFDB50E9bb4A18F9d3Df7804E398F8fE0dc](https://cardona-zkevm.polygonscan.com/address/0x9EA18BFDB50E9bb4A18F9d3Df7804E398F8fE0dc)
-
-Governance: [0x89e44099f5E80484dcF48995080481214b9c2D7c](https://cardona-zkevm.polygonscan.com/address/0x89e44099f5E80484dcF48995080481214b9c2D7c)
-
-Autopay: [0x5446397292854D92872eDf426eEaB8FdC6Bd2bEa](https://cardona-zkevm.polygonscan.com/address/0x5446397292854D92872eDf426eEaB8FdC6Bd2bEa)
-
-
+* Token: [0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc](https://cardona-zkevm.polygonscan.com/address/0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc)
+* Oracle: [0x9EA18BFDB50E9bb4A18F9d3Df7804E398F8fE0dc](https://cardona-zkevm.polygonscan.com/address/0x9EA18BFDB50E9bb4A18F9d3Df7804E398F8fE0dc)
+* Governance: [0x89e44099f5E80484dcF48995080481214b9c2D7c](https://cardona-zkevm.polygonscan.com/address/0x89e44099f5E80484dcF48995080481214b9c2D7c)
+* Autopay: [0x5446397292854D92872eDf426eEaB8FdC6Bd2bEa](https://cardona-zkevm.polygonscan.com/address/0x5446397292854D92872eDf426eEaB8FdC6Bd2bEa)
 
 **Mainnet**
 
-Token:  [0x03346b2F4BC23fd7f4935f74E70c7a7FebC45313](https://zkevm.polygonscan.com/address/0x03346b2f4bc23fd7f4935f74e70c7a7febc45313)
-
-Oracle: [0x34Fae97547E990ef0E05e05286c51E4645bf1A85](https://zkevm.polygonscan.com/address/0x34Fae97547E990ef0E05e05286c51E4645bf1A85)
-
-Governance: [0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc](https://zkevm.polygonscan.com/address/0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc)
-
-Autopay: [0x6684E5DdbEe1b97E10847468cB5f4e38f3aB83FE](https://zkevm.polygonscan.com/address/0x6684E5DdbEe1b97E10847468cB5f4e38f3aB83FE)
+* Token:  [0x03346b2F4BC23fd7f4935f74E70c7a7FebC45313](https://zkevm.polygonscan.com/address/0x03346b2f4bc23fd7f4935f74e70c7a7febc45313)
+* Oracle: [0x34Fae97547E990ef0E05e05286c51E4645bf1A85](https://zkevm.polygonscan.com/address/0x34Fae97547E990ef0E05e05286c51E4645bf1A85)
+* Governance: [0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc](https://zkevm.polygonscan.com/address/0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc)
+* Autopay: [0x6684E5DdbEe1b97E10847468cB5f4e38f3aB83FE](https://zkevm.polygonscan.com/address/0x6684E5DdbEe1b97E10847468cB5f4e38f3aB83FE)
 
 </details>
 
+<details>
 
+<summary>Fraxtal</summary>
+
+**Mainnet**
+
+* Token: [0xf4Fee0A3aa10abD90b2E03Cf9aB4C221d8348157](https://fraxscan.com/address/0xf4Fee0A3aa10abD90b2E03Cf9aB4C221d8348157#code)
+* Oracle: [0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc](https://fraxscan.com/address/0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc)
+* Governance: [0xC866DB9021fe81856fF6c5B3E3514BF9D1593D81](https://fraxscan.com/address/0xC866DB9021fe81856fF6c5B3E3514BF9D1593D81)
+* Autopay: [0x9EA18BFDB50E9bb4A18F9d3Df7804E398F8fE0dc](https://fraxscan.com/address/0x9EA18BFDB50E9bb4A18F9d3Df7804E398F8fE0dc)
+
+**Holesky Testnet**
+
+* Token/Playground: [0xC866DB9021fe81856fF6c5B3E3514BF9D1593D81](https://holesky.fraxscan.com/address/0xC866DB9021fe81856fF6c5B3E3514BF9D1593D81#code)
+* Oracle: [0x6684E5DdbEe1b97E10847468cB5f4e38f3aB83FE](https://holesky.fraxscan.com/address/0x6684E5DdbEe1b97E10847468cB5f4e38f3aB83FE)
+* Governance: [0x9EA18BFDB50E9bb4A18F9d3Df7804E398F8fE0dc](https://holesky.fraxscan.com/address/0x9EA18BFDB50E9bb4A18F9d3Df7804E398F8fE0dc)
+* Autopay: [0xe331Afe3a8D7836bEdF1F09bC91549f4bc8c60C9](https://holesky.fraxscan.com/address/0xe331Afe3a8D7836bEdF1F09bC91549f4bc8c60C9)
+
+</details>
 
