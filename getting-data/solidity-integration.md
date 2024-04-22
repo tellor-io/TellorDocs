@@ -47,9 +47,9 @@ contract MyContract is UsingTellor {
 You can either use our[ QueryId builder ](https://tellor.io/queryidbuilder)to[ create a queryId ](creating-a-query.md)and hardcode it, or use solidity to generate it. Once you have created a `queryId`, you can add the Tellor data feed to your contract code.
 
 {% hint style="danger" %}
-[**The best practice**](user-checklists.md#build-in-a-delay-to-allow-time-for-disputes-on-bad-data) for reading Tellor data is to use the`getDataBefore` function with a buffer time that allows time for bad values to be disputed:
+[**The best practice**](user-checklists.md#build-in-a-delay-to-allow-time-for-disputes-on-bad-data) for reading Tellor data is to use the`_getDataBefore` function with a buffer time that allows time for bad values to be disputed:
 
-`getDataBefore(_queryId,`**`block.timestamp - 20 minutes`**`);`
+`_getDataBefore(_queryId,`**`block.timestamp - 20 minutes`**`);`
 
 It's also best practice to require/[check that the data is not too old.](user-checklists.md#ensure-that-you-dont-use-data-that-is-too-old) For example:
 
@@ -74,7 +74,7 @@ contract ExampleContract is UsingTellor {
       bytes32 _queryId = keccak256(_queryData);
       
       (bytes memory _value, uint256 _timestampRetrieved) =
-          getDataBefore(_queryId, block.timestamp - 20 minutes);
+          _getDataBefore(_queryId, block.timestamp - 20 minutes);
       if (_timestampRetrieved == 0) return 0;
       require(block.timestamp - _timestampRetrieved < 24 hours);
       return abi.decode(_value, (uint256));

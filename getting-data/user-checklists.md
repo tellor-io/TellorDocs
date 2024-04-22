@@ -33,9 +33,9 @@ This helps the Tellor team & reporters to better understand your needs. Feel fre
 A reporter can submit any value at any time if they are willing to forfeit their staked TRB tokens.  By delaying use of a value, or by delaying the finality of functions that use the latest Tellor value, you can prevent the use of inaccurate data.\
 
 
-**The best practice for reading Tellor data** is to use the`getDataBefore` function with a buffer time that allows time for bad values to be disputed:
+**The best practice for reading Tellor data** is to use the`_getDataBefore` function with a buffer time that allows time for bad values to be disputed:
 
-`getDataBefore(_queryId,`**`block.timestamp - 20 minutes`**`);`\
+`_getDataBefore(_queryId,`**`block.timestamp - 20 minutes`**`);`\
 &#x20;\
 [This repo](https://github.com/tellor-io/tellor-caller-liquity/blob/main/contracts/TellorCaller.sol) is a great reference for integrating Tellor.
 
