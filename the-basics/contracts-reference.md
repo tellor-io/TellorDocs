@@ -124,14 +124,13 @@ If bridging TRB to participate in the Tellor Protocol please refer to the list o
 * Governance: [0xB30b1B98d8276b80bC4f5aF9f9170ef3220EC27D](https://optimistic.etherscan.io/address/0xB30b1B98d8276b80bC4f5aF9f9170ef3220EC27D)
 * Autopay: [0x3b50dEc3CA3d34d5346228D86D29CF679EAA0Ccb](https://optimistic.etherscan.io/address/0x3b50dec3ca3d34d5346228d86d29cf679eaa0ccb)
 
-#### Optimism Goerli Testnet
+#### Optimism Sepolia Testnet
 
-* TRB token: [0xd71F72C18767083e4e3FE84F9c62b8038C1Ef4f6](https://goerli-optimism.etherscan.io/address/0xd71F72C18767083e4e3FE84F9c62b8038C1Ef4f6)
-* Oracle: [0xD9157453E2668B2fc45b7A803D3FEF3642430cC0](https://goerli-optimism.etherscan.io/address/0xD9157453E2668B2fc45b7A803D3FEF3642430cC0)
-* Governance: [0x46038969D7DC0b17BC72137D07b4eDe43859DA45](https://goerli-optimism.etherscan.io/address/0x46038969D7DC0b17BC72137D07b4eDe43859DA45)
-* Autopay: [0x9BE9B0CFA89Ea800556C6efbA67b455D336db1D0](https://goerli-optimism.etherscan.io/address/0x9BE9B0CFA89Ea800556C6efbA67b455D336db1D0)
-* Playground: [0xd71F72C18767083e4e3FE84F9c62b8038C1Ef4f6](https://goerli-optimism.etherscan.io/address/0xd71F72C18767083e4e3FE84F9c62b8038C1Ef4f6)
-* Playground Autopay: [0x06Be23ea84148a5E439dFe2A0bcCE441ea74E2D6](https://goerli-optimism.etherscan.io/address/0x06Be23ea84148a5E439dFe2A0bcCE441ea74E2D6)
+* Token: [0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc](https://sepolia-optimism.etherscan.io/address/0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc)
+* Oracle: [0x9EA18BFDB50E9bb4A18F9d3Df7804E398F8fE0dc](https://sepolia-optimism.etherscan.io/address/0x9EA18BFDB50E9bb4A18F9d3Df7804E398F8fE0dc)
+* Governance: [0x89e44099f5E80484dcF48995080481214b9c2D7c](https://sepolia-optimism.etherscan.io/address/0x89e44099f5E80484dcF48995080481214b9c2D7c)
+* Autopay: [0x5446397292854D92872eDf426eEaB8FdC6Bd2bEa](https://sepolia-optimism.etherscan.io/address/0x5446397292854D92872eDf426eEaB8FdC6Bd2bEa)
+* Playground: [0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc](https://sepolia-optimism.etherscan.io/address/0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc)
 
 </details>
 
