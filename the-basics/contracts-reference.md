@@ -146,14 +146,15 @@ If bridging TRB to participate in the Tellor Protocol please refer to the list o
 * Governance: [0xB30b1B98d8276b80bC4f5aF9f9170ef3220EC27D](https://arbiscan.io/address/0xB30b1B98d8276b80bC4f5aF9f9170ef3220EC27D)
 * Autopay: [0x3b50dEc3CA3d34d5346228D86D29CF679EAA0Ccb](https://arbiscan.io/address/0x3b50dEc3CA3d34d5346228D86D29CF679EAA0Ccb)
 
-#### &#x20;Arbitrum Goerli Testnet
+#### &#x20;Arbitrum Sepolia Testnet
 
-* Bridged TRB: [0x8d1bB5eDdFce08B92dD47c9871d1805211C3Eb3C](https://goerli.arbiscan.io/address/0x8d1bB5eDdFce08B92dD47c9871d1805211C3Eb3C)
-* Oracle: [0xb2CB696fE5244fB9004877e58dcB680cB86Ba444](https://goerli.arbiscan.io/address/0xb2CB696fE5244fB9004877e58dcB680cB86Ba444#code)
-* Governance: [0xb55bB55f7D8b4F26Bd18198088C96488D95cab39](https://goerli.arbiscan.io/address/0xb55bB55f7D8b4F26Bd18198088C96488D95cab39)
-* Autopay: [0x60cBf3991F05a0671250e673Aa166e9D1A0C662E](https://goerli.arbiscan.io/address/0x60cBf3991F05a0671250e673Aa166e9D1A0C662E)
-* Playground: [0x3251838bd813fdf6a97D32781e011cce8D225d59](https://goerli.arbiscan.io/address/0x3251838bd813fdf6a97D32781e011cce8D225d59#code)
-* Playground Autopay: [0x9F6091CD579304a27Cf8Ab4927b1e0c242F61B4D](https://goerli.arbiscan.io/address/0x9f6091cd579304a27cf8ab4927b1e0c242f61b4d)
+* Token: [0xC866DB9021fe81856fF6c5B3E3514BF9D1593D81](https://sepolia.arbiscan.io/address/0xC866DB9021fe81856fF6c5B3E3514BF9D1593D81)
+* Oracle: [0x6684E5DdbEe1b97E10847468cB5f4e38f3aB83FE](https://sepolia.arbiscan.io/address/0x6684E5DdbEe1b97E10847468cB5f4e38f3aB83FE)
+* Governance: [0x9EA18BFDB50E9bb4A18F9d3Df7804E398F8fE0dc](https://sepolia.arbiscan.io/address/0x9EA18BFDB50E9bb4A18F9d3Df7804E398F8fE0dc)
+* Autopay: [0xe331Afe3a8D7836bEdF1F09bC91549f4bc8c60C9](https://sepolia.arbiscan.io/address/0xe331Afe3a8D7836bEdF1F09bC91549f4bc8c60C9)
+* Playground: [0xC866DB9021fe81856fF6c5B3E3514BF9D1593D81](https://sepolia.arbiscan.io/address/0xC866DB9021fe81856fF6c5B3E3514BF9D1593D81)
+
+
 
 </details>
 
@@ -203,13 +204,13 @@ If bridging TRB to participate in the Tellor Protocol please refer to the list o
 
 <summary>Base</summary>
 
-#### Base Testnet (Goerli)
+#### Base Sepolia Testnet
 
-* Token: [0x34Fae97547E990ef0E05e05286c51E4645bf1A85](https://base-goerli.blockscout.com/address/0x34Fae97547E990ef0E05e05286c51E4645bf1A85)
-* Oracle: [0x16d623f2f3AB1d58426f0402c313f1d3fdA14249](https://base-goerli.blockscout.com/address/0x16d623f2f3AB1d58426f0402c313f1d3fdA14249)
-* Governance: [0xAb0145d6aA4F799Bf7f4C0178e5393F6B5655dbf](https://base-goerli.blockscout.com/address/0xAb0145d6aA4F799Bf7f4C0178e5393F6B5655dbf)
-* Autopay: [0xCEBae6f5398853e7cd1E68301dA77C4B95Ae197a](https://base-goerli.blockscout.com/address/0xCEBae6f5398853e7cd1E68301dA77C4B95Ae197a?tab=txs)
-* Playground: [0x34Fae97547E990ef0E05e05286c51E4645bf1A85](https://base-goerli.blockscout.com/address/0x34Fae97547E990ef0E05e05286c51E4645bf1A85)
+* Token: [0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc](https://sepolia.basescan.org/address/0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc)
+* Oracle: [0xC866DB9021fe81856fF6c5B3E3514BF9D1593D81](https://sepolia.basescan.org/address/0xC866DB9021fe81856fF6c5B3E3514BF9D1593D81)
+* Governance: [0x6684E5DdbEe1b97E10847468cB5f4e38f3aB83FE](https://sepolia.basescan.org/address/0x6684E5DdbEe1b97E10847468cB5f4e38f3aB83FE)
+* Autopay: [0x89e44099f5E80484dcF48995080481214b9c2D7c](https://sepolia.basescan.org/address/0x89e44099f5E80484dcF48995080481214b9c2D7c)
+* Playground: [0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc](https://sepolia.basescan.org/address/0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc)
 
 </details>
 
@@ -217,13 +218,13 @@ If bridging TRB to participate in the Tellor Protocol please refer to the list o
 
 <summary>Mantle </summary>
 
-**Mantle Goerli Testnet**
+**Mantle Sepolia Testnet**
 
-* Token: [0x46038969D7DC0b17BC72137D07b4eDe43859DA45](https://explorer.testnet.mantle.xyz/address/0x46038969D7DC0b17BC72137D07b4eDe43859DA45)
-* Oracle: [0xf9C672525284C76b9a7e83BE94849Af47624a2dd](https://explorer.testnet.mantle.xyz/address/0xf9C672525284C76b9a7e83BE94849Af47624a2dd)
-* Governance: [0xFeAE6a8451e188b973F57be047d5aBE8814cC899](https://explorer.testnet.mantle.xyz/address/0xFeAE6a8451e188b973F57be047d5aBE8814cC899)
-* Autopay: [0x10c9042C4BBD61E98bB2b3dfb90d127Be4328Aab](https://explorer.testnet.mantle.xyz/address/0x10c9042C4BBD61E98bB2b3dfb90d127Be4328Aab)
-* Playground: [0x46038969D7DC0b17BC72137D07b4eDe43859DA45](https://explorer.testnet.mantle.xyz/address/0x46038969D7DC0b17BC72137D07b4eDe43859DA45)
+* Token:[ 0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc](https://explorer.sepolia.mantle.xyz/address/0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc)
+* Oracle: [0xC866DB9021fe81856fF6c5B3E3514BF9D1593D81](https://explorer.sepolia.mantle.xyz/address/0xC866DB9021fe81856fF6c5B3E3514BF9D1593D81)
+* Governance: [0x6684E5DdbEe1b97E10847468cB5f4e38f3aB83FE](https://explorer.sepolia.mantle.xyz/address/0x6684E5DdbEe1b97E10847468cB5f4e38f3aB83FE)
+* Autopay: [0x89e44099f5E80484dcF48995080481214b9c2D7c](https://explorer.sepolia.mantle.xyz/address/0x89e44099f5E80484dcF48995080481214b9c2D7c)
+* Playground: [0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc](https://explorer.sepolia.mantle.xyz/address/0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc)
 
 **Mantle Mainnet**
 
@@ -248,9 +249,9 @@ If bridging TRB to participate in the Tellor Protocol please refer to the list o
 **Linea Sepolia Testnet**
 
 * Token: [0x34Fae97547E990ef0E05e05286c51E4645bf1A85](https://sepolia.lineascan.build/address/0x34Fae97547E990ef0E05e05286c51E4645bf1A85)
-* Oracle: [0xC866DB9021fe81856fF6c5B3E3514BF9D1593D81](https://sepolia.lineascan.build/address/0xc866db9021fe81856ff6c5b3e3514bf9d1593d81#code)
-* Governance: [0x16d623f2f3AB1d58426f0402c313f1d3fdA14249](https://sepolia.lineascan.build/address/0x16d623f2f3AB1d58426f0402c313f1d3fdA14249)
-* Autopay: [0x6CCB007bCdbCa8234e0D1A39a84453bFF79f95E2](https://sepolia.lineascan.build/address/0x6CCB007bCdbCa8234e0D1A39a84453bFF79f95E2)
+* Oracle: [0xC7199e0686DF9844B511fAf2796C518F6D7292EB](https://sepolia.lineascan.build/address/0xC7199e0686DF9844B511fAf2796C518F6D7292EB)
+* Governance: [0xB3bB03eA894C609C8560Af3d8726556f52140a39](https://sepolia.lineascan.build/address/0xB3bB03eA894C609C8560Af3d8726556f52140a39)
+* Autopay: [0x02FB285409Cec68EE12183cc3035a090A456f66C](https://sepolia.lineascan.build/address/0x02FB285409Cec68EE12183cc3035a090A456f66C)
 
 **Linea Mainnet**
 
