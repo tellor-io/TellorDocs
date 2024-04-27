@@ -88,6 +88,16 @@ If bridging TRB to participate in the Tellor Protocol please refer to the list o
 * Autopay: [0xBfe8B0b5dBB521bdD1CF8E09432B41eD5328619a](https://mumbai.polygonscan.com/address/0xBfe8B0b5dBB521bdD1CF8E09432B41eD5328619a)
 * Playground: [0x3251838bd813fdf6a97D32781e011cce8D225d59](https://mumbai.polygonscan.com/address/0x3251838bd813fdf6a97D32781e011cce8D225d59#code)
 
+**Amoy Testnet**
+
+* Token: [0xC866DB9021fe81856fF6c5B3E3514BF9D1593D81](https://amoy.polygonscan.com/address/0xC866DB9021fe81856fF6c5B3E3514BF9D1593D81)
+* Oracle: [0xe331Afe3a8D7836bEdF1F09bC91549f4bc8c60C9](https://amoy.polygonscan.com/address/0xe331Afe3a8D7836bEdF1F09bC91549f4bc8c60C9)
+* Governance: [0x5446397292854D92872eDf426eEaB8FdC6Bd2bEa](https://amoy.polygonscan.com/address/0x5446397292854D92872eDf426eEaB8FdC6Bd2bEa)
+* Autopay: [0x004B2b43AE9Eb84FE1A6d56229d4b7D12eED50dF](https://amoy.polygonscan.com/address/0x004B2b43AE9Eb84FE1A6d56229d4b7D12eED50dF)
+* Playground: [0xC866DB9021fe81856fF6c5B3E3514BF9D1593D81](https://amoy.polygonscan.com/address/0xC866DB9021fe81856fF6c5B3E3514BF9D1593D81)
+
+
+
 
 
 </details>
