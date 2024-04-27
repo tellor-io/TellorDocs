@@ -44,13 +44,14 @@ Built for any [data type](https://tellor.io/blog/how-to-query-custom-data-with-t
 * Sepolia
 * Goerli
 * Mumbai
+* Amoy
 * Chiado
-* Optimism Goerli
-* Arbitrum Goerli
+* Optimism Sepolia
+* Arbitrum Sepolia
 * FVM Calibration
 * Manta Pacific Testnet
-* Base Goerli
-* Linea Goerli
+* Base Sepolia
+* Linea Sepolia
 * Cardona Testnet
 * Fraxtal Testnet
 
