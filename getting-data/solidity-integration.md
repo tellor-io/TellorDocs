@@ -12,10 +12,18 @@ Video: [Integration Tutorial](https://www.youtube.com/watch?v=1UMa9TACx48)
 
 ### Installation
 
-To install usingtellor, run the following command:
+To install usingtellor, run one the following commands:
+
+##### Hardhat: 
 
 ```bash
 npm install usingtellor
+```
+
+##### Foundry: 
+
+```bash
+forge install tellor-io/usingtellor
 ```
 
 ### Importing

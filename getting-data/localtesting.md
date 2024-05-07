@@ -39,6 +39,8 @@ function submitValue(
 
 ### Using the Playground in Tests
 
+##### Hardhat
+
 To test your Tellor integration, you can easily deploy the Playground and submit values to it. If you have usingtellor installed, you can deploy the Playground in your hardhat test files like this:
 
 ```javascript
@@ -82,7 +84,46 @@ await myContract.setBtcPrice();
 let price = await myContract.btcPrice();
 ```
 
+##### Foundry
+
+To test your Tellor integration, you can easily deploy the Playground and submit values to it. If you have usingtellor installed, you can deploy the Playground in your foundry test files like this:
+
+```javascript
+import {TellorPlayground} from "usingtellor/TellorPlayground.sol";
+
+...
+
+TellorPlayground tellorPlayground = new TellorPlayground()
+```
+
+Before you can submit data, you will need to generate queryData and queryId. This can be done with the following code:
+
+```javascript
+bytes public queryData = abi.encode("SpotPrice", abi.encode("eth", "usd"));
+bytes32 public queryId = keccak256(queryData);
+```
+
+Once you have these values, you can submit a value to the playground:
+
+```javascript
+uint256 mockValue = 2000e18;
+tellorPlayground.submitValue(queryId, abi.encodePacked(mockValue), 0, queryData);
+```
+
+Your contract can now read the value. If your contract uses a buffer time with `getDataBefore`, you will need to increase the block timestamp before your contract can read the data. You can do this as follows:
+
+```javascript
+vm.warp(block.timestamp + 901 seconds);
+```
+
+Your contract can now read the reported value:
+
+```javascript
+myContract.setBtcPrice();
+uint256 price = await myContract.btcPrice();
+```
+
 {% hint style="info" %}
-For a full example of this, see the [sampleUsingTellor project](https://github.com/tellor-io/sampleUsingTellor).
+For a full example of a test in either hardhat or foundry, see the [sampleUsingTellor project](https://github.com/tellor-io/sampleUsingTellor).
 {% endhint %}
 
