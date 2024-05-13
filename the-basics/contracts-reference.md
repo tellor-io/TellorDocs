@@ -300,3 +300,22 @@ If bridging TRB to participate in the Tellor Protocol please refer to the list o
 
 </details>
 
+<details>
+
+<summary>BOB</summary>
+
+**Mainnet**
+
+* Token: [0x665060707c3Ea3c31b3eaBaD7F409072446E1D50](https://explorer.gobob.xyz/address/0x665060707c3Ea3c31b3eaBaD7F409072446E1D50)
+* Oracle: [0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc](https://explorer.gobob.xyz/address/0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc)
+* Governance: [0xC866DB9021fe81856fF6c5B3E3514BF9D1593D81](https://explorer.gobob.xyz/address/0xC866DB9021fe81856fF6c5B3E3514BF9D1593D81)
+* Autopay: [0x9EA18BFDB50E9bb4A18F9d3Df7804E398F8fE0dc](https://explorer.gobob.xyz/address/0x9EA18BFDB50E9bb4A18F9d3Df7804E398F8fE0dc)
+
+**Puff-BOB testnet**
+
+* Token/Playground: [0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc](https://testnet-explorer.gobob.xyz/address/0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc)
+* Oracle: [0xC866DB9021fe81856fF6c5B3E3514BF9D1593D81](https://testnet-explorer.gobob.xyz/address/0xC866DB9021fe81856fF6c5B3E3514BF9D1593D81)
+* Governance: [0x6684E5DdbEe1b97E10847468cB5f4e38f3aB83FE](https://testnet-explorer.gobob.xyz/address/0x6684E5DdbEe1b97E10847468cB5f4e38f3aB83FE)
+* Autopay: [0x89e44099f5E80484dcF48995080481214b9c2D7c](https://testnet-explorer.gobob.xyz/address/0x89e44099f5E80484dcF48995080481214b9c2D7c)
+
+</details>
