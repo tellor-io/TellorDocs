@@ -38,12 +38,11 @@ Built for any [data type](https://tellor.io/blog/how-to-query-custom-data-with-t
 * Linea
 * Polygon zkEVM
 * Fraxtal
+* BOB
 
 **Testnets**
 
 * Sepolia
-* Goerli
-* Mumbai
 * Amoy
 * Chiado
 * Optimism Sepolia
@@ -54,6 +53,7 @@ Built for any [data type](https://tellor.io/blog/how-to-query-custom-data-with-t
 * Linea Sepolia
 * Cardona Testnet
 * Fraxtal Testnet
+* Puff-BOB
 
 \*this list will be updated as we move onto more chains.  If you'd like us to deploy somewhere we aren't [let us know](https://discord.gg/n7drGjh)! &#x20;
 
