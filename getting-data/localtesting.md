@@ -39,6 +39,10 @@ function submitValue(
 
 ### Using the Playground in Tests
 
+{% hint style="info" %}
+For a full example of a test in either hardhat or foundry, see the [sampleUsingTellor project](https://github.com/tellor-io/sampleUsingTellor).
+{% endhint %}
+
 {% tabs %}
 {% tab title="Hardhat" %}
 **Hardhat**
@@ -129,7 +133,3 @@ uint256 price = await myContract.btcPrice();
 ```
 {% endtab %}
 {% endtabs %}
-
-{% hint style="info" %}
-For a full example of a test in either hardhat or foundry, see the [sampleUsingTellor project](https://github.com/tellor-io/sampleUsingTellor).
-{% endhint %}
