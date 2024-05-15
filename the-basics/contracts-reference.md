@@ -319,3 +319,23 @@ If bridging TRB to participate in the Tellor Protocol please refer to the list o
 * Autopay: [0x89e44099f5E80484dcF48995080481214b9c2D7c](https://testnet-explorer.gobob.xyz/address/0x89e44099f5E80484dcF48995080481214b9c2D7c)
 
 </details>
+
+<details>
+
+<summary>zkSync Era</summary>
+
+**Era Mainnet**
+
+* Token: [0xf9966320BF9C2D38297036F3C4EFc9DAe929Ed37](https://era.zksync.network/token/0xf9966320bf9c2d38297036f3c4efc9dae929ed37)
+* Oracle: [0x61e3BE234D7EE7b1e2a1fA84027105c733b91545](https://explorer.zksync.io/address/0x61e3BE234D7EE7b1e2a1fA84027105c733b91545)
+* Governance: [0xDC94D5245B19661BD71a973788696D6D965236EA](https://explorer.zksync.io/address/0xDC94D5245B19661BD71a973788696D6D965236EA)
+* Autopay: [0x13442df2611Ba2BE59116F0c8407dcdf3adaB0cA](https://explorer.zksync.io/address/0x13442df2611Ba2BE59116F0c8407dcdf3adaB0cA)
+
+**Era Sepolia**
+
+* Token/Playground: [0x61e3BE234D7EE7b1e2a1fA84027105c733b91545](https://sepolia.explorer.zksync.io/address/0x61e3BE234D7EE7b1e2a1fA84027105c733b91545#contract)
+* Oracle: [0x61e3BE234D7EE7b1e2a1fA84027105c733b91545](https://sepolia.explorer.zksync.io/address/0xf46725B1aD707D6B7D5add3889C97856888a17D7)
+* Governance: [0x9f599b0044838397584CF181989a9A40d1aafD94](https://sepolia.explorer.zksync.io/address/0x9f599b0044838397584CF181989a9A40d1aafD94)
+* Autopay: [0x40099d1fB3C8727aE6C25Bc9e209A3789e7d81A9](https://sepolia.explorer.zksync.io/address/0x40099d1fB3C8727aE6C25Bc9e209A3789e7d81A9)
+
+</details>
