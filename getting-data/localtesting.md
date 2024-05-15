@@ -39,8 +39,11 @@ function submitValue(
 
 ### Using the Playground in Tests
 
-##### Hardhat
+{% tabs %}
+{% tab title="Hardhat" %}
+**Hardhat**
 
+\
 To test your Tellor integration, you can easily deploy the Playground and submit values to it. If you have usingtellor installed, you can deploy the Playground in your hardhat test files like this:
 
 ```javascript
@@ -83,8 +86,10 @@ Your contract can now read the reported value:
 await myContract.setBtcPrice();
 let price = await myContract.btcPrice();
 ```
+{% endtab %}
 
-##### Foundry
+{% tab title="Foundry" %}
+**Foundry**
 
 To test your Tellor integration, you can easily deploy the Playground and submit values to it. If you have usingtellor installed, you can deploy the Playground in your foundry test files like this:
 
@@ -122,8 +127,9 @@ Your contract can now read the reported value:
 myContract.setBtcPrice();
 uint256 price = await myContract.btcPrice();
 ```
+{% endtab %}
+{% endtabs %}
 
 {% hint style="info" %}
 For a full example of a test in either hardhat or foundry, see the [sampleUsingTellor project](https://github.com/tellor-io/sampleUsingTellor).
 {% endhint %}
-
