@@ -164,9 +164,9 @@ If bridging TRB to participate in the Tellor Protocol please refer to the list o
 #### Calibration
 
 * Token: [0x15e6Cc0D69A162151Cadfba035aa10b82b12b970](https://calibration.filfox.info/en/address/0x15e6Cc0D69A162151Cadfba035aa10b82b12b970)
-* Oracle: [0xb2CB696fE5244fB9004877e58dcB680cB86Ba444](https://hyperspace.filfox.info/en/address/0xb2CB696fE5244fB9004877e58dcB680cB86Ba444)
-* Governance: [0xb55bB55f7D8b4F26Bd18198088C96488D95cab39](https://hyperspace.filfox.info/en/address/0xb55bB55f7D8b4F26Bd18198088C96488D95cab39)
-* Autopay: [0x60cBf3991F05a0671250e673Aa166e9D1A0C662E](https://hyperspace.filfox.info/en/address/0x60cBf3991F05a0671250e673Aa166e9D1A0C662E)
+* Oracle: [0xb2CB696fE5244fB9004877e58dcB680cB86Ba444](https://calibration.filfox.info/en/address/0xb2CB696fE5244fB9004877e58dcB680cB86Ba444)
+* Governance: [0xb55bB55f7D8b4F26Bd18198088C96488D95cab39](https://calibration.filfox.info/en/address/0xb55bB55f7D8b4F26Bd18198088C96488D95cab39?t=0)
+* Autopay: [0x60cBf3991F05a0671250e673Aa166e9D1A0C662E](https://calibration.filfox.info/en/address/0x60cBf3991F05a0671250e673Aa166e9D1A0C662E)
 * Playground: [0x15e6Cc0D69A162151Cadfba035aa10b82b12b970](https://calibration.filfox.info/en/address/0x15e6Cc0D69A162151Cadfba035aa10b82b12b970)
 
 </details>
