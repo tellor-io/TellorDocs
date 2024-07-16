@@ -10,12 +10,12 @@ On chains other than Ethereum Mainnet you'll have to manually run a token approv
 
 ## Tutorial
 
-* First you'll need to monitor the transactions that reporters submit on chain and identify a data report that you'd like to dispute.   You can do that using our [feeds page](https://feed.tellor.io), the [disputable values monitor](https://github.com/tellor-io/disputable-values-monitor) the [oracle contract](http://127.0.0.1:5000/s/tcQlo49FAqTaOimNOz0X/the-basics/contracts-reference) directly.
+* First you'll need to monitor the transactions that reporters submit on chain and identify a data report that you'd like to dispute.   You can do that using our [feeds page](https://feed.tellor.io), the [disputable values monitor](https://github.com/tellor-io/disputable-values-monitor) the [oracle contract](https://app.gitbook.com/s/tcQlo49FAqTaOimNOz0X/the-basics/contracts-reference) directly.
 * In order to dispute you'll need to collect the queryId and time from the data in the transaction log.&#x20;
 
 <figure><img src="../.gitbook/assets/HowToDispute_ReportLogScreenShot.png" alt=""><figcaption></figcaption></figure>
 
-* Next, locate the [correct governance contract](http://127.0.0.1:5000/s/tcQlo49FAqTaOimNOz0X/the-basics/contracts-reference) depending on which chain the data resides on. &#x20;
+* Next, locate the [correct governance contract](https://app.gitbook.com/s/tcQlo49FAqTaOimNOz0X/the-basics/contracts-reference) depending on which chain the data resides on. &#x20;
 * Connect your wallet with the button “connect to web3”. Under the `beginDispute` function Input the `queryId` (with a 0x at the beginning), and input the `timestamp`. Finally, click write and confirm the transaction.
 
 <figure><img src="../.gitbook/assets/EtherscanDispute.png" alt=""><figcaption></figcaption></figure>

@@ -19,6 +19,7 @@
 * [Funding a Feed](getting-data/funding-a-feed.md)
 * [Tellor Functions](getting-data/tellor-functions.md)
 * [DataSpecs Registry](getting-data/dataspecs-registry.md)
+* [SnapShot Vote Results](getting-data/snapshot-vote-results.md)
 
 ## Reporting Data
 

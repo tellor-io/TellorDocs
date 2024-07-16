@@ -4,7 +4,7 @@
 
 Blockchains such as ethereum only have access to a limited amount of information. They are great for tracking an account's cryptocurrency balance, for example. If you want your smart contracts to use information about the outside world such as cryptocurrency prices, sporting events, or weather, that data has to be put on chain somehow. One way of solving this problem is by having a single whitelisted address submit this data on-chain. This creates a central point of weakness in a protocol, however, as this single address could fail or be malicious.
 
-Tellor solves this problem by aligning the incentives of data reporters, data consumers, and [Tellor token holders](https://etherscan.io/token/0x88df592f8eb5d7bd38bfef7deb0fbc02cf3778a0). In brief, anyone can deposit a stake and report data. For a period of time, anyone can pay a [dispute fee to challenge any piece of data](http://127.0.0.1:5000/s/tcQlo49FAqTaOimNOz0X/disputing-data). Tellor stakeholders vote to determine the outcome of the dispute. If the data reporter loses the dispute, the reporter's stake goes to the disputing party. This creates a system where bad actors are punished and good actors are rewarded.
+Tellor solves this problem by aligning the incentives of data reporters, data consumers, and [Tellor token holders](https://etherscan.io/token/0x88df592f8eb5d7bd38bfef7deb0fbc02cf3778a0). In brief, anyone can deposit a stake and report data. For a period of time, anyone can pay a [dispute fee to challenge any piece of data](https://app.gitbook.com/s/tcQlo49FAqTaOimNOz0X/disputing-data). Tellor stakeholders vote to determine the outcome of the dispute. If the data reporter loses the dispute, the reporter's stake goes to the disputing party. This creates a system where bad actors are punished and good actors are rewarded.
 
 ### Subjectivity
 
@@ -30,11 +30,11 @@ Tellor allows anyone to stake and report data. This means that the Tellor protoc
 
 #### What chains?
 
-Tellor is compatible with any EVM chain, as well as Algorand. Here is a list of the [currently deployed Tellor contracts](http://127.0.0.1:5000/s/tcQlo49FAqTaOimNOz0X/the-basics/contracts-reference).
+Tellor is compatible with any EVM chain, as well as Algorand. Here is a list of the [currently deployed Tellor contracts](https://app.gitbook.com/s/tcQlo49FAqTaOimNOz0X/the-basics/contracts-reference).
 
 #### Does requesting data cost money?
 
-Tellor data reporters need a reason to report your requested data. If you want data in your smart contracts, you can either stake to [become a data reporter](http://127.0.0.1:5000/s/tcQlo49FAqTaOimNOz0X/reporting-data/setup-and-usage) yourself, or [add a tip](http://127.0.0.1:5000/s/tcQlo49FAqTaOimNOz0X/getting-data/funding-a-feed) with your data request to incentivize reporters. The cost of paying someone else to report is whatever the market determines, ie. cover gas plus some profit. The cost to report yourself is just the cost of gas.
+Tellor data reporters need a reason to report your requested data. If you want data in your smart contracts, you can either stake to [become a data reporter](https://app.gitbook.com/s/tcQlo49FAqTaOimNOz0X/reporting-data/setup-and-usage) yourself, or [add a tip](https://app.gitbook.com/s/tcQlo49FAqTaOimNOz0X/getting-data/funding-a-feed) with your data request to incentivize reporters. The cost of paying someone else to report is whatever the market determines, ie. cover gas plus some profit. The cost to report yourself is just the cost of gas.
 
 #### Where does the data come from?
 

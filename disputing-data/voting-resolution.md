@@ -1,6 +1,6 @@
 # Voting/Resolution
 
-There are 4 steps required for resolving disputes. Each step corresponds to a function called from the appropriate [governance contract](http://127.0.0.1:5000/s/tcQlo49FAqTaOimNOz0X/the-basics/contracts-reference). All steps can be performed via Etherscan.
+There are 4 steps required for resolving disputes. Each step corresponds to a function called from the appropriate [governance contract](https://app.gitbook.com/s/tcQlo49FAqTaOimNOz0X/the-basics/contracts-reference). All steps can be performed via Etherscan.
 
 {% hint style="info" %}
 **Note: After a dispute is initiated, there is a voting period equal to 24 hours times the number of voting rounds, up to a maximum of 6 days.**

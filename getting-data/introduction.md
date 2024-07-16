@@ -25,7 +25,7 @@ A Query Type is a [specification](https://github.com/tellor-io/dataSpecs) for cu
 {% tab title="Query Data" %}
 Query Data is used to form your new Query's unique identifier, or Query ID. It's also emitted in data submission and payment contract events so Tellor users and reporters can programmatically construct query objects.
 
-[Example of Query Data](http://127.0.0.1:5000/s/tcQlo49FAqTaOimNOz0X/getting-data/creating-a-query#example-querydata-and-queryid)
+[Example of Query Data](https://app.gitbook.com/s/tcQlo49FAqTaOimNOz0X/getting-data/creating-a-query#example-querydata-and-queryid)
 {% endtab %}
 
 {% tab title="Query ID" %}
