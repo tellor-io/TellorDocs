@@ -3,9 +3,7 @@
 {% hint style="warning" %}
 Note that before beginning a dispute, the proper amount of TRB **tokens must be approved** to the contract to cover the [disputeFee](how-to-dispute.md#dispute-fees).&#x20;
 
-On chains other than Ethereum Mainnet you'll have to manually run a token approval function.  **Here is a step by step guide**:&#x20;
-
-[How To Create Token Approvals with Remix](https://tellor.io/blog/how-to-create-token-approval-transactions-with-remix/).  &#x20;
+On chains other than Ethereum Mainnet you'll have to manually call the `approve` function using the network's [governance contract](https://docs.tellor.io/tellor/the-basics/contracts-reference) as the spender.
 {% endhint %}
 
 ## Tutorial
@@ -16,6 +14,7 @@ On chains other than Ethereum Mainnet you'll have to manually run a token approv
 <figure><img src="../.gitbook/assets/HowToDispute_ReportLogScreenShot.png" alt=""><figcaption></figcaption></figure>
 
 * Next, locate the correct [governance contract](https://docs.tellor.io/tellor/the-basics/contracts-reference) depending on which chain the data resides on. &#x20;
+* Approve the governance contract for the dispute fee (1/10th of the stake amount). Locate the [correct token contract for your network](https://docs.tellor.io/tellor/the-basics/contracts-reference). Call the `approve` function using the network's [governance contract](https://docs.tellor.io/tellor/the-basics/contracts-reference) as the spender.
 * Connect your wallet with the button “connect to web3”. Under the `beginDispute` function Input the `queryId` (with a 0x at the beginning), and input the `timestamp`. Finally, click write and confirm the transaction.
 
 <figure><img src="../.gitbook/assets/EtherscanDispute.png" alt=""><figcaption></figcaption></figure>
