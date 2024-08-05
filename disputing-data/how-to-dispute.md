@@ -3,7 +3,7 @@
 {% hint style="warning" %}
 Note that before beginning a dispute, the proper amount of TRB **tokens must be approved** to the contract to cover the [disputeFee](how-to-dispute.md#dispute-fees).&#x20;
 
-On chains other than Ethereum Mainnet you'll have to manually call the `approve` function using the network's [governance contract](https://docs.tellor.io/tellor/the-basics/contracts-reference) as the spender.
+On chains other than Ethereum Mainnet you'll have to manually call the `approve` function using the network's [governance contract](https://docs.tellor.io/tellor/the-basics/contracts-reference) as the spender.  _If a block explorer doesn't exist for your chain yet use Remix:_ [How to create token approval with Remix](https://tellor.io/blog/how-to-create-token-approval-transactions-with-remix/)
 {% endhint %}
 
 ## Tutorial
