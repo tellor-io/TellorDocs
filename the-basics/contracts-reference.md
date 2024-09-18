@@ -144,7 +144,7 @@ If bridging TRB to participate in the Tellor Protocol please refer to the list o
 
 <details>
 
-<summary>Scroll</summary>
+<summary>Arbitrum</summary>
 
 Mainnet
 
