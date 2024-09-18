@@ -129,9 +129,24 @@ If bridging TRB to participate in the Tellor Protocol please refer to the list o
 
 <details>
 
-<summary>Arbitrum</summary>
+<summary>Scroll</summary>
 
 #### Mainnet
+
+* Bridged TRB: [0xfda87943be918360413979ce7296e1249fcb987e](https://scrollscan.com/address/0xfda87943be918360413979ce7296e1249fcb987e)
+* Oracle: [0x896419ed2e0dc848a1f7d2814f4e5df4b9b9bfcc](https://scrollscan.com/address/0x896419ed2e0dc848a1f7d2814f4e5df4b9b9bfcc)
+* Governance: [0xc866db9021fe81856ff6c5b3e3514bf9d1593d81](https://scrollscan.com/address/0xc866db9021fe81856ff6c5b3e3514bf9d1593d81)
+* Autopay: [0x9EA18BFDB50E9bb4A18F9d3Df7804E398F8fE0dc](https://scrollscan.com/address/0x9EA18BFDB50E9bb4A18F9d3Df7804E398F8fE0dc)
+
+
+
+</details>
+
+<details>
+
+<summary>Scroll</summary>
+
+Mainnet
 
 * Bridged TRB: [0xd58D345Fd9c82262E087d2D0607624B410D88242](https://arbiscan.io/address/0xd58D345Fd9c82262E087d2D0607624B410D88242)
 * Oracle: [0x8cFc184c877154a8F9ffE0fe75649dbe5e2DBEbf](https://arbiscan.io/address/0x8cFc184c877154a8F9ffE0fe75649dbe5e2DBEbf)
@@ -145,8 +160,6 @@ If bridging TRB to participate in the Tellor Protocol please refer to the list o
 * Governance: [0x9EA18BFDB50E9bb4A18F9d3Df7804E398F8fE0dc](https://sepolia.arbiscan.io/address/0x9EA18BFDB50E9bb4A18F9d3Df7804E398F8fE0dc)
 * Autopay: [0xe331Afe3a8D7836bEdF1F09bC91549f4bc8c60C9](https://sepolia.arbiscan.io/address/0xe331Afe3a8D7836bEdF1F09bC91549f4bc8c60C9)
 * Playground: [0xC866DB9021fe81856fF6c5B3E3514BF9D1593D81](https://sepolia.arbiscan.io/address/0xC866DB9021fe81856fF6c5B3E3514BF9D1593D81)
-
-
 
 </details>
 
