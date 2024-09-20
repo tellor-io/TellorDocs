@@ -209,6 +209,13 @@ Mainnet
 
 <summary>Base</summary>
 
+#### Base Mainnet
+
+* Token: [0xF8e9E61FFB2b491f7DF29823a76009743671CD96](https://basescan.org/address/0xF8e9E61FFB2b491f7DF29823a76009743671CD96)
+* Oracle: [0x34Fae97547E990ef0E05e05286c51E4645bf1A85](https://basescan.org/address/0x34Fae97547E990ef0E05e05286c51E4645bf1A85)
+* Governance: [0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc](https://basescan.org/address/0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc)
+* Autopay: [0x6684E5DdbEe1b97E10847468cB5f4e38f3aB83FE](https://basescan.org/address/0x6684E5DdbEe1b97E10847468cB5f4e38f3aB83FE)
+
 #### Base Sepolia Testnet
 
 * Token: [0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc](https://sepolia.basescan.org/address/0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc)

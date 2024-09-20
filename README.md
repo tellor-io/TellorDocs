@@ -40,6 +40,7 @@ Built for any [data type](https://tellor.io/blog/how-to-query-custom-data-with-t
 * Fraxtal
 * BOB
 * zkSync Era Mainnet
+* Base
 
 **Testnets**
 
