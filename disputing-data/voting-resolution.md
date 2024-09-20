@@ -26,7 +26,7 @@ Inputs:
 * `_supports (bool)`: Here is where you can choose whether or not to support the dispute. Enter `true` if you wish to vote in favor of the disputer. Enter `false` if you wish to vote on the side of the reporter.
 * `_invalidQuery`: If you believe that the dispute was invalid and there is no clear correct option, enter `true` here. Otherwise, input `false`.
 
-Note: 24-144 hours after the dispute is initiated, depending on the current vote round, votes can be tallied. Which brings us to...
+Note: 48 hours after the dispute is initiated votes can be tallied.
 
 </details>
 
