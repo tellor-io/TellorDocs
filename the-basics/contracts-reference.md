@@ -359,3 +359,19 @@ Mainnet
 * Autopay: [0x40099d1fB3C8727aE6C25Bc9e209A3789e7d81A9](https://sepolia.explorer.zksync.io/address/0x40099d1fB3C8727aE6C25Bc9e209A3789e7d81A9)
 
 </details>
+
+<details>
+
+<summary>Lisk</summary>
+
+**Mainnet**
+
+* Token: [0x665060707c3Ea3c31b3eaBaD7F409072446E1D50](https://blockscout.lisk.com/address/0x665060707c3Ea3c31b3eaBaD7F409072446E1D50)
+* Oracle: [0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc](https://blockscout.lisk.com/address/0x896419Ed2E0dC848a1f7d2814F4e5Df4b9B9bFcc)
+* Governance: [0xC866DB9021fe81856fF6c5B3E3514BF9D1593D81](https://blockscout.lisk.com/address/0xC866DB9021fe81856fF6c5B3E3514BF9D1593D81)
+* Autopay: [0x9EA18BFDB50E9bb4A18F9d3Df7804E398F8fE0dc](https://blockscout.lisk.com/address/0x9EA18BFDB50E9bb4A18F9d3Df7804E398F8fE0dc)
+
+\
+
+
+</details>
