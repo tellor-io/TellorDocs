@@ -24,6 +24,14 @@ Built for any [data type](https://tellor.io/blog/how-to-query-custom-data-with-t
 
 <details>
 
+<summary>Need a Price Feed?</summary>
+
+[Fill out this form](https://github.com/tellor-io/dataSpecs/issues/new?assignees=\&labels=\&projects=\&template=new\_query\_type.yaml\&title=%5BNew+Data+Request+Form%5D%3A+) for more detail
+
+</details>
+
+<details>
+
 <summary>What Networks is Tellor on?</summary>
 
 **Mainnets**
